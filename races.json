@@ -1,0 +1,69 @@
+[
+    {
+        "ID": 1,
+        "Title": "9ος Lailias Mountain Running",
+        "Date": "2025-09-21",
+        "Location": "Λαϊλιά Σερρών",
+        "Description": "A beautiful run through Athens' historic sites.",
+        "Distances": [
+            "12km",
+            "27km",
+            "44,5km"
+        ],
+        "SignupLink": "https://lailiasmountainrunning.gr/"
+    },
+    {
+        "ID": 2,
+        "Title": "Kanalaki Run 2025",
+        "Date": "2025-01-26",
+        "Location": "Καναλάκι δήμου Πάργας",
+        "Description": "Scenic cycling along the coast.",
+        "Distances": [
+            "21km",
+            "10km",
+            "5km",
+            "1000m"
+        ],
+        "SignupLink": "https://eggrafes.mysportevent.gr/product-category/kanalaki-run/"
+    },
+    {
+        "ID": 3,
+        "Title": "25ος  ΑΥΘΕΝΤΙΚΟΣ  ΕΥΧΙΔΕΙΟΣ ΑΘΛΟΣ",
+        "Date": "2025-05-10",
+        "Location": "Δελφοί",
+        "Description": "Swim, bike, and run in the scenic countryside.",
+        "Distances": [
+            "107,5km",
+            "59km"
+        ],
+        "SignupLink": "https://www.euchidiosathlos.gr/"
+    },
+    {
+        "ID": 4,
+        "Title": "Vavdos Trail Run 2025",
+        "Date": "2025-05-18",
+        "Location": "Χαλκιδική",
+        "Description": "Swim, bike, and run in the scenic countryside.",
+        "Distances": [
+            "21km",
+            "6km"
+        ],
+        "SignupLink": "https://vavdostrailrun.weebly.com/"
+    },
+    {
+        "ID": 5,
+        "Title": "TUI Rhodes Marathon 2025",
+        "Date": "2025-04-06",
+        "Location": "Ρόδος",
+        "Description": "Swim, bike, and run in the scenic countryside.",
+        "Distances": [
+            "40km",
+            "21km",
+            "10km",
+            "5lm",
+            "Περιπατητική διαδρομή 5km",
+            "Παιδικός αγώνας 1km"
+        ],
+        "SignupLink": "https://rhodesmarathon.gr/"
+    }
+]

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Καλεντάρι Αγώνων</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Καλεντάρι Αγώνων</h1>
+
+    <!-- Month Selector -->
+    <div id="month-selector">
+        <button id="prev-month">◀ Προηγούμενος</button>
+        <span id="current-month">Μήνας</span>
+        <button id="next-month">Επόμενος ▶</button>
+    </div>
+
+    <!-- Calendar Section -->
+    <div id="calendar">
+        <table>
+            <thead>
+                <tr>
+                    <th>Κυρ.</th><th>Δευτ</th><th>Τρ.</th><th>Τετ.</th><th>Πεμ.</th><th>Παρ.</th><th>Σατ.</th>
+                </tr>
+            </thead>
+            <tbody id="calendar-body">
+                <!-- Dynamic calendar content will load here -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Race List Section -->
+    <h2>Ερχόμενοι αγώνες</h2>
+    <ul id="race-list">
+        <li>Φωρτώνω αγώνες...</li>
+    </ul>
+
+    <!-- Email Subscription Form 
+    <h2>Subscribe for Updates</h2>
+    <form id="subscribe-form">
+        <input type="email" id="email" placeholder="Your Email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+    <p id="subscribe-message"></p>
+    -->
+</body>
+</html>
