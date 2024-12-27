@@ -60,10 +60,66 @@
             "40km",
             "21km",
             "10km",
-            "5lm",
+            "5km",
             "Περιπατητική διαδρομή 5km",
             "Παιδικός αγώνας 1km"
         ],
         "SignupLink": "https://rhodesmarathon.gr/"
+    },
+    {
+        "ID": 6,
+        "Title": "6ο Agrinio Night Run & Santa Run",
+        "Date": "2024-12-29",
+        "Location": "Αγρίνιο",
+        "Description": "Swim, bike, and run in the scenic countryside.",
+        "Distances": [
+            "5km",
+            "1κm"
+        ],
+        "SignupLink": "https://agriniosantarun.gr/"
+    },
+    {
+        "ID": 7,
+        "Title": "3ο Santa Run",
+        "Date": "2024-12-27",
+        "Location": "Γιαννιτσά",
+        "Description": "Swim, bike, and run in the scenic countryside.",
+        "Distances": [],
+        "SignupLink": "https://www.facebook.com/santarungiannitsa"
+    },
+    {
+        "ID": 8,
+        "Title": "Ierapetra Santa Run vol. 3",
+        "Date": "2024-12-27",
+        "Location": "Ιεράπετρα",
+        "Description": "Swim, bike, and run in the scenic countryside.",
+        "Distances": []
+    },
+    {
+        "ID": 9,
+        "Title": "Veikou Trail",
+        "Date": "2025-01-19",
+        "Location": "Γαλάτσι, Αττικής",
+        "Description": "Swim, bike, and run in the scenic countryside.",
+        "Distances": [
+            "5km",
+            "10km",
+            "20km"
+        ],
+        "SignupLink": "https://veikoutrail.gr/index.php/eggrafes"
+    },
+    {
+        "ID": 10,
+        "Title": "ΟΠΑΠ Μαραθώνιος Λεμεσού 2025",
+        "Date": "2025-04-23",
+        "Location": "Λεμεσός, Κύπρος",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "42km",
+            "21km",
+            "10km",
+            "5km"
+        ],
+        "SignupLink": "https://www.limassolmarathon.com/index.php"
     }
 ]
