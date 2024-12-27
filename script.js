@@ -101,8 +101,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const li = document.createElement('li');
             li.innerHTML = `
                 <strong>${race.Title}</strong> - ${race.Date} ${race.Location}<br>
-                <b>Αποστάσεις</b>: ${race.Distances.join(", ")}
             `;
+
+            if (race.Distances.length > 0) {
+                li.innerHTML += `<b>Αποστάσεις</b>: ${race.Distances.join(", ")}`;
+            }
 
             if (race.SignupLink) {
                 li.innerHTML += `- <a href=${race.SignupLink}?utm_src=racelist.gr>Εγγραφή<a>`
