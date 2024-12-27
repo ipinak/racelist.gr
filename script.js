@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <strong>${race.Title}</strong> - ${race.Date} ${race.Location}<br>
             `;
 
-            if (race.Distances.length > 0) {
+            if (race.Distances && race.Distances.length > 0) {
                 li.innerHTML += `<b>Αποστάσεις</b>: ${race.Distances.join(", ")}`;
             }
 
