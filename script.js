@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Fetch races from the backend
     async function fetchRaces() {
         try {
-            const response = await fetch('https://racelist.gr/races.json');
+            const response = await fetch('http://localhost:8000/races.json');
             if (!response.ok) throw new Error(messages.failed_loading);
 
             races = await response.json();
@@ -84,6 +84,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const selectedYear = date.getFullYear();
         const selectedMonth = date.getMonth() + 1; // JavaScript months are zero-based
 
+        // Sort by date
+        races.sort((a, b) => new Date(a.Date) - new Date(b.Date));
+
         const filteredRaces = races.filter(race => {
             const raceDate = new Date(race.Date);
             return (
@@ -99,19 +102,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
         filteredRaces.forEach(race => {
             const li = document.createElement('li');
-            li.innerHTML = `
-                <strong>${race.Title}</strong> - ${race.Date} ${race.Location}<br>
-            `;
-
-            if (race.Distances && race.Distances.length > 0) {
-                li.innerHTML += `<b>Αποστάσεις</b>: ${race.Distances.join(", ")}`;
-            }
-
-            if (race.SignupLink) {
-                li.innerHTML += `- <a href=${race.SignupLink}?utm_src=racelist.gr>Εγγραφή<a>`
-            }
+            li.innerHTML = renderRace(race);
             raceList.appendChild(li);
         });
+    }
+
+    function renderRace(race) {
+        let text = `
+                <strong>${race.Title}</strong> - ${race.Date} ${race.Location}<br>
+            `;
+        if (race.Distances && race.Distances.length > 0) {
+            text += `<b>Αποστάσεις</b>: ${race.Distances.join(", ")} - `;
+        }
+
+        if (race.SignupLink) {
+            text += `<a href=${race.SignupLink}?utm_src=racelist.gr>Εγγραφή<a>`
+        }
+        return text;
     }
 
     // Event Listeners for Month Navigation

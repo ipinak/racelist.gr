@@ -121,5 +121,140 @@
             "5km"
         ],
         "SignupLink": "https://www.limassolmarathon.com/index.php"
+    },
+    {
+        "ID": 11,
+        "Title": "Πρωτοχρονιάτικος Αγώνας 2025",
+        "Date": "2024-01-01",
+        "Location": "Άλσος Μπαρουτάδικο, Αιγάλεω",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "7km"
+        ]
+    },
+    {
+        "ID": 12,
+        "Title": "Crete Marathon",
+        "Date": "2025-04-06",
+        "Location": "Χανιά, Κρήτη",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "42km",
+            "10km",
+            "5km",
+            "2.5km"
+        ],
+        "SignupLink": "https://crete-marathon.gr/en/home"
+    },
+    {
+        "ID": 13,
+        "Title": "SNF Run: 2025 First Run",
+        "Date": "2025-01-01",
+        "Location": "Κέντρο Πολιτισμού Ίδρυμα Σταύρος Νιάρχος (ΚΠΙΣΝ), Αττική",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "3km"
+        ],
+        "SignupLink": "https://snfrun.randp.gr/"
+    },
+    {
+        "ID": 14,
+        "Title": "11o Evrotas Run",
+        "Date": "2025-01-05",
+        "Location": "Ευρώτας, Λακωνίας",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "21km",
+            "10km",
+            "5km"
+        ],
+        "SignupLink": "https://apskallisthenis.org/"
+    },
+    {
+        "ID": 15,
+        "Title": "26ος Αγώνας Δρόμου στο Άλσος Δαφνίου",
+        "Date": "2025-01-12",
+        "Location": "Άλσος Δαφνίου, Αττική",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "10km"
+        ],
+        "SignupLink": "https://www.apollonrunnersclub.gr/12-1-2025-26os-agonas-dromou-sto-alsos-dafniou/"
+    },
+    {
+        "ID": 16,
+        "Title": "6ος Βυζαντινός Αγώνας Δρόμου 50χλμ. Δήμου Μεγαρέων",
+        "Date": "2025-01-19",
+        "Location": "Μέγαρα",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "50km"
+        ],
+        "SignupLink": "https://vyzantinosagwnas50km.gr/"
+    },
+    {
+        "ID": 17,
+        "Title": "9ος Ορεινός Αγώνας «ΛΕΒΑΔΟΣ Mountain Trail» 2025",
+        "Date": "2025-01-19",
+        "Location": "Λιβαδειά, Βοιωτία",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "24.2km",
+            "10.7km"
+        ],
+        "SignupLink": "https://levados.akol.gr/"
+    },
+    {
+        "ID": 18,
+        "Title": "13ος Ημιμαραθώνιος Αιγιαλείας",
+        "Date": "2025-01-19",
+        "Location": "Αίγιο",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "21km",
+            "5km",
+            "1.5km"
+        ],
+        "SignupLink": "https://raceid.com/el/races/13146/about"
+    },
+    {
+        "ID": 19,
+        "Title": "Rogkas 2025",
+        "Date": "2025-01-25",
+        "Location": "Λιτόχωρο, Πιερίας",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "43km"
+        ],
+        "SignupLink": "https://www.omt100.com/rogkas42/"
+    },
+    {
+        "ID": 20,
+        "Title": "14ος Αγώνας Δρόμου «Ιωάννης Καποδίστριας»",
+        "Date": "2025-01-25",
+        "Location": "Αίγινα",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "21km",
+            "10km",
+            "3km",
+            "1km",
+            "500m",
+            "200m"
+        ],
+        "SignupLink": "https://aeginarun.gr/oaka/"
+    },
+    {
+        "ID": 21,
+        "Title": "9ος Αγώνας Αγχαίου Όρους",
+        "Date": "2025-01-26",
+        "Location": "Παλαιοχώρι",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "28.7km",
+            "14.4km",
+            "6.2km"
+        ],
+        "SignupLink": "https://www.apollonrunnersclub.gr/26-1-2025-9os-agonas-dromou-aghaiou-orous/"
     }
 ]
