@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Fetch races from the backend
     async function fetchRaces() {
         try {
-            const response = await fetch('http://localhost:8000/races.json');
+            const response = await fetch('https://racelist.gr/races.json');
             if (!response.ok) throw new Error(messages.failed_loading);
 
             races = await response.json();
