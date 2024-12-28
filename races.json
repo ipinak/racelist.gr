@@ -256,5 +256,173 @@
             "6.2km"
         ],
         "SignupLink": "https://www.apollonrunnersclub.gr/26-1-2025-9os-agonas-dromou-aghaiou-orous/"
+    },
+    {
+        "ID": 21,
+        "Title": "23ος Δρόμος Αργολικού Κόλπου «Παναγιώτης Παπαβασιλείου»",
+        "Date": "2025-02-16",
+        "Location": "Ναύπλιο, Αργολίδας",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "15.3km",
+            "1km"
+        ],
+        "SignupLink": "https://raceid.com/el/races/13142/about"
+    },
+    {
+        "ID": 22,
+        "Title": "Lycabettus Run 2025",
+        "Date": "2025-02-23",
+        "Location": "Λυκαβηττός",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "11km",
+            "9km (trail)",
+            "5.5km",
+            "4.5km (trail)"
+        ],
+        "SignupLink": "http://www.lycabettusrun.gr/"
+    },
+    {
+        "ID": 23,
+        "Title": "1ο Spetses Mountain Run",
+        "Date": "2025-02-23",
+        "Location": "Σπέτσες",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "20km",
+            "9km"
+        ]
+    },
+    {
+        "ID": 24,
+        "Title": "7ο “Φανερωμένη Trail”",
+        "Date": "2025-02-23",
+        "Location": "Χιλιομόδι, Κορινθίας",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "23km",
+            "10.5km",
+            "6km",
+            "2.1km"
+        ],
+        "SignupLink": "http://www.faneromenitrail.gr/"
+    },
+    {
+        "ID": 24,
+        "Title": "7ο “Φανερωμένη Trail”",
+        "Date": "2025-02-23",
+        "Location": "Χιλιομόδι, Κορινθίας",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "23km",
+            "10.5km",
+            "6km",
+            "2.1km"
+        ],
+        "SignupLink": "http://www.faneromenitrail.gr/"
+    },
+    {
+        "ID": 25,
+        "Title": "13ος Χορτιάτης Trail Run",
+        "Date": "2025-02-23",
+        "Location": "Χορτιάτης, Θεσσαλονίκη",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "23km",
+            "10km"
+        ],
+        "SignupLink": "https://sdyth.gr/"
+    },
+    {
+        "ID": 26,
+        "Title": "«Τρέχω στον Μαραθώνα» Αγώνας δρόμου 8χλμ.",
+        "Date": "2025-02-23",
+        "Location": "Μαραθώνας",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "8km"
+        ],
+        "SignupLink": "https://www.telmissos.gr/1407-marathon-trexw-ston-marathona-2025"
+    },
+    {
+        "ID": 27,
+        "Title": "Katerini Run 2025",
+        "Date": "2025-02-23",
+        "Location": "Κατερίνη, Πιερίας",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "21km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://zeusrunnersclub.gr/?p=501"
+    },
+    {
+        "ID": 28,
+        "Title": "25ος Δρόμος Βουνού «Υμηττός 2025»",
+        "Date": "2025-02-02",
+        "Location": "Ημηττός",
+        "Description": "Run in the scenic countryside.",
+        "Distances": []
+    },
+    {
+        "ID": 29,
+        "Title": "Αγώνες υπεραποστάσεων 6-12-24 ωρών εντός σταδίου – Μέγαρα",
+        "Date": "2025-02-08",
+        "Location": "Μέγαρα",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [],
+        "SignupLink": "https://www.apollonrunnersclub.gr/agones-iperapostaseon-entos-stadiou/?fbclid=IwZXh0bgNhZW0CMTAAAR03ibihDzPkICcLEYcEri9V99v0V3FJAvIoGq59hxsSkvKYMv824xRx46I_aem_mR6T6UDEqHCLJbAgxmSytw"
+    },
+    {
+        "ID": 30,
+        "Title": "6ος Atlas Trail Running",
+        "Date": "2025-02-08",
+        "Location": "Μαλακάσα",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "34km",
+            "24km",
+            "11km",
+            "6km"
+        ],
+        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=39d1109ea4f6a6a5dab0ad668cd7f6e9&l=GR&g=0"
+    },
+    {
+        "ID": 31,
+        "Title": "Sparta City Ultra 2025",
+        "Date": "2025-02-08",
+        "Location": "Σπάρτη",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [],
+        "SignupLink": "https://spartanrunners.gr/"
+    },
+    {
+        "ID": 32,
+        "Title": "Ημιμαραθώνιος Αγάπης Μυτιλήνης 2025",
+        "Date": "2025-02-15",
+        "Location": "Μυτιλήνη",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "21.5km",
+            "10km",
+            "5km",
+            "2.5km",
+            "1km",
+            "500m"
+        ]
+    },
+    {
+        "ID": 32,
+        "Title": "8ο Gentiki trail 21χλμ και Gentikaki trail 5,1χλμ",
+        "Date": "2025-02-16",
+        "Location": "Λάρισα",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "21km",
+            "5.1km"
+        ],
+        "SignupLink": "https://www.larisamarathon.gr/2023/12/7-gentiki-trail-21-gentikaki-trail-51.html"
     }
 ]
