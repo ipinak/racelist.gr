@@ -57,7 +57,7 @@
         "Location": "Ρόδος",
         "Description": "Swim, bike, and run in the scenic countryside.",
         "Distances": [
-            "40km",
+            "42km",
             "21km",
             "10km",
             "5km",
@@ -111,7 +111,7 @@
     {
         "ID": 10,
         "Title": "ΟΠΑΠ Μαραθώνιος Λεμεσού 2025",
-        "Date": "2025-04-23",
+        "Date": "2025-04-22",
         "Location": "Λεμεσός, Κύπρος",
         "Description": "Run in the scenic countryside.",
         "Distances": [
@@ -424,5 +424,172 @@
             "5.1km"
         ],
         "SignupLink": "https://www.larisamarathon.gr/2023/12/7-gentiki-trail-21-gentikaki-trail-51.html"
+    },
+    {
+        "ID": 33,
+        "Title": "27ος Logicom Cyprus Marathon",
+        "Date": "2025-03-09",
+        "Location": "Πάφος, Κύπρος",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "42km",
+            "21km",
+            "10km",
+            "5km",
+            "Wine run"
+        ],
+        "SignupLink": "https://www.logicomcyprusmarathon.com/"
+    },
+    {
+        "ID": 34,
+        "Title": "Ημιμαραθώνιος Αθήνας 2025",
+        "Date": "2025-03-09",
+        "Location": "Αθήνα",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "21km",
+            "5km"
+        ],
+        "SignupLink": "https://athinahalfmarathon.gr"
+    },
+    {
+        "ID": 35,
+        "Title": "2ος Παράκτιος Νυχτερινός Ημιμαραθώνιος Θερμαϊκού - «Αντώνης Ματζάρης»",
+        "Date": "2025-03-15",
+        "Location": "Δήμος Θερμαϊκού, Θεσσαλονίκη",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "21.1km",
+            "10km",
+            "5km",
+            "1.6km"
+        ],
+        "SignupLink": "https://thermaikoshalfmarathon.org/"
+    },
+    {
+        "ID": 36,
+        "Title": "16ος Ημιμαραθώνιος Καλαμπάκα-Τρίκαλα «Θανάσης Σταμόπουλος»",
+        "Date": "2025-03-16",
+        "Location": "Καλαμπάκα",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "21.1km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://www.trikalahalfmarathon.org/"
+    },
+    {
+        "ID": 37,
+        "Title": "Run-Maroussi - Σπύρος Λούης 2025",
+        "Date": "2025-03-16",
+        "Location": "Μαρούσι, Αττικής",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://raceid.com/el/races/13154/about"
+    },
+    {
+        "ID": 38,
+        "Title": "14ος Taygetos Challenge",
+        "Date": "2025-03-22",
+        "Location": "Καρδαμύλη, Πελοποννήσου",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "42km",
+            "22km",
+            "10km",
+            "5km"
+        ],
+        "SignupLink": "http://www.taygetoschallenge.com/"
+    },
+    {
+        "ID": 39,
+        "Title": "5η Γύρα Μάνης",
+        "Date": "2025-03-22",
+        "Location": "Αρεόπολη, Λακωνίας",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "80km"
+        ],
+        "SignupLink": "http://www.lakoniaultrarunning.com/"
+    },
+    {
+        "ID": 40,
+        "Title": "Coast to Coast Race 2025",
+        "Date": "2025-03-23",
+        "Location": "Ιεράπετρα, Λασιθίου",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "21.1km",
+            "5km"
+        ],
+        "SignupLink": "https://coast-to-coast.gr/"
+    },
+    {
+        "ID": 41,
+        "Title": "18ος Μαραθώνιος Μεσσήνης",
+        "Date": "2025-03-23",
+        "Location": "Δήμου Μεσσήνης",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "42km"
+        ],
+        "SignupLink": "https://marathon.messini.gr/"
+    },
+    {
+        "ID": 42,
+        "Title": "9ος Δρόμος του Γιοφυριού",
+        "Date": "2025-03-29",
+        "Location": "Άρτα",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "21.1km",
+            "5km",
+            "Σκυταλοδρομία",
+            "300m",
+            "600m",
+            "800m"
+        ],
+        "SignupLink": "https://artarunningfestival.gr/"
+    },
+    {
+        "ID": 43,
+        "Title": "Duth Campus Run 2025",
+        "Date": "2025-03-30",
+        "Location": "Πανεπιστημιούπολη, Κομοτηνή",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "14km",
+            "7km"
+        ]
+    },
+    {
+        "ID": 44,
+        "Title": "9ος Ημιμαραθώνιος Βόλου – 30o I Love Volos Run",
+        "Date": "2025-03-30",
+        "Location": "Βόλος",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "21.1km",
+            "5km",
+            "500m"
+        ],
+        "SignupLink": "https://voloshalfmarathon.gr/"
+    },
+    {
+        "ID": 45,
+        "Title": "2o Grevena City Run",
+        "Date": "2025-03-30",
+        "Location": "Γρεβενά",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "10km",
+            "5km",
+            "1km"
+        ]
     }
 ]
