@@ -87,7 +87,16 @@ document.addEventListener('DOMContentLoaded', () => {
         // Sort by date
         races.sort((a, b) => new Date(a.Date) - new Date(b.Date));
 
-        const filteredRaces = races.filter(race => {
+        const passedTodayRaces = races.filter(race => {
+            const raceDate = new Date(race.Date); // Parse race date
+            const today = new Date(); // Get current date
+        
+            // Remove time part from today's date for accurate comparison
+            today.setHours(0, 0, 0, 0);
+        
+            return raceDate > today; // Check if the race date is older than today
+        });
+        const filteredRaces = passedTodayRaces.filter(race => {
             const raceDate = new Date(race.Date);
             return (
                 raceDate.getFullYear() === selectedYear &&
@@ -137,49 +146,48 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial Fetch and Render
     fetchRaces();
 
-function createICSEvent({ title, description, location, startDate, endDate, alarmMinutesBefore }) {
-    const formatDate = (date) => {
-        return date.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
-    };
+    function createICSEvent({ title, description, location, startDate, endDate, alarmMinutesBefore }) {
+        const formatDate = (date) => {
+            return date.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
+        };
 
-    const start = formatDate(new Date(startDate));
-    const end = formatDate(new Date(endDate));
-    const now = formatDate(new Date());
+        const start = formatDate(new Date(startDate));
+        const end = formatDate(new Date(endDate));
+        const now = formatDate(new Date());
 
-    let alarm = '';
-    if (alarmMinutesBefore) {
-        alarm = `
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reminder - ${title}
-TRIGGER:-PT${alarmMinutesBefore}M
-END:VALARM`;
+        let alarm = '';
+        if (alarmMinutesBefore) {
+            alarm = `
+    BEGIN:VALARM
+    ACTION:DISPLAY
+    DESCRIPTION:Reminder - ${title}
+    TRIGGER:-PT${alarmMinutesBefore}M
+    END:VALARM`;
+        }
+
+        const icsContent = `
+    BEGIN:VCALENDAR
+    VERSION:2.0
+    CALSCALE:GREGORIAN
+    BEGIN:VEVENT
+    DTSTAMP:${now}
+    DTSTART:${start}
+    DTEND:${end}
+    SUMMARY:${title}
+    DESCRIPTION:${description}
+    LOCATION:${location}${alarm}
+    END:VEVENT
+    END:VCALENDAR
+        `.trim();
+
+        // Create a Blob and trigger download
+        const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = `${title.replace(/ /g, '_')}.ics`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
     }
-
-    const icsContent = `
-BEGIN:VCALENDAR
-VERSION:2.0
-CALSCALE:GREGORIAN
-BEGIN:VEVENT
-DTSTAMP:${now}
-DTSTART:${start}
-DTEND:${end}
-SUMMARY:${title}
-DESCRIPTION:${description}
-LOCATION:${location}${alarm}
-END:VEVENT
-END:VCALENDAR
-    `.trim();
-
-    // Create a Blob and trigger download
-    const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
-    const link = document.createElement('a');
-    link.href = URL.createObjectURL(blob);
-    link.download = `${title.replace(/ /g, '_')}.ics`;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-}
-
 });
 

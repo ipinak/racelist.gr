@@ -115,14 +115,14 @@ h2 {
 }
 
 /* Race List */
-ul {
+#race-list {
     list-style: none;
     padding: 0;
     text-align: center;
     margin-top: 30px;
 }
 
-ul li {
+#race-list li {
     margin: 10px 0;
     padding: 10px;
     background: var(--empty-cell-bg);
@@ -131,7 +131,7 @@ ul li {
     transition: background 0.3s;
 }
 
-ul li:hover {
+#race-list li:hover {
     background: var(--hover-background);
 }
 
@@ -188,14 +188,88 @@ footer a {
     font-weight: bold;
 }
 
-footer a:hover {
-    text-decoration: underline;
-}
-
 a {
     color: var(--primary-color);
 }
 
 a:hover {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.subfooter {
+    margin: 30px 0;
+}
+
+.subfooter ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.subfooter .title {
+    font-size: x-large;
+    font-weight: 900;
+}
+
+/* FAQs */
+.faq-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--empty-cell-bg);
+}
+
+.faq-title {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.faq-item {
+    border-bottom: 1px solid var(--primary-color);
+    padding: 1rem 0;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-question {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-question:hover {
+    color: var(--accent-color);
+}
+
+.faq-answer {
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    display: none;
+}
+
+.faq-question.active+.faq-answer {
+    display: block;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--button-text-color);
+    font-weight: bold;
+}
+
+.navbar a:hover {
     color: var(--accent-color);
 }

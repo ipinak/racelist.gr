@@ -50,9 +50,12 @@
 </head>
 
 <body>
-    <h1>Ημερολόγιο Αγώνων</h1>
-
     <header>
+        <nav class="navbar">
+            <a href="/">Home</a>
+            <a href="/faq.html">FAQ</a>
+        </nav>
+
         <div id="month-selector">
             <button id="prev-month">◀ Προηγούμενος</button>
             <span id="current-month">Μήνας</span>
@@ -61,6 +64,7 @@
     </header>
 
     <main class="content">
+        <h1>Ημερολόγιο Αγώνων</h1>
         <div id="calendar">
             <table>
                 <thead>
@@ -76,7 +80,7 @@
 
         <!-- Race List Section -->
         <h2>Ερχόμενοι αγώνες</h2>
-        <ul id="race-list">
+        <ul id="race-list" class="racelist">
             <li>Φωρτώνω αγώνες...</li>
         </ul>
 
@@ -91,7 +95,19 @@
     </main>
 
     <footer>
-        Copyright © 2024 racelist.gr | Developed with ❤️ by <strong><a style="color: #000000" href="https://www.techpals.eu/?utm_source=racelist.gr&utm_content=footer&utm_medium=referral">TechPals</a></strong>
+        <div class="subfooter">
+            <div class="section">
+                <ul>
+                    <li class="title">About</li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="about.html">Σχετικά με μας</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copy">
+            Copyright © 2024 racelist.gr | Developed with ❤️ by <strong><a href="https://www.techpals.eu/?utm_source=racelist.gr&utm_content=footer&utm_medium=referral">TechPals</a></strong>
+        </div>
     </footer>
 </body>
 </html>
