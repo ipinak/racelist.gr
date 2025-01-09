@@ -6,13 +6,16 @@ const messages = {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const inputDate = urlParams.get('date');
+
     const calendarBody = document.getElementById('calendar-body');
     const currentMonthDisplay = document.getElementById('current-month');
     const prevMonthBtn = document.getElementById('prev-month');
     const nextMonthBtn = document.getElementById('next-month');
     const raceList = document.getElementById('race-list');
 
-    let currentDate = new Date();
+    let currentDate = !inputDate ? new Date() : new Date(inputDate); // get input date or now
     let races = [];
 
     // Fetch races from the backend
