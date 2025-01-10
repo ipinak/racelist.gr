@@ -591,5 +591,125 @@
             "5km",
             "1km"
         ]
+    },
+    {
+        "ID": 46,
+        "Title": "Μαραθώνιος Ναυπλίου 2025",
+        "Date": "2025-03-30",
+        "Location": "Ναύπλιο, Αργολίδας",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "42km"
+        ]
+    },
+    {
+        "ID": 47,
+        "Title": "Run Greece - Ηράκλειο 2025",
+        "Date": "2025-03-30",
+        "Location": "Ηράκλειο, Κρήτης",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "10km",
+            "5km",
+            "Παίδων"
+        ],
+        "SignupLink": "https://www.run-greece.gr/index.php/el/registration/registration-irakleio"
+    },
+    {
+        "ID": 48,
+        "Title": "8ο Δεκάρι Πάρκου",
+        "Date": "2025-04-05",
+        "Location": "Πάρκο Τρίτση",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "10km",
+            "5km",
+            "1.3km"
+        ],
+        "SignupLink": "https://www.todekaritouparkou.gr/dilwse-symmetoxi"
+    },
+    {
+        "ID": 49,
+        "Title": "7ος Δρόμος Μαθητών",
+        "Date": "2025-04-06",
+        "Location": "Βέροια, Ημαθίας",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "10km",
+            "5km",
+            "2km",
+            "1km",
+            "250m (AMEA)"
+        ],
+        "SignupLink": "https://www.todekaritouparkou.gr/dilwse-symmetoxi"
+    },
+    {
+        "ID": 50,
+        "Title": "19ος Μαραθώνιος Μέγας Αλέξανδρος",
+        "Date": "2025-04-06",
+        "Location": "Θεσσαλονίκη",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "42km",
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://atgm.gr/2013/12/11/%ce%b1%cf%84%ce%bf%ce%bc%ce%b9%ce%ba%ce%b5%cf%83-%ce%b5%ce%b3%ce%b3%cf%81%ce%b1%cf%86%ce%b5%cf%82/"
+    },
+    {
+        "ID": 51,
+        "Title": "3ος Ημιμαραθώνιος Πάτρας",
+        "Date": "2025-04-06",
+        "Location": "Πάτρα",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "21km",
+            "10km",
+            "5km",
+            "1km"
+        ]
+    },
+    {
+        "ID": 52,
+        "Title": "8ος Αγώνας Πεδίου Άρεως",
+        "Date": "2025-04-13",
+        "Location": "Πεδίο Άρεως, Αττική",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "10km",
+            "5km",
+            "1.3km"
+        ]
+    },
+    {
+        "ID": 53,
+        "Title": "25ος Αγώνας Δρόμου Καλαμάτας",
+        "Date": "2025-04-26",
+        "Location": "Καλαμάτα",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "21km",
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://sdym.gr/"
+    },
+    {
+        "ID": 54,
+        "Title": "Poseidon Athens Half-Marathon",
+        "Date": "2025-04-27",
+        "Location": "Φάληρο, Αττικής",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "21km",
+            "21km (relay)",
+            "10km",
+            "5km",
+            "2km",
+            "1km"
+        ],
+        "SignupLink": "https://poseidon-athenshalfmarathon.com/el/"
     }
 ]
