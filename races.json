@@ -710,5 +710,20 @@
             "1km"
         ],
         "SignupLink": "https://poseidon-athenshalfmarathon.com/el/"
+    },
+    {
+        "ID": 55,
+        "Title": "Olympus Marathon",
+        "Date": "2025-06-27",
+        "Location": "Δίον",
+        "Description": "Run in the scenic countryside.",
+        "Distances": [
+            "71km",
+            "44km",
+            "12.5km",
+            "5km",
+            "4.25km"
+        ],
+        "SignupLink": "https://www.olympus-marathon.com/"
     }
 ]
