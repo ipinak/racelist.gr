@@ -309,20 +309,6 @@
         "SignupLink": "http://www.faneromenitrail.gr/"
     },
     {
-        "ID": 24,
-        "Title": "7ο “Φανερωμένη Trail”",
-        "Date": "2025-02-23",
-        "Location": "Χιλιομόδι, Κορινθίας",
-        "Description": "Run in the scenic countryside.",
-        "Distances": [
-            "23km",
-            "10.5km",
-            "6km",
-            "2.1km"
-        ],
-        "SignupLink": "http://www.faneromenitrail.gr/"
-    },
-    {
         "ID": 25,
         "Title": "13ος Χορτιάτης Trail Run",
         "Date": "2025-02-23",
@@ -348,7 +334,7 @@
     {
         "ID": 27,
         "Title": "Katerini Run 2025",
-        "Date": "2025-02-23",
+        "Date": "2025-03-09",
         "Location": "Κατερίνη, Πιερίας",
         "Description": "Run in the scenic countryside.",
         "Distances": [
@@ -356,7 +342,7 @@
             "5km",
             "1km"
         ],
-        "SignupLink": "https://zeusrunnersclub.gr/?p=501"
+        "SignupLink": "https://raceid.com/el/races/13349/about"
     },
     {
         "ID": 28,
