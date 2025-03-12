@@ -34,6 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Render the calendar for the current month
     function renderCalendar(date) {
+        if (!calendarBody) return;
+        
         calendarBody.innerHTML = ''; // Clear previous calendar
         const year = date.getFullYear();
         const month = date.getMonth();
@@ -134,17 +136,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Event Listeners for Month Navigation
-    prevMonthBtn.addEventListener('click', () => {
-        currentDate.setMonth(currentDate.getMonth() - 1);
-        renderCalendar(currentDate);
-        renderRaces(currentDate);
-    });
+    if (prevMonthBtn) {
+        prevMonthBtn.addEventListener('click', () => {
+            currentDate.setMonth(currentDate.getMonth() - 1);
+            renderCalendar(currentDate);
+            renderRaces(currentDate);
+        });
+    }
 
-    nextMonthBtn.addEventListener('click', () => {
-        currentDate.setMonth(currentDate.getMonth() + 1);
-        renderCalendar(currentDate);
-        renderRaces(currentDate);
-    });
+    if (nextMonthBtn) {
+        nextMonthBtn.addEventListener('click', () => {
+            currentDate.setMonth(currentDate.getMonth() + 1);
+            renderCalendar(currentDate);
+            renderRaces(currentDate);
+        });
+    }
 
     // Initial Fetch and Render
     fetchRaces();
