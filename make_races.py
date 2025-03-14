@@ -150,6 +150,6 @@ def generate_race_list(month):
 if len(sys.argv) > 1:
     month = int(sys.argv[1])
     print(f'Generating kalentari-agwnwn-{month_titles_greklish[month]}-2025.html')
-    with open(f'kalentari-agwnwn-{month_titles_greklish[month]}-2025.html', 'w', encoding='utf-8') as fd:
+    with open(f'agwnes/kalentari-agwnwn-{month_titles_greklish[month]}-2025.html', 'w', encoding='utf-8') as fd:
         fd.write(generate_race_list(month))
 
