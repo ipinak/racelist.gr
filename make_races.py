@@ -22,7 +22,7 @@ month_titles_greklish = {
     3: "martios",
     4: "aprilios",
     5: "maios",
-    6: "ionios",
+    6: "iounios",
     7: "ioulios",
     8: "augoustos",
     9: "septemvrios",
