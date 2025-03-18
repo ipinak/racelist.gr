@@ -1211,5 +1211,18 @@
             "1km"
         ],
         "SignupLink": "https://panetolikotrail.gr/"
+    },
+    {
+        "ID": 97,
+        "Title": "5th Chios Hardstone Trail Run",
+        "Date": "2025-04-27",
+        "Location": "Χίος",
+        "Distances": [
+            "24km",
+            "13km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://chiosrunning.gr/"
     }
 ]
