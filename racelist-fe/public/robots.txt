@@ -1,0 +1,7 @@
+# User-agent: *
+User-agent: *
+Allow: /arthra/
+Allow: /agwnes/
+Allow: /about.html
+Allow: /index.html
+Allow: /faq.html
