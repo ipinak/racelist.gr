@@ -13,7 +13,13 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/eslint',
     '@nuxt/ui',
+    'nuxt-gtag',
   ],
+  // Google analytics
+  gtag: {
+    id: 'G-1YBT2BFVT9',
+    enabled: import.meta.env.NODE_ENV === 'production',
+  },
   vite: {
     plugins: [tailwindcss()],
   },
