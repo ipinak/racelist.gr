@@ -1,8 +1,8 @@
 <template>
   <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl font-bold text-center mb-6">
+    <h2 class="text-3xl font-bold text-center mb-6">
       Τι τρώμε πριν από έναν αγώνα τρεξίματος
-    </h1>
+    </h2>
     <p class="mb-4">
       Όταν προετοιμαζόμαστε για έναν αγώνα, είτε πρόκειται για έναν μαραθώνιο
       είτε για έναν μικρότερο δρόμο αντοχής, η διατροφή παίζει καθοριστικό ρόλο.

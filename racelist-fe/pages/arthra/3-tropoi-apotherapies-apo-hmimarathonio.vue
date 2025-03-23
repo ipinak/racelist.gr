@@ -1,8 +1,8 @@
 <template>
   <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#9BBEC4] font-bold mb-6">
+    <h2 class="text-3xl text-[#9BBEC4] font-bold mb-6">
       Τρόποι Αποθεραπείας μετά από Μαραθώνιο
-    </h1>
+    </h2>
 
     <p class="mb-6">
       Η αποθεραπεία είναι εξίσου σημαντική με την προπόνηση. Μετά από έναν

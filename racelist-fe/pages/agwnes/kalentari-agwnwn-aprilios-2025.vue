@@ -1,10 +1,10 @@
 <template>
   <div class="max-w-4xl mx-auto px-4 py-8">
-    <Header title="Αγώνες για τον Απρίλιο" />
+    <Header :title="title" />
 
     <RaceList :races="races" />
 
-    <h2 class="text-2xl text-center text-[#9BBEC4] mt-10 mb-4">
+    <h2 class="text-2xl text-center text-[#9BBEC4] my-6">
       Ενημερωθείτε για νέους αγώνες
     </h2>
 
@@ -18,6 +18,7 @@
   import Header from '~/components/Agwnes/Header.vue';
   import RaceList from '~/components/Agwnes/RaceList.vue';
   import NewsletterSubmissionForm from '~/components/NewsletterSubmissionForm.vue';
+  const title = 'Αγώνες για τον Απρίλιο 2025';
 
   useHead({
     title: 'Καλένταρι αγώνων δρομου και βουνού για τον Απρίλιο | racelist.gr',
@@ -83,10 +84,10 @@
 
   const races = [
     {
-      title: 'TUI Rhodes Marathon 2025',
-      date: '2025-04-06',
-      location: 'Ρόδος',
-      distances: [
+      Title: 'TUI Rhodes Marathon 2025',
+      Date: '2025-04-06',
+      Location: 'Ρόδος',
+      Distances: [
         '42km',
         '21km',
         '10km',
@@ -94,77 +95,81 @@
         'Περιπατητική διαδρομή 5km',
         'Παιδικός αγώνας 1km',
       ],
-      link: 'https://rhodesmarathon.gr/?utm_src=racelist.gr',
+      SignupLink: 'https://rhodesmarathon.gr/?utm_src=racelist.gr',
     },
     {
-      title: 'ΟΠΑΠ Μαραθώνιος Λεμεσού 2025',
-      date: '2025-04-22',
-      location: 'Λεμεσός, Κύπρος',
-      distances: ['42km', '21km', '10km', '5km'],
-      link: 'https://www.limassolmarathon.com/index.php?utm_src=racelist.gr',
+      Title: 'ΟΠΑΠ Μαραθώνιος Λεμεσού 2025',
+      Date: '2025-04-22',
+      Location: 'Λεμεσός, Κύπρος',
+      Distances: ['42km', '21km', '10km', '5km'],
+      SignupLink:
+        'https://www.limassolmarathon.com/index.php?utm_src=racelist.gr',
     },
     {
-      title: 'Crete Marathon',
-      date: '2025-04-06',
-      location: 'Χανιά, Κρήτη',
-      distances: ['42km', '10km', '5km', '2.5km'],
-      link: 'https://crete-marathon.gr/en/home?utm_src=racelist.gr',
+      Title: 'Crete Marathon',
+      Date: '2025-04-06',
+      Location: 'Χανιά, Κρήτη',
+      Distances: ['42km', '10km', '5km', '2.5km'],
+      SignupLink: 'https://crete-marathon.gr/en/home?utm_src=racelist.gr',
     },
     {
-      title: '8ο Δεκάρι Πάρκου',
-      date: '2025-04-05',
-      location: 'Πάρκο Τρίτση',
-      distances: ['10km', '5km', '1.3km'],
-      link: 'https://www.todekaritouparkou.gr/dilwse-symmetoxi?utm_src=racelist.gr',
+      Title: '8ο Δεκάρι Πάρκου',
+      Date: '2025-04-05',
+      Location: 'Πάρκο Τρίτση',
+      Distances: ['10km', '5km', '1.3km'],
+      SignupLink:
+        'https://www.todekaritouparkou.gr/dilwse-symmetoxi?utm_src=racelist.gr',
     },
     {
-      title: '7ος Δρόμος Μαθητών',
-      date: '2025-04-06',
-      location: 'Βέροια, Ημαθίας',
-      distances: ['10km', '5km', '2km', '1km', '250m (AMEA)'],
-      link: '',
+      Title: '7ος Δρόμος Μαθητών',
+      Date: '2025-04-06',
+      Location: 'Βέροια, Ημαθίας',
+      Distances: ['10km', '5km', '2km', '1km', '250m (AMEA)'],
+      SignupLink: '',
     },
     {
-      title: '19ος Μαραθώνιος Μέγας Αλέξανδρος',
-      date: '2025-04-06',
-      location: 'Θεσσαλονίκη',
-      distances: ['42km', '10km', '5km', '1km'],
-      link: 'https://atgm.gr/2013/12/11/%ce%b1%cf%84%ce%bf%ce%bc%ce%b9%ce%ba%ce%b5%cf%83-%ce%b5%ce%b3%ce%b3%cf%81%ce%b1%cf%86%ce%b5%cf%82/?utm_src=racelist.gr',
+      Title: '19ος Μαραθώνιος Μέγας Αλέξανδρος',
+      Date: '2025-04-06',
+      Location: 'Θεσσαλονίκη',
+      Distances: ['42km', '10km', '5km', '1km'],
+      SignupLink:
+        'https://atgm.gr/2013/12/11/%ce%b1%cf%84%ce%bf%ce%bc%ce%b9%ce%ba%ce%b5%cf%83-%ce%b5%ce%b3%ce%b3%cf%81%ce%b1%cf%86%ce%b5%cf%82/?utm_src=racelist.gr',
     },
     {
-      title: '3ος Ημιμαραθώνιος Πάτρας',
-      date: '2025-04-06',
-      location: 'Πάτρα',
-      distances: ['21km', '10km', '5km', '1km'],
-      link: '',
+      Title: '3ος Ημιμαραθώνιος Πάτρας',
+      Date: '2025-04-06',
+      Location: 'Πάτρα',
+      Distances: ['21km', '10km', '5km', '1km'],
+      SignupLink: '',
     },
     {
-      title: '8ος Αγώνας Πεδίου Άρεως',
-      date: '2025-04-13',
-      location: 'Πεδίο Άρεως, Αττική',
-      distances: ['10km', '5km', '1.3km'],
-      link: '',
+      Title: '8ος Αγώνας Πεδίου Άρεως',
+      Date: '2025-04-13',
+      Location: 'Πεδίο Άρεως, Αττική',
+      Distances: ['10km', '5km', '1.3km'],
+      SignupLink: '',
     },
     {
-      title: '25ος Αγώνας Δρόμου Καλαμάτας',
-      date: '2025-04-26',
-      location: 'Καλαμάτα',
-      distances: ['21km', '10km', '5km', '1km'],
-      link: 'https://sdym.gr/?utm_src=racelist.gr',
+      Title: '25ος Αγώνας Δρόμου Καλαμάτας',
+      Date: '2025-04-26',
+      Location: 'Καλαμάτα',
+      Distances: ['21km', '10km', '5km', '1km'],
+      SignupLink: 'https://sdym.gr/?utm_src=racelist.gr',
     },
     {
-      title: 'Poseidon Athens Half-Marathon',
-      date: '2025-04-27',
-      location: 'Φάληρο, Αττικής',
-      distances: ['21km', '21km (relay)', '10km', '5km', '2km', '1km'],
-      link: 'https://poseidon-athenshalfmarathon.com/el/?utm_src=racelist.gr',
+      Title: 'Poseidon Athens Half-Marathon',
+      Date: '2025-04-27',
+      Location: 'Φάληρο, Αττικής',
+      Distances: ['21km', '21km (relay)', '10km', '5km', '2km', '1km'],
+      SignupLink:
+        'https://poseidon-athenshalfmarathon.com/el/?utm_src=racelist.gr',
     },
     {
-      title: '5th Chios Hardstone Trail Run',
-      date: '2025-04-27',
-      location: 'Χίος',
-      distances: ['24km', '13km', '5km', '1km'],
-      link: 'https://chiosrunning.gr/?utm_src=racelist.gr',
+      Title: '5th Chios Hardstone Trail Run',
+      Date: '2025-04-27',
+      Location: 'Χίος',
+      Distances: ['24km', '13km', '5km', '1km'],
+      SignupLink: 'https://chiosrunning.gr/?utm_src=racelist.gr',
     },
   ];
 </script>

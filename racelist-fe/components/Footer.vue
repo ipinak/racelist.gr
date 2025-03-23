@@ -8,15 +8,29 @@
           <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
           <li><NuxtLink to="/about">Σχετικά με μας</NuxtLink></li>
           <li><NuxtLink to="/arthra">Άρθρα</NuxtLink></li>
-          <li><NuxtLink to="/agwnes">Καλένταρι αγώνων δρόμου και βουνού ανα μήνα</NuxtLink></li>
+          <li>
+            <NuxtLink to="/agwnes"
+              >Καλένταρι αγώνων δρόμου και βουνού ανα μήνα</NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink to="/cooper-test">Υπολογιστής Cooper Test</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/pace-calculator">
+              Υπολογιστής Ρυθμού & Χρόνου ανά Χιλιόμετρο (Pace Calculator)
+            </NuxtLink>
+          </li>
         </ul>
       </div>
     </div>
 
+    <hr class="py-2 text-gray-200/30" />
+
     <!-- Copyright -->
-    <div class="copy text-xs">
-      Copyright © {{ new Date().getFullYear() }} racelist.gr |
-      Developed with ☕️ by
+    <div class="copy text-xs p-4">
+      Copyright © {{ new Date().getFullYear() }} racelist.gr | Developed with
+      ☕️ by
       <a
         href="https://www.techpals.eu/?utm_source=racelist.gr&utm_content=footer&utm_medium=referral"
         class="text-[#00ffff] font-bold"
@@ -27,5 +41,3 @@
     </div>
   </footer>
 </template>
-
-

@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-4xl mx-auto px-4 py-8">
-    <Header title="Ερχόμενοι αγώνες για τον Ιούνιο" />
+    <Header :title="title" />
 
     <RaceList :races="races" />
 
@@ -18,56 +18,58 @@
   import Header from '~/components/Agwnes/Header.vue';
   import RaceList from '~/components/Agwnes/RaceList.vue';
   import NewsletterSubmissionForm from '~/components/NewsletterSubmissionForm.vue';
+  const title = 'Αγώνες για τον Ιούνιο 2025';
 
   const races = [
     {
-      title: 'Olympus Marathon',
-      date: '2025-06-27',
-      location: 'Δίον',
-      distances: ['71km', '44km', '12.5km', '5km', '4.25km'],
-      link: 'https://www.olympus-marathon.com/?utm_src=racelist.gr',
+      Title: 'Olympus Marathon',
+      Date: '2025-06-27',
+      Location: 'Δίον',
+      Distances: ['71km', '44km', '12.5km', '5km', '4.25km'],
+      SignupLink: 'https://www.olympus-marathon.com/?utm_src=racelist.gr',
     },
     {
-      title: 'Voio Race Series 2025 (Αγώνας Αυγερινού)',
-      date: '2025-06-15',
-      location: 'Σιάτιστα',
-      distances: ['22km'],
-      link: 'https://voio.gr/polites/voiorace/?utm_src=racelist.gr',
+      Title: 'Voio Race Series 2025 (Αγώνας Αυγερινού)',
+      Date: '2025-06-15',
+      Location: 'Σιάτιστα',
+      Distances: ['22km'],
+      SignupLink: 'https://voio.gr/polites/voiorace/?utm_src=racelist.gr',
     },
     {
-      title: 'Rock Solid Kastellorizo 2025',
-      date: '2025-06-07',
-      location: 'Καστελόριζο',
-      distances: ['22km', '10km', '5km', '1.3km'],
-      link: 'https://rocksolid.gr/?utm_src=racelist.gr',
+      Title: 'Rock Solid Kastellorizo 2025',
+      Date: '2025-06-07',
+      Location: 'Καστελόριζο',
+      Distances: ['22km', '10km', '5km', '1.3km'],
+      SignupLink: 'https://rocksolid.gr/?utm_src=racelist.gr',
     },
     {
-      title: '4th Evrytania Trail Races 2025',
-      date: '2025-06-07',
-      location: 'Καρπενήσι, Ευρυτανίας',
-      distances: ['80km', '60km', '30km', '20km', '12km', '6km'],
-      link: 'https://www.e4-topantavrexei.gr/?utm_src=racelist.gr',
+      Title: '4th Evrytania Trail Races 2025',
+      Date: '2025-06-07',
+      Location: 'Καρπενήσι, Ευρυτανίας',
+      Distances: ['80km', '60km', '30km', '20km', '12km', '6km'],
+      SignupLink: 'https://www.e4-topantavrexei.gr/?utm_src=racelist.gr',
     },
     {
-      title: 'Skyros Sports Festival 2025',
-      date: '2025-06-14',
-      location: 'Σκύρος',
-      distances: ['21.1km', '10km', '5km', '1km'],
-      link: 'https://i-qsports.com/skyros-sports-festival/?utm_src=racelist.gr',
+      Title: 'Skyros Sports Festival 2025',
+      Date: '2025-06-14',
+      Location: 'Σκύρος',
+      Distances: ['21.1km', '10km', '5km', '1km'],
+      SignupLink:
+        'https://i-qsports.com/skyros-sports-festival/?utm_src=racelist.gr',
     },
     {
-      title: 'Kerkini Lake Run 2025',
-      date: '2025-06-15',
-      location: 'Κερκίνη, Σερρών',
-      distances: ['21.1km', '10km', '7.5km', '1km'],
-      link: 'https://raceid.com/el/races/13150/about?utm_src=racelist.gr',
+      Title: 'Kerkini Lake Run 2025',
+      Date: '2025-06-15',
+      Location: 'Κερκίνη, Σερρών',
+      Distances: ['21.1km', '10km', '7.5km', '1km'],
+      SignupLink: 'https://raceid.com/el/races/13150/about?utm_src=racelist.gr',
     },
     {
-      title: '2nd Panetoliko Mountain Trail Run',
-      date: '2025-06-22',
-      location: 'Αγιος Βλάσσης, Αγρίνιο',
-      distances: ['17km', '8km', '1km'],
-      link: 'https://panetolikotrail.gr/?utm_src=racelist.gr',
+      Title: '2nd Panetoliko Mountain Trail Run',
+      Date: '2025-06-22',
+      Location: 'Αγιος Βλάσσης, Αγρίνιο',
+      Distances: ['17km', '8km', '1km'],
+      SignupLink: 'https://panetolikotrail.gr/?utm_src=racelist.gr',
     },
   ];
 
