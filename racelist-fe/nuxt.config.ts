@@ -18,7 +18,6 @@ export default defineNuxtConfig({
   // Google analytics
   gtag: {
     id: 'G-1YBT2BFVT9',
-    enabled: import.meta.env.NODE_ENV === 'production',
   },
   vite: {
     plugins: [tailwindcss()],
