@@ -31,7 +31,7 @@ export default defineNuxtConfig({
     head: {
       title: 'Βρες Αγώνες Δρόμου & Βουνού σε Όλη την Ελλάδα | racelist.gr',
       htmlAttrs: {
-        lang: 'gr',
+        lang: 'el',
       },
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
