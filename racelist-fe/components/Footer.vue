@@ -21,6 +21,11 @@
               Υπολογιστής Ρυθμού & Χρόνου ανά Χιλιόμετρο (Pace Calculator)
             </NuxtLink>
           </li>
+          <li>
+            <NuxtLink to="/gel-calculator">
+              Υπολογιστής Ενεργειακών Gel
+            </NuxtLink>
+          </li>
         </ul>
       </div>
     </div>
