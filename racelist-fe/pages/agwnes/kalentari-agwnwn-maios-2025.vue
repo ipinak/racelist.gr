@@ -18,7 +18,7 @@
   import RaceList from '~/components/Agwnes/RaceList.vue';
   import NewsletterSubmissionForm from '~/components/NewsletterSubmissionForm.vue';
 
-  const title = 'Αγώνες για τον Μάιο 2025';
+  const title = 'Αγώνες για τον Μάη 2025';
 
   const races = [
     {
