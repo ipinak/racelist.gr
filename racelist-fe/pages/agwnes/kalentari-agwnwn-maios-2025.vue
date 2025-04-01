@@ -282,6 +282,13 @@
       Distances: ['34km', '5km', '1.6km', '1km'],
       SignupLink: 'https://andrusrace.com/',
     },
+    {
+      Title: '9ο Αγώνα δρόμου Μνημείων Θεσσαλονίκης ',
+      Date: '2025-05-25',
+      Location: 'Θεσσαλονίκη',
+      Distances: ['5.6km'],
+      SignupLink: 'https://www.timf.gr/',
+    },
   ];
   useHead({
     title: 'Καλένταρι αγώνων δρομου και βουνού για τον Μάιο | racelist.gr',
