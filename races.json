@@ -1225,5 +1225,15 @@
             "1km"
         ],
         "SignupLink": "https://chiosrunning.gr/"
+    },
+    {
+        "ID": 98,
+        "Title": "9ο Αγώνα δρόμου Μνημείων Θεσσαλονίκης ",
+        "Date": "2025-05-25",
+        "Location": "Θεσσαλονίκη",
+        "Distances": [
+            "5.6km"
+        ],
+        "SignupLink": "https://www.timf.gr/"
     }
 ]
