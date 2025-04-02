@@ -243,7 +243,7 @@
         content:
           'υπολογιστής gel, ενέργεια για τρέξιμο, υδατάνθρακες δρομέων, gel μαραθωνίου, φόρτιση αντοχής',
       },
-      { name: 'author', content: 'Το Όνομά Σου ή Εταιρεία' },
+      { name: 'author', content: 'racelist.gr' },
 
       { property: 'og:type', content: 'website' },
       {

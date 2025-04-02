@@ -1,33 +1,62 @@
 <template>
   <footer class="bg-[#9BBEC4] text-white text-sm text-center py-6">
     <!-- Subfooter Section -->
-    <div class="subfooter mb-6">
-      <div class="section">
+    <div
+      class="subfooter mb-6 grid gap-4 grid-cols-1 md:grid-cols-4 justify-center"
+    >
+      <div class="text-left pl-4 py-2">
+        <h3 class="text-3xl py-2">Racelist</h3>
+        <hr class="p-1" />
+        <p>
+          Βρείτε αγώνες δρόμου και βουνού, άρθρα για το τρέξιμο και διάφορα
+          χρήσιμα εργαλεία για να βελτιώσετε την προπονησή σας.
+        </p>
+      </div>
+
+      <div class="">
         <ul class="space-y-2">
-          <li class="title text-lg font-bold mb-2">About</li>
+          <li class="title text-xl font-bold mb-2">About</li>
           <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
-          <li><NuxtLink to="/about">Σχετικά με μας</NuxtLink></li>
           <li><NuxtLink to="/arthra">Άρθρα</NuxtLink></li>
+          <li><NuxtLink to="/about">Σχετικά με μας</NuxtLink></li>
           <li>
-            <NuxtLink to="/agwnes"
-              >Καλένταρι αγώνων δρόμου και βουνού ανα μήνα</NuxtLink
+            <NuxtLink to="/agwnes">
+              Καλένταρι αγώνων δρόμου και βουνού ανα μήνα
+            </NuxtLink>
+          </li>
+        </ul>
+      </div>
+
+      <div class="">
+        <ul class="space-y-2">
+          <li class="title text-xl font-bold mb-2">
+            <NuxtLink to="/tools-for-runners">
+              Εργαλεία για Υπολογισμούς Δρομέων
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/hydration-calculator"
+              >Υπολογιστής Ενυδάτωσης</NuxtLink
             >
           </li>
           <li>
             <NuxtLink to="/cooper-test">Υπολογιστής Cooper Test</NuxtLink>
           </li>
-          <li>
-            <NuxtLink to="/pace-calculator">
-              Υπολογιστής Ρυθμού & Χρόνου ανά Χιλιόμετρο (Pace Calculator)
-            </NuxtLink>
-          </li>
+
           <li>
             <NuxtLink to="/gel-calculator">
               Υπολογιστής Ενεργειακών Gel
             </NuxtLink>
           </li>
+
+          <li>
+            <NuxtLink to="/pace-calculator">
+              Υπολογιστής Ρυθμού & Χρόνου ανά Χιλιόμετρο (Pace Calculator)
+            </NuxtLink>
+          </li>
         </ul>
       </div>
+      <div class=""></div>
     </div>
 
     <hr class="py-2 text-gray-200/30" />
