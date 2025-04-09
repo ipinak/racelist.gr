@@ -1,19 +1,9 @@
 <template>
   <div class="text-center my-6">
     <div class="flex justify-center items-center gap-4 mb-4">
-      <button
-        @click="prevMonth"
-        class="bg-[#9BBEC4] text-white p-3 rounded hover:bg-[#a4c5ca]"
-      >
-        ◀ Προηγούμενος
-      </button>
+      <Button title="◀ Προηγούμενος" @click="prevMonth" />
       <span class="text-lg font-bold">{{ formattedMonth }}</span>
-      <button
-        @click="nextMonth"
-        class="bg-[#9BBEC4] text-white p-3 rounded hover:bg-[#a4c5ca]"
-      >
-        Επόμενος ▶
-      </button>
+      <Button title="Επόμενος ▶" @click="nextMonth" />
     </div>
 
     <table

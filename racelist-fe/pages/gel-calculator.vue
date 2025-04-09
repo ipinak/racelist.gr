@@ -90,12 +90,7 @@
         </div>
 
         <div class="mt-6">
-          <button
-            class="bg-[#9BBEC4] text-white p-3 rounded hover:bg-[#a4c5ca]"
-            @click="calculateGels"
-          >
-            Υπολογισμός Gel
-          </button>
+          <Button title="Υπολογισμός Gel" @click="calculateGels" />
         </div>
 
         <div
@@ -229,6 +224,7 @@
 
 <script setup>
   import { ref } from 'vue';
+  import Button from '~/components/Button.vue';
 
   useHead({
     title: 'Υπολογιστής Ενεργειακών Gel - Καύσιμα για το Τρέξιμό σου',

@@ -57,12 +57,7 @@
             <span class="text-sm text-gray-500">Σε λεπτά</span>
           </div>
 
-          <button
-            type="submit"
-            class="bg-[#9BBEC4] text-white p-3 rounded hover:bg-[#a4c5ca]"
-          >
-            Υπολόγισε Ρυθμό & Χρόνους
-          </button>
+          <Button title="Υπολόγισε Ρυθμό & Χρόνους" type="submit" />
         </form>
 
         <div v-if="pace !== null" class="mt-6 space-y-3">

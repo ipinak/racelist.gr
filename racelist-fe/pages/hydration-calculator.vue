@@ -69,12 +69,7 @@
           />
         </div>
 
-        <button
-          class="bg-[#9BBEC4] w-full text-white p-3 rounded hover:bg-[#a4c5ca]"
-          type="submit"
-        >
-          Υπολογισμός
-        </button>
+        <Button title="Υπολογισμός" type="submit" />
       </form>
 
       <div v-if="hydration" class="mt-4 p-4 bg-green-100 rounded">
@@ -112,6 +107,7 @@
 
 <script setup>
   import { ref } from 'vue';
+  import Button from '~/components/Button.vue';
 
   useHead({
     title: 'Υπολογιστής Ενυδάτωσης - Υγρά καύσιμα για την άσκησή σας',

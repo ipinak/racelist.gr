@@ -104,12 +104,7 @@
             <span class="text-sm text-gray-500">Σε λεπτά (π.χ. 7.3 λεπτό)</span>
           </div>
 
-          <button
-            type="submit"
-            class="bg-[#9BBEC4] text-white p-3 rounded hover:bg-[#a4c5ca]"
-          >
-            Υπολογισμός Απόστασης σε 12 Λεπτά
-          </button>
+          <Button title="Υπολογισμός Απόστασης σε 12 Λεπτά" type="submit" />
         </form>
 
         <div v-if="result !== null" class="mt-6 text-center">
