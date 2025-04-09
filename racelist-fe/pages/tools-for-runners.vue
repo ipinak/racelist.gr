@@ -13,7 +13,7 @@
       >
         <NuxtLink
           :to="link.href"
-          class="text-lg font-semibold text-[#9BBEC4] hover:text-[#ff00ff]"
+          class="text-lg font-semibold text-[#9BBEC4] hover:text-[#a4c5ca]"
         >
           {{ link.title }}
         </NuxtLink>

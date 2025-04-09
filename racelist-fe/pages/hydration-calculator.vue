@@ -70,7 +70,7 @@
         </div>
 
         <button
-          class="bg-[#9BBEC4] w-full text-white p-3 rounded hover:bg-[#ff00ff]"
+          class="bg-[#9BBEC4] w-full text-white p-3 rounded hover:bg-[#a4c5ca]"
           type="submit"
         >
           Υπολογισμός

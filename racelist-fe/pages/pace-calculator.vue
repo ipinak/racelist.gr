@@ -59,7 +59,7 @@
 
           <button
             type="submit"
-            class="bg-[#9BBEC4] text-white p-3 rounded hover:bg-[#ff00ff]"
+            class="bg-[#9BBEC4] text-white p-3 rounded hover:bg-[#a4c5ca]"
           >
             Υπολόγισε Ρυθμό & Χρόνους
           </button>

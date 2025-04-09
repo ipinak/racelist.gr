@@ -15,7 +15,7 @@
         👉 Για τον προγραμματισμό, στο
         <a
           href="https://www.techpals.eu/?utm_source=racelist.gr&utm_content=footer&utm_medium=referral"
-          class="text-[#9BBEC4] hover:text-[#ff00ff] font-semibold"
+          class="text-[#9BBEC4] hover:text-[#a4c5ca] font-semibold"
           target="_blank"
         >
           techpals </a

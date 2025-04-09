@@ -3,14 +3,14 @@
     <div class="flex justify-center items-center gap-4 mb-4">
       <button
         @click="prevMonth"
-        class="bg-[#9BBEC4] text-white p-3 rounded hover:bg-[#ff00ff]"
+        class="bg-[#9BBEC4] text-white p-3 rounded hover:bg-[#a4c5ca]"
       >
         ◀ Προηγούμενος
       </button>
       <span class="text-lg font-bold">{{ formattedMonth }}</span>
       <button
         @click="nextMonth"
-        class="bg-[#9BBEC4] text-white p-3 rounded hover:bg-[#ff00ff]"
+        class="bg-[#9BBEC4] text-white p-3 rounded hover:bg-[#a4c5ca]"
       >
         Επόμενος ▶
       </button>
@@ -40,7 +40,7 @@
             <span v-if="day">{{ day }}</span>
             <div
               v-if="hasEvent(day)"
-              class="w-2 h-2 bg-[#ff00ff] rounded-full absolute bottom-1 left-1/2 -translate-x-1/2"
+              class="w-2 h-2 bg-[#a4c5ca] rounded-full absolute bottom-1 left-1/2 -translate-x-1/2"
             ></div>
           </td>
         </tr>

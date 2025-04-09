@@ -10,7 +10,7 @@
     <div v-if="race.SignupLink">
       <a
         :href="`${race.SignupLink}?utm_src=racelist.gr`"
-        class="text-[#9BBEC4] hover:text-[#ff00ff]"
+        class="text-[#9BBEC4] hover:text-[#a4c5ca]"
         target="_blank"
       >
         Εγγραφή

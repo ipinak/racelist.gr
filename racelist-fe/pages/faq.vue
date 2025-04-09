@@ -8,7 +8,7 @@
         class="faq-item border-b border-[#9BBEC4] py-4"
       >
         <div
-          class="faq-question font-bold cursor-pointer hover:text-[#ff00ff]"
+          class="faq-question font-bold cursor-pointer hover:text-[#a4c5ca]"
           @click="toggle(index)"
         >
           {{ faq.question }}
