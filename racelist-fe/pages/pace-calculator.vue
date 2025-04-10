@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="max-w-4xl mx-auto px-4 py-8">
-      <h2 class="text-3xl text-[#9BBEC4] font-bold mb-6">
+      <h1 class="text-3xl text-[#9BBEC4] font-bold mb-6">
         Γιατί να υπολογίσω τον ρυθμό και τα splits μου;
-      </h2>
+      </h1>
 
       <p class="mb-4">
         Ο <strong>υπολογιστής ρυθμού και χρόνου ανά χιλιόμετρο</strong> σου

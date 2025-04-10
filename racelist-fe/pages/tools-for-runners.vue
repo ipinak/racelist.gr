@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h2 class="text-3xl text-center text-[#9BBEC4] my-6">
+    <h1 class="text-3xl text-center text-[#9BBEC4] my-6">
       Εργαλεία για Υπολογισμούς Δρομέων
-    </h2>
+    </h1>
     <ul
       class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 list-none p-0"
     >
@@ -34,7 +34,7 @@
       {
         name: 'keywords',
         content:
-          'εργαλεία δρομέων, υπολογιστής τρεξίματος, ενυδάτωση τρεξίματος, υπολογιστής gel, υπολογιστές ποδηλασίας',
+          'εργαλεία δρομέων, υπολογιστής τρεξίματος, ενυδάτωση τρεξίματος, υπολογιστής gel, υπολογιστής ρυθμου, ypologistis rithmou, pace calculator',
       },
       { name: 'author', content: 'racelist.gr' },
       { property: 'og:type', content: 'website' },

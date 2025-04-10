@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="max-w-4xl mx-auto px-4 py-8">
-      <h2 class="text-3xl text-[#9BBEC4] font-bold mb-6">
+      <h1 class="text-3xl text-[#9BBEC4] font-bold mb-6">
         Τι είναι το Τεστ Cooper;
-      </h2>
+      </h1>
 
       <p class="mb-6">
         Το <strong>Τεστ Cooper</strong> είναι ένα απλό αλλά αποτελεσματικό

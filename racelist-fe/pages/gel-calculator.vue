@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h2 class="text-3xl text-[#9BBEC4] font-bold mb-6 text-center">
+    <h1 class="text-3xl text-[#9BBEC4] font-bold mb-6 text-center">
       Πόσα gel χρειάζεσαι για ένα αγώνα;
-    </h2>
+    </h1>
     <div class="max-w-4xl mx-auto px-4 py-8 text-gray-800 space-y-4">
       <p>
         Η σωστή στρατηγική κατανάλωσης ενεργειακών gel μπορεί να κάνει τη
@@ -237,7 +237,7 @@
       {
         name: 'keywords',
         content:
-          'υπολογιστής gel, ενέργεια για τρέξιμο, υδατάνθρακες δρομέων, gel μαραθωνίου, φόρτιση αντοχής',
+          'υπολογιστής gel, ενέργεια για τρέξιμο, υδατάνθρακες δρομέων, gel μαραθωνίου, φόρτιση αντοχής, ενεργειακά gel',
       },
       { name: 'author', content: 'racelist.gr' },
 

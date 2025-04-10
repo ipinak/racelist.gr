@@ -1,8 +1,9 @@
 <template>
   <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h2 class="text-3xl font-bold text-center mb-6">
+    <h1 class="text-3xl font-bold text-center mb-6">
       Ο Τερματισμός Ενός Αγώνα: Μια Σημαντική Εμπειρία
-    </h2>
+    </h1>
+
     <p class="mb-4">
       Το τρέξιμο δεν είναι απλώς ένα άθλημα· είναι ένα ταξίδι πειθαρχίας και
       προσωπικής υπέρβασης. Κάθε φορά που ένας δρομέας διασχίζει τη γραμμή του
@@ -12,6 +13,7 @@
       αγώνα—είναι ένα ορόσημο που αφήνει ανεξίτηλα σημάδια στο σώμα και στο
       μυαλό.
     </p>
+
     <section class="mb-6">
       <h2 class="text-xl font-semibold mb-2">Τα Όρια</h2>
       <p>

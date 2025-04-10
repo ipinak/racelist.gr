@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h2 class="text-3xl text-center text-[#9BBEC4] my-6">
+    <h1 class="text-3xl text-center text-[#9BBEC4] my-6">
       Ημερολόγιο Αγώνων για το {{ currentDate.getFullYear() }}
-    </h2>
+    </h1>
     <Calendar :races="races" @updateDate="updateDate" />
 
     <h2 class="text-2xl text-center my-6 text-[#9BBEC4]">Ερχόμενοι αγώνες</h2>

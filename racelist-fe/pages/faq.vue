@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="text-3xl text-center text-[#9BBEC4] my-6">Συχνές ερωτήσεις</h2>
+    <h1 class="text-3xl text-center text-[#9BBEC4] my-6">Συχνές ερωτήσεις</h1>
     <div class="faq-container max-w-4xl mx-auto bg-[#f4f4f4] p-6 rounded-lg">
       <div
         v-for="(faq, index) in faqs"

@@ -1,8 +1,8 @@
 <template>
   <div class="max-w-4xl mx-auto px-4 py-8">
-    <h2 class="text-3xl text-[#9BBEC4] font-bold text-center mb-8">
+    <h1 class="text-3xl text-[#9BBEC4] font-bold text-center mb-8">
       Αγώνες δρόμου και βουνού για το {{ year }} ανα μήνα
-    </h2>
+    </h1>
 
     <ul
       class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 list-none p-0"

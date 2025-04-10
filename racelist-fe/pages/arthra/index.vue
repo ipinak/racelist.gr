@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="text-3xl text-center text-[#9BBEC4] my-6">Άρθρα</h2>
+    <h1 class="text-3xl text-center text-[#9BBEC4] my-6">Άρθρα</h1>
     <ul
       class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 list-none p-0"
     >

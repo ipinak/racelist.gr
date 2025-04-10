@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="text-3xl text-center text-[#9BBEC4] my-6">Σχετικά με εμάς</h2>
+    <h1 class="text-3xl text-center text-[#9BBEC4] my-6">Σχετικά με εμάς</h1>
     <div
       class="faq-container max-w-3xl mx-auto bg-[#f4f4f4] p-6 rounded-lg leading-7"
     >

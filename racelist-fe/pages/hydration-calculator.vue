@@ -1,9 +1,10 @@
 <template>
   <div>
     <div class="p-6 max-w-md mx-auto">
-      <h2 class="text-3xl text-[#9BBEC4] font-bold mb-6 text-center">
+      <h1 class="text-3xl text-[#9BBEC4] font-bold mb-6 text-center">
         Υπολογιστής Ενυδάτωσης
-      </h2>
+      </h1>
+
       <form @submit.prevent="calculateHydration">
         <div class="mb-4">
           <label class="block text-sm font-medium">Τύπος Άσκησης</label>

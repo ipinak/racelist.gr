@@ -1,8 +1,9 @@
 <template>
   <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h2 class="text-3xl font-bold text-center mb-6">
+    <h1 class="text-3xl font-bold text-center mb-6">
       Τι τρώμε πριν από έναν αγώνα τρεξίματος
-    </h2>
+    </h1>
+
     <p class="mb-4">
       Όταν προετοιμαζόμαστε για έναν αγώνα, είτε πρόκειται για έναν μαραθώνιο
       είτε για έναν μικρότερο δρόμο αντοχής, η διατροφή παίζει καθοριστικό ρόλο.
@@ -96,5 +97,44 @@
 </template>
 
 <script setup>
-  useHead({});
+  useHead({
+    title: 'Τι να Φάω πριν από Αγώνα Τρεξίματος | racelist.gr',
+    meta: [
+      {
+        name: 'description',
+        content:
+          'Μάθε τι να φας πριν από έναν αγώνα τρεξίματος για μέγιστη ενέργεια χωρίς στομαχικές ενοχλήσεις. Συμβουλές διατροφής για δρομείς από το racelist.gr.',
+      },
+      {
+        name: 'keywords',
+        content:
+          'τρέξιμο, διατροφή πριν τον αγώνα, τι να φάω πριν τρέξω, υδατάνθρακες, ενέργεια για αγώνα, βρώμη, μέλι, μπανάνα, μαραθώνιος, προετοιμασία αγώνα, συμβουλές τρεξίματος',
+      },
+      {
+        name: 'author',
+        content: 'racelist.gr',
+      },
+      {
+        property: 'og:title',
+        content: 'Τι να Φάω πριν από Αγώνα Τρεξίματος | racelist.gr',
+      },
+      {
+        property: 'og:description',
+        content:
+          'Η σωστή διατροφή πριν από τον αγώνα είναι το κλειδί για καλύτερη απόδοση. Δες τι προτείνουμε να φας πριν τρέξεις!',
+      },
+      {
+        property: 'og:type',
+        content: 'article',
+      },
+      {
+        property: 'og:url',
+        content: 'https://www.racelist.gr/arthra/ti-na-fao-prin-ton-agona',
+      },
+      {
+        property: 'og:image',
+        content: 'https://racelist.gr/racelist-banner.jpg',
+      },
+    ],
+  });
 </script>
