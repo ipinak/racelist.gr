@@ -349,8 +349,8 @@
       image: '/images/mizuno-wave-rebellion-pro-3.jpg',
       links: [
         {
-          label: 'HOKA Greece',
-          url: 'https://www.hoka.com/en/gr/men-road/clifton-9/1127895.html',
+          label: 'MZN Hellas',
+          url: 'https://www.mzn.gr/el-gr/papoutsia/wave-rebellion-pro-3-1250595',
         },
       ],
       weight: '225 γρ.',
