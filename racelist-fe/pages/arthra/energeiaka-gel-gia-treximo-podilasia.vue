@@ -1,7 +1,7 @@
 <template>
   <div class="blog-content max-w-3xl mx-auto px-4 py-8">
     <h1 class="text-3xl text-[#9BBEC4] font-bold mb-6 capitalize">
-      Μια λίστα με ενεργειακά gel για το τρέξιμο και την ποδηλασία
+      Μια λίστα με ενεργειακά gel για τρέξιμο και ποδηλασία
     </h1>
 
     <p class="mb-6">
@@ -41,7 +41,8 @@
 
     <div class="mb-6 mt-12">
       <h2 class="text-3xl text-[#9BBEC4] font-bold mt-6 capitalize">
-        {{ gels.length }} gel για να επιλέξεις
+        {{ gels.length }} ενεργειακά τζελ για τρεξιμο και ποδηλασία για να
+        επιλέξεις
       </h2>
 
       <Gel
