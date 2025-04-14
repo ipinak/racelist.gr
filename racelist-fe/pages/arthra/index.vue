@@ -84,5 +84,9 @@
       title: 'Βρες παπούτσια για τρέξιμο δρόμου',
       href: '/arthra/papoutsia-gia-treximo-dromou',
     },
+    {
+      title: 'Ενεργειακά Gel Για Την Προπόνηση ή Τον Αγώνα Σου!',
+      href: '/arthra/energeiaka-gel-gia-treximo-podilasia',
+    },
   ];
 </script>
