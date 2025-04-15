@@ -12,7 +12,10 @@
   import { computed } from 'vue';
 
   const props = defineProps({
-    races: Array,
+    races: {
+      type: Array,
+      default: () => [],
+    },
     currentDate: Date,
   });
 
