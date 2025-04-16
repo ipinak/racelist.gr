@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-3xl text-center text-[#9BBEC4] my-6">
+    <h1 class="text-3xl text-center text-[#0057A0] my-6">
       Εργαλεία για Υπολογισμούς Δρομέων
     </h1>
     <ul
@@ -13,7 +13,7 @@
       >
         <NuxtLink
           :to="link.href"
-          class="text-lg font-semibold text-[#9BBEC4] hover:text-[#a4c5ca]"
+          class="text-lg font-semibold text-[#0057A0] hover:text-[#0057A0]/60"
         >
           {{ link.title }}
         </NuxtLink>

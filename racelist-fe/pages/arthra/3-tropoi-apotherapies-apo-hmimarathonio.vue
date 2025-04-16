@@ -1,6 +1,6 @@
 <template>
   <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#9BBEC4] font-bold mb-6">
+    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
       Τρόποι Αποθεραπείας μετά από Μαραθώνιο
     </h1>
 
@@ -13,7 +13,7 @@
     </p>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#9BBEC4] mb-4">1. Ενυδάτωση</h2>
+      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">1. Ενυδάτωση</h2>
       <p class="mb-4">
         Η ενυδάτωση αποτελεί βασικό πυλώνα αποθεραπείας μετά από έναν μαραθώνιο.
         Κατά τη διάρκεια του αγώνα, το σώμα χάνει σημαντικές ποσότητες υγρών και
@@ -33,7 +33,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#9BBEC4] mb-4">2. Ήπια Άσκηση</h2>
+      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">2. Ήπια Άσκηση</h2>
       <p class="mb-4">
         Η πλήρης ακινησία μπορεί να επιβραδύνει την ανάρρωση. Αντίθετα, ελαφριά
         κίνηση βοηθά τη ροή του αίματος.
@@ -57,7 +57,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#9BBEC4] mb-4">3. Διατροφή</h2>
+      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">3. Διατροφή</h2>
       <p class="mb-4">
         Η διατροφή μετά από μαραθώνιο πρέπει να περιλαμβάνει ισορροπία μεταξύ
         πρωτεϊνών, υδατανθράκων και υγιεινών λιπαρών:
@@ -78,7 +78,7 @@
     </section>
 
     <section>
-      <h2 class="text-2xl font-semibold text-[#9BBEC4] mb-4">
+      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
         Bonus: Τεχνικές Αποθεραπείας
       </h2>
       <ul class="list-disc list-inside mb-4 space-y-2">

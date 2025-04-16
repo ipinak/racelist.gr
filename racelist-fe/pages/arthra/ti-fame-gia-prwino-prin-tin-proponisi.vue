@@ -1,6 +1,6 @@
 <template>
   <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#9BBEC4] font-bold mb-6">
+    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
       Τι να φας πριν από το τρέξιμο; 4 Ιδέες για ενέργεια & ευχάριστη πέψη
     </h1>
 
@@ -12,7 +12,7 @@
 
     <!-- Granola -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#9BBEC4] mb-4">
+      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
         1. Σπιτική Granola με γάλα ή γιαούρτι
       </h2>
       <p class="mb-4">
@@ -50,7 +50,7 @@
 
     <!-- Ψωμί με βούτυρο -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#9BBEC4] mb-4">
+      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
         2. Ψωμί με βούτυρο και μέλι ή μαρμελάδα
       </h2>
       <p class="mb-4">
@@ -67,7 +67,7 @@
 
     <!-- Avocado Toast -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#9BBEC4] mb-4">
+      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
         3. Τόστ με αβοκάντο & αυγό
       </h2>
       <p class="mb-4">
@@ -86,7 +86,7 @@
 
     <!-- Smoothie -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#9BBEC4] mb-4">
+      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
         4. Smoothie με μπανάνα, μούρα & φυστικοβούτυρο
       </h2>
       <p class="mb-4">
@@ -114,7 +114,7 @@
     </section>
 
     <section>
-      <h2 class="text-2xl font-semibold text-[#9BBEC4] mb-4">Πότε να φας;</h2>
+      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Πότε να φας;</h2>
       <p class="mb-4">
         Ιδανικά 60–90 λεπτά πριν την προπόνηση, ειδικά αν φας κάτι πιο πλούσιο.
         Αν πρόκειται για κάτι πιο απλό, όπως ψωμί με μέλι, μπορείς και 30 λεπτά

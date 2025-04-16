@@ -14,7 +14,7 @@
           <th
             v-for="day in days"
             :key="day"
-            class="bg-[#9BBEC4] p-2 text-gray-800"
+            class="bg-[#0057A0] p-2 text-white"
           >
             {{ day }}
           </th>
@@ -40,7 +40,19 @@
 </template>
 
 <script setup>
+  import { useBreakpoint } from '@/composables/useBreakpoint';
   import { ref, computed, watch } from 'vue';
+
+  const breakpoint = useBreakpoint();
+
+  const days = computed(() => {
+    switch (breakpoint.value) {
+      case 'sm':
+        return ['Κ', 'Δ', 'Τ', 'Τ', 'Π', 'Π', 'Σ'];
+      default:
+        return ['Κυρ.', 'Δευτ', 'Τρ.', 'Τετ.', 'Πεμ.', 'Παρ.', 'Σατ.'];
+    }
+  });
 
   const emit = defineEmits(['updateDate']);
   const props = defineProps({ races: Array });
@@ -48,7 +60,7 @@
   const today = new Date();
   const currentDate = ref(new Date());
 
-  const days = ['Κυρ.', 'Δευτ', 'Τρ.', 'Τετ.', 'Πεμ.', 'Παρ.', 'Σατ.'];
+  // const days = ['Κυρ.', 'Δευτ', 'Τρ.', 'Τετ.', 'Πεμ.', 'Παρ.', 'Σατ.'];
 
   const formattedMonth = computed(() =>
     currentDate.value.toLocaleString('el-GR', {

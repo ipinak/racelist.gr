@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-3xl text-[#9BBEC4] font-bold mb-6 text-center">
+    <h1 class="text-3xl text-[#0057A0] font-bold mb-6 text-center">
       Πόσα gel χρειάζεσαι για ένα αγώνα;
     </h1>
     <div class="max-w-4xl mx-auto px-4 py-8 text-gray-800 space-y-4">
@@ -22,7 +22,7 @@
 
     <div class="flex items-center justify-center p-6">
       <div class="bg-white shadow-lg rounded-lg max-w-md w-full p-6">
-        <h2 class="text-3xl text-[#9BBEC4] font-bold mb-6">
+        <h2 class="text-3xl text-[#0057A0] font-bold mb-6">
           Υπολογιστής Ενεργειακών Gel
         </h2>
 
@@ -31,7 +31,7 @@
             <button
               @click="isManual = false"
               :class="
-                isManual ? 'bg-white text-gray-700' : 'bg-[#9BBEC4] text-white'
+                isManual ? 'bg-white text-gray-700' : 'bg-[#0057A0] text-white'
               "
               class="px-4 py-2 text-sm font-medium transition-colors"
             >
@@ -40,7 +40,7 @@
             <button
               @click="isManual = true"
               :class="
-                isManual ? 'bg-[#9BBEC4] text-white' : 'bg-white text-gray-700'
+                isManual ? 'bg-[#0057A0] text-white' : 'bg-white text-gray-700'
               "
               class="px-4 py-2 text-sm font-medium transition-colors"
             >
@@ -109,7 +109,7 @@
     <hr class="text-gray-300 my-3" />
 
     <div class="max-w-4xl mx-auto px-4 py-8">
-      <h2 class="text-3xl text-[#9BBEC4] font-bold mb-6">
+      <h2 class="text-3xl text-[#0057A0] font-bold mb-6">
         Όλα Όσα Πρέπει να Ξέρεις για τα Ενεργειακά Gel στο Τρέξιμο
       </h2>
       <p class="mb-6">
@@ -129,7 +129,7 @@
         νάτριο και κάλιο, ενώ μερικά περιέχουν και καφεΐνη για έξτρα ώθηση.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#9BBEC4] mb-4">
+      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
         Γιατί τα Χρειάζεσαι
       </h3>
       <p class="mb-6">
@@ -146,7 +146,7 @@
         ενέργεια και συγκέντρωση κατά τη διάρκεια της άσκησης.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#9BBEC4] mb-4">
+      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
         Πότε τα Χρειάζεσαι
       </h3>
       <ul class="list-disc list-inside space-y-2 mb-4">
@@ -168,7 +168,7 @@
         απορροφά καλύτερα τους υδατάνθρακες όταν δεν είναι πλήρως εξαντλημένο.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#9BBEC4] mb-4">
+      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
         Πότε ΔΕΝ τα Χρειάζεσαι
       </h3>
       <p class="mb-4">Τα gel δεν είναι απαραίτητα για:</p>
@@ -184,7 +184,7 @@
         αντιδρά το στομάχι σου.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#9BBEC4] mb-4">
+      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
         Γιατί τα Gel Είναι Ιδανικά για Τρέξιμο
       </h3>
       <ul class="list-disc list-inside space-y-2 mb-4">
@@ -210,7 +210,7 @@
         όπου η μεταφορά στερεών τροφών είναι δύσκολη.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#9BBEC4] mb-4">Τελικές Σκέψεις</h3>
+      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">Τελικές Σκέψεις</h3>
       <p class="mb-4">
         Τα ενεργειακά gel είναι το μυστικό όπλο του δρομέα — αν τα χρησιμοποιείς
         σωστά. Κατανόησε πότε και πώς να τα χρησιμοποιείς για να διατηρείς

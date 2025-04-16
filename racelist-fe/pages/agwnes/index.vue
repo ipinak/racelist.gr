@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-4xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#9BBEC4] font-bold text-center mb-8">
+    <h1 class="text-3xl text-[#0057A0] font-bold text-center mb-8">
       Αγώνες δρόμου και βουνού για το {{ year }} ανα μήνα
     </h1>
 
@@ -14,7 +14,7 @@
       >
         <NuxtLink
           :to="month.href"
-          class="text-lg font-semibold text-[#9BBEC4] hover:text-[#a4c5ca]"
+          class="text-lg font-semibold text-[#0057A0] hover:text-[#0057A0]/60"
         >
           {{ month.label }}
         </NuxtLink>

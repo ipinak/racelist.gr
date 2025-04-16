@@ -1,6 +1,6 @@
 <template>
   <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#9BBEC4] font-bold mb-6 capitalize">
+    <h1 class="text-3xl text-[#0057A0] font-bold mb-6 capitalize">
       Μια λίστα με ενεργειακά gel για τρέξιμο και ποδηλασία
     </h1>
 
@@ -40,7 +40,7 @@
     </p>
 
     <div class="mb-6 mt-12">
-      <h2 class="text-3xl text-[#9BBEC4] font-bold mt-6 capitalize">
+      <h2 class="text-3xl text-[#0057A0] font-bold mt-6 capitalize">
         {{ gels.length }} ενεργειακά τζελ για τρεξιμο και ποδηλασία για να
         επιλέξεις
       </h2>
@@ -55,7 +55,7 @@
     </div>
 
     <div class="mb-6 mt-12">
-      <h2 class="text-3xl text-[#9BBEC4] font-bold my-6 capitalize">
+      <h2 class="text-3xl text-[#0057A0] font-bold my-6 capitalize">
         Video με review των gel
       </h2>
 
@@ -74,7 +74,7 @@
     </div>
 
     <section class="mb-6 mt-12">
-      <h2 class="text-2xl font-semibold text-[#9BBEC4] mb-4 capitalize">
+      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4 capitalize">
         Ποιο να διαλέξεις;
       </h2>
 

@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-3xl text-[#9BBEC4] font-bold text-center mb-6">
+  <h1 class="text-3xl text-[#0057A0] font-bold text-center mb-6">
     {{ title }}
   </h1>
 </template>

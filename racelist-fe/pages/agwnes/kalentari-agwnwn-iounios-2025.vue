@@ -4,7 +4,7 @@
 
     <RaceList :races="races" />
 
-    <h2 class="text-2xl text-center text-[#9BBEC4] mt-10 mb-4">
+    <h2 class="text-2xl text-center text-[#0057A0] mt-10 mb-4">
       Ενημερωθείτε για νέους αγώνες
     </h2>
 

@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-[#9BBEC4] text-white text-sm text-center py-6">
+  <footer class="bg-[#0057A0] text-white text-sm text-center py-6">
     <!-- Subfooter Section -->
     <div
       class="subfooter mb-6 grid gap-4 grid-cols-1 md:grid-cols-4 justify-center"
@@ -35,9 +35,9 @@
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/hydration-calculator"
-              >Υπολογιστής Ενυδάτωσης</NuxtLink
-            >
+            <NuxtLink to="/hydration-calculator">
+              Υπολογιστής Ενυδάτωσης
+            </NuxtLink>
           </li>
           <li>
             <NuxtLink to="/cooper-test">Υπολογιστής Cooper Test</NuxtLink>
@@ -67,7 +67,7 @@
       ☕️ by
       <a
         href="https://www.techpals.eu/?utm_source=racelist.gr&utm_content=footer&utm_medium=referral"
-        class="text-[#00ffff] font-bold"
+        class="text-white font-bold"
         target="_blank"
       >
         TechPals

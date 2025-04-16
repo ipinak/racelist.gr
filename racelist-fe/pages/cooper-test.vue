@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="max-w-4xl mx-auto px-4 py-8">
-      <h1 class="text-3xl text-[#9BBEC4] font-bold mb-6">
+      <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
         Τι είναι το Τεστ Cooper;
       </h1>
 
@@ -15,7 +15,7 @@
       </p>
 
       <section class="mb-8">
-        <h2 class="text-2xl font-semibold text-[#9BBEC4] mb-4">
+        <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
           📏 Πώς γίνεται;
         </h2>
         <p class="mb-4">
@@ -32,7 +32,7 @@
       </section>
 
       <section class="mb-8">
-        <h2 class="text-2xl font-semibold text-[#9BBEC4] mb-4">
+        <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
           ✅ Τι αξιολογεί;
         </h2>
         <ul class="list-disc list-inside space-y-2 mb-4">
@@ -43,7 +43,7 @@
       </section>
 
       <section class="mb-8">
-        <h2 class="text-2xl font-semibold text-[#9BBEC4] mb-4">
+        <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
           📊 Πώς ερμηνεύονται τα αποτελέσματα;
         </h2>
         <p class="mb-4">
@@ -54,7 +54,7 @@
       </section>
 
       <section>
-        <h2 class="text-2xl font-semibold text-[#9BBEC4] mb-4">
+        <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
           💡 Πότε να το χρησιμοποιήσεις
         </h2>
         <ul class="list-disc list-inside space-y-2">

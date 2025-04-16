@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-3xl text-center text-[#9BBEC4] my-6">Σχετικά με εμάς</h1>
+    <h1 class="text-3xl text-center text-[#0057A0] my-6">Σχετικά με εμάς</h1>
     <div
       class="faq-container max-w-3xl mx-auto bg-[#f4f4f4] p-6 rounded-lg leading-7"
     >
@@ -15,7 +15,7 @@
         👉 Για τον προγραμματισμό, στο
         <a
           href="https://www.techpals.eu/?utm_source=racelist.gr&utm_content=footer&utm_medium=referral"
-          class="text-[#9BBEC4] hover:text-[#a4c5ca] font-semibold"
+          class="text-[#0057A0] hover:text-[#0057A0]/60 font-semibold"
           target="_blank"
         >
           techpals </a

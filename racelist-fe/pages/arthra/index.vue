@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-3xl text-center text-[#9BBEC4] my-6">Άρθρα</h1>
+    <h1 class="text-3xl text-center text-[#0057A0] my-6">Άρθρα</h1>
     <ul
       class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 list-none p-0"
     >
@@ -11,7 +11,7 @@
       >
         <NuxtLink
           :to="article.href"
-          class="text-lg font-semibold text-[#9BBEC4] hover:text-[#a4c5ca]"
+          class="text-lg font-semibold text-[#0057A0] hover:text-[#0057A0]/60 capitalize"
         >
           {{ article.title }}
         </NuxtLink>

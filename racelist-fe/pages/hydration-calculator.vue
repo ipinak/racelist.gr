@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="p-6 max-w-md mx-auto">
-      <h1 class="text-3xl text-[#9BBEC4] font-bold mb-6 text-center">
+      <h1 class="text-3xl text-[#0057A0] font-bold mb-6 text-center">
         Υπολογιστής Ενυδάτωσης
       </h1>
 

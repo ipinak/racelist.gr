@@ -1,14 +1,14 @@
 <template>
   <div>
-    <h1 class="text-3xl text-center text-[#9BBEC4] my-6">Συχνές ερωτήσεις</h1>
+    <h1 class="text-3xl text-center text-[#0057A0] my-6">Συχνές ερωτήσεις</h1>
     <div class="faq-container max-w-4xl mx-auto bg-[#f4f4f4] p-6 rounded-lg">
       <div
         v-for="(faq, index) in faqs"
         :key="index"
-        class="faq-item border-b border-[#9BBEC4] py-4"
+        class="faq-item border-b border-[#0057A0] py-4"
       >
         <div
-          class="faq-question font-bold cursor-pointer hover:text-[#a4c5ca]"
+          class="faq-question font-bold cursor-pointer hover:text-[#0057A0]/60"
           @click="toggle(index)"
         >
           {{ faq.question }}
