@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="text-3xl text-center text-[#0057A0] my-6">
-      Εργαλεία για Υπολογισμούς Δρομέων
+      Εργαλεία για Υπολογισμούς Τρεξίματος
     </h1>
     <ul
       class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 list-none p-0"
@@ -24,7 +24,7 @@
 
 <script setup>
   useHead({
-    title: 'Εργαλεία για Υπολογισμούς Δρομέων - racelist.gr',
+    title: 'Εργαλεία για Υπολογισμούς Τρεξίματος - racelist.gr',
     meta: [
       {
         name: 'description',
