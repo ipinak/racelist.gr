@@ -58,7 +58,7 @@ export default defineNuxtConfig({
 
         { rel: 'manifest', href: '/site.webmanifest' },
 
-        { rel: 'canonical', href: 'https://racelist.gr/index.html' },
+        { rel: 'canonical', href: 'https://racelist.gr' },
       ],
       meta: [
         { charset: 'utf-8' },
