@@ -88,5 +88,9 @@
       title: 'Ενεργειακά Gel Για Την Προπόνηση ή Τον Αγώνα Σου!',
       href: '/arthra/energeiaka-gel-gia-treximo-podilasia',
     },
+    {
+      title: 'Τα πιο γνωστά προβλήματα των δρομέων',
+      href: '/arthra/ta-pio-gnwsto-problimata-dromewn',
+    },
   ];
 </script>
