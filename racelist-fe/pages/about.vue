@@ -28,6 +28,12 @@
 <script setup>
   useHead({
     title: 'Σχετικά με εμάς | racelist.gr',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/about',
+      },
+    ],
     meta: [
       {
         name: 'description',

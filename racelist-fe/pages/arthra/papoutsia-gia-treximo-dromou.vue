@@ -99,6 +99,12 @@
 
   useHead({
     title: 'Βρες παπούτσια για τρέξιμο δρόμου | racelist.gr',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://www.racelist.gr/arthra/papoutsia-gia-treximo-dromou',
+      },
+    ],
     meta: [
       {
         name: 'description',

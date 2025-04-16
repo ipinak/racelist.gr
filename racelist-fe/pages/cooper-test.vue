@@ -123,6 +123,12 @@
 
   useHead({
     title: 'Υπολογιστής Τεστ Cooper | Εκτίμηση Απόστασης σε 12 Λεπτά',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/cooper-test',
+      },
+    ],
     meta: [
       {
         name: 'description',

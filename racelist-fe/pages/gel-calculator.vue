@@ -228,6 +228,12 @@
 
   useHead({
     title: 'Υπολογιστής Ενεργειακών Gel - Καύσιμα για το Τρέξιμό σου',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/gel-calculator',
+      },
+    ],
     meta: [
       {
         name: 'description',

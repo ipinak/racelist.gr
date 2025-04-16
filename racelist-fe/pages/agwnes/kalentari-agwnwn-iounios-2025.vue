@@ -75,7 +75,12 @@
 
   useHead({
     title: 'Καλένταρι αγώνων δρομου και βουνού για τον Ιούνιο | racelist.gr',
-    link: [{ rel: 'canonical', href: 'https://racelist.gr/index.html' }],
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/agwnes/kalentari-agwnwn-iounios-2025',
+      },
+    ],
     meta: [
       // Generic description
       {

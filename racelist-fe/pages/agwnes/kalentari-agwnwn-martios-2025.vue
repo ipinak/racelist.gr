@@ -138,7 +138,12 @@
   ];
   useHead({
     title: 'Καλένταρι αγώνων δρομου και βουνού για τον Μάρτιο | racelist.gr',
-    link: [{ rel: 'canonical', href: 'https://racelist.gr/index.html' }],
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/agwnes/kalentari-agwnwn-martios-2025',
+      },
+    ],
     meta: [
       // Generic description
       {

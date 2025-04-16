@@ -106,6 +106,12 @@
 <script setup>
   useHead({
     title: '3 Τρόποι Αποθεραπείας από Ημιμαραθώνιο | racelist.gr',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/arthra/3-tropoi-apotherapies-apo-hmimarathonio',
+      },
+    ],
     meta: [
       {
         name: 'description',

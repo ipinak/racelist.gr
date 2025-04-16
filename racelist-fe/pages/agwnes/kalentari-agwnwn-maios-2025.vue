@@ -415,7 +415,12 @@
   ];
   useHead({
     title: 'Καλένταρι αγώνων δρομου και βουνού για τον Μάιο | racelist.gr',
-    link: [{ rel: 'canonical', href: 'https://racelist.gr/index.html' }],
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/agwnes/kalentari-agwnwn-maios-2025',
+      },
+    ],
     meta: [
       // Generic description
       {

@@ -85,6 +85,12 @@
 
   useHead({
     title: 'Υπολογιστής Ρυθμού & Χρόνου ανά Χιλιόμετρο | Εργαλείο για Δρομείς',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/pace-calculator',
+      },
+    ],
     meta: [
       {
         name: 'description',

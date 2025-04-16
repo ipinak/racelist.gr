@@ -99,6 +99,12 @@
 <script setup>
   useHead({
     title: 'Τι να Φάω πριν από Αγώνα Τρεξίματος | racelist.gr',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://www.racelist.gr/arthra/ti-trwme-prin-enan-agwna-treximatos',
+      },
+    ],
     meta: [
       {
         name: 'description',
@@ -129,7 +135,8 @@
       },
       {
         property: 'og:url',
-        content: 'https://www.racelist.gr/arthra/ti-na-fao-prin-ton-agona',
+        content:
+          'https://www.racelist.gr/arthra/ti-trwme-prin-enan-agwna-treximatos',
       },
       {
         property: 'og:image',

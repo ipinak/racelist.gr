@@ -128,6 +128,12 @@
 <script setup>
   useHead({
     title: 'Τι να φας πριν από το τρέξιμο | racelist.gr',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/arthra/ti-fame-gia-prwino-prin-tin-proponisi',
+      },
+    ],
     meta: [
       {
         name: 'keywords',

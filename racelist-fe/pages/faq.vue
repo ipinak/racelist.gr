@@ -26,6 +26,12 @@
 
   useHead({
     title: 'Συχνές Ερωτήσεις | racelist.gr',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/faq',
+      },
+    ],
     meta: [
       {
         name: 'description',

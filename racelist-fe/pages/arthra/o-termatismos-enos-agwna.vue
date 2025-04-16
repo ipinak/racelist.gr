@@ -86,6 +86,12 @@
 <script setup>
   useHead({
     title: '3 Τρόποι Αποθεραπείας από Ημιμαραθώνιο | racelist.gr',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/arthra/o-termatismos-enos-agwna',
+      },
+    ],
     meta: [
       {
         name: 'description',
@@ -108,8 +114,7 @@
       { property: 'og:type', content: 'article' },
       {
         property: 'og:url',
-        content:
-          'https://racelist.gr/arthra/3-tropoi-apotherapies-apo-hmimarathonio',
+        content: 'https://racelist.gr/arthra/o-termatismos-enos-agwna',
       },
       { name: 'twitter:card', content: 'summary_large_image' },
       {

@@ -209,6 +209,12 @@
 <script setup>
   useHead({
     title: 'Τα πιο γνωστά προβλήματα των δρομέων | racelist.gr',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/arthra/ta-pio-gnwsto-problimata-dromewn',
+      },
+    ],
     meta: [
       {
         name: 'description',

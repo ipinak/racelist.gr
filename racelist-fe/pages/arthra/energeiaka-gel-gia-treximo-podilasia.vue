@@ -106,6 +106,12 @@
 <script setup>
   useHead({
     title: 'Όλα τα ενεργειακά gel για τρέξιμο & ποδηλασία | racelist.gr',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/arthra/energeiaka-gel-gia-treximo-podilasia',
+      },
+    ],
     meta: [
       {
         name: 'description',
@@ -128,7 +134,8 @@
       { property: 'og:type', content: 'article' },
       {
         property: 'og:url',
-        content: 'https://racelist.gr/arthra/energy-gels-gia-treksimo-podilato',
+        content:
+          'https://racelist.gr/arthra/energeiaka-gel-gia-treximo-podilasia',
       },
       { name: 'twitter:card', content: 'summary_large_image' },
       {

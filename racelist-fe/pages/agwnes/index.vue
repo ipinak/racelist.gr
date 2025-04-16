@@ -50,6 +50,12 @@
 
   useHead({
     title: `Καλένταρι Αγώνων Δρόμου & Βουνού ${year} | racelist.gr`,
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/agwnes',
+      },
+    ],
     meta: [
       {
         name: 'description',

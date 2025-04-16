@@ -112,6 +112,12 @@
 
   useHead({
     title: 'Υπολογιστής Ενυδάτωσης - Υγρά καύσιμα για την άσκησή σας',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/hydration-calculator',
+      },
+    ],
     meta: [
       {
         name: 'description',

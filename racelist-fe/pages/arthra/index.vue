@@ -23,6 +23,12 @@
 <script setup>
   useHead({
     title: 'Άρθρα για Τρέξιμο & Προπόνηση | racelist.gr',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/arthra',
+      },
+    ],
     meta: [
       {
         name: 'description',
