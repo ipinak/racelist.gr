@@ -1,8 +1,8 @@
 <template>
   <button
+    class="bg-[#0057A0] text-white p-3 rounded hover:bg-[#0057A0]/70 transition truncate"
     :type="type"
     @click="onClick"
-    class="bg-[#0057A0] text-white p-3 rounded hover:bg-[#0057A0]/70 transition"
   >
     {{ title }}
   </button>

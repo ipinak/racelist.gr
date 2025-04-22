@@ -13,7 +13,7 @@
         </p>
       </div>
 
-      <div class="">
+      <div>
         <ul class="space-y-2">
           <li class="title text-xl font-bold mb-2">About</li>
           <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
@@ -27,12 +27,11 @@
         </ul>
       </div>
 
-      <div class="">
+      <div>
         <ul class="space-y-2">
-          <li class="title text-xl font-bold mb-2">
-            <NuxtLink to="/tools-for-runners">
-              Εργαλεία για Υπολογισμούς Δρομέων
-            </NuxtLink>
+          <li class="title text-xl font-bold mb-2">Βοηθήματα Δρομέων</li>
+          <li>
+            <NuxtLink to="/tools-for-runners">Όλα τα βοηθήματα</NuxtLink>
           </li>
           <li>
             <NuxtLink to="/hydration-calculator">
@@ -56,7 +55,6 @@
           </li>
         </ul>
       </div>
-      <div class=""></div>
     </div>
 
     <hr class="py-2 text-gray-200/30" />

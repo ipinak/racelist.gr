@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="flex justify-center">
-      <p class="sm:px-48 sm:py-10 p-2 text-center text-lg">
+      <p class="sm:px-48 sm:py-10 md:px-24 p-2 text-center text-lg">
         Το <strong>racelist.gr</strong> είναι το σημείο συνάντησης για όλους
         όσους αγαπούν το τρέξιμο! Βρες εύκολα αγώνες δρόμου και trail running σε
         κάθε γωνιά της Ελλάδας, χρησιμοποίησε εργαλεία που θα σου κάνουν την

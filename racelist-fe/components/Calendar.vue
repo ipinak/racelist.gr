@@ -1,9 +1,9 @@
 <template>
   <div class="text-center my-6">
     <div class="flex justify-center items-center gap-4 mb-4">
-      <Button title="◀ Προηγούμενος" @click="prevMonth" />
+      <Button title="◀" @click="prevMonth" />
       <span class="text-lg font-bold">{{ formattedMonth }}</span>
-      <Button title="Επόμενος ▶" @click="nextMonth" />
+      <Button title="▶" @click="nextMonth" />
     </div>
 
     <table
