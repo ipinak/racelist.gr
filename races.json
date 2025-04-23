@@ -4,59 +4,58 @@
         "Title": "9ος Lailias Mountain Running",
         "Date": "2025-09-21",
         "Location": "Λαϊλιά Σερρών",
-        "Description": "A beautiful run through Athens' historic sites.",
         "Distances": [
             "12km",
             "27km",
             "44,5km"
         ],
-        "SignupLink": "https://lailiasmountainrunning.gr/"
+        "SignupLink": "https://lailiasmountainrunning.gr/",
+        "Slug": "9os-lailias-mountain-running"
     },
     {
         "ID": 2,
         "Title": "Kanalaki Run 2025",
         "Date": "2025-01-26",
         "Location": "Καναλάκι δήμου Πάργας",
-        "Description": "Scenic cycling along the coast.",
         "Distances": [
             "21km",
             "10km",
             "5km",
             "1000m"
         ],
-        "SignupLink": "https://eggrafes.mysportevent.gr/product-category/kanalaki-run/"
+        "SignupLink": "https://eggrafes.mysportevent.gr/product-category/kanalaki-run/",
+        "Slug": "kanalaki-run-2025"
     },
     {
         "ID": 3,
         "Title": "25ος  ΑΥΘΕΝΤΙΚΟΣ  ΕΥΧΙΔΕΙΟΣ ΑΘΛΟΣ",
         "Date": "2025-05-10",
         "Location": "Δελφοί",
-        "Description": "Swim, bike, and run in the scenic countryside.",
         "Distances": [
             "107,5km",
             "59km",
             "215km"
         ],
-        "SignupLink": "https://www.euchidiosathlos.gr/"
+        "SignupLink": "https://www.euchidiosathlos.gr/",
+        "Slug": "25os-authentikos-euchideios-athlos"
     },
     {
         "ID": 4,
         "Title": "Vavdos Trail Run 2025",
         "Date": "2025-05-18",
         "Location": "Χαλκιδική",
-        "Description": "Swim, bike, and run in the scenic countryside.",
         "Distances": [
             "21km",
             "6km"
         ],
-        "SignupLink": "https://vavdostrailrun.weebly.com/"
+        "SignupLink": "https://vavdostrailrun.weebly.com/",
+        "Slug": "vavdos-trail-run-2025"
     },
     {
         "ID": 5,
         "Title": "TUI Rhodes Marathon 2025",
         "Date": "2025-04-06",
         "Location": "Ρόδος",
-        "Description": "Swim, bike, and run in the scenic countryside.",
         "Distances": [
             "42km",
             "21km",
@@ -65,176 +64,176 @@
             "Περιπατητική διαδρομή 5km",
             "Παιδικός αγώνας 1km"
         ],
-        "SignupLink": "https://rhodesmarathon.gr/"
+        "SignupLink": "https://rhodesmarathon.gr/",
+        "Slug": "tui-rhodes-marathon-2025"
     },
     {
         "ID": 6,
         "Title": "6ο Agrinio Night Run & Santa Run",
         "Date": "2024-12-29",
         "Location": "Αγρίνιο",
-        "Description": "Swim, bike, and run in the scenic countryside.",
         "Distances": [
             "5km",
             "1κm"
         ],
-        "SignupLink": "https://agriniosantarun.gr/"
+        "SignupLink": "https://agriniosantarun.gr/",
+        "Slug": "6o-agrinio-night-run-santa-run"
     },
     {
         "ID": 7,
         "Title": "3ο Santa Run",
         "Date": "2024-12-27",
         "Location": "Γιαννιτσά",
-        "Description": "Swim, bike, and run in the scenic countryside.",
         "Distances": [],
-        "SignupLink": "https://www.facebook.com/santarungiannitsa"
+        "SignupLink": "https://www.facebook.com/santarungiannitsa",
+        "Slug": "3o-santa-run"
     },
     {
         "ID": 8,
         "Title": "Ierapetra Santa Run vol. 3",
         "Date": "2024-12-27",
         "Location": "Ιεράπετρα",
-        "Description": "Swim, bike, and run in the scenic countryside.",
-        "Distances": []
+        "Distances": [],
+        "Slug": "ierapetra-santa-run-vol-3"
     },
     {
         "ID": 9,
         "Title": "Veikou Trail",
         "Date": "2025-01-19",
         "Location": "Γαλάτσι, Αττικής",
-        "Description": "Swim, bike, and run in the scenic countryside.",
         "Distances": [
             "5km",
             "10km",
             "20km"
         ],
-        "SignupLink": "https://veikoutrail.gr/index.php/eggrafes"
+        "SignupLink": "https://veikoutrail.gr/index.php/eggrafes",
+        "Slug": "veikou-trail-2025"
     },
     {
         "ID": 10,
         "Title": "ΟΠΑΠ Μαραθώνιος Λεμεσού 2025",
         "Date": "2025-04-22",
         "Location": "Λεμεσός, Κύπρος",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "42km",
             "21km",
             "10km",
             "5km"
         ],
-        "SignupLink": "https://www.limassolmarathon.com/index.php"
+        "SignupLink": "https://www.limassolmarathon.com/index.php",
+        "Slug": "opap-marathonios-lemesou-2025"
     },
     {
         "ID": 11,
         "Title": "Πρωτοχρονιάτικος Αγώνας 2025",
         "Date": "2024-01-01",
         "Location": "Άλσος Μπαρουτάδικο, Αιγάλεω",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "7km"
-        ]
+        ],
+        "Slug": "protochroniatikos-agonas-2025"
     },
     {
         "ID": 12,
         "Title": "Crete Marathon",
         "Date": "2025-04-06",
         "Location": "Χανιά, Κρήτη",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "42km",
             "10km",
             "5km",
             "2.5km"
         ],
-        "SignupLink": "https://crete-marathon.gr/en/home"
+        "SignupLink": "https://crete-marathon.gr/en/home",
+        "Slug": "crete-marathon-2025"
     },
     {
         "ID": 13,
         "Title": "SNF Run: 2025 First Run",
         "Date": "2025-01-01",
         "Location": "Κέντρο Πολιτισμού Ίδρυμα Σταύρος Νιάρχος (ΚΠΙΣΝ), Αττική",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "3km"
         ],
-        "SignupLink": "https://snfrun.randp.gr/"
+        "SignupLink": "https://snfrun.randp.gr/",
+        "Slug": "snf-run-2025-first-run"
     },
     {
         "ID": 14,
         "Title": "11o Evrotas Run",
         "Date": "2025-01-05",
         "Location": "Ευρώτας, Λακωνίας",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "21km",
             "10km",
             "5km"
         ],
-        "SignupLink": "https://apskallisthenis.org/"
+        "SignupLink": "https://apskallisthenis.org/",
+        "Slug": "11o-evrotas-run"
     },
     {
         "ID": 15,
         "Title": "26ος Αγώνας Δρόμου στο Άλσος Δαφνίου",
         "Date": "2025-01-12",
         "Location": "Άλσος Δαφνίου, Αττική",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "10km"
         ],
-        "SignupLink": "https://www.apollonrunnersclub.gr/12-1-2025-26os-agonas-dromou-sto-alsos-dafniou/"
+        "SignupLink": "https://www.apollonrunnersclub.gr/12-1-2025-26os-agonas-dromou-sto-alsos-dafniou/",
+        "Slug": "26os-agonas-dromou-sto-alsos-dafniou"
     },
     {
         "ID": 16,
         "Title": "6ος Βυζαντινός Αγώνας Δρόμου 50χλμ. Δήμου Μεγαρέων",
         "Date": "2025-01-19",
         "Location": "Μέγαρα",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "50km"
         ],
-        "SignupLink": "https://vyzantinosagwnas50km.gr/"
+        "SignupLink": "https://vyzantinosagwnas50km.gr/",
+        "Slug": "6os-vyzantinos-agonas-dromou-50chlm-dimou-megareon"
     },
     {
         "ID": 17,
         "Title": "9ος Ορεινός Αγώνας «ΛΕΒΑΔΟΣ Mountain Trail» 2025",
         "Date": "2025-01-19",
         "Location": "Λιβαδειά, Βοιωτία",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "24.2km",
             "10.7km"
         ],
-        "SignupLink": "https://levados.akol.gr/"
+        "SignupLink": "https://levados.akol.gr/",
+        "Slug": "9os-oreinos-agonas-levados-mountain-trail-2025"
     },
     {
         "ID": 18,
         "Title": "13ος Ημιμαραθώνιος Αιγιαλείας",
         "Date": "2025-01-19",
         "Location": "Αίγιο",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "21km",
             "5km",
             "1.5km"
         ],
-        "SignupLink": "https://raceid.com/el/races/13146/about"
+        "SignupLink": "https://raceid.com/el/races/13146/about",
+        "Slug": "13os-imimarathonios-aigialeias"
     },
     {
         "ID": 19,
         "Title": "Rogkas 2025",
         "Date": "2025-01-25",
         "Location": "Λιτόχωρο, Πιερίας",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "43km"
         ],
-        "SignupLink": "https://www.omt100.com/rogkas42/"
+        "SignupLink": "https://www.omt100.com/rogkas42/",
+        "Slug": "rogkas-2025"
     },
     {
         "ID": 20,
         "Title": "14ος Αγώνας Δρόμου «Ιωάννης Καποδίστριας»",
         "Date": "2025-01-25",
         "Location": "Αίγινα",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "21km",
             "10km",
@@ -243,154 +242,154 @@
             "500m",
             "200m"
         ],
-        "SignupLink": "https://aeginarun.gr/oaka/"
+        "SignupLink": "https://aeginarun.gr/oaka/",
+        "Slug": "14os-agonas-dromou-ioannis-kapodistrias"
     },
     {
         "ID": 21,
         "Title": "9ος Αγώνας Αγχαίου Όρους",
         "Date": "2025-01-26",
         "Location": "Παλαιοχώρι",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "28.7km",
             "14.4km",
             "6.2km"
         ],
-        "SignupLink": "https://www.apollonrunnersclub.gr/26-1-2025-9os-agonas-dromou-aghaiou-orous/"
+        "SignupLink": "https://www.apollonrunnersclub.gr/26-1-2025-9os-agonas-dromou-aghaiou-orous/",
+        "Slug": "9os-agonas-agchaiou-orous"
     },
     {
         "ID": 21,
         "Title": "23ος Δρόμος Αργολικού Κόλπου «Παναγιώτης Παπαβασιλείου»",
         "Date": "2025-02-16",
         "Location": "Ναύπλιο, Αργολίδας",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "15.3km",
             "1km"
         ],
-        "SignupLink": "https://raceid.com/el/races/13142/about"
+        "SignupLink": "https://raceid.com/el/races/13142/about",
+        "Slug": "23os-dromos-argolikou-kolpou-panagiotis-papavasileiou"
     },
     {
         "ID": 22,
         "Title": "Lycabettus Run 2025",
         "Date": "2025-02-23",
         "Location": "Λυκαβηττός",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "11km",
             "9km (trail)",
             "5.5km",
             "4.5km (trail)"
         ],
-        "SignupLink": "http://www.lycabettusrun.gr/"
+        "SignupLink": "http://www.lycabettusrun.gr/",
+        "Slug": "lycabettus-run-2025"
     },
     {
         "ID": 23,
         "Title": "1ο Spetses Mountain Run",
         "Date": "2025-02-23",
         "Location": "Σπέτσες",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "20km",
             "9km"
-        ]
+        ],
+        "Slug": "1o-spetses-mountain-run"
     },
     {
         "ID": 24,
         "Title": "7ο “Φανερωμένη Trail”",
         "Date": "2025-02-23",
         "Location": "Χιλιομόδι, Κορινθίας",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "23km",
             "10.5km",
             "6km",
             "2.1km"
         ],
-        "SignupLink": "http://www.faneromenitrail.gr/"
+        "SignupLink": "http://www.faneromenitrail.gr/",
+        "Slug": "7o-faneromeni-trail"
     },
     {
         "ID": 25,
         "Title": "13ος Χορτιάτης Trail Run",
         "Date": "2025-02-23",
         "Location": "Χορτιάτης, Θεσσαλονίκη",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "23km",
             "10km"
         ],
-        "SignupLink": "https://sdyth.gr/"
+        "SignupLink": "https://sdyth.gr/",
+        "Slug": "13os-chortiatis-trail-run"
     },
     {
         "ID": 26,
         "Title": "«Τρέχω στον Μαραθώνα» Αγώνας δρόμου 8χλμ.",
         "Date": "2025-02-23",
         "Location": "Μαραθώνας",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "8km"
         ],
-        "SignupLink": "https://www.telmissos.gr/1407-marathon-trexw-ston-marathona-2025"
+        "SignupLink": "https://www.telmissos.gr/1407-marathon-trexw-ston-marathona-2025",
+        "Slug": "trecho-ston-marathona-agonas-dromou-8chlm"
     },
     {
         "ID": 27,
         "Title": "Katerini Run 2025",
         "Date": "2025-03-09",
         "Location": "Κατερίνη, Πιερίας",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "21km",
             "5km",
             "1km"
         ],
-        "SignupLink": "https://raceid.com/el/races/13349/about"
+        "SignupLink": "https://raceid.com/el/races/13349/about",
+        "Slug": "katerini-run-2025"
     },
     {
         "ID": 28,
         "Title": "25ος Δρόμος Βουνού «Υμηττός 2025»",
         "Date": "2025-02-02",
         "Location": "Ημηττός",
-        "Description": "Run in the scenic countryside.",
-        "Distances": []
+        "Distances": [],
+        "Slug": "25os-dromos-vounou-ymittos-2025"
     },
     {
         "ID": 29,
         "Title": "Αγώνες υπεραποστάσεων 6-12-24 ωρών εντός σταδίου – Μέγαρα",
         "Date": "2025-02-08",
         "Location": "Μέγαρα",
-        "Description": "Run in the scenic countryside.",
         "Distances": [],
-        "SignupLink": "https://www.apollonrunnersclub.gr/agones-iperapostaseon-entos-stadiou/?fbclid=IwZXh0bgNhZW0CMTAAAR03ibihDzPkICcLEYcEri9V99v0V3FJAvIoGq59hxsSkvKYMv824xRx46I_aem_mR6T6UDEqHCLJbAgxmSytw"
+        "SignupLink": "https://www.apollonrunnersclub.gr/agones-iperapostaseon-entos-stadiou/?fbclid=IwZXh0bgNhZW0CMTAAAR03ibihDzPkICcLEYcEri9V99v0V3FJAvIoGq59hxsSkvKYMv824xRx46I_aem_mR6T6UDEqHCLJbAgxmSytw",
+        "Slug": "agones-yperapostaseon-entos-stadiou-megara"
     },
     {
         "ID": 30,
         "Title": "6ος Atlas Trail Running",
         "Date": "2025-02-08",
         "Location": "Μαλακάσα",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "34km",
             "24km",
             "11km",
             "6km"
         ],
-        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=39d1109ea4f6a6a5dab0ad668cd7f6e9&l=GR&g=0"
+        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=39d1109ea4f6a6a5dab0ad668cd7f6e9&l=GR&g=0",
+        "Slug": "6os-atlas-trail-running"
     },
     {
         "ID": 31,
         "Title": "Sparta City Ultra 2025",
         "Date": "2025-02-08",
         "Location": "Σπάρτη",
-        "Description": "Run in the scenic countryside.",
         "Distances": [],
-        "SignupLink": "https://spartanrunners.gr/"
+        "SignupLink": "https://spartanrunners.gr/",
+        "Slug": "sparta-city-ultra-2025"
     },
     {
         "ID": 32,
         "Title": "Ημιμαραθώνιος Αγάπης Μυτιλήνης 2025",
         "Date": "2025-02-15",
         "Location": "Μυτιλήνη",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "21.5km",
             "10km",
@@ -398,26 +397,26 @@
             "2.5km",
             "1km",
             "500m"
-        ]
+        ],
+        "Slug": "imimarathonios-agapis-mytilinis-2025"
     },
     {
         "ID": 32,
         "Title": "8ο Gentiki trail 21χλμ και Gentikaki trail 5,1χλμ",
         "Date": "2025-02-16",
         "Location": "Λάρισα",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "21km",
             "5.1km"
         ],
-        "SignupLink": "https://www.larisamarathon.gr/2023/12/7-gentiki-trail-21-gentikaki-trail-51.html"
+        "SignupLink": "https://www.larisamarathon.gr/2023/12/7-gentiki-trail-21-gentikaki-trail-51.html",
+        "Slug": "8o-gentiki-trail-21chlm-gentikaki-trail-5-1chlm"
     },
     {
         "ID": 33,
         "Title": "27ος Logicom Cyprus Marathon",
         "Date": "2025-03-09",
         "Location": "Πάφος, Κύπρος",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "42km",
             "21km",
@@ -425,114 +424,114 @@
             "5km",
             "Wine run"
         ],
-        "SignupLink": "https://www.logicomcyprusmarathon.com/"
+        "SignupLink": "https://www.logicomcyprusmarathon.com/",
+        "Slug": "27os-logicom-cyprus-marathon"
     },
     {
         "ID": 34,
         "Title": "Ημιμαραθώνιος Αθήνας 2025",
         "Date": "2025-03-09",
         "Location": "Αθήνα",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "21km",
             "5km"
         ],
-        "SignupLink": "https://athinahalfmarathon.gr"
+        "SignupLink": "https://athinahalfmarathon.gr",
+        "Slug": "imimarathonios-athinas-2025"
     },
     {
         "ID": 35,
         "Title": "2ος Παράκτιος Νυχτερινός Ημιμαραθώνιος Θερμαϊκού - «Αντώνης Ματζάρης»",
         "Date": "2025-03-15",
         "Location": "Δήμος Θερμαϊκού, Θεσσαλονίκη",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "21.1km",
             "10km",
             "5km",
             "1.6km"
         ],
-        "SignupLink": "https://thermaikoshalfmarathon.org/"
+        "SignupLink": "https://thermaikoshalfmarathon.org/",
+        "Slug": "2os-paraktios-nychterinos-imimarathonios-thermaikou-antonis-matzaris"
     },
     {
         "ID": 36,
         "Title": "16ος Ημιμαραθώνιος Καλαμπάκα-Τρίκαλα «Θανάσης Σταμόπουλος»",
         "Date": "2025-03-16",
         "Location": "Καλαμπάκα",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "21.1km",
             "5km",
             "1km"
         ],
-        "SignupLink": "https://www.trikalahalfmarathon.org/"
+        "SignupLink": "https://www.trikalahalfmarathon.org/",
+        "Slug": "16os-imimarathonios-kalampaka-trikala-thanasis-stamopoulos"
     },
     {
         "ID": 37,
         "Title": "Run-Maroussi - Σπύρος Λούης 2025",
         "Date": "2025-03-16",
         "Location": "Μαρούσι, Αττικής",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "10km",
             "5km",
             "1km"
         ],
-        "SignupLink": "https://raceid.com/el/races/13154/about"
+        "SignupLink": "https://raceid.com/el/races/13154/about",
+        "Slug": "run-maroussi-spyros-louis-2025"
     },
     {
         "ID": 38,
         "Title": "14ος Taygetos Challenge",
         "Date": "2025-03-22",
         "Location": "Καρδαμύλη, Πελοποννήσου",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "42km",
             "22km",
             "10km",
             "5km"
         ],
-        "SignupLink": "http://www.taygetoschallenge.com/"
+        "SignupLink": "http://www.taygetoschallenge.com/",
+        "Slug": "14os-taygetos-challenge"
     },
     {
         "ID": 39,
         "Title": "5η Γύρα Μάνης",
         "Date": "2025-03-22",
         "Location": "Αρεόπολη, Λακωνίας",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "80km"
         ],
-        "SignupLink": "http://www.lakoniaultrarunning.com/"
+        "SignupLink": "http://www.lakoniaultrarunning.com/",
+        "Slug": "5i-gyra-manis"
     },
     {
         "ID": 40,
         "Title": "Coast to Coast Race 2025",
         "Date": "2025-03-23",
         "Location": "Ιεράπετρα, Λασιθίου",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "21.1km",
             "5km"
         ],
-        "SignupLink": "https://coast-to-coast.gr/"
+        "SignupLink": "https://coast-to-coast.gr/",
+        "Slug": "coast-to-coast-race-2025"
     },
     {
         "ID": 41,
         "Title": "18ος Μαραθώνιος Μεσσήνης",
         "Date": "2025-03-23",
         "Location": "Δήμου Μεσσήνης",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "42km"
         ],
-        "SignupLink": "https://marathon.messini.gr/"
+        "SignupLink": "https://marathon.messini.gr/",
+        "Slug": "18os-marathonios-messinis"
     },
     {
         "ID": 42,
         "Title": "9ος Δρόμος του Γιοφυριού",
         "Date": "2025-03-29",
         "Location": "Άρτα",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "21.1km",
             "5km",
@@ -541,86 +540,86 @@
             "600m",
             "800m"
         ],
-        "SignupLink": "https://artarunningfestival.gr/"
+        "SignupLink": "https://artarunningfestival.gr/",
+        "Slug": "9os-dromos-tou-giofyriou"
     },
     {
         "ID": 43,
         "Title": "Duth Campus Run 2025",
         "Date": "2025-03-30",
         "Location": "Πανεπιστημιούπολη, Κομοτηνή",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "14km",
             "7km"
-        ]
+        ],
+        "Slug": "duth-campus-run-2025"
     },
     {
         "ID": 44,
         "Title": "9ος Ημιμαραθώνιος Βόλου – 30o I Love Volos Run",
         "Date": "2025-03-30",
         "Location": "Βόλος",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "21.1km",
             "5km",
             "500m"
         ],
-        "SignupLink": "https://voloshalfmarathon.gr/"
+        "SignupLink": "https://voloshalfmarathon.gr/",
+        "Slug": "9os-imimarathonios-volou-30o-i-love-volos-run"
     },
     {
         "ID": 45,
         "Title": "2o Grevena City Run",
         "Date": "2025-03-30",
         "Location": "Γρεβενά",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "10km",
             "5km",
             "1km"
-        ]
+        ],
+        "Slug": "2o-grevena-city-run"
     },
     {
         "ID": 46,
         "Title": "Μαραθώνιος Ναυπλίου 2025",
         "Date": "2025-03-30",
         "Location": "Ναύπλιο, Αργολίδας",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "42km"
-        ]
+        ],
+        "Slug": "marathonios-nafpliou-2025"
     },
     {
         "ID": 47,
         "Title": "Run Greece - Ηράκλειο 2025",
         "Date": "2025-03-30",
         "Location": "Ηράκλειο, Κρήτης",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "10km",
             "5km",
             "Παίδων"
         ],
-        "SignupLink": "https://www.run-greece.gr/index.php/el/registration/registration-irakleio"
+        "SignupLink": "https://www.run-greece.gr/index.php/el/registration/registration-irakleio",
+        "Slug": "run-greece-irakleio-2025"
     },
     {
         "ID": 48,
         "Title": "8ο Δεκάρι Πάρκου",
         "Date": "2025-04-05",
         "Location": "Πάρκο Τρίτση",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "10km",
             "5km",
             "1.3km"
         ],
-        "SignupLink": "https://www.todekaritouparkou.gr/dilwse-symmetoxi"
+        "SignupLink": "https://www.todekaritouparkou.gr/dilwse-symmetoxi",
+        "Slug": "8o-dekari-parkou"
     },
     {
         "ID": 49,
         "Title": "7ος Δρόμος Μαθητών",
         "Date": "2025-04-06",
         "Location": "Βέροια, Ημαθίας",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "10km",
             "5km",
@@ -628,67 +627,67 @@
             "1km",
             "250m (AMEA)"
         ],
-        "SignupLink": "https://www.psifidoto.org/register/dromos"
+        "SignupLink": "https://www.psifidoto.org/register/dromos",
+        "Slug": "7os-dromos-mathiton"
     },
     {
         "ID": 50,
         "Title": "19ος Μαραθώνιος Μέγας Αλέξανδρος",
         "Date": "2025-04-06",
         "Location": "Θεσσαλονίκη",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "42km",
             "10km",
             "5km",
             "1km"
         ],
-        "SignupLink": "https://atgm.gr/2013/12/11/%ce%b1%cf%84%ce%bf%ce%bc%ce%b9%ce%ba%ce%b5%cf%83-%ce%b5%ce%b3%ce%b3%cf%81%ce%b1%cf%86%ce%b5%cf%82/"
+        "SignupLink": "https://atgm.gr/2013/12/11/%ce%b1%cf%84%ce%bf%ce%bc%ce%b9%ce%ba%ce%b5%cf%83-%ce%b5%ce%b3%ce%b3%cf%81%ce%b1%cf%86%ce%b5%cf%83/",
+        "Slug": "19os-marathonios-megas-alexandros"
     },
     {
         "ID": 51,
         "Title": "3ος Ημιμαραθώνιος Πάτρας",
         "Date": "2025-04-06",
         "Location": "Πάτρα",
-        "Description": "Run in the scenic countryside.",
-        "Distances": [
-            "21km",
-            "10km",
-            "5km",
-            "1km"
-        ]
-    },
-    {
-        "ID": 52,
-        "Title": "8ος Αγώνας Πεδίου Άρεως",
-        "Date": "2025-04-13",
-        "Location": "Πεδίο Άρεως, Αττική",
-        "Description": "Run in the scenic countryside.",
-        "Distances": [
-            "10km",
-            "5km",
-            "1.3km"
-        ]
-    },
-    {
-        "ID": 53,
-        "Title": "25ος Αγώνας Δρόμου Καλαμάτας",
-        "Date": "2025-04-26",
-        "Location": "Καλαμάτα",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "21km",
             "10km",
             "5km",
             "1km"
         ],
-        "SignupLink": "https://sdym.gr/"
+        "Slug": "3os-imimarathonios-patras"
+    },
+    {
+        "ID": 52,
+        "Title": "8ος Αγώνας Πεδίου Άρεως",
+        "Date": "2025-04-13",
+        "Location": "Πεδίο Άρεως, Αττική",
+        "Distances": [
+            "10km",
+            "5km",
+            "1.3km"
+        ],
+        "Slug": "8os-agonas-pediou-areos"
+    },
+    {
+        "ID": 53,
+        "Title": "25ος Αγώνας Δρόμου Καλαμάτας",
+        "Date": "2025-04-26",
+        "Location": "Καλαμάτα",
+        "Distances": [
+            "21km",
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://sdym.gr/",
+        "Slug": "25os-agonas-dromou-kalamatas"
     },
     {
         "ID": 54,
         "Title": "Poseidon Athens Half-Marathon",
         "Date": "2025-04-27",
         "Location": "Φάληρο, Αττικής",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "21km",
             "21km (relay)",
@@ -697,14 +696,14 @@
             "2km",
             "1km"
         ],
-        "SignupLink": "https://poseidon-athenshalfmarathon.com/el/"
+        "SignupLink": "https://poseidon-athenshalfmarathon.com/el/",
+        "Slug": "poseidon-athens-half-marathon"
     },
     {
         "ID": 55,
         "Title": "Olympus Marathon",
         "Date": "2025-06-27",
         "Location": "Δίον",
-        "Description": "Run in the scenic countryside.",
         "Distances": [
             "71km",
             "44km",
@@ -712,7 +711,8 @@
             "5km",
             "4.25km"
         ],
-        "SignupLink": "https://www.olympus-marathon.com/"
+        "SignupLink": "https://www.olympus-marathon.com/",
+        "Slug": "olympus-marathon"
     },
     {
         "ID": 56,
@@ -727,7 +727,8 @@
             "Rabbit’s Race 10km",
             "15km πορεία για Αθλητές ΑΜΕΑ με αμαξίδιο"
         ],
-        "SignupLink": "https://my.tihiorace.gr/"
+        "SignupLink": "https://my.tihiorace.gr/",
+        "Slug": "tihiorace-trail-running-2025"
     },
     {
         "ID": 57,
@@ -738,7 +739,8 @@
             "10km",
             "5km"
         ],
-        "SignupLink": "https://thracenightrun.gr/"
+        "SignupLink": "https://thracenightrun.gr/",
+        "Slug": "5os-nychterinos-agonas-thrakis"
     },
     {
         "ID": 58,
@@ -748,7 +750,8 @@
         "Distances": [
             "6.5km"
         ],
-        "SignupLink": "https://www.naoussa.gr/e-services/apply-race"
+        "SignupLink": "https://www.naoussa.gr/e-services/apply-race",
+        "Slug": "21os-dromos-thysias-iroikis-polis-naousas"
     },
     {
         "ID": 59,
@@ -760,7 +763,8 @@
             "10km",
             "1km"
         ],
-        "SignupLink": "https://www.oloimaziboroume.gr/nea/%CE%B1%CE%B3%CF%8E%CE%BD%CE%B5%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF-%CF%80%CE%B5%CF%81%CE%B9%CE%B2%CE%AC%CE%BB%CE%BB%CE%BF%CE%BD"
+        "SignupLink": "https://www.oloimaziboroume.gr/nea/%CE%B1%CE%B3%CF%8E%CE%BD%CE%B5%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF-%CF%80%CE%B5%CF%81%CE%B9%CE%B2%CE%AC%CE%BB%CE%BB%CE%BF%CE%BD",
+        "Slug": "agones-gia-to-perivallon-2025-limni-marathona"
     },
     {
         "ID": 60,
@@ -772,7 +776,8 @@
             "ERIMITIS 12km",
             "KIDS Race"
         ],
-        "SignupLink": "https://kassiosdias.com/"
+        "SignupLink": "https://kassiosdias.com/",
+        "Slug": "kassios-dias-trail-race-2025"
     },
     {
         "ID": 61,
@@ -784,7 +789,8 @@
             "5km",
             "1km`"
         ],
-        "SignupLink": "https://raceid.com/el/races/13395/about"
+        "SignupLink": "https://raceid.com/el/races/13395/about",
+        "Slug": "2os-pallinios-dromos"
     },
     {
         "ID": 62,
@@ -795,7 +801,8 @@
             "23km",
             "10km"
         ],
-        "SignupLink": "https://www.sithonia-trails.gr/"
+        "SignupLink": "https://www.sithonia-trails.gr/",
+        "Slug": "1o-sithonia-trail-run"
     },
     {
         "ID": 63,
@@ -807,7 +814,8 @@
             "9km",
             "1km"
         ],
-        "SignupLink": "https://www.facebook.com/profile.php?id=100081371259512"
+        "SignupLink": "https://www.facebook.com/profile.php?id=100081371259512",
+        "Slug": "4o-pamvotis-view-trail"
     },
     {
         "ID": 64,
@@ -818,7 +826,8 @@
             "21km",
             "9km",
             "1km"
-        ]
+        ],
+        "Slug": "5o-agrinio-city-trail"
     },
     {
         "ID": 65,
@@ -830,7 +839,8 @@
             "3km",
             "1km"
         ],
-        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=7b1a7443eb862225999cba82e6658358&l=GR"
+        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=7b1a7443eb862225999cba82e6658358&l=GR",
+        "Slug": "14os-ippokrateios-agonas-dromou"
     },
     {
         "ID": 66,
@@ -841,7 +851,8 @@
             "7km",
             "19km"
         ],
-        "SignupLink": "https://voio.gr/polites/voiorace/"
+        "SignupLink": "https://voio.gr/polites/voiorace/",
+        "Slug": "voio-race-series-2025-agonas-bourinos"
     },
     {
         "ID": 67,
@@ -852,7 +863,8 @@
             "10km",
             "5km"
         ],
-        "SignupLink": "https://voio.gr/polites/voiorace/"
+        "SignupLink": "https://voio.gr/polites/voiorace/",
+        "Slug": "voio-race-series-2025-agonas-neapolis"
     },
     {
         "ID": 68,
@@ -862,7 +874,8 @@
         "Distances": [
             "22km"
         ],
-        "SignupLink": "https://voio.gr/polites/voiorace/"
+        "SignupLink": "https://voio.gr/polites/voiorace/",
+        "Slug": "voio-race-series-2025-agonas-avgerinou"
     },
     {
         "ID": 69,
@@ -872,7 +885,8 @@
         "Distances": [
             "24km"
         ],
-        "SignupLink": "https://voio.gr/polites/voiorace/"
+        "SignupLink": "https://voio.gr/polites/voiorace/",
+        "Slug": "voio-race-series-2025-agonas-namaton"
     },
     {
         "ID": 70,
@@ -880,7 +894,8 @@
         "Date": "2025-05-09",
         "Location": "Κατερίνη",
         "Distances": [],
-        "SignupLink": "https://triman.gr/"
+        "SignupLink": "https://triman.gr/",
+        "Slug": "triman-2025-nightrun-trifast-triswim-triman"
     },
     {
         "ID": 71,
@@ -891,7 +906,8 @@
             "8km",
             "16km"
         ],
-        "SignupLink": "https://raceid.com/el/races/13305/information"
+        "SignupLink": "https://raceid.com/el/races/13305/information",
+        "Slug": "tyros-run-25-george-marneris"
     },
     {
         "ID": 73,
@@ -901,7 +917,8 @@
         "Distances": [
             "11km",
             "21km"
-        ]
+        ],
+        "Slug": "4o-ipsilantis-trail"
     },
     {
         "ID": 74,
@@ -913,7 +930,8 @@
             "10km",
             "16km"
         ],
-        "SignupLink": "https://sdyth.gr/12%ce%bf%cf%82-%ce%b4%cf%81%cf%8c%ce%bc%ce%bf%cf%82-%cf%83%ce%ad%cf%8a%cf%87-%cf%83%ce%bf%cf%85/"
+        "SignupLink": "https://sdyth.gr/12%ce%bf%cf%82-%ce%b4%cf%81%cf%8c%ce%bc%ce%bf%cf%82-%cf%83%ce%ad%cf%8a%cf%87-%cf%83%ce%bf%cf%85/",
+        "Slug": "12os-dromos-seich-sou"
     },
     {
         "ID": 75,
@@ -925,7 +943,8 @@
             "9km",
             "1km"
         ],
-        "SignupLink": "https://kt.elati-pertouli.gr/service/engrafes"
+        "SignupLink": "https://kt.elati-pertouli.gr/service/engrafes",
+        "Slug": "koziakas-trail-running-2025"
     },
     {
         "ID": 76,
@@ -936,7 +955,8 @@
             "190km",
             "62km"
         ],
-        "SignupLink": "https://aethlios.gr/"
+        "SignupLink": "https://aethlios.gr/",
+        "Slug": "olympios-dromos-2025-agonas-62chlm"
     },
     {
         "ID": 77,
@@ -950,7 +970,8 @@
             "Αγώνας Ποδηλασίας 25km",
             "5km run"
         ],
-        "SignupLink": "https://spetsathlon.com/"
+        "SignupLink": "https://spetsathlon.com/",
+        "Slug": "spetsathlon-2025"
     },
     {
         "ID": 78,
@@ -962,7 +983,8 @@
             "12km",
             "6km"
         ],
-        "SignupLink": "http://www.goulinastrail.gr/"
+        "SignupLink": "http://www.goulinastrail.gr/",
+        "Slug": "goulinas-trail-2025"
     },
     {
         "ID": 79,
@@ -975,7 +997,8 @@
             "1.5km",
             "800m"
         ],
-        "SignupLink": "https://www.skiathosrun.gr/el/"
+        "SignupLink": "https://www.skiathosrun.gr/el/",
+        "Slug": "skiathos-trail-run-2025"
     },
     {
         "ID": 80,
@@ -987,7 +1010,8 @@
             "14km",
             "7km"
         ],
-        "SignupLink": "https://www.godzillaxanthitrail.gr/el/"
+        "SignupLink": "https://www.godzillaxanthitrail.gr/el/",
+        "Slug": "4os-godzilla-xanthi-trail"
     },
     {
         "ID": 80,
@@ -999,7 +1023,8 @@
             "5km",
             "1km"
         ],
-        "SignupLink": "https://www.facebook.com/profile.php?id=100064232971537"
+        "SignupLink": "https://www.facebook.com/profile.php?id=100064232971537",
+        "Slug": "5os-agonas-dromou-falannaion"
     },
     {
         "ID": 81,
@@ -1009,7 +1034,8 @@
         "Distances": [
             "10km"
         ],
-        "SignupLink": "http://www.telmissos.gr/"
+        "SignupLink": "http://www.telmissos.gr/",
+        "Slug": "agonas-dromou-limnis-marathona-2025"
     },
     {
         "ID": 82,
@@ -1021,7 +1047,8 @@
             "5km",
             "1km"
         ],
-        "SignupLink": "https://raceid.com/el/races/13329/about"
+        "SignupLink": "https://raceid.com/el/races/13329/about",
+        "Slug": "karpathos-run-2025"
     },
     {
         "ID": 83,
@@ -1036,7 +1063,8 @@
             "1km",
             "Windsurfing"
         ],
-        "SignupLink": "https://raceid.com/el/races/13341/about"
+        "SignupLink": "https://raceid.com/el/races/13341/about",
+        "Slug": "5oi-agones-vasiliki-lefkada-road-mountain-race"
     },
     {
         "ID": 84,
@@ -1047,7 +1075,8 @@
             "10km",
             "5km"
         ],
-        "SignupLink": "https://www.run-greece.gr/index.php/el/"
+        "SignupLink": "https://www.run-greece.gr/index.php/el/",
+        "Slug": "run-greece-2025-syros"
     },
     {
         "ID": 85,
@@ -1060,7 +1089,8 @@
             "1.5km",
             "5km περπάτημα"
         ],
-        "SignupLink": "https://why-n.gr/epidavrios-dromos-register"
+        "SignupLink": "https://why-n.gr/epidavrios-dromos-register",
+        "Slug": "epidavrios-dromos-2025-theater-2-theater"
     },
     {
         "ID": 86,
@@ -1072,7 +1102,8 @@
             "165km",
             "75km"
         ],
-        "SignupLink": "https://tihiorace.gr/"
+        "SignupLink": "https://tihiorace.gr/",
+        "Slug": "tihiorace-ultra-edition-2025"
     },
     {
         "ID": 87,
@@ -1085,7 +1116,8 @@
             "5km",
             "Παιδικός"
         ],
-        "SignupLink": "https://greenhalfmarathon.com/"
+        "SignupLink": "https://greenhalfmarathon.com/",
+        "Slug": "12os-prasinos-imimarathonios"
     },
     {
         "ID": 88,
@@ -1098,7 +1130,8 @@
             "5km",
             "1km"
         ],
-        "SignupLink": "https://tinosrunningexperience.gr/"
+        "SignupLink": "https://tinosrunningexperience.gr/",
+        "Slug": "tinos-running-experience-avance-2025"
     },
     {
         "ID": 89,
@@ -1111,7 +1144,8 @@
             "1.6km",
             "1km"
         ],
-        "SignupLink": "https://andrusrace.com/"
+        "SignupLink": "https://andrusrace.com/",
+        "Slug": "2o-andros-trail-challenge"
     },
     {
         "ID": 90,
@@ -1122,7 +1156,8 @@
             "3.5km",
             "8.5km"
         ],
-        "SignupLink": "https://eosx.gr"
+        "SignupLink": "https://eosx.gr",
+        "Slug": "vertical-tsalenge"
     },
     {
         "ID": 91,
@@ -1134,7 +1169,8 @@
             "12km",
             "5km"
         ],
-        "SignupLink": "https://www.eleftheroupoli-runners.gr/"
+        "SignupLink": "https://www.eleftheroupoli-runners.gr/",
+        "Slug": "pravi-trail-run"
     },
     {
         "ID": 92,
@@ -1147,7 +1183,8 @@
             "5km",
             "1.3km"
         ],
-        "SignupLink": "https://rocksolid.gr/"
+        "SignupLink": "https://rocksolid.gr/",
+        "Slug": "rock-solid-kastellorizo-2025"
     },
     {
         "ID": 93,
@@ -1162,7 +1199,8 @@
             "12km",
             "6km"
         ],
-        "SignupLink": "https://www.e4-topantavrexei.gr/"
+        "SignupLink": "https://www.e4-topantavrexei.gr/",
+        "Slug": "4th-evrytania-trail-races-2025"
     },
     {
         "ID": 94,
@@ -1175,7 +1213,8 @@
             "5km",
             "1km"
         ],
-        "SignupLink": "https://i-qsports.com/skyros-sports-festival/"
+        "SignupLink": "https://i-qsports.com/skyros-sports-festival/",
+        "Slug": "skyros-sports-festival-2025"
     },
     {
         "ID": 95,
@@ -1188,7 +1227,8 @@
             "7.5km",
             "1km"
         ],
-        "SignupLink": "https://raceid.com/el/races/13150/about"
+        "SignupLink": "https://raceid.com/el/races/13150/about",
+        "Slug": "kerkini-lake-run-2025"
     },
     {
         "ID": 96,
@@ -1200,7 +1240,8 @@
             "8km",
             "1km"
         ],
-        "SignupLink": "https://panetolikotrail.gr/"
+        "SignupLink": "https://panetolikotrail.gr/",
+        "Slug": "2nd-panetoliko-mountain-trail-run"
     },
     {
         "ID": 97,
@@ -1213,7 +1254,8 @@
             "5km",
             "1km"
         ],
-        "SignupLink": "https://chiosrunning.gr/"
+        "SignupLink": "https://chiosrunning.gr/",
+        "Slug": "5th-chios-hardstone-trail-run"
     },
     {
         "ID": 98,
@@ -1223,7 +1265,8 @@
         "Distances": [
             "5.6km"
         ],
-        "SignupLink": "https://www.timf.gr/"
+        "SignupLink": "https://www.timf.gr/",
+        "Slug": "9os-agonas-dromou-mnimeion-thessalonikis"
     },
     {
         "ID": 99,
@@ -1235,7 +1278,8 @@
             "1km",
             "500m"
         ],
-        "SignupLink": "https://racetime.gr/registrations/registration.php?eventId=94"
+        "SignupLink": "https://racetime.gr/registrations/registration.php?eventId=94",
+        "Slug": "38os-korakovounios-dromos"
     },
     {
         "ID": 100,
@@ -1249,7 +1293,8 @@
             "1.6km",
             "30min (family)"
         ],
-        "SignupLink": "https://www.nflathens.com/product/charity-run-individuals-2024/"
+        "SignupLink": "https://www.nflathens.com/product/charity-run-individuals-2024/",
+        "Slug": "9o-no-finish-line"
     },
     {
         "ID": 101,
@@ -1260,7 +1305,8 @@
             "4km",
             "8km"
         ],
-        "SignupLink": "https://raceid.com/el/races/13577/about"
+        "SignupLink": "https://raceid.com/el/races/13577/about",
+        "Slug": "life-run"
     },
     {
         "ID": 102,
@@ -1271,7 +1317,8 @@
             "15km",
             "5km",
             "1km"
-        ]
+        ],
+        "Slug": "dromos-thysias-aggelis-govios"
     },
     {
         "ID": 103,
@@ -1284,7 +1331,8 @@
             "2km",
             "1km"
         ],
-        "SignupLink": "https://poseidonia.poros.gr/poseidonia-poros-aitiseis-kostos.html"
+        "SignupLink": "https://poseidonia.poros.gr/poseidonia-poros-aitiseis-kostos.html",
+        "Slug": "poseidonia"
     },
     {
         "ID": 104,
@@ -1297,7 +1345,8 @@
             "5km",
             "1mile"
         ],
-        "SignupLink": "https://raceid.com/el/races/13478/about"
+        "SignupLink": "https://raceid.com/el/races/13478/about",
+        "Slug": "1o-sohos-trail-run"
     },
     {
         "ID": 105,
@@ -1309,7 +1358,8 @@
             "8km",
             "1km"
         ],
-        "SignupLink": "https://kt.elati-pertouli.gr/service/engrafes/"
+        "SignupLink": "https://kt.elati-pertouli.gr/service/engrafes/",
+        "Slug": "koziakas-trail"
     },
     {
         "ID": 106,
@@ -1322,7 +1372,8 @@
             "5km",
             "1km"
         ],
-        "SignupLink": "https://www.ioanninahalfmarathon.gr/registration/"
+        "SignupLink": "https://www.ioanninahalfmarathon.gr/registration/",
+        "Slug": "8os-imimarathonios-ioanninon"
     },
     {
         "ID": 107,
@@ -1333,7 +1384,8 @@
             "10km",
             "3km"
         ],
-        "SignupLink": "https://docs.google.com/forms/d/e/1FAIpQLSeIy4l_dtv0KO-hwRtKhU56jNpH-Gd7yJXnRnqabUoesDMe1Q/viewform/"
+        "SignupLink": "https://docs.google.com/forms/d/e/1FAIpQLSeIy4l_dtv0KO-hwRtKhU56jNpH-Gd7yJXnRnqabUoesDMe1Q/viewform/",
+        "Slug": "13os-vatikiotikos-agonas-zois"
     },
     {
         "ID": 108,
@@ -1346,7 +1398,8 @@
             "10km",
             "6km"
         ],
-        "SignupLink": "https://eospantavrexei.gr/%ce%b5%ce%b3%ce%b3%cf%81%ce%b1%cf%86%ce%ad%cf%82-evrytania-triantafilia-mountain-trail-races/"
+        "SignupLink": "https://eospantavrexei.gr/%ce%b5%ce%b3%ce%b3%cf%81%ce%b1%cf%86%ce%ad%cf%82-evrytania-triantafilia-mountain-trail-races/",
+        "Slug": "3o-eyrytania-triantafilia-mountain-trail-race"
     },
     {
         "ID": 109,
@@ -1356,7 +1409,8 @@
         "Distances": [
             "21.1km Trail"
         ],
-        "SignupLink": "https://raceid.com/en/races/13277/about/"
+        "SignupLink": "https://raceid.com/en/races/13277/about/",
+        "Slug": "mazi-sti-giorti-enonoume-ta-vimata-mas-trail-run"
     },
     {
         "ID": 110,
@@ -1367,7 +1421,8 @@
             "5km",
             "1km"
         ],
-        "SignupLink": "https://raceid.com/en/races/13277/about/"
+        "SignupLink": "https://raceid.com/en/races/13277/about/",
+        "Slug": "mazi-sti-giorti-enonoume-ta-vimata-mas-run"
     },
     {
         "ID": 111,
@@ -1377,7 +1432,8 @@
         "Distances": [
             "10km"
         ],
-        "SignupLink": "https://raceid.com/el/races/13389/about"
+        "SignupLink": "https://raceid.com/el/races/13389/about",
+        "Slug": "marathon-lake-run-2025"
     },
     {
         "ID": 112,
@@ -1388,7 +1444,8 @@
             "21km",
             "5km"
         ],
-        "SignupLink": "https://parosway.gr/"
+        "SignupLink": "https://parosway.gr/",
+        "Slug": "4o-paros-way"
     },
     {
         "ID": 113,
@@ -1396,7 +1453,8 @@
         "Date": "2025-05-29",
         "Location": "ΟΑΚΑ, Αττική",
         "Distances": [],
-        "SignupLink": "https://www.b2run.gr/run/gr/gr/index.html"
+        "SignupLink": "https://www.b2run.gr/run/gr/gr/index.html",
+        "Slug": "powerade-b2run-athens"
     },
     {
         "ID": 114,
@@ -1406,7 +1464,8 @@
         "Distances": [
             "4.6km"
         ],
-        "SignupLink": "https://www.ursatrail.gr/en/main/"
+        "SignupLink": "https://www.ursatrail.gr/en/main/",
+        "Slug": "ursa-trail-2025-katara-vertical"
     },
     {
         "ID": 115,
@@ -1417,7 +1476,8 @@
             "40km",
             "1km"
         ],
-        "SignupLink": "https://www.ursatrail.gr/en/main/"
+        "SignupLink": "https://www.ursatrail.gr/en/main/",
+        "Slug": "ursa-trail-2025"
     },
     {
         "ID": 116,
@@ -1428,6 +1488,7 @@
             "21km",
             "11km"
         ],
-        "SignupLink": "https://www.ursatrail.gr/en/main/"
+        "SignupLink": "https://www.ursatrail.gr/en/main/",
+        "Slug": "ursa-trail-2025"
     }
 ]
