@@ -40,7 +40,7 @@
   };
 
   onMounted(async () => {
-    const res = await fetch('https://racelist.gr/min.races.json');
+    const res = await fetch('/min.races.json');
     races.value = await res.json();
   });
 </script>

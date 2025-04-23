@@ -18,124 +18,21 @@
   import RaceList from '~/components/Agwnes/RaceList.vue';
   import NewsletterSubmissionForm from '~/components/NewsletterSubmissionForm.vue';
 
-  const title = 'Ερχόμενοι αγώνες για τον Μάρτιο 2025';
+  const title = 'Αγώνες για τον Μάρτιο 2025';
 
-  const races = [
-    {
-      Title: 'Katerini Run 2025',
-      Date: '2025-03-09',
-      Location: 'Κατερίνη, Πιερίας',
-      Distances: ['21km', '5km', '1km'],
-      SignupLink: 'https://raceid.com/el/races/13349/about?utm_src=racelist.gr',
-    },
-    {
-      Title: '27ος Logicom Cyprus Marathon',
-      Date: '2025-03-09',
-      Location: 'Πάφος, Κύπρος',
-      Distances: ['42km', '21km', '10km', '5km', 'Wine run'],
-      SignupLink: 'https://www.logicomcyprusmarathon.com/?utm_src=racelist.gr',
-    },
-    {
-      Title: 'Ημιμαραθώνιος Αθήνας 2025',
-      Date: '2025-03-09',
-      Location: 'Αθήνα',
-      Distances: ['21km', '5km'],
-      SignupLink: 'https://athinahalfmarathon.gr?utm_src=racelist.gr',
-    },
-    {
-      Title:
-        '2ος Παράκτιος Νυχτερινός Ημιμαραθώνιος Θερμαϊκού - «Αντώνης Ματζάρης»',
-      Date: '2025-03-15',
-      Location: 'Δήμος Θερμαϊκού, Θεσσαλονίκη',
-      Distances: ['21.1km', '10km', '5km', '1.6km'],
-      SignupLink: 'https://thermaikoshalfmarathon.org/?utm_src=racelist.gr',
-    },
-    {
-      Title: '16ος Ημιμαραθώνιος Καλαμπάκα-Τρίκαλα «Θανάσης Σταμόπουλος»',
-      Date: '2025-03-16',
-      Location: 'Καλαμπάκα',
-      Distances: ['21.1km', '5km', '1km'],
-      SignupLink: 'https://www.trikalahalfmarathon.org/?utm_src=racelist.gr',
-    },
-    {
-      Title: 'Run-Maroussi - Σπύρος Λούης 2025',
-      Date: '2025-03-16',
-      Location: 'Μαρούσι, Αττικής',
-      Distances: ['10km', '5km', '1km'],
-      SignupLink: 'https://raceid.com/el/races/13154/about?utm_src=racelist.gr',
-    },
-    {
-      Title: '14ος Taygetos Challenge',
-      Date: '2025-03-22',
-      Location: 'Καρδαμύλη, Πελοποννήσου',
-      Distances: ['42km', '22km', '10km', '5km'],
-      SignupLink: 'http://www.taygetoschallenge.com/?utm_src=racelist.gr',
-    },
-    {
-      Title: '5η Γύρα Μάνης',
-      Date: '2025-03-22',
-      Location: 'Αρεόπολη, Λακωνίας',
-      Distances: ['80km'],
-      SignupLink: 'http://www.lakoniaultrarunning.com/?utm_src=racelist.gr',
-    },
-    {
-      Title: 'Coast to Coast Race 2025',
-      Date: '2025-03-23',
-      Location: 'Ιεράπετρα, Λασιθίου',
-      Distances: ['21.1km', '5km'],
-      SignupLink: 'https://coast-to-coast.gr/?utm_src=racelist.gr',
-    },
-    {
-      Title: '18ος Μαραθώνιος Μεσσήνης',
-      Date: '2025-03-23',
-      Location: 'Δήμου Μεσσήνης',
-      Distances: ['42km'],
-      SignupLink: 'https://marathon.messini.gr/?utm_src=racelist.gr',
-    },
-    {
-      Title: '9ος Δρόμος του Γιοφυριού',
-      Date: '2025-03-29',
-      Location: 'Άρτα',
-      Distances: ['21.1km', '5km', 'Σκυταλοδρομία', '300m', '600m', '800m'],
-      SignupLink: 'https://artarunningfestival.gr/?utm_src=racelist.gr',
-    },
-    {
-      Title: 'Duth Campus Run 2025',
-      Date: '2025-03-30',
-      Location: 'Πανεπιστημιούπολη, Κομοτηνή',
-      Distances: ['14km', '7km'],
-      SignupLink: null,
-    },
-    {
-      Title: '9ος Ημιμαραθώνιος Βόλου – 30o I Love Volos Run',
-      Date: '2025-03-30',
-      Location: 'Βόλος',
-      Distances: ['21.1km', '5km', '500m'],
-      SignupLink: 'https://voloshalfmarathon.gr/?utm_src=racelist.gr',
-    },
-    {
-      Title: '2o Grevena City Run',
-      Date: '2025-03-30',
-      Location: 'Γρεβενά',
-      Distances: ['10km', '5km', '1km'],
-      SignupLink: null,
-    },
-    {
-      Title: 'Μαραθώνιος Ναυπλίου 2025',
-      Date: '2025-03-30',
-      Location: 'Ναύπλιο, Αργολίδας',
-      Distances: ['42km'],
-      SignupLink: null,
-    },
-    {
-      Title: 'Run Greece - Ηράκλειο 2025',
-      Date: '2025-03-30',
-      Location: 'Ηράκλειο, Κρήτης',
-      Distances: ['10km', '5km', 'Παίδων'],
-      SignupLink:
-        'https://www.run-greece.gr/index.php/el/registration/registration-irakleio?utm_src=racelist.gr',
-    },
-  ];
+  // Fetch races data
+  const { data: allRaces } = await useFetch('/min.races.json');
+
+  // Filter races for March 2025
+  const races = computed(() => {
+    if (!allRaces.value) return [];
+
+    return allRaces.value.filter((race) => {
+      const raceDate = new Date(race.Date);
+      return raceDate.getMonth() === 2 && raceDate.getFullYear() === 2025; // March is month 2 (0-based)
+    });
+  });
+
   useHead({
     title: 'Καλένταρι αγώνων δρομου και βουνού για τον Μάρτιο | racelist.gr',
     link: [

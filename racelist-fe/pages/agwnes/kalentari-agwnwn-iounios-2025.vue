@@ -18,60 +18,21 @@
   import Header from '~/components/Agwnes/Header.vue';
   import RaceList from '~/components/Agwnes/RaceList.vue';
   import NewsletterSubmissionForm from '~/components/NewsletterSubmissionForm.vue';
+
   const title = 'Αγώνες για τον Ιούνιο 2025';
 
-  const races = [
-    {
-      Title: 'Olympus Marathon',
-      Date: '2025-06-27',
-      Location: 'Δίον',
-      Distances: ['71km', '44km', '12.5km', '5km', '4.25km'],
-      SignupLink: 'https://www.olympus-marathon.com/?utm_src=racelist.gr',
-    },
-    {
-      Title: 'Voio Race Series 2025 (Αγώνας Αυγερινού)',
-      Date: '2025-06-15',
-      Location: 'Σιάτιστα',
-      Distances: ['22km'],
-      SignupLink: 'https://voio.gr/polites/voiorace/?utm_src=racelist.gr',
-    },
-    {
-      Title: 'Rock Solid Kastellorizo 2025',
-      Date: '2025-06-07',
-      Location: 'Καστελόριζο',
-      Distances: ['22km', '10km', '5km', '1.3km'],
-      SignupLink: 'https://rocksolid.gr/?utm_src=racelist.gr',
-    },
-    {
-      Title: '4th Evrytania Trail Races 2025',
-      Date: '2025-06-07',
-      Location: 'Καρπενήσι, Ευρυτανίας',
-      Distances: ['80km', '60km', '30km', '20km', '12km', '6km'],
-      SignupLink: 'https://www.e4-topantavrexei.gr/?utm_src=racelist.gr',
-    },
-    {
-      Title: 'Skyros Sports Festival 2025',
-      Date: '2025-06-14',
-      Location: 'Σκύρος',
-      Distances: ['21.1km', '10km', '5km', '1km'],
-      SignupLink:
-        'https://i-qsports.com/skyros-sports-festival/?utm_src=racelist.gr',
-    },
-    {
-      Title: 'Kerkini Lake Run 2025',
-      Date: '2025-06-15',
-      Location: 'Κερκίνη, Σερρών',
-      Distances: ['21.1km', '10km', '7.5km', '1km'],
-      SignupLink: 'https://raceid.com/el/races/13150/about?utm_src=racelist.gr',
-    },
-    {
-      Title: '2nd Panetoliko Mountain Trail Run',
-      Date: '2025-06-22',
-      Location: 'Αγιος Βλάσσης, Αγρίνιο',
-      Distances: ['17km', '8km', '1km'],
-      SignupLink: 'https://panetolikotrail.gr/?utm_src=racelist.gr',
-    },
-  ];
+  // Fetch races data
+  const { data: allRaces } = await useFetch('/min.races.json');
+
+  // Filter races for June 2025
+  const races = computed(() => {
+    if (!allRaces.value) return [];
+
+    return allRaces.value.filter((race) => {
+      const raceDate = new Date(race.Date);
+      return raceDate.getMonth() === 5 && raceDate.getFullYear() === 2025; // June is month 5 (0-based)
+    });
+  });
 
   useHead({
     title: 'Καλένταρι αγώνων δρομου και βουνού για τον Ιούνιο | racelist.gr',

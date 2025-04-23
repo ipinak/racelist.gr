@@ -18,7 +18,21 @@
   import Header from '~/components/Agwnes/Header.vue';
   import RaceList from '~/components/Agwnes/RaceList.vue';
   import NewsletterSubmissionForm from '~/components/NewsletterSubmissionForm.vue';
+
   const title = 'Αγώνες για τον Φεβρουάριο 2025';
+
+  // Fetch races data
+  const { data: allRaces } = await useFetch('/min.races.json');
+
+  // Filter races for February 2025
+  const races = computed(() => {
+    if (!allRaces.value) return [];
+
+    return allRaces.value.filter((race) => {
+      const raceDate = new Date(race.Date);
+      return raceDate.getMonth() === 1 && raceDate.getFullYear() === 2025; // February is month 1 (0-based)
+    });
+  });
 
   useHead({
     title:
@@ -78,104 +92,13 @@
         // Because we need JSON inside a JavaScript string, we must escape quotes if needed.
         // Or you can embed a raw multiline string as below:
         children: `{
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "racelist.gr",
-        "url": "https://racelist.gr",
-        "description": "Καλένταρι αγώνων δρομου και βουνού σε κάθε γωνιά της Ελλάδας. Ημερολόγιο με πληροφορίες και ημερομηνίες για κάθε εκδήλωση."
-      }`,
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "racelist.gr",
+      "url": "https://racelist.gr",
+      "description": "Καλένταρι αγώνων δρομου και βουνού σε κάθε γωνιά της Ελλάδας. Ημερολόγιο με πληροφορίες και ημερομηνίες για κάθε εκδήλωση."
+    }`,
       },
     ],
   });
-
-  const races = [
-    {
-      Title: '23ος Δρόμος Αργολικού Κόλπου «Παναγιώτης Παπαβασιλείου»',
-      Date: '2025-02-16',
-      Location: 'Ναύπλιο, Αργολίδας',
-      Distances: ['15.3km', '1km'],
-      SignupLink: 'https://raceid.com/el/races/13142/about?utm_src=racelist.gr',
-    },
-    {
-      Title: 'Lycabettus Run 2025',
-      Date: '2025-02-23',
-      Location: 'Λυκαβηττός',
-      Distances: ['11km', '9km (trail)', '5.5km', '4.5km (trail)'],
-      SignupLink: 'http://www.lycabettusrun.gr/?utm_src=racelist.gr',
-    },
-    {
-      Title: '1ο Spetses Mountain Run',
-      Date: '2025-02-23',
-      Location: 'Σπέτσες',
-      Distances: ['20km', '9km'],
-      SignupLink: '',
-    },
-    {
-      Title: '7ο “Φανερωμένη Trail”',
-      Date: '2025-02-23',
-      Location: 'Χιλιομόδι, Κορινθίας',
-      Distances: ['23km', '10.5km', '6km', '2.1km'],
-      SignupLink: 'http://www.faneromenitrail.gr/?utm_src=racelist.gr',
-    },
-    {
-      Title: '13ος Χορτιάτης Trail Run',
-      Date: '2025-02-23',
-      Location: 'Χορτιάτης, Θεσσαλονίκη',
-      Distances: ['23km', '10km'],
-      SignupLink: 'https://sdyth.gr/?utm_src=racelist.gr',
-    },
-    {
-      Title: '«Τρέχω στον Μαραθώνα» Αγώνας δρόμου 8χλμ.',
-      Date: '2025-02-23',
-      Location: 'Μαραθώνας',
-      Distances: ['8km'],
-      SignupLink:
-        'https://www.telmissos.gr/1407-marathon-trexw-ston-marathona-2025?utm_src=racelist.gr',
-    },
-    {
-      Title: '25ος Δρόμος Βουνού «Υμηττός 2025»',
-      Date: '2025-02-02',
-      Location: 'Ημηττός',
-      Distances: [],
-      SignupLink: '',
-    },
-    {
-      Title: 'Αγώνες υπεραποστάσεων 6-12-24 ωρών εντός σταδίου – Μέγαρα',
-      Date: '2025-02-08',
-      Location: 'Μέγαρα',
-      Distances: [],
-      SignupLink:
-        'https://www.apollonrunnersclub.gr/agones-iperapostaseon-entos-stadiou/?utm_src=racelist.gr',
-    },
-    {
-      Title: '6ος Atlas Trail Running',
-      Date: '2025-02-08',
-      Location: 'Μαλακάσα',
-      Distances: ['34km', '24km', '11km', '6km'],
-      SignupLink:
-        'https://results.chronolog.gr/registrationc1.aspx?h=39d1109ea4f6a6a5dab0ad668cd7f6e9&l=GR&g=0?utm_src=racelist.gr',
-    },
-    {
-      Title: 'Sparta City Ultra 2025',
-      Date: '2025-02-08',
-      Location: 'Σπάρτη',
-      Distances: [],
-      SignupLink: 'https://spartanrunners.gr/?utm_src=racelist.gr',
-    },
-    {
-      Title: 'Ημιμαραθώνιος Αγάπης Μυτιλήνης 2025',
-      Date: '2025-02-15',
-      Location: 'Μυτιλήνη',
-      Distances: ['21.5km', '10km', '5km', '2.5km', '1km', '500m'],
-      SignupLink: '',
-    },
-    {
-      Title: '8ο Gentiki trail 21χλμ και Gentikaki trail 5,1χλμ',
-      Date: '2025-02-16',
-      Location: 'Λάρισα',
-      Distances: ['21km', '5.1km'],
-      SignupLink:
-        'https://www.larisamarathon.gr/2023/12/7-gentiki-trail-21-gentikaki-trail-51.html?utm_src=racelist.gr',
-    },
-  ];
 </script>
