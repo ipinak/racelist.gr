@@ -15,4 +15,8 @@
       default: () => [],
     },
   });
+
+  const messages = {
+    no_races: 'Κανένας αγώνας',
+  };
 </script>

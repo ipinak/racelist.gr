@@ -3,13 +3,13 @@
     class="bg-[#f4f4f4] border-l-4 border-[#0057A0] p-4 my-2 rounded hover:bg-[#0057A0]/10"
   >
     <NuxtLink
-      :to="`/agwnes/${race.Slug}`"
+      :to="`/agwnas/${race.Slug}`"
       class="text-[#0057A0] hover:text-[#0057A0]/60"
     >
       <strong>{{ race.Title }}</strong>
     </NuxtLink>
     - {{ race.Date }} {{ race.Location }}
-    <br>
+    <br />
     <div v-if="race.Distances?.length">
       <b>Αποστάσεις:</b> {{ race.Distances.join(', ') }}
     </div>
