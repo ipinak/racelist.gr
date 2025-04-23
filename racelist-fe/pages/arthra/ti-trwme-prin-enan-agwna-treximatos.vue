@@ -136,7 +136,7 @@
       {
         property: 'og:url',
         content:
-          'https://www.racelist.gr/arthra/ti-trwme-prin-enan-agwna-treximatos',
+          'https://www.racelist.gr/arthra/ti-trwme-prin-enan-agwna-treximatos/',
       },
       {
         property: 'og:image',

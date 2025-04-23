@@ -127,7 +127,7 @@
       { property: 'og:type', content: 'article' },
       {
         property: 'og:url',
-        content: 'https://racelist.gr/arthra/papoutsia-gia-treximo-dromou',
+        content: 'https://racelist.gr/arthra/papoutsia-gia-treximo-dromou/',
       },
       { name: 'twitter:card', content: 'summary_large_image' },
       {
