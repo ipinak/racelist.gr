@@ -96,7 +96,7 @@
     <hr class="mb-4 text-gray-300" />
 
     <div class="flex justify-center">
-      <NuxtLink class="p-6 hover:underline" to="/gel-calculator">
+      <NuxtLink class="p-6 hover:underline" to="/gel-calculator/">
         Μάθε πόσα gel χρειάζεσαι για τον αγώνα ή την προπόνηση σου
       </NuxtLink>
     </div>

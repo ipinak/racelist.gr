@@ -16,11 +16,11 @@
       <div>
         <ul class="space-y-2">
           <li class="title text-xl font-bold mb-2">About</li>
-          <li><NuxtLink to="/faq">FAQ</NuxtLink></li>
-          <li><NuxtLink to="/arthra">Άρθρα</NuxtLink></li>
-          <li><NuxtLink to="/about">Σχετικά με μας</NuxtLink></li>
+          <li><NuxtLink to="/faq/">FAQ</NuxtLink></li>
+          <li><NuxtLink to="/arthra/">Άρθρα</NuxtLink></li>
+          <li><NuxtLink to="/about/">Σχετικά με μας</NuxtLink></li>
           <li>
-            <NuxtLink to="/agwnes">
+            <NuxtLink to="/agwnes/">
               Καλένταρι αγώνων δρόμου και βουνού ανα μήνα
             </NuxtLink>
           </li>
@@ -31,25 +31,25 @@
         <ul class="space-y-2">
           <li class="title text-xl font-bold mb-2">Βοηθήματα Δρομέων</li>
           <li>
-            <NuxtLink to="/tools-for-runners">Όλα τα βοηθήματα</NuxtLink>
+            <NuxtLink to="/tools-for-runners/">Όλα τα βοηθήματα</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/hydration-calculator">
+            <NuxtLink to="/hydration-calculator/">
               Υπολογιστής Ενυδάτωσης
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/cooper-test">Υπολογιστής Cooper Test</NuxtLink>
+            <NuxtLink to="/cooper-test/">Υπολογιστής Cooper Test</NuxtLink>
           </li>
 
           <li>
-            <NuxtLink to="/gel-calculator">
+            <NuxtLink to="/gel-calculator/">
               Υπολογιστής Ενεργειακών Gel
             </NuxtLink>
           </li>
 
           <li>
-            <NuxtLink to="/pace-calculator">
+            <NuxtLink to="/pace-calculator/">
               Υπολογιστής Ρυθμού & Χρόνου ανά Χιλιόμετρο (Pace Calculator)
             </NuxtLink>
           </li>

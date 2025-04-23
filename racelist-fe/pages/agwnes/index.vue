@@ -28,23 +28,23 @@
   const months = [
     {
       label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Φεβρουάριο',
-      href: '/agwnes/kalentari-agwnwn-febrouarios-2025',
+      href: '/agwnes/kalentari-agwnwn-febrouarios-2025/',
     },
     {
       label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Μάρτιο',
-      href: '/agwnes/kalentari-agwnwn-martios-2025',
+      href: '/agwnes/kalentari-agwnwn-martios-2025/',
     },
     {
       label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Απρίλιο',
-      href: '/agwnes/kalentari-agwnwn-aprilios-2025',
+      href: '/agwnes/kalentari-agwnwn-aprilios-2025/',
     },
     {
       label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Μάιο',
-      href: '/agwnes/kalentari-agwnwn-maios-2025',
+      href: '/agwnes/kalentari-agwnwn-maios-2025/',
     },
     {
       label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Ιούνιο',
-      href: '/agwnes/kalentari-agwnwn-iounios-2025',
+      href: '/agwnes/kalentari-agwnwn-iounios-2025/',
     },
   ];
 

@@ -227,7 +227,7 @@
         φτιάξει ένα εργαλείο για να υπολογίσεται
         <NuxtLink
           class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
-          to="/hydration-calculator"
+          to="/hydration-calculator/"
           >ποσο νερό χρειάζεστε.
         </NuxtLink>
       </div>

@@ -76,20 +76,20 @@
   const links = [
     {
       title: 'Υπολογιστής Ενεργειακών Gel - Καύσιμα για το Τρέξιμό σου',
-      href: '/gel-calculator',
+      href: '/gel-calculator/',
     },
     {
       title: 'Υπολογιστής Ενυδάτωσης - Υγρά καύσιμα για την άσκησή σας',
-      href: '/hydration-calculator',
+      href: '/hydration-calculator/',
     },
     {
       title: 'Υπολογιστής Τεστ Cooper | Εκτίμηση Απόστασης σε 12 Λεπτά',
-      href: '/cooper-test',
+      href: '/cooper-test/',
     },
     {
       title:
         'Υπολογιστής Ρυθμού & Χρόνου ανά Χιλιόμετρο | Εργαλείο για Δρομείς',
-      href: '/pace-calculator',
+      href: '/pace-calculator/',
     },
   ];
 </script>
