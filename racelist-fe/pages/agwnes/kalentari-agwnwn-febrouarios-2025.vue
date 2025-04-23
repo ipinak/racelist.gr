@@ -26,7 +26,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/agwnes/kalentari-agwnwn-febrouarios-2025',
+        href: 'https://racelist.gr/agwnes/kalentari-agwnwn-febrouarios-2025/',
       },
     ],
     meta: [

@@ -126,7 +126,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/cooper-test',
+        href: 'https://racelist.gr/cooper-test/',
       },
     ],
     meta: [
@@ -138,7 +138,7 @@
       {
         name: 'keywords',
         content:
-          'τεστ Cooper, τεστ κουπερ, τεστ φυσικής κατάστασης, υπολογιστής Cooper, απόσταση σε 12 λεπτά, εργαλείο για δρομείς, cooper test calculator, ρυθμός, αντοχή',
+          'τεστ Cooper, τεστ κουπερ, κουπερ τεστ, τεστ φυσικής κατάστασης, υπολογιστής Cooper, απόσταση σε 12 λεπτά, εργαλείο για δρομείς, cooper test calculator, ρυθμός, αντοχή',
       },
       {
         name: 'author',

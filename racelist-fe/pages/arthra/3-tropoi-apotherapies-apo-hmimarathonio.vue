@@ -109,7 +109,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/arthra/3-tropoi-apotherapies-apo-hmimarathonio',
+        href: 'https://racelist.gr/arthra/3-tropoi-apotherapies-apo-hmimarathonio/',
       },
     ],
     meta: [

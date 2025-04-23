@@ -115,7 +115,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/hydration-calculator',
+        href: 'https://racelist.gr/hydration-calculator/',
       },
     ],
     meta: [

@@ -109,7 +109,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/arthra/energeiaka-gel-gia-treximo-podilasia',
+        href: 'https://racelist.gr/arthra/energeiaka-gel-gia-treximo-podilasia/',
       },
     ],
     meta: [

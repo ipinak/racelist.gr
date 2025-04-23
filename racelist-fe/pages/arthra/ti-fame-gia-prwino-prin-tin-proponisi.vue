@@ -131,7 +131,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/arthra/ti-fame-gia-prwino-prin-tin-proponisi',
+        href: 'https://racelist.gr/arthra/ti-fame-gia-prwino-prin-tin-proponisi/',
       },
     ],
     meta: [

@@ -89,7 +89,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/arthra/o-termatismos-enos-agwna',
+        href: 'https://racelist.gr/arthra/o-termatismos-enos-agwna/',
       },
     ],
     meta: [

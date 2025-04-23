@@ -26,7 +26,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/arthra',
+        href: 'https://racelist.gr/arthra/',
       },
     ],
     meta: [

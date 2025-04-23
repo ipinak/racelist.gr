@@ -68,7 +68,9 @@
         content: 'https://racelist.gr/racelist-banner.jpg',
       },
     ],
-    link: [{ rel: 'canonical', href: 'https://racelist.gr/tools-for-runners' }],
+    link: [
+      { rel: 'canonical', href: 'https://racelist.gr/tools-for-runners/' },
+    ],
   });
 
   const links = [

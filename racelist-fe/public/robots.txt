@@ -3,3 +3,4 @@ User-agent: *
 Allow: /
 
 Host: https://racelist.gr
+Sitemap: https://racelist.gr/sitemap.xml

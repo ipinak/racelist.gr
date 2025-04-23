@@ -29,7 +29,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/faq',
+        href: 'https://racelist.gr/faq/',
       },
     ],
     meta: [

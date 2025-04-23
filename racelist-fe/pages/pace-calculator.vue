@@ -88,7 +88,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/pace-calculator',
+        href: 'https://racelist.gr/pace-calculator/',
       },
     ],
     meta: [

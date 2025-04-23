@@ -31,7 +31,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/about',
+        href: 'https://racelist.gr/about/',
       },
     ],
     meta: [

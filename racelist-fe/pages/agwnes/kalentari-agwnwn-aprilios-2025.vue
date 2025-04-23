@@ -25,7 +25,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/agwnes/kalentari-agwnwn-aprilios-2025',
+        href: 'https://racelist.gr/agwnes/kalentari-agwnwn-aprilios-2025/',
       },
     ],
     meta: [

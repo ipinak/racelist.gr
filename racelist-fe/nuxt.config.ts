@@ -14,10 +14,15 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/ui',
     'nuxt-gtag',
+    '@nuxtjs/sitemap',
   ],
   // Google analytics
   gtag: {
     id: 'G-1YBT2BFVT9',
+  },
+  site: {
+    name: 'racelist.gr',
+    url: 'https://racelist.gr',
   },
   vite: {
     plugins: [tailwindcss()],

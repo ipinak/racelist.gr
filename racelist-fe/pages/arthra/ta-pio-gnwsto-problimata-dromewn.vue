@@ -212,7 +212,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/arthra/ta-pio-gnwsto-problimata-dromewn',
+        href: 'https://racelist.gr/arthra/ta-pio-gnwsto-problimata-dromewn/',
       },
     ],
     meta: [

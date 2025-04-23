@@ -78,7 +78,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/agwnes/kalentari-agwnwn-iounios-2025',
+        href: 'https://racelist.gr/agwnes/kalentari-agwnwn-iounios-2025/',
       },
     ],
     meta: [

@@ -53,7 +53,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/agwnes',
+        href: 'https://racelist.gr/agwnes/',
       },
     ],
     meta: [

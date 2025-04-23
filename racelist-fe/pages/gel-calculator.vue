@@ -244,7 +244,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/gel-calculator',
+        href: 'https://racelist.gr/gel-calculator/',
       },
     ],
     meta: [
