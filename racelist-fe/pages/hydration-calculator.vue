@@ -146,7 +146,7 @@
       },
       {
         property: 'og:url',
-        content: 'https://racelist.gr/hydration-calculator',
+        content: 'https://racelist.gr/hydration-calculator/',
       },
       { name: 'twitter:card', content: 'summary_large_image' },
       {
@@ -162,9 +162,6 @@
         name: 'twitter:image',
         content: 'https://racelist.gr/racelist-banner.jpg',
       },
-    ],
-    link: [
-      { rel: 'canonical', href: 'https://racelist.gr/hydration-calculator' },
     ],
   });
 

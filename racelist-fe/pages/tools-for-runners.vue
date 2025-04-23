@@ -51,7 +51,7 @@
       },
       {
         property: 'og:url',
-        content: 'https://racelist.gr/tools-for-runners',
+        content: 'https://racelist.gr/tools-for-runners/',
       },
       { name: 'twitter:card', content: 'summary_large_image' },
       {

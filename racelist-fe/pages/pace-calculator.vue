@@ -121,7 +121,7 @@
       },
       {
         property: 'og:url',
-        content: 'https://www.racelist.gr/pace-calculator',
+        content: 'https://www.racelist.gr/pace-calculator/',
       },
       {
         property: 'og:image',
