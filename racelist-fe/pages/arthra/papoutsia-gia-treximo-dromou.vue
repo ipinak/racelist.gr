@@ -98,7 +98,7 @@
   import YoutubeVideo from '~/components/YoutubeVideo.vue';
 
   useHead({
-    title: 'Βρες παπούτσια για τρέξιμο δρόμου | racelist.gr',
+    title: 'Βρες τα καλύτερα παπούτσια για τρέξιμο δρόμου | racelist.gr',
     link: [
       {
         rel: 'canonical',
@@ -109,16 +109,16 @@
       {
         name: 'description',
         content:
-          'Δες πώς να διαλέξεις παπούτσια για τρέξιμο και ανακάλυψε 13 επιλογές για κάθε τύπο δρομέα.',
+          'Δες πώς να διαλέξεις τα καλύτερα παπούτσια για τρέξιμο και ανακάλυψε 13 επιλογές για κάθε τύπο δρομέα.',
       },
       {
         property: 'og:title',
-        content: 'Βρες παπούτσια για τρέξιμο δρόμου | racelist.gr',
+        content: 'Βρες τα καλύτερα παπούτσια για τρέξιμο δρόμου | racelist.gr',
       },
       {
         property: 'og:description',
         content:
-          'Δες πώς να διαλέξεις παπούτσια για τρέξιμο και ανακάλυψε 13 επιλογές για κάθε τύπο δρομέα.',
+          'Δες πώς να διαλέξεις τα καλύτερα παπούτσια για τρέξιμο και ανακάλυψε 13 επιλογές για κάθε τύπο δρομέα.',
       },
       {
         property: 'og:image',
@@ -132,12 +132,12 @@
       { name: 'twitter:card', content: 'summary_large_image' },
       {
         name: 'twitter:title',
-        content: 'Βρες παπούτσια για τρέξιμο δρόμου | racelist.gr',
+        content: 'Βρες τα καλύτερα παπούτσια για τρέξιμο δρόμου | racelist.gr',
       },
       {
         name: 'twitter:description',
         content:
-          'Δες πώς να διαλέξεις παπούτσια για τρέξιμο και ανακάλυψε 13 επιλογές για κάθε τύπο δρομέα.',
+          'Δες πώς να διαλέξεις τα καλύτερα παπούτσια για τρέξιμο και ανακάλυψε 13 επιλογές για κάθε τύπο δρομέα.',
       },
       {
         name: 'twitter:image',
@@ -146,7 +146,7 @@
       {
         name: 'keywords',
         content:
-          'παπούτσια για τρέξιμο, παπούτσια δρόμου, παπούτσια δρομέων, running shoes, carbon παπούτσια, παπούτσια με απορρόφηση κραδασμών, καλύτερα παπούτσια για τρέξιμο, review παπουτσιών τρεξίματος, Brooks running shoes, Saucony running, ASICS running shoes, HOKA running shoes, Adidas running shoes, Altra παπούτσια τρεξίματος, Mizuno running shoes, παπούτσια για αγώνες, παπούτσια για προπόνηση, παπούτσια για ημιμαραθώνιο, παπούτσια για αρχάριους δρομείς',
+          'παπούτσια για τρέξιμο, παπούτσια δρόμου, παπούτσια δρομέων, running shoes, carbon παπούτσια, παπούτσια με απορρόφηση κραδασμών, τα καλύτερα παπούτσια για τρέξιμο, review παπουτσιών τρεξίματος, Brooks running shoes, Saucony running, ASICS running shoes, HOKA running shoes, Adidas running shoes, Altra παπούτσια τρεξίματος, Mizuno running shoes, παπούτσια για αγώνες, παπούτσια για προπόνηση, παπούτσια για ημιμαραθώνιο, παπούτσια για αρχάριους δρομείς',
       },
     ],
   });
