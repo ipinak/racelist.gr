@@ -1,7 +1,7 @@
 <template>
   <div class="blog-content max-w-3xl mx-auto px-4 py-8">
     <h1 class="text-3xl text-[#0057A0] font-bold mb-6 capitalize">
-      Βρες παπούτσια για τρέξιμο δρόμου
+      Βρες τα καλύτερα παπούτσια για τρέξιμο δρόμου
     </h1>
 
     <p class="mb-6">
