@@ -123,8 +123,9 @@
           <p class="mb-2">
             Παρόλαυτα, η επισκεψη σε ένα ειδικό είναι η πιο σοφή επιλογή.
           </p>
+          <YoutubeVideo video-id="0Uh7Z0o6XLY" class="mt-4" />
         </li>
-        <li>
+        <li class="mt-4">
           <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
             Πόνοι στις πατούσες
           </h2>
@@ -207,6 +208,8 @@
 </template>
 
 <script setup>
+  import YoutubeVideo from '../../components/YoutubeVideo.vue';
+
   useHead({
     title: 'Τα πιο γνωστά προβλήματα των δρομέων | racelist.gr',
     link: [
