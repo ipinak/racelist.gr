@@ -87,7 +87,7 @@
       href: '/arthra/ti-fame-gia-prwino-prin-tin-proponisi/',
     },
     {
-      title: 'Βρες παπούτσια για τρέξιμο δρόμου',
+      title: 'Βρες τα καλύτερα παπούτσια για τρέξιμο δρόμου',
       href: '/arthra/papoutsia-gia-treximo-dromou/',
     },
     {
