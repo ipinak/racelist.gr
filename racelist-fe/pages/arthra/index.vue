@@ -98,5 +98,9 @@
       title: 'Τα πιο γνωστά προβλήματα των δρομέων',
       href: '/arthra/ta-pio-gnwsto-problimata-dromewn/',
     },
+    {
+      title: 'Καρδιακός Παλμός στο Τρέξιμο',
+      href: '/arthra/kardiakos-palmos-sto-treximo/',
+    },
   ];
 </script>
