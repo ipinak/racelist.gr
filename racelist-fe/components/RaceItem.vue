@@ -15,7 +15,7 @@
     </div>
     <div v-if="race.SignupLink">
       <a
-        :href="`${race.SignupLink}?utm_src=racelist.gr`"
+        :href="`${race.SignupLink}?utm_source=racelist.gr`"
         class="text-[#0057A0] hover:text-[#0057A0]/60"
         target="_blank"
       >

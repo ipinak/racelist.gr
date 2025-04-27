@@ -28,7 +28,7 @@
           </div>
           <div v-if="race.SignupLink" class="mt-6">
             <a
-              :href="`${race.SignupLink}?utm_src=racelist.gr`"
+              :href="`${race.SignupLink}?utm_source=racelist.gr`"
               class="inline-block bg-[#0057A0] text-white px-6 py-2 rounded hover:bg-[#0057A0]/90 transition-colors"
               target="_blank"
             >

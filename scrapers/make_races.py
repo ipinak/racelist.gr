@@ -49,7 +49,7 @@ def generate_race_list(month):
             races_content += f'        <strong>{race["Title"]}</strong> - {race_date} {race["Location"]}<br>\n'
             races_content += f'        <b>Αποστάσεις</b>: {", ".join(race["Distances"])}'
             if "SignupLink" in race and race["SignupLink"]:
-                races_content += f' - <a href="{race["SignupLink"]}?utm_src=racelist.gr">Εγγραφή</a>\n'
+                races_content += f' - <a href="{race["SignupLink"]}?utm_source=racelist.gr">Εγγραφή</a>\n'
             races_content += f'    </li>\n'
 
     html_content = f"""<!DOCTYPE html>
