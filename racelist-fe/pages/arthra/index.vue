@@ -106,5 +106,9 @@
       title: 'Πώς να βρείτε χρόνο για τρέξιμο',
       href: '/arthra/pws-na-vreis-xrono-gia-treximo/',
     },
+    {
+      title: 'Nike Running Shoes',
+      href: '/arthra/nike-running-shoes/',
+    },
   ];
 </script>

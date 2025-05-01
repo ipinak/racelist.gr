@@ -90,6 +90,18 @@
         Καλή προπόνηση — και καλά χιλιόμετρα!
       </p>
     </section>
+
+    <hr class="mb-4 text-gray-300" />
+
+    <div class="flex justify-center">
+      <span class="mr-1">Βρες πληροφορίες για </span>
+      <NuxtLink
+        class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+        to="/arthra/nike-running-shoes/"
+      >
+        Nike running shoes
+      </NuxtLink>
+    </div>
   </div>
 </template>
 
