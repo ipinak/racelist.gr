@@ -102,5 +102,9 @@
       title: 'Καρδιακός Παλμός στο Τρέξιμο',
       href: '/arthra/kardiakos-palmos-sto-treximo/',
     },
+    {
+      title: 'Πώς να βρείτε χρόνο για τρέξιμο',
+      href: '/arthra/pws-na-vreis-xrono-gia-treximo/',
+    },
   ];
 </script>
