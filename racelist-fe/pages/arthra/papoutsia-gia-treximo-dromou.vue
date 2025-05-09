@@ -95,24 +95,21 @@
 
     <div class="flex justify-center">
       <span class="mr-1">Βρες πληροφορίες για </span>
-      <ul class="list-disc list-inside space-y-2 mb-4 px-6">
-        <li>
-          <NuxtLink
-            class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
-            to="/arthra/nike-running-shoes/"
-          >
-            Nike running shoes
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
-            to="/arthra/adidas-running-shoes/"
-          >
-            Adidas running shoes
-          </NuxtLink>
-        </li>
-      </ul>
+      <NuxtLink
+        class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+        to="/arthra/nike-running-shoes/"
+      >
+        Nike running shoes
+      </NuxtLink>
+
+      <span class="mr-0.5">,</span>
+      
+      <NuxtLink
+        class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+        to="/arthra/adidas-running-shoes/"
+      >
+        Adidas running shoes
+      </NuxtLink>
     </div>
   </div>
 </template>
