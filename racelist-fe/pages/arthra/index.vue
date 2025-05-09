@@ -116,5 +116,9 @@
       title: 'Nike Running Shoes',
       href: '/arthra/nike-running-shoes/',
     },
+    {
+      title: 'Οφέλη Από Το Τρέξιμο',
+      href: '/arthra/ofeli-treximatos/',
+    }
   ];
 </script>
