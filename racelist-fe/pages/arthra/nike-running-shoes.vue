@@ -9,6 +9,10 @@
     ],
     meta: [
       {
+        name: 'keywords',
+        content: 'nike running shoes, nike παπούτσια τρεξίματος, vaporfly, streakfly, pegasus premium, vomero, τρέξιμο',
+      },
+      {
         name: 'description',
         content:
           'Οδηγός για τα παπούτσια τρεξίματος Nike. Ανακαλύψτε τα κορυφαία μοντέλα όπως το Vaporfly 4 και βρείτε το ιδανικό παπούτσι για εσάς.',

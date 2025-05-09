@@ -119,6 +119,10 @@
     {
       title: 'Οφέλη Από Το Τρέξιμο',
       href: '/arthra/ofeli-treximatos/',
-    }
+    },
+    {
+      title: 'Adidas Running Shoes',
+      href: '/arthra/adidas-running-shoes/',
+    },
   ];
 </script>
