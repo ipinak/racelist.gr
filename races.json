@@ -1490,5 +1490,33 @@
         ],
         "SignupLink": "https://www.ursatrail.gr/en/main/",
         "Slug": "ursa-trail-2025"
+    },
+    {
+        "ID": 117,
+        "Title": "4o Cholomon Trail",
+        "Date": "2025-06-15",
+        "Location": "Πολύγυρο, Χαλκιδικής",
+        "Distances": [
+            "50km",
+            "21km",
+            "11km"
+        ],
+        "SignupLink": "https://docs.google.com/forms/d/e/1FAIpQLScHA3lMJQOqv4rSXYdA3ND5yPYt5dbOkfW56Oy1PCKK8Rv6rA/viewform",
+        "Slug": "4o-cholomon-trail-2025"
+    },
+    {
+        "ID": 118,
+        "Title": "Run Deskati Konstantineia 2025",
+        "Date": "2025-05-18",
+        "Location": "Δεσκάτη, Γρεβενα",
+        "Distances": [
+            "21.1km",
+            "10km",
+            "2.5km",
+            "1km",
+            "800m"
+        ],
+        "SignupLink": "https://gsdeskatis.gr/registrations",
+        "Slug": "run-deskati-konstantineia-2025"
     }
 ]
