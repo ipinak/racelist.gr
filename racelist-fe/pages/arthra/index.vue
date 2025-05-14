@@ -124,5 +124,9 @@
       title: 'Adidas Running Shoes',
       href: '/arthra/adidas-running-shoes/',
     },
+    {
+      title: 'Smartwatches για Δρομείς και Ποδηλάτες',
+      href: '/arthra/smartwatches-gia-dromeis-kai-podilates/',
+    },
   ];
 </script>
