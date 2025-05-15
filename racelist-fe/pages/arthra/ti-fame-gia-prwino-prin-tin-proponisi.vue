@@ -161,7 +161,8 @@
       { property: 'og:type', content: 'article' },
       {
         property: 'og:url',
-        content: 'https://racelist.gr/arthra/ti-na-fas-prin-to-treksimo',
+        content:
+          'https://racelist.gr/arthra/ti-fame-gia-prwino-prin-tin-proponisi/',
       },
       { name: 'twitter:card', content: 'summary_large_image' },
       {
