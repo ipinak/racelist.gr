@@ -215,7 +215,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/arthra/kardiakos-rythmos-sto-treksimo/',
+        href: 'https://racelist.gr/arthra/kardiakos-palmos-sto-treksimo/',
       },
     ],
     meta: [
@@ -240,7 +240,7 @@
       { property: 'og:type', content: 'article' },
       {
         property: 'og:url',
-        content: 'https://racelist.gr/arthra/kardiakos-rythmos-sto-treksimo/',
+        content: 'https://racelist.gr/arthra/kardiakos-palmos-sto-treksimo/',
       },
       { name: 'twitter:card', content: 'summary_large_image' },
       {
