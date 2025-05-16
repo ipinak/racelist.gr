@@ -1518,5 +1518,18 @@
         ],
         "SignupLink": "https://gsdeskatis.gr/registrations",
         "Slug": "run-deskati-konstantineia-2025"
+    },
+    {
+        "ID": 119,
+        "Title": "Mamali Trail Run 2025",
+        "Date": "2025-06-08",
+        "Location": "Βερδικουσια, Θεσσαλία",
+        "Distances": [
+            "24km",
+            "9km",
+            "1km"
+        ],
+        "SignupLink": "http://mountainendurocamp.net/2025/02/mamali-trail-run-2025/",
+        "Slug": "mamali-trail-run-2025"
     }
 ]
