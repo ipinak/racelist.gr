@@ -1531,5 +1531,39 @@
         ],
         "SignupLink": "http://mountainendurocamp.net/2025/02/mamali-trail-run-2025/",
         "Slug": "mamali-trail-run-2025"
+    },
+    {
+        "ID": 120,
+        "Title": "Cretan Backyard Ultra 2026",
+        "Date": "2026-01-17",
+        "Location": "Βορίτσι, Κρήτη",
+        "Distances": [
+            "Last Man Standing"
+        ],
+        "Slug": "cretan-backyard-ultra-2026",
+        "SignupLink": "https://ideanroutes.gr/event/cretan-backyard-ultra-2026/"
+    },
+    {
+        "ID": 121,
+        "Title": "Πανγυθειάδα 2025",
+        "Date": "2025-05-24",
+        "Location": "Γύθειο, Πελοπόννησος",
+        "Distances": [
+            "5K",
+            "2K"
+        ],
+        "Slug": "pangytheiada-2025",
+        "SignupLink": "https://forms.gle/YzPtUPxxz1Lvuiow8"
+    },
+    {
+        "ID": 122,
+        "Title": "Lesvos Trail 2025",
+        "Date": "2025-05-25",
+        "Location": "Λέσβος",
+        "Distances": [
+            "15K"
+        ],
+        "Slug": "lesvos-trail-2025",
+        "SignupLink": "https://lesvostrail.eu/"
     }
 ]
