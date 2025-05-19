@@ -128,5 +128,13 @@
       title: 'Smartwatches για Δρομείς και Ποδηλάτες',
       href: '/arthra/smartwatches-gia-dromeis-kai-podilates/',
     },
+    {
+      title: 'Suunto Peak 9 Pro',
+      href: '/arthra/suunto-peak-9-pro/',
+    },
+    {
+      title: 'Garmin Fenix 8',
+      href: '/arthra/garmin-fenix-8/',
+    },
   ];
 </script>
