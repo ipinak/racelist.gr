@@ -1549,8 +1549,8 @@
         "Date": "2025-05-24",
         "Location": "Γύθειο, Πελοπόννησος",
         "Distances": [
-            "5K",
-            "2K"
+            "5km",
+            "2km"
         ],
         "Slug": "pangytheiada-2025",
         "SignupLink": "https://forms.gle/YzPtUPxxz1Lvuiow8"
@@ -1561,9 +1561,21 @@
         "Date": "2025-05-25",
         "Location": "Λέσβος",
         "Distances": [
-            "15K"
+            "15km"
         ],
         "Slug": "lesvos-trail-2025",
         "SignupLink": "https://lesvostrail.eu/"
+    },
+    {
+        "ID": 123,
+        "Title": "4ο Αγώνα Δρόμου στον Σταυρό Αμυγδαλεώνα",
+        "Date": "2025-09-07",
+        "Location": "Σταυρός Αμυγδαλεώνα, Καβάλα",
+        "Distances": [
+            "22km",
+            "5km"
+        ],
+        "Slug": "4os-agwnas-dromou-stavros-amygdaleona",
+        "SignupLink": "https://www.silasrun.gr/"
     }
 ]
