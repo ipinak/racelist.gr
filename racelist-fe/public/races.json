@@ -1577,5 +1577,90 @@
         ],
         "Slug": "4os-apostolos-silas-trail-adventure",
         "SignupLink": "https://www.silasrun.gr/"
+    },
+    {
+        "ID": 124,
+        "Title": "8ος Αγωνάς Δρόμου Μάχης Φαραγγιού Καντάνου",
+        "Date": "2025-06-01",
+        "Location": "Κάντανος, Κρήτη",
+        "Distances": [
+            "7.5km",
+            "600m"
+        ],
+        "Slug": "8os-agonas-dromou-mahis-faraggiou-kantanou",
+        "SignupLink": "https://atpro.gr/agonas-dromou-maxi-faraggiou-kantanou/"
+    },
+    {
+        "ID": 125,
+        "Title": "Chania Trail Event",
+        "Date": "2025-06-07",
+        "Location": "Χανιά, Κρήτη",
+        "Distances": [
+            "11km",
+            "6km"
+        ],
+        "Slug": "chania-trail-run-2025",
+        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=56ffbae1511956dbc37724249d952332"
+    },
+    {
+        "ID": 126,
+        "Title": "4ος Αγώνας Δρόμου - Γαύδος",
+        "Date": "2025-06-06",
+        "Location": "Γαύδος",
+        "Distances": [
+            "20km",
+            "10km",
+            "5lm",
+            "1km"
+        ],
+        "Slug": "4os-agonas-dromou-gaudou",
+        "SignupLink": "https://gavdos.gr/4i-giorti-athlitismou-dimou-gavdou/"
+    },
+    {
+        "ID": 127,
+        "Title": "75ος Βενιζέλειος Δρόμος",
+        "Date": "2025-06-08",
+        "Location": "Χανιά, Κρήτη",
+        "Distances": [
+            "10km",
+            "2.3km"
+        ],
+        "Slug": "75o-benizeleio-dromo",
+        "SignupLink": "https://atpro.gr/venizeleios-dromos/"
+    },
+    {
+        "ID": 128,
+        "Title": "Platanias Run 2025",
+        "Date": "2025-06-15",
+        "Location": "Πλατανιάς, Κρήτη",
+        "Distances": [
+            "5km"
+        ],
+        "Slug": "platania-run-2025",
+        "SignupLink": "https://atpro.gr/platanias-run/"
+    },
+    {
+        "ID": 129,
+        "Title": "7η Λειβαδούρια Φυσιολατρική Διαδρομή",
+        "Date": "2025-06-15",
+        "Location": "Λιβαδούρα, Κρήτη",
+        "Distances": [
+            "7km"
+        ],
+        "Slug": "7h-leivadouria-fysiolatriki-diadromi",
+        "SignupLink": "https://gavalochorigreece.org/el/livadouria-nature-trail/"
+    },
+    {
+        "ID": 130,
+        "Title": "Ιεράπετρα City Run vol. 5",
+        "Date": "2025-06-14",
+        "Location": "Ιεράπετρα, Κρήτη",
+        "Distances": [
+            "10km",
+            "5km",
+            "400m"
+        ],
+        "Slug": "ierapetra-city-run-vol-5",
+        "SignupLink": "https://atpro.gr/ierapetra-city-run/"
     }
 ]

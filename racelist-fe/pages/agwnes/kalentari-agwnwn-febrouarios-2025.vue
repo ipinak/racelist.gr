@@ -21,10 +21,8 @@
 
   const title = 'Αγώνες για τον Φεβρουάριο 2025';
 
-  // Fetch races data
   const { data: allRaces } = await useFetch('/min.races.json');
 
-  // Filter races for February 2025
   const races = computed(() => {
     if (!allRaces.value) return [];
 
@@ -61,7 +59,11 @@
         content:
           'Καλένταρι αγώνων δρομου και βουνού σε κάθε γωνιά της Ελλάδας. Ημερολόγιο με πληροφορίες και ημερομηνίες για κάθε εκδήλωση.',
       },
-      { property: 'og:url', content: 'https://racelist.gr' },
+      {
+        property: 'og:url',
+        content:
+          'https://racelist.gr/agwnes/kalentari-agwnwn-febrouarios-2025/',
+      },
       { property: 'og:type', content: 'website' },
       {
         property: 'og:image',

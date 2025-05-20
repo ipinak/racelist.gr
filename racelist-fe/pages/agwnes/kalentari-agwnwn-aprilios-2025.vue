@@ -21,10 +21,8 @@
 
   const title = 'Αγώνες για τον Απρίλιο 2025';
 
-  // Fetch races data
   const { data: allRaces } = await useFetch('/min.races.json');
 
-  // Filter races for April 2025
   const races = computed(() => {
     if (!allRaces.value) return [];
 
@@ -60,7 +58,10 @@
         content:
           'Καλένταρι αγώνων δρομου και βουνού σε κάθε γωνιά της Ελλάδας. Ημερολόγιο με πληροφορίες και ημερομηνίες για κάθε εκδήλωση.',
       },
-      { property: 'og:url', content: 'https://racelist.gr' },
+      {
+        property: 'og:url',
+        content: 'https://racelist.gr/agwnes/kalentari-agwnwn-aprilios-2025/',
+      },
       { property: 'og:type', content: 'website' },
       {
         property: 'og:image',

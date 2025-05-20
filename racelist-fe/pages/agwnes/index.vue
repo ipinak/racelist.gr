@@ -46,6 +46,14 @@
       label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Ιούνιο',
       href: '/agwnes/kalentari-agwnwn-iounios-2025/',
     },
+    {
+      label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Ιούλιο',
+      href: '/agwnes/kalentari-agwnwn-ioulios-2025/',
+    },
+    {
+      label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Αύγουστο',
+      href: '/agwnes/kalentari-agwnwn-augoustos-2025/',
+    },
   ];
 
   useHead({

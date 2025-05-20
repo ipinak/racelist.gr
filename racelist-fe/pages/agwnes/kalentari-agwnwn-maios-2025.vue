@@ -20,16 +20,14 @@
 
   const title = 'Αγώνες για τον Μάη 2025';
 
-  // Fetch races data
   const { data: allRaces } = await useFetch('/min.races.json');
 
-  // Filter races for May 2025
   const races = computed(() => {
     if (!allRaces.value) return [];
 
     return allRaces.value.filter((race) => {
       const raceDate = new Date(race.Date);
-      return raceDate.getMonth() === 4 && raceDate.getFullYear() === 2025; // May is month 4 (0-based)
+      return raceDate.getMonth() === 4 && raceDate.getFullYear() === 2025;
     });
   });
 
@@ -59,7 +57,10 @@
         content:
           'Καλένταρι αγώνων δρομου και βουνού σε κάθε γωνιά της Ελλάδας. Ημερολόγιο με πληροφορίες και ημερομηνίες για κάθε εκδήλωση.',
       },
-      { property: 'og:url', content: 'https://racelist.gr' },
+      {
+        property: 'og:url',
+        content: 'https://racelist.gr/agwnes/kalentari-agwnwn-maios-2025/',
+      },
       { property: 'og:type', content: 'website' },
       {
         property: 'og:image',

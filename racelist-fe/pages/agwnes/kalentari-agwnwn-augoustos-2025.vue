@@ -1,6 +1,7 @@
 <template>
   <div class="max-w-4xl mx-auto px-4 py-8">
     <Header :title="title" />
+
     <RaceList :races="races" />
 
     <h2 class="text-2xl text-center text-[#0057A0] mt-10 mb-4">
@@ -18,7 +19,7 @@
   import RaceList from '~/components/Agwnes/RaceList.vue';
   import NewsletterSubmissionForm from '~/components/NewsletterSubmissionForm.vue';
 
-  const title = 'Αγώνες για τον Μάρτιο 2025';
+  const title = 'Αγώνες για τον Αύγουστο 2025';
 
   const { data: allRaces } = await useFetch('/min.races.json');
 
@@ -27,16 +28,16 @@
 
     return allRaces.value.filter((race) => {
       const raceDate = new Date(race.Date);
-      return raceDate.getMonth() === 2 && raceDate.getFullYear() === 2025; // March is month 2 (0-based)
+      return raceDate.getMonth() === 7 && raceDate.getFullYear() === 2025;
     });
   });
 
   useHead({
-    title: 'Καλένταρι αγώνων δρομου και βουνού για τον Μάρτιο | racelist.gr',
+    title: 'Καλένταρι αγώνων δρομου και βουνού για τον Αύγουστο | racelist.gr',
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/agwnes/kalentari-agwnwn-martios-2025/',
+        href: 'https://racelist.gr/agwnes/kalentari-agwnwn-augoustos-2025/',
       },
     ],
     meta: [
@@ -50,7 +51,7 @@
       {
         property: 'og:title',
         content:
-          'Καλένταρι αγώνων δρομου και βουνού για τον Μάρτιο | racelist.gr',
+          'Καλένταρι αγώνων δρομου και βουνού για τον Αύγουστο | racelist.gr',
       },
       {
         property: 'og:description',
@@ -59,7 +60,7 @@
       },
       {
         property: 'og:url',
-        content: 'https://racelist.gr/agwnes/kalentari-agwnwn-martios-2025/',
+        content: 'https://racelist.gr/agwnes/kalentari-agwnwn-augoustos-2025/',
       },
       { property: 'og:type', content: 'website' },
       {
@@ -73,7 +74,7 @@
       {
         name: 'twitter:title',
         content:
-          'Καλένταρι αγώνων δρομου και βουνού για τον Μάρτιο | racelist.gr',
+          'Καλένταρι αγώνων δρομου και βουνού για τον Αύγουστο | racelist.gr',
       },
       {
         name: 'twitter:description',
