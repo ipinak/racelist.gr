@@ -1568,14 +1568,14 @@
     },
     {
         "ID": 123,
-        "Title": "4ο Αγώνα Δρόμου στον Σταυρό Αμυγδαλεώνα",
+        "Title": "4ος Απόστολος Σίλας Trail Adventure",
         "Date": "2025-09-07",
         "Location": "Σταυρός Αμυγδαλεώνα, Καβάλα",
         "Distances": [
             "22km",
             "5km"
         ],
-        "Slug": "4os-agwnas-dromou-stavros-amygdaleona",
+        "Slug": "4os-apostolos-silas-trail-adventure",
         "SignupLink": "https://www.silasrun.gr/"
     }
 ]
