@@ -1662,5 +1662,31 @@
         ],
         "Slug": "ierapetra-city-run-vol-5",
         "SignupLink": "https://atpro.gr/ierapetra-city-run/"
+    },
+    {
+        "ID": 131,
+        "Title": "13ος Ημιμαραθώνιος Χίου",
+        "Date": "2025-08-31",
+        "Location": "Χίος",
+        "Distances": [
+            "21.1km",
+            "10.5km",
+            "5km",
+            "1.5km"
+        ],
+        "Slug": "13os-chios-half-marathon-2025",
+        "SignupLink": "https://www.chiosrunning.gr/"
+    },
+    {
+        "ID": 132,
+        "Title": "Meteora Trail Run 2025",
+        "Date": "2025-09-21",
+        "Location": "Μετέωρα, Καλαμπάκα",
+        "Distances": [
+            "23km",
+            "10km"
+        ],
+        "Slug": "meteora-trail-run-2025",
+        "SignupLink": "https://meteoratrailrun.gr/"
     }
 ]
