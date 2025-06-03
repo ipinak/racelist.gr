@@ -27,6 +27,9 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  sitemap: {
+    trailingSlash: true,
+  },
   nitro: {
     prerender: {
       crawlLinks: true,
