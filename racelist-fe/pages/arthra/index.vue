@@ -139,6 +139,10 @@
     {
       title: 'Garmin Forerunner 955 και 955 Solar',
       href: '/arthra/garmin-forerunner-955-kai-955-solar/',
+    },
+    {
+      title: 'Garming Forerunner 965',
+      href: '/arthra/garmin-forerunner-965/',
     }
   ];
 </script>

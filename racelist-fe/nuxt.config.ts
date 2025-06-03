@@ -66,7 +66,8 @@ export default defineNuxtConfig({
         '/arthra/ti-fame-gia-prwino-prin-tin-proponisi/',
         '/arthra/ti-trwme-prin-enan-agwna-treximatos/',
         '/arthra/garmin-forerunner-955-kai-955-solar/',
-        
+        '/arthra/garmin-forerunner-965/',
+
         // agwnes
         '/agwnas/11o-evrotas-run/',
         '/agwnas/12os-dromos-seich-sou/',
