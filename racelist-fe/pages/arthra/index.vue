@@ -136,5 +136,9 @@
       title: 'Garmin Fenix 8',
       href: '/arthra/garmin-fenix-8/',
     },
+    {
+      title: 'Garmin Forerunner 955 και 955 Solar',
+      href: '/arthra/garmin-forerunner-955-kai-955-solar/',
+    }
   ];
 </script>
