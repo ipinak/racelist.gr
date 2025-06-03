@@ -322,9 +322,8 @@
       <h2 class="text-3xl text-[#0057A0] font-bold my-6 capitalize">
         Video review για το Garmin Forerunner 955 & 955 Solar
       </h2>
-      <YoutubeVideo video-id="H0xzRb3z8qo" class="mb-3" />
+      <YoutubeVideo video-id="Jm5Wpqcjrgs" class="mb-3" />
       <YoutubeVideo video-id="TQb9IIBXymc" class="mb-3" />
-      <YoutubeVideo video-id="fQBdkw6Mmjc" class="mb-3" />
     </div>
 
         <div class="border-t border-gray-200 pt-6 mt-8">
