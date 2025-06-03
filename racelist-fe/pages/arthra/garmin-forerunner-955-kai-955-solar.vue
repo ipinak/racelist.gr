@@ -326,5 +326,21 @@
       <YoutubeVideo video-id="TQb9IIBXymc" class="mb-3" />
       <YoutubeVideo video-id="fQBdkw6Mmjc" class="mb-3" />
     </div>
+
+        <div class="border-t border-gray-200 pt-6 mt-8">
+      <h3 class="text-lg font-semibold text-[#0057A0] mb-3">
+        Αναλυτικές Παρουσιάσεις
+      </h3>
+      <ul class="list-disc list-inside text-[#0057A0]">
+        <li>
+          <nuxt-link
+            to="/arthra/garmin-fenix-8/"
+            class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+          >
+            Garmin Fenix 8: Αναλυτική Παρουσίαση & Αξιολόγηση 2025
+          </nuxt-link>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
