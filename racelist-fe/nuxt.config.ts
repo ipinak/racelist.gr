@@ -23,12 +23,10 @@ export default defineNuxtConfig({
   site: {
     name: 'racelist.gr',
     url: 'https://racelist.gr',
+    trailingSlash: true,
   },
   vite: {
     plugins: [tailwindcss()],
-  },
-  sitemap: {
-    trailingSlash: true,
   },
   nitro: {
     prerender: {
