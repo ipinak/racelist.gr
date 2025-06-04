@@ -8,7 +8,7 @@
     >
       <strong>{{ race.Title }}</strong>
     </NuxtLink>
-    - {{ race.Date }} {{ race.Location }}
+    - {{ format(race.Date) }} {{ race.Location }}
     <br />
     <div v-if="race.Distances?.length">
       <b>Αποστάσεις:</b> {{ race.Distances.join(', ') }}
@@ -26,10 +26,14 @@
 </template>
 
 <script setup>
+import { formatDate } from "~/shared/formatters";
+
   defineProps({
     race: {
       type: Object,
       default: () => ({}),
     },
   });
+
+  const format = formatDate;
 </script>

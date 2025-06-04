@@ -143,6 +143,10 @@
     {
       title: 'Garming Forerunner 965',
       href: '/arthra/garmin-forerunner-965/',
+    },
+    {
+      title: 'Garmin Fenix 7X Solar',
+      href: '/arthra/garmin-fenix-7x-solar/',
     }
   ];
 </script>

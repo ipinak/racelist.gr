@@ -30,7 +30,7 @@
             <span v-if="day">{{ day }}</span>
             <div
               v-if="hasEvent(day)"
-              class="w-2 h-2 bg-[#a4c5ca] rounded-full absolute bottom-1 left-1/2 -translate-x-1/2"
+              class="w-2 h-2 bg-[#0057A0] rounded-full absolute bottom-1 left-1/2 -translate-x-1/2"
             ></div>
           </td>
         </tr>

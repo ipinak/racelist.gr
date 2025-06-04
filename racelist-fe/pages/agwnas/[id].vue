@@ -9,24 +9,25 @@
       <div class="bg-[#f4f4f4] border-l-4 border-[#0057A0] p-6 rounded">
         <div class="space-y-4">
           <div>
-            <span class="font-semibold">Ημερομηνία:</span> {{ race.Date }}
+            <span class="font-semibold">Ημερομηνία:</span> {{ format(race.Date) }}
           </div>
           <div>
             <span class="font-semibold">Τοποθεσία:</span> {{ race.Location }}
           </div>
           <div v-if="race.Description">
-            <span class="font-semibold">Περιγραφή:</span>
+            <span class="font-semibold">Περιγραφή</span>
             <p class="mt-2">{{ race.Description }}</p>
           </div>
           <div v-if="race.Distances?.length">
-            <span class="font-semibold">Αποστάσεις:</span>
-            <ul class="mt-2 list-disc list-inside">
-              <li v-for="distance in race.Distances" :key="distance">
-                {{ distance }}
-              </li>
-            </ul>
+            <span class="font-semibold text-xl">Αποστάσεις</span>
+            <div class="mt-4 space-y-2">
+              <DistanceBar 
+                v-for="distance in sortedDistances" 
+                :key="distance.text" 
+                :distance="distance" />
+            </div>
           </div>
-          <div v-if="race.SignupLink" class="mt-6">
+          <div v-if="race.SignupLink" class="mt-12 text-center">
             <a
               :href="`${race.SignupLink}?utm_source=racelist.gr`"
               class="inline-block bg-[#0057A0] text-white px-6 py-2 rounded hover:bg-[#0057A0]/90 transition-colors"
@@ -43,8 +44,55 @@
 </template>
 
 <script setup>
+  import { formatDate } from '~/shared/formatters';
+
+  const format = formatDate;
   const route = useRoute();
   const race = ref(null);
+
+  // Helper function to extract numeric value from distance string
+  const extractDistanceValue = (distanceStr) => {
+    // Match patterns like "5K", "10km", "21.1km", "42.195km", "Half Marathon", "Marathon"
+    const str = distanceStr.toLowerCase();
+    
+    if (str.includes('marathon') && !str.includes('half')) {
+      return 42.195; // Full marathon
+    }
+    if (str.includes('half') || str.includes('ημιμαραθώνιος')) {
+      return 21.1; // Half marathon
+    }
+    
+    // Extract number from string (handles formats like "5K", "10km", "21.1km")
+    const match = str.match(/(\d+(?:\.\d+)?)/);
+    if (match) {
+      const num = parseFloat(match[1]);
+      // If it's a small number (likely in km), return as is
+      // If it's a large number (likely in meters), convert to km
+      return num > 100 ? num / 1000 : num;
+    }
+    
+    return 0; // Fallback for unparseable distances
+  };
+
+  // Computed property for sorted distances with bar widths
+  const sortedDistances = computed(() => {
+    if (!race.value?.Distances?.length) return [];
+    
+    // Parse and sort distances
+    const parsedDistances = race.value.Distances.map(distance => ({
+      text: distance,
+      value: extractDistanceValue(distance)
+    })).sort((a, b) => a.value - b.value);
+    
+    // Find max distance for scaling
+    const maxDistance = Math.max(...parsedDistances.map(d => d.value));
+    
+    // Calculate bar widths (minimum 20%, maximum 100%)
+    return parsedDistances.map(distance => ({
+      ...distance,
+      barWidth: Math.max(10, (distance.value / maxDistance) * 100)
+    }));
+  });
 
   onMounted(async () => {
     try {
