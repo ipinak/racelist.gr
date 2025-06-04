@@ -316,6 +316,14 @@
             Garmin Fenix 8: Αναλυτική Παρουσίαση & Αξιολόγηση 2025
         </NuxtLink>
         </li>
+        <li>
+          <NuxtLink
+            to="/arthra/garmin-forerunner-965/"
+            class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+          >
+            Garmin Forerunner 965: Αναλυτική Παρουσίαση & Αξιολόγηση 
+        </NuxtLink>
+        </li>
       </ul>
     </div>
   </div>

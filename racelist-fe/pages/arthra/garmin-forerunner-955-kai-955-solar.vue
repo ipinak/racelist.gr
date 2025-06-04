@@ -339,6 +339,14 @@
             Garmin Fenix 8: Αναλυτική Παρουσίαση & Αξιολόγηση 2025
           </nuxt-link>
         </li>
+                <li>
+          <nuxt-link
+            to="/arthra/garmin-fenix-7x-solar/"
+            class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+          >
+            Garmin Fenix 7X Solar: Αναλυτική Παρουσίαση & Αξιολόγηση 2025
+          </nuxt-link>
+        </li>
       </ul>
     </div>
   </div>
