@@ -1688,5 +1688,18 @@
         ],
         "Slug": "meteora-trail-run-2025/",
         "SignupLink": "https://meteoratrailrun.gr/"
+    },
+    {
+        "ID": 133,
+        "Title": "ΞεΣκουριάΖω Trail 2025",
+        "Date": "2025-10-05",
+        "Location": "Μεγάλη Παναγιά, Χαλκιδικής",
+        "Distances": [
+            "25km",
+            "15km",
+            "5km"
+        ],
+        "Slug": "meteora-trail-run-2025/",
+        "SignupLink": "https://xeskouriazo.gr/"
     }
 ]
