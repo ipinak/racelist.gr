@@ -1414,7 +1414,7 @@
     },
     {
         "ID": 110,
-        "Title": "Μαζί στη Γιορτή – Ενώνουμε τα βήματά μας Run",
+        "Title": "Μαζί στη Γιορτή – Ενώνουμε τα βήματα μας Run",
         "Date": "2025-05-17",
         "Location": "Γαλαξίδι, Φωκίδας",
         "Distances": [
@@ -1688,5 +1688,203 @@
         ],
         "Slug": "meteora-trail-run-2025/",
         "SignupLink": "https://meteoratrailrun.gr/"
+    },
+    {
+        "ID": 133,
+        "Title": "ΞεΣκουριάΖω Trail 2025",
+        "Date": "2025-10-05",
+        "Location": "Μεγάλη Παναγιά, Χαλκιδικής",
+        "Distances": [
+            "25km",
+            "15km",
+            "5km"
+        ],
+        "Slug": "meteora-trail-run-2025/",
+        "SignupLink": "https://xeskouriazo.gr/"
+    },
+    {
+        "ID": 134,
+        "Title": "1o ΦΕΣΤΙΒΑΛ ΑΘΛΗΤΙΣΜΟΥ ΔΥΤΙΚΗΣ ΜΑΝΗΣ – 1st WEST MANI SPORTS FESTIVAL",
+        "Date": "2025-06-21",
+        "Location": "Δυτική Μάνη",
+        "Distances": [
+            "10km",
+            "5km",
+            "2km (κολύμβηση)",
+            "1km (κολύμβηση)",
+            "500m (κολύμβηση)"
+        ],
+        "Slug": "1o-festival-athlitismou-dytikis-manis-west-mani-sports-festival/",
+        "SignupLink": "https://raceid.com/el/races/13737/about"
+    },
+    {
+        "ID": 135,
+        "Title": "3ος Δρόμος Θυσίας 'ΚΑΚΟΛΥΡΙ 1944'",
+        "Date": "2025-06-21",
+        "Location": "Ταξιάρχες",
+        "Distances": [
+            "13.5km",
+            "5km"
+        ],
+        "Slug": "3os-dromos-thysias-kakolyri-1944/",
+        "SignupLink": "https://raceid.com/el/races/13575/about"
+    },
+    {
+        "ID": 136,
+        "Title": "8ος ΠΛΑΣΤΗΡΙΟΣ ΔΡΟΜΟΣ ΚΑΡΔΙΤΣΑΣ",
+        "Date": "2025-06-22",
+        "Location": "Καρδίτσα",
+        "Distances": [
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "Slug": "8os-plastirios-dromos-karditsas/",
+        "SignupLink": "https://raceid.com/el/races/13828/about"
+    },
+    {
+        "ID": 137,
+        "Title": "OrestisRun 2025",
+        "Date": "2025-06-28",
+        "Location": "Ορεστιάδα",
+        "Distances": [
+            "10km",
+            "5km",
+            "2km",
+            "800m"
+        ],
+        "Slug": "orestisrun-2025/",
+        "SignupLink": "https://raceid.com/el/races/13774/about"
+    },
+    {
+        "ID": 138,
+        "Title": "Πολύλοφος Run 2025",
+        "Date": "2025-07-12",
+        "Location": "Πολύλοφος",
+        "Distances": [
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "Slug": "polylophos-run-2025/",
+        "SignupLink": "https://raceid.com/el/races/13806/about"
+    },
+    {
+        "ID": 139,
+        "Title": "5ος Παλλατίδειος 2025",
+        "Date": "2025-07-13",
+        "Location": "Σιδηρόκαστρο",
+        "Distances": [
+            "27km",
+            "6km",
+            "1km"
+        ],
+        "Slug": "5os-pallatideios-2025/",
+        "SignupLink": "https://raceid.com/el/races/13827/about"
+    },
+    {
+        "ID": 140,
+        "Title": "Στα Χνάρια των Ηρώων 2025",
+        "Date": "2025-07-26",
+        "Location": "Θεσπιές",
+        "Distances": [
+            "102km",
+            "102km (Σκυταλοδρομία 2 αθλητών)",
+            "102km (Σκυταλοδρομία 4 αθλητών)"
+        ],
+        "Slug": "sta-chnaria-ton-iroon-2025/",
+        "SignupLink": "https://raceid.com/el/races/13639/about"
+    },
+    {
+        "ID": 141,
+        "Title": "6ος Λαΐκός Δρόμος Φράγμα λίμνης Πλαστήρα Μούχα - Καστανιά",
+        "Date": "2025-08-3",
+        "Location": "Καρδίτσα",
+        "Distances": [
+            "10km",
+            "5.5km",
+            "600m"
+        ],
+        "Slug": "6os-laikos-dromos-fragma-limnis-plastira-mouha/",
+        "SignupLink": "https://raceid.com/el/races/13668/about"
+    },
+    {
+        "ID": 142,
+        "Title": "Τρέχουμε για το ΚΔΑΠ ΑμεΑ 'Η Παιδόπολη' - Γινόμαστε όλοι μια αγκαλιά",
+        "Date": "2025-08-30",
+        "Location": "Θεσπρωτικό",
+        "Distances": [
+            "10km",
+            "5.5km",
+            "5.5km (Περιπατητικός)",
+            "800m",
+            "100m"
+        ],
+        "Slug": "trehoume-gia-to-kdap-amea-i-paidopoli/",
+        "SignupLink": "https://raceid.com/el/races/13816/about"
+    },
+    {
+        "ID": 143,
+        "Title": "KALAMATA MOUNTAIN RUN 2025",
+        "Date": "2025-09-07",
+        "Location": "Καλαμάτα",
+        "Distances": [
+            "25km (Kalathi Trail)",
+            "9km (Verga Race)"
+        ],
+        "Slug": "kalamata-mountain-run-2025/",
+        "SignupLink": "https://raceid.com/el/races/13807/about"
+    },
+    {
+        "ID": 144,
+        "Title": "Patmos ChoRun 2025",
+        "Date": "2025-09-14",
+        "Location": "Πάτμος",
+        "Distances": [
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "Slug": "patmos-chorun-2025/",
+        "SignupLink": "https://raceid.com/el/races/13440/about"
+    },
+    {
+        "ID": 145,
+        "Title": "4ο Running Παλαιού Αγιονερίου",
+        "Date": "2025-06-14",
+        "Location": "Παλιό Αγιονέρι",
+        "Distances": [
+            "10km",
+            "3km",
+            "1.15km",
+            "950m",
+            "650m",
+            "450m"
+        ],
+        "Slug": "4o-running-palaiou-agineriou/",
+        "SignupLink": "https://raceid.com/el/races/13764/about"
+    },
+    {
+        "ID": 146,
+        "Title": "4o Nυχτερινός Αγώνας Ροδόπης",
+        "Date": "2025-06-14",
+        "Location": "Κομοτηνή",
+        "Distances": [
+            "5km"
+        ],
+        "Slug": "4o-nychterinos-agonas-rodopis/",
+        "SignupLink": "https://raceid.com/el/races/13817/about"
+    },
+    {
+        "ID": 147,
+        "Title": "16ος Αρχαίος Μυκηναϊκός Δρόμος",
+        "Date": "2025-06-15",
+        "Location": "Μυκήνες",
+        "Distances": [
+            "7km - Δρομείς",
+            "8km - Περιπατητές - Αρχαίος Δρόμος"
+        ],
+        "Slug": "16os-archaios-mykinaikos-dromos/",
+        "SignupLink": "https://raceid.com/el/races/13824/about"
     }
 ]
