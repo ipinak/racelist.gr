@@ -147,6 +147,10 @@
     {
       title: 'Garmin Fenix 7X Solar',
       href: '/arthra/garmin-fenix-7x-solar/',
-    }
+    },
+    {
+      title: 'Suunto Run: Αναλυτική Παρουσίαση & Αξιολόγηση',
+      href: '/arthra/suunto-run/',
+    },
   ];
 </script>
