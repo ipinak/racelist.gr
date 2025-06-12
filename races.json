@@ -1886,5 +1886,20 @@
         ],
         "Slug": "16os-archaios-mykinaikos-dromos/",
         "SignupLink": "https://raceid.com/el/races/13824/about"
+    },
+    {
+        "ID": 148,
+        "Title": "10ος Ημιμαραθώιος Κρήτης",
+        "Date": "2025-10-05",
+        "Location": "Αρκαλοχώρι, Ηράκλειο Κρήτης",
+        "Distances": [
+            "21.1km",
+            "10km",
+            "5km",
+            "1km",
+            "200m ΑΜΕΑ"
+        ],
+        "Slug": "crete-halfmarathon-2025/",
+        "SignupLink": "https://www.cretehalfmarathon.com/"
     }
 ]
