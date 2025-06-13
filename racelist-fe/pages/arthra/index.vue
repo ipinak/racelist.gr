@@ -149,7 +149,7 @@
       href: '/arthra/garmin-fenix-7x-solar/',
     },
     {
-      title: 'Suunto Run: Αναλυτική Παρουσίαση & Αξιολόγηση',
+      title: 'Suunto Run',
       href: '/arthra/suunto-run/',
     },
   ];
