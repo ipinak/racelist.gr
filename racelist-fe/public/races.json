@@ -1968,5 +1968,15 @@
         ],
         "Slug": "zagori-mountain-running-2025-5km-1km/",
         "SignupLink": "https://www.zagorirace.gr/en/registration/"
+    },
+    {
+        "ID": 155,
+        "Title": "Δρήρεια 2025",
+        "Date": "2025-08-15",
+        "Location": "Νεάπολη, Λασιθίου",
+        "Distances": [
+            "10km"
+        ],
+        "Slug": "drireia-2025/"
     }
 ]
