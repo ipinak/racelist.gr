@@ -152,5 +152,9 @@
       title: 'Suunto Run',
       href: '/arthra/suunto-run/',
     },
+    {
+      title: 'New Balance FuelCell Rebel v5',
+      href: '/arthra/new-balance-rebel-v5/',
+    },
   ];
 </script>

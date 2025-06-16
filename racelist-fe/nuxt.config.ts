@@ -71,6 +71,7 @@ export default defineNuxtConfig({
         '/arthra/garmin-forerunner-965/',
         '/arthra/garmin-fenix-7x-solar/',
         '/arthra/suunto-run/',
+        '/arthra/new-balance-rebel-v5',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',
@@ -222,7 +223,6 @@ export default defineNuxtConfig({
         '/agwnas/3os-dromos-thysias-kakolyri-1944/',
         '/agwnas/1o-festival-athlitismou-dytikis-manis-west-mani-sports-festival/',
         '/agwnas/6os-laikos-dromos-fragma-limnis-plastira-mouha/',
-
         '/agwnes/10os-crete-halfmarathon-2025/',
         '/agwnes/zagori-mountain-running-2025-challenge/',
         '/agwnes/zagori-mountain-running-2025-tera/',
