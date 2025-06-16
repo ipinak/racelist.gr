@@ -156,5 +156,9 @@
       title: 'New Balance FuelCell Rebel v5',
       href: '/arthra/new-balance-rebel-v5/',
     },
+    {
+      title: 'Garmin Forerunner 970',
+      href: '/arthra/garmin-forerunner-970/',
+    },
   ];
 </script>
