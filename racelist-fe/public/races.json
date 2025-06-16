@@ -1901,5 +1901,72 @@
         ],
         "Slug": "10os-crete-halfmarathon-2025/",
         "SignupLink": "https://www.cretehalfmarathon.com/"
+    },
+    {
+        "ID": 149,
+        "Title": "Zagori Mountain Running 2025 - Challenge 93km",
+        "Date": "2025-07-19",
+        "Location": "Ζαγόρι",
+        "Distances": [
+            "93km (2 ημέρες - 60km + 33km)"
+        ],
+        "Slug": "zagori-mountain-running-2025-challenge/",
+        "SignupLink": "https://www.zagorirace.gr/en/registration/"
+    },
+    {
+        "ID": 150,
+        "Title": "Zagori Mountain Running 2025 - TeRA 60km",
+        "Date": "2025-07-19",
+        "Location": "Ζαγόρι",
+        "Distances": [
+            "60km"
+        ],
+        "Slug": "zagori-mountain-running-2025-tera/",
+        "SignupLink": "https://www.zagorirace.gr/en/registration/"
+    },
+    {
+        "ID": 151,
+        "Title": "Zagori Mountain Running 2025 - Classic Race 33km",
+        "Date": "2025-07-20",
+        "Location": "Ζαγόρι",
+        "Distances": [
+            "33km"
+        ],
+        "Slug": "zagori-mountain-running-2025-classic/",
+        "SignupLink": "https://www.zagorirace.gr/en/registration/"
+    },
+    {
+        "ID": 152,
+        "Title": "Zagori Mountain Running 2025 - Half Marathon 21km",
+        "Date": "2025-07-19",
+        "Location": "Ζαγόρι",
+        "Distances": [
+            "21km"
+        ],
+        "Slug": "zagori-mountain-running-2025-half-marathon/",
+        "SignupLink": "https://www.zagorirace.gr/en/registration/"
+    },
+    {
+        "ID": 153,
+        "Title": "Zagori Mountain Running 2025 - Forest 10km",
+        "Date": "2025-07-20",
+        "Location": "Ζαγόρι",
+        "Distances": [
+            "10km"
+        ],
+        "Slug": "zagori-mountain-running-2025-forest/",
+        "SignupLink": "https://www.zagorirace.gr/en/registration/"
+    },
+    {
+        "ID": 154,
+        "Title": "Zagori Mountain Running 2025 - Fun 5km και 1km",
+        "Date": "2025-07-19",
+        "Location": "Ζαγόρι",
+        "Distances": [
+            "5km",
+            "1km"
+        ],
+        "Slug": "zagori-mountain-running-2025-5km-1km/",
+        "SignupLink": "https://www.zagorirace.gr/en/registration/"
     }
 ]
