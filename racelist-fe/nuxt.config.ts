@@ -71,7 +71,7 @@ export default defineNuxtConfig({
         '/arthra/garmin-forerunner-965/',
         '/arthra/garmin-fenix-7x-solar/',
         '/arthra/suunto-run/',
-        '/arthra/new-balance-rebel-v5',
+        '/arthra/new-balance-rebel-v5/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',
