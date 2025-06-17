@@ -232,6 +232,7 @@ export default defineNuxtConfig({
         '/agwnes/zagori-mountain-running-2025-forest/',
         '/agwnes/zagori-mountain-running-2025-5km-1km/',
         '/agwnes/drireia-2025/',
+        '/agwnes/faethon-skyrace-2025/',
       ],
     },
   },
