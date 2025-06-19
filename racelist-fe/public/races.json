@@ -1990,5 +1990,18 @@
         ],
         "Slug": "faethon-skyrace-2025/",
         "SignupLink": "https://faethonrace.gr/"
+    },
+    {
+        "ID": 157,
+        "Title": "5ος Κρουσοβίτης Trail 2025",
+        "Date": "2025-10-26",
+        "Location": "Σιδηρόκαστρο, Σέρρες",
+        "Distances": [
+            "27km",
+            "6km",
+            "1km"
+        ],
+        "Slug": "5os-krousovitis-trail-2025/",
+        "SignupLink": "https://raceid.com/el/races/13827/about"
     }
 ]
