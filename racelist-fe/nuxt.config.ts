@@ -273,6 +273,8 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
 
+        { name: 'theme-color', content: '#0057A0' },
+
         { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
 
         { name: 'msvalidate.01', content: 'FA3820F660BEC14548B973CE53E161B0' },
