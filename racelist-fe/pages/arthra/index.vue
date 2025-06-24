@@ -160,5 +160,9 @@
       title: 'Garmin Forerunner 970',
       href: '/arthra/garmin-forerunner-970/',
     },
+    {
+      title: 'Garmin HRM 600',
+      href: '/arthra/zoni-garmin-hrm-600/',
+    },
   ];
 </script>

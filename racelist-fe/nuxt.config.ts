@@ -73,6 +73,7 @@ export default defineNuxtConfig({
         '/arthra/suunto-run/',
         '/arthra/new-balance-rebel-v5/',
         '/arthra/garmin-forerunner-970/',
+        '/arthra/zoni-garmin-hrm-600/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',
