@@ -2003,5 +2003,513 @@
         ],
         "Slug": "5os-krousovitis-trail-2025/",
         "SignupLink": "https://raceid.com/el/races/13827/about"
+    },
+    {
+        "ID": 158,
+        "Title": "Poikilo Night Trail 2025",
+        "Date": "2025-07-05",
+        "Location": "Πετρούπολη",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "Slug": "poikilo-night-trail-2025/",
+        "SignupLink": "https://raceid.com/el/races/13802/about"
+    },
+    {
+        "ID": 159,
+        "Title": "Olympus Mythical Trail 2025",
+        "Date": "2025-07-05",
+        "Location": "Όλυμπος",
+        "Distances": [
+            "110km"
+        ],
+        "Slug": "olympus-mythical-trail-2025/",
+        "SignupLink": "https://www.omt100.com/omt-home/"
+    },
+    {
+        "ID": 160,
+        "Title": "8ος Δρόμος Καραθώνας Αρβανιτιάς",
+        "Date": "2025-07-06",
+        "Location": "Ναύπλιο",
+        "Distances": [
+            "9km"
+        ],
+        "Slug": "8os-dromos-karathonas-arvanitias/",
+        "SignupLink": "https://raceid.com/el/races/13865/about"
+    },
+    {
+        "ID": 161,
+        "Title": "Skloupo Trail Run 2025",
+        "Date": "2025-07-06",
+        "Location": "Αμπελοχώρι (Σκλούπο) Δήμου Βορείων Τζουμέρκων",
+        "Distances": [
+            "13.5km",
+            "5km",
+            "1km"
+        ],
+        "Slug": "skloupo-trail-run-2025/",
+        "SignupLink": "https://sklouporun.gr/"
+    },
+    {
+        "ID": 162,
+        "Title": "13ος Φυσιολατρικός αγώνας δρόμου Χώνους",
+        "Date": "2025-07-06",
+        "Location": "Χώνος, Κρήτη",
+        "Distances": [
+            "12.4km"
+        ],
+        "Slug": "13os-fysiolatrikos-agonas-dromou-chonous/",
+        "SignupLink": "https://www.atpro.gr/agonas-dromou-xonos-mylopotamou/"
+    },
+    {
+        "ID": 163,
+        "Title": "Πολύλοφος Run 2025",
+        "Date": "2025-07-12",
+        "Location": "Πολύλοφος Μεσσηνίας",
+        "Distances": [
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "Slug": "polylofos-run-2025/",
+        "SignupLink": "https://raceid.com/el/races/13806/about"
+    },
+    {
+        "ID": 164,
+        "Title": "7ο Syrrako Trail Run",
+        "Date": "2025-07-12",
+        "Location": "Συρράκο Ιωαννίνων",
+        "Distances": [
+            "11km",
+            "4.3km"
+        ],
+        "Slug": "7o-syrrako-trail-run/",
+        "SignupLink": "https://www.myadventure.gr/eggrafes-syrrako-trail-run/"
+    },
+    {
+        "ID": 165,
+        "Title": "19ος Αγώνας Δρόμου 13.7χλμ. Μενδενίτσας",
+        "Date": "2025-08-02",
+        "Location": "Μενδενίτσα Εύβοιας",
+        "Distances": [
+            "13.7km"
+        ],
+        "Slug": "19os-agonas-dromou-13-7km-mendenitsas/"
+    },
+    {
+        "ID": 166,
+        "Title": "Ikaria Run 2025",
+        "Date": "2025-08-02",
+        "Location": "Ικαρία",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "Slug": "ikaria-run-2025/",
+        "SignupLink": "https://theactive.gr/races/ikaria-run-2025"
+    },
+    {
+        "ID": 167,
+        "Title": "3o Coast to Coast Run – Κεραμωτή Νέστου",
+        "Date": "2025-08-02",
+        "Location": "Κεραμωτή",
+        "Distances": [
+            "21km",
+            "14km",
+            "5km"
+        ],
+        "Slug": "3o-coast-to-coast-run-keramoti-nestou/",
+        "SignupLink": "https://raceid.com/el/races/13742/about"
+    },
+    {
+        "ID": 168,
+        "Title": "6ος Λαΐκός Δρόμος Φράγμα λίμνης Πλαστήρα Μούχα – Καστανιά",
+        "Date": "2025-08-03",
+        "Location": "Φράγμα λίμνης Πλαστήρα, Καρδίτσα",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "Slug": "6os-laikos-dromos-fragma-limnis-plastira/"
+    },
+    {
+        "ID": 169,
+        "Title": "Olympia Night Run – Run Under Zeus 2025",
+        "Date": "2025-08-10",
+        "Location": "Αρχαία Ολυμπία",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "Slug": "olympia-night-run-2025/",
+        "SignupLink": "https://www.runactiv.com/"
+    },
+    {
+        "ID": 170,
+        "Title": "Voio Race Series 2025 – Namata",
+        "Date": "2025-08-10",
+        "Location": "Νέμοι Βοΐου, Κοζάνη",
+        "Distances": [
+            "21km",
+            "14km",
+            "7km"
+        ],
+        "Slug": "voio-race-series-2025-namata/",
+        "SignupLink": "https://www.voiorace.gr/"
+    },
+    {
+        "ID": 171,
+        "Title": "Olympos-X 2025",
+        "Date": "2025-08-30",
+        "Location": "Ολυμπιακή ακτή, Κατερίνη",
+        "Distances": [
+            "Τρίαθλο",
+            "Half Τρίαθλο",
+            "Super Sprint"
+        ],
+        "Slug": "olympos-x-2025/",
+        "SignupLink": "https://triman.gr/"
+    },
+    {
+        "ID": 172,
+        "Title": "13ος Ημιμαραθώνιος Χίου",
+        "Date": "2025-08-31",
+        "Location": "Χίος (Θυμιανά)",
+        "Distances": [
+            "21.1km",
+            "10.5km",
+            "5km",
+            "1.5km"
+        ],
+        "Slug": "13os-imimarathonios-chiou/",
+        "SignupLink": "http://www.chiosrunning.gr"
+    },
+    {
+        "ID": 173,
+        "Title": "Πολύγυρος Run Χαλκιδική 2025",
+        "Date": "2025-08-31",
+        "Location": "Πολύγυρος Χαλκιδικής",
+        "Distances": [
+            "14.6km",
+            "5km",
+            "1km"
+        ],
+        "Slug": "polygyros-run-chalkidiki-2025/",
+        "SignupLink": "http://www.polygyrosrun.gr"
+    },
+    {
+        "ID": 174,
+        "Title": "Syros Trail Challenge 2025",
+        "Date": "2025-09-06",
+        "Location": "Ερμούπολη Σύρου",
+        "Distances": [
+            "10km",
+            "3km"
+        ],
+        "Slug": "syros-trail-challenge-2025/",
+        "SignupLink": "http://www.syrosrunners.gr"
+    },
+    {
+        "ID": 175,
+        "Title": "Skyros Run 2025",
+        "Date": "2025-09-06",
+        "Location": "Σκύρος",
+        "Distances": [
+            "21km",
+            "14km",
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "Slug": "skyros-run-2025/",
+        "SignupLink": "https://www.skyrosrun.com/"
+    },
+    {
+        "ID": 176,
+        "Title": "Acheloos Run 2025",
+        "Date": "2025-09-06",
+        "Location": "Νεοχώρι Μεσολογγίου",
+        "Distances": [
+            "21.1km",
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "Slug": "acheloos-run-2025/",
+        "SignupLink": "http://www.acheloosrun.gr"
+    },
+    {
+        "ID": 177,
+        "Title": "2nd Kalamata Mountain Run",
+        "Date": "2025-09-07",
+        "Location": "Καλαμάτα",
+        "Distances": [
+            "21km",
+            "14km",
+            "7km"
+        ],
+        "Slug": "2nd-kalamata-mountain-run/"
+    },
+    {
+        "ID": 178,
+        "Title": "6ος Δρόμος Υγείας Αλμωπίας «Αγγελής Γάτσος»",
+        "Date": "2025-09-07",
+        "Location": "Αλμωπία",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "Slug": "6os-dromos-ygeias-almopias/"
+    },
+    {
+        "ID": 179,
+        "Title": "Ορεινός Αγώνας Ολύμπου 2025",
+        "Date": "2025-09-07",
+        "Location": "Όλυμπος",
+        "Distances": [
+            "21km",
+            "14km",
+            "7km"
+        ],
+        "Slug": "oreinos-agonas-olympou-2025/"
+    },
+    {
+        "ID": 180,
+        "Title": "4ο Apostolos Silas Trail Adventure",
+        "Date": "2025-09-07",
+        "Location": "Φίλιπποι",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "Slug": "4o-apostolos-silas-trail-adventure/"
+    },
+    {
+        "ID": 181,
+        "Title": "Granitis Trail Running 2025",
+        "Date": "2025-09-07",
+        "Location": "Γρανίτης",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "Slug": "granitis-trail-running-2025/"
+    },
+    {
+        "ID": 182,
+        "Title": "Δρόμος Μάχης Μαραθώνα 2025",
+        "Date": "2025-09-07",
+        "Location": "Μαραθώνας",
+        "Distances": [
+            "21km",
+            "14km",
+            "10km",
+            "5km"
+        ],
+        "Slug": "dromos-machis-marathona-2025/"
+    },
+    {
+        "ID": 183,
+        "Title": "7o «Νάουσα Βέρμιο» Trail & 3ο «6 Κορφές»",
+        "Date": "2025-09-12",
+        "Location": "Νάουσα",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "Slug": "7o-naousa-vermio-trail/"
+    },
+    {
+        "ID": 184,
+        "Title": "Hercules Mountain Series 2025",
+        "Date": "2025-09-13",
+        "Location": "Ηράκλειο Κρήτης",
+        "Distances": [
+            "21km",
+            "14km",
+            "7km"
+        ],
+        "Slug": "hercules-mountain-series-2025/"
+    },
+    {
+        "ID": 185,
+        "Title": "4ο Νυχτερινό Ελάφι Βαρυμπόμπης 10χλμ.",
+        "Date": "2025-09-13",
+        "Location": "Βαρυμπόμπη",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "Slug": "4o-nychterino-elafi-varybobis/"
+    },
+    {
+        "ID": 186,
+        "Title": "7ος Αγώνας Δρόμου Καλών Νερών",
+        "Date": "2025-09-14",
+        "Location": "Καλά Νερά",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "Slug": "7os-agonas-dromou-kalon-neron/"
+    },
+    {
+        "ID": 187,
+        "Title": "6ος Ημιμαραθώνιος Καλλιθέας – Kallithea Halfmarathon 2025",
+        "Date": "2025-09-14",
+        "Location": "Καλλιθέα",
+        "Distances": [
+            "21.1km",
+            "10km",
+            "5km"
+        ],
+        "Slug": "6os-imimarathonios-kallitheas/"  
+    },
+    {
+        "ID": 188,
+        "Title": "Patmos ChoRun 2025",
+        "Date": "2025-09-14",
+        "Location": "Πάτμος",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "Slug": "patmos-chorun-2025/"
+    },
+    {
+        "ID": 189,
+        "Title": "8ος αγώνας Koufalia Hill Run «Δήμητρα Ιορδανίδου»",
+        "Date": "2025-09-20",
+        "Location": "Κουφάλια",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "Slug": "8os-agonas-koufalia-hill-run/"
+    },
+    {
+        "ID": 190,
+        "Title": "Run Greece 2025 – Πειραιάς",
+        "Date": "2025-09-20",
+        "Location": "Πειραιάς",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "Slug": "run-greece-2025-peiraias/",
+        "SignupLink": "https://www.run-greece.gr/"
+    },
+    {
+        "ID": 191,
+        "Title": "Ioannina Lake Run 2025",
+        "Date": "2025-09-20",
+        "Location": "Ιωάννινα",
+        "Distances": [
+            "30km",
+            "10km",
+            "5km"
+        ],
+        "Slug": "ioannina-lake-run-2025/",
+        "SignupLink": "https://www.ioanninalakerun.gr/"
+    },
+    {
+        "ID": 192,
+        "Title": "Sterea Run – 17ος Δρόμος του Επαμεινώνδα",
+        "Date": "2025-09-21",
+        "Location": "Στερεά Ελλάδα",
+        "Distances": [
+            "21.1km",
+            "10km",
+            "5km"
+        ],
+        "Slug": "sterea-run-17os-dromos-epameinonda/"
+    },
+    {
+        "ID": 195,
+        "Title": "6ος Αγώνας Πάρκου «Νυχτερινές Διαδρομές»",
+        "Date": "2025-09-27",
+        "Location": "Αθήνα",
+        "Distances": [
+            "5km"
+        ],
+        "Slug": "6os-agonas-parkou-nychterines-diadromes/"
+    },
+    {
+        "ID": 196,
+        "Title": "ΣΠΑΡΤΑΘΛΟΝ 2025",
+        "Date": "2025-09-27",
+        "Location": "Αθήνα - Σπάρτη",
+        "Distances": [
+            "246km"
+        ],
+        "Slug": "spartathlon-2025/",
+        "SignupLink": "https://www.spartathlon.gr/"
+    },
+    {
+        "ID": 197,
+        "Title": "Αγώνες Δρόμου Σκιάδεια 2025",
+        "Date": "2025-09-28",
+        "Location": "Σκιάδεια",
+        "Distances": [
+            "5km"
+        ],
+        "Slug": "agones-dromou-skiadeia-2025/"
+    },
+    {
+        "ID": 198,
+        "Title": "6ο Open Door Run",
+        "Date": "2025-09-28",
+        "Location": "Αθήνα",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "Slug": "6o-open-door-run/"
+    },
+    {
+        "ID": 199,
+        "Title": "Run Greece 2025 – Αλεξανδρούπολη",
+        "Date": "2025-09-28",
+        "Location": "Αλεξανδρούπολη",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "Slug": "run-greece-2025-alexandroupoli/",
+        "SignupLink": "https://www.run-greece.gr/"
+    },
+    {
+        "ID": 200,
+        "Title": "17ο Greece Race for the Cure®",
+        "Date": "2025-09-28",
+        "Location": "Αθήνα",
+        "Distances": [
+            "5km"
+        ],
+        "Slug": "17o-greece-race-for-the-cure/"
+    },
+    {
+        "ID": 201,
+        "Title": "Karpenos Trail 2025",
+        "Date": "2025-09-28",
+        "Location": "Κάρπενος",
+        "Distances": [
+            "21km",
+            "14km",
+            "7km"
+        ],
+        "Slug": "karpenos-trail-2025/",
+        "SignupLink": "https://www.grevenatrails.com/"
+    },
+    {
+        "ID": 202,
+        "Title": "Triman226 2025",
+        "Date": "2025-09-28",
+        "Location": "Ελλάδα",
+        "Distances": [
+            "Τρίαθλο 226km"
+        ],
+        "Slug": "triman226-2025/"
     }
 ]
