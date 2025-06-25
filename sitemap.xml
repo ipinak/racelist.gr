@@ -43,6 +43,9 @@
         <loc>https://racelist.gr/agwnas/1o-spetses-mountain-run/</loc>
     </url>
     <url>
+        <loc>https://racelist.gr/agwnas/2nd-kalamata-mountain-run/</loc>
+    </url>
+    <url>
         <loc>https://racelist.gr/agwnas/2nd-panetoliko-mountain-trail-run/</loc>
     </url>
     <url>
@@ -58,6 +61,9 @@
         <loc>https://racelist.gr/agwnas/2os-paraktios-nychterinos-imimarathonios-thermaikou-antonis-matzaris/</loc>
     </url>
     <url>
+        <loc>https://racelist.gr/agwnas/3o-coast-to-coast-run-keramoti-nestou/</loc>
+    </url>
+    <url>
         <loc>https://racelist.gr/agwnas/3o-eyrytania-triantafilia-mountain-trail-race/</loc>
     </url>
     <url>
@@ -70,10 +76,16 @@
         <loc>https://racelist.gr/agwnas/3os-imimarathonios-patras/</loc>
     </url>
     <url>
+        <loc>https://racelist.gr/agwnas/4o-apostolos-silas-trail-adventure/</loc>
+    </url>
+    <url>
         <loc>https://racelist.gr/agwnas/4o-cholomon-trail-2025/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/4o-ipsilantis-trail/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/4o-nychterino-elafi-varybobis/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/4o-nychterinos-agonas-rodopis/</loc>
@@ -127,13 +139,28 @@
         <loc>https://racelist.gr/agwnas/6o-agrinio-night-run-santa-run/</loc>
     </url>
     <url>
+        <loc>https://racelist.gr/agwnas/6o-open-door-run/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/6os-agonas-parkou-nychterines-diadromes/</loc>
+    </url>
+    <url>
         <loc>https://racelist.gr/agwnas/6os-atlas-trail-running/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/6os-dromos-ygeias-almopias/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/6os-imimarathonios-kallitheas/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/6os-laikos-dromos-fragma-limnis-plastira-moucha-kastania/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/6os-laikos-dromos-fragma-limnis-plastira-mouha/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/6os-laikos-dromos-fragma-limnis-plastira/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/6os-vyzantinos-agonas-dromou-50chlm-dimou-megareon/</loc>
@@ -143,6 +170,15 @@
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/7o-faneromeni-trail/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/7o-naousa-vermio-trail/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/7o-syrrako-trail-run/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/7os-agonas-dromou-kalon-neron/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/7os-dromos-mathiton/</loc>
@@ -157,7 +193,13 @@
         <loc>https://racelist.gr/agwnas/8os-agonas-dromou-mahis-faraggiou-kantanou/</loc>
     </url>
     <url>
+        <loc>https://racelist.gr/agwnas/8os-agonas-koufalia-hill-run/</loc>
+    </url>
+    <url>
         <loc>https://racelist.gr/agwnas/8os-agonas-pediou-areos/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/8os-dromos-karathonas-arvanitias/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/8os-imimarathonios-ioanninon/</loc>
@@ -205,7 +247,13 @@
         <loc>https://racelist.gr/agwnas/13os-chortiatis-trail-run/</loc>
     </url>
     <url>
+        <loc>https://racelist.gr/agwnas/13os-fysiolatrikos-agonas-dromou-chonous/</loc>
+    </url>
+    <url>
         <loc>https://racelist.gr/agwnas/13os-imimarathonios-aigialeias/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/13os-imimarathonios-chiou/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/13os-vatikiotikos-agonas-zois/</loc>
@@ -226,7 +274,13 @@
         <loc>https://racelist.gr/agwnas/16os-imimarathonios-kalampaka-trikala-thanasis-stamopoulos/</loc>
     </url>
     <url>
+        <loc>https://racelist.gr/agwnas/17o-greece-race-for-the-cure/</loc>
+    </url>
+    <url>
         <loc>https://racelist.gr/agwnas/18os-marathonios-messinis/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/19os-agonas-dromou-13-7km-mendenitsas/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/19os-marathonios-megas-alexandros/</loc>
@@ -259,7 +313,13 @@
         <loc>https://racelist.gr/agwnas/75o-benizeleio-dromo/</loc>
     </url>
     <url>
+        <loc>https://racelist.gr/agwnas/acheloos-run-2025/</loc>
+    </url>
+    <url>
         <loc>https://racelist.gr/agwnas/agonas-dromou-limnis-marathona-2025/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/agones-dromou-skiadeia-2025/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/agones-gia-to-perivallon-2025-limni-marathona/</loc>
@@ -283,6 +343,9 @@
         <loc>https://racelist.gr/agwnas/drireia-2025/</loc>
     </url>
     <url>
+        <loc>https://racelist.gr/agwnas/dromos-machis-marathona-2025/</loc>
+    </url>
+    <url>
         <loc>https://racelist.gr/agwnas/dromos-thysias-aggelis-govios/</loc>
     </url>
     <url>
@@ -298,16 +361,28 @@
         <loc>https://racelist.gr/agwnas/goulinas-trail-2025/</loc>
     </url>
     <url>
+        <loc>https://racelist.gr/agwnas/granitis-trail-running-2025/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/hercules-mountain-series-2025/</loc>
+    </url>
+    <url>
         <loc>https://racelist.gr/agwnas/ierapetra-city-run-vol-5/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/ierapetra-santa-run-vol-3/</loc>
     </url>
     <url>
+        <loc>https://racelist.gr/agwnas/ikaria-run-2025/</loc>
+    </url>
+    <url>
         <loc>https://racelist.gr/agwnas/imimarathonios-agapis-mytilinis-2025/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/imimarathonios-athinas-2025/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/ioannina-lake-run-2025/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/kalamata-mountain-run-2025/</loc>
@@ -317,6 +392,9 @@
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/karpathos-run-2025/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/karpenos-trail-2025/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/kassios-dias-trail-race-2025/</loc>
@@ -361,13 +439,25 @@
         <loc>https://racelist.gr/agwnas/meteora-trail-run-2025/</loc>
     </url>
     <url>
+        <loc>https://racelist.gr/agwnas/olympia-night-run-2025/</loc>
+    </url>
+    <url>
         <loc>https://racelist.gr/agwnas/olympios-dromos-2025-agonas-62chlm/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/olympos-x-2025/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/olympus-marathon/</loc>
     </url>
     <url>
+        <loc>https://racelist.gr/agwnas/olympus-mythical-trail-2025/</loc>
+    </url>
+    <url>
         <loc>https://racelist.gr/agwnas/opap-marathonios-lemesou-2025/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/oreinos-agonas-olympou-2025/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/orestisrun-2025/</loc>
@@ -380,6 +470,15 @@
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/platania-run-2025/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/poikilo-night-trail-2025/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/polygyros-run-chalkidiki-2025/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/polylofos-run-2025/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/polylophos-run-2025/</loc>
@@ -409,6 +508,12 @@
         <loc>https://racelist.gr/agwnas/run-deskati-konstantineia-2025/</loc>
     </url>
     <url>
+        <loc>https://racelist.gr/agwnas/run-greece-2025-alexandroupoli/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/run-greece-2025-peiraias/</loc>
+    </url>
+    <url>
         <loc>https://racelist.gr/agwnas/run-greece-2025-syros/</loc>
     </url>
     <url>
@@ -421,6 +526,12 @@
         <loc>https://racelist.gr/agwnas/skiathos-trail-run-2025/</loc>
     </url>
     <url>
+        <loc>https://racelist.gr/agwnas/skloupo-trail-run-2025/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/skyros-run-2025/</loc>
+    </url>
+    <url>
         <loc>https://racelist.gr/agwnas/skyros-sports-festival-2025/</loc>
     </url>
     <url>
@@ -430,10 +541,19 @@
         <loc>https://racelist.gr/agwnas/sparta-city-ultra-2025/</loc>
     </url>
     <url>
+        <loc>https://racelist.gr/agwnas/spartathlon-2025/</loc>
+    </url>
+    <url>
         <loc>https://racelist.gr/agwnas/spetsathlon-2025/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/sta-chnaria-ton-iroon-2025/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/sterea-run-17os-dromos-epameinonda/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/syros-trail-challenge-2025/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/tihiorace-trail-running-2025/</loc>
@@ -452,6 +572,9 @@
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/triman-2025-nightrun-trifast-triswim-triman/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/triman226-2025/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/tui-rhodes-marathon-2025/</loc>
@@ -485,6 +608,9 @@
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/voio-race-series-2025-agonas-neapolis/</loc>
+    </url>
+    <url>
+        <loc>https://racelist.gr/agwnas/voio-race-series-2025-namata/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/agwnas/zagori-mountain-running-2025-5km-1km/</loc>
@@ -724,4 +850,4 @@
         </image:image>
     </url>
 </urlset>
-<!-- XML Sitemap generated by @nuxtjs/sitemap v7.3.1 at 2025-06-24T18:54:42.480Z -->
+<!-- XML Sitemap generated by @nuxtjs/sitemap v7.3.1 at 2025-06-25T20:51:18.278Z -->
