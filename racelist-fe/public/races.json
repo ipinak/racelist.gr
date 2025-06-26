@@ -2364,7 +2364,7 @@
             "10km",
             "5km"
         ],
-        "Slug": "6os-imimarathonios-kallitheas/"  
+        "Slug": "6os-imimarathonios-kallitheas/"
     },
     {
         "ID": 188,
@@ -2510,6 +2510,7 @@
         "Distances": [
             "Τρίαθλο 226km"
         ],
-        "Slug": "triman226-2025/"
+        "Slug": "triman226-2025/",
+        "SignupLink": "https://triman.gr/triman-226/"
     }
 ]
