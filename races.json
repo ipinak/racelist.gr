@@ -2512,5 +2512,55 @@
         ],
         "Slug": "triman226-2025/",
         "SignupLink": "https://triman.gr/triman-226/"
+    },
+    {
+        "ID": 203,
+        "Title": "11οι Ορεινοί Αγώνες Καβουσίου",
+        "Date": "2025-10-19",
+        "Location": "Καβούσι Ιεράπετρας",
+        "Distances": [
+            "22.3km",
+            "8.7km",
+            "500m",
+            "1500m"
+        ],
+        "Slug": "11oi-oreinoi-agones-kabousiou/",
+        "SignupLink": "https://atpro.gr/oreinoi-agones-kabousiou/"
+    },
+    {
+        "ID": 205,
+        "Title": "13ος Φυσιολατρικός Αγώνας Δρόμου Χώνους",
+        "Date": "2025-07-06",
+        "Location": "Χώνος Μυλοποτάμου, Ρέθυμνο",
+        "Distances": [
+            "12.4km"
+        ],
+        "Slug": "13os-agonas-dromou-xonos-mylopotamou/",
+        "SignupLink": "https://atpro.gr/agonas-dromou-xonos-mylopotamou/"
+    },
+    {
+        "ID": 206,
+        "Title": "I Run Myrtos 2025",
+        "Date": "2025-07-19",
+        "Location": "Μύρτος",
+        "Distances": [
+            "12.2km",
+            "5km",
+            "750m"
+        ],
+        "Slug": "i-run-myrtos-2025/",
+        "SignupLink": "https://atpro.gr/i-run-myrtos/"
+    },
+    {
+        "ID": 207,
+        "Title": "12οι Αυξέντιοι Αγώνες Κρήτης",
+        "Date": "2025-07-27",
+        "Location": "Πιρουνιανά Αγίας Βαρβάρας",
+        "Distances": [
+            "7.4km",
+            "600m"
+        ],
+        "Slug": "12oi-auxentioi-agones-kritis/",
+        "SignupLink": "https://atpro.gr/auxentioi-agones-kritis/"
     }
 ]
