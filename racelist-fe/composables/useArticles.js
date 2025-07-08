@@ -89,6 +89,10 @@ export const useArticles = () => {
       title: 'Garmin HRM 600',
       href: '/arthra/zoni-garmin-hrm-600/',
     },
+    {
+      title: 'Coros Pace Pro',
+      href: '/arthra/coros-pace-pro-review/',
+    }
   ]
 
   return {

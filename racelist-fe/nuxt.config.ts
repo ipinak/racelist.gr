@@ -76,6 +76,7 @@ export default defineNuxtConfig({
         '/arthra/new-balance-rebel-v5/',
         '/arthra/garmin-forerunner-970/',
         '/arthra/zoni-garmin-hrm-600/',
+        '/arthra/coros-pace-pro-review/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',
