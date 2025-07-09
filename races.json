@@ -2562,5 +2562,54 @@
         ],
         "Slug": "12oi-auxentioi-agones-kritis/",
         "SignupLink": "https://atpro.gr/auxentioi-agones-kritis/"
+    },
+    {
+        "ID": 208,
+        "Title": "Ορεινός Αγώνας Ολύμπου 23km",
+        "Date": "2025-09-07",
+        "Location": "Όλυμπος - Καταφύγιο Μπουντόλας",
+        "Distances": [
+            "23km"
+        ],
+        "Slug": "oreinos-agonas-olympou-23km/",
+        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=ab6392145cdbe4568df6ab5cf541ebe7&l=GR"
+    },
+    {
+        "ID": 209,
+        "Title": "2ος Ασφάλτινος Αγώνας Δρόμου Χαρίτησιος",
+        "Date": "2025-10-12",
+        "Location": "Ορχομενός Βοιωτίας",
+        "Distances": [
+            "10km",
+            "5.5km",
+            "1.3km"
+        ],
+        "Slug": "2os-asfalinos-agonas-charitisios/",
+        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=0d7112456ab373a3198ca500ba64b56d&l=GR"
+    },
+    {
+        "ID": 210,
+        "Title": "Hercules Series 2025",
+        "Date": "2025-06-15",
+        "Location": "Όρος Οίτη",
+        "Distances": [
+            "42km",
+            "21km",
+            "10km"
+        ],
+        "Slug": "hercules-series-2025/",
+        "SignupLink": "https://trahina.gr/engrafes-hercules-series-2025/"
+    },
+    {
+        "ID": 211,
+        "Title": "Imittosepic Trail Race",
+        "Date": "2025-10-28",
+        "Location": "Υμηττός",
+        "Distances": [
+            "25km",
+            "12km"
+        ],
+        "Slug": "imittosepic-trail-race/",
+        "SignupLink": "https://imittosepic.gr/default.aspx?id=10275&parent=10271&root=10275"
     }
 ]
