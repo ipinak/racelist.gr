@@ -2611,5 +2611,42 @@
         ],
         "Slug": "imittosepic-trail-race/",
         "SignupLink": "https://imittosepic.gr/default.aspx?id=10275&parent=10271&root=10275"
+    },
+    {
+        "ID": 212,
+        "Title": "3ο Coast to Coast 2025",
+        "Date": "2025-08-02",
+        "Location": "Αμμόγλωσα Κεραμωτής",
+        "Distances": [
+            "21km",
+            "12km",
+            "6km",
+            "1km"
+        ],
+        "Slug": "3o-coast-to-coast-2025/",
+        "SignupLink": "https://docs.google.com/forms/d/e/1FAIpQLSdNrAY9nWInmcjGeWi_-8LLtITl7FrL9TLlEaKZojz3QV8Ixw/viewform"
+    },
+    {
+        "ID": 213,
+        "Title": "6ος Αγώνας Δρόμου Βαράσοβας-Κρυονερίου-Γαλατά",
+        "Date": "2025-07-27",
+        "Location": "Κρυονέρι, Ναυπακτίας",
+        "Distances": [
+            "6km",
+            "1000m"
+        ],
+        "Slug": "6os-agonas-dromou-barasova-krioneri-galata/",
+        "SignupLink": "https://docs.google.com/forms/d/e/1FAIpQLSeETDARHlxJcbI7fMfHB9yOlrbb96FUo4jYTO3_8i4E2zLu_Q/viewform?usp=sf_link"
+    },
+    {
+        "ID": 214,
+        "Title": "9ος Παραθαλάσσιος Αγώνας WAVE running",
+        "Date": "2025-07-26",
+        "Location": "Παραλία Κεραμωτής, Ξάνθη",
+        "Distances": [
+            "21km"
+        ],
+        "Slug": "9os-parathalassios-wave-running-2025/",
+        "SignupLink": "https://raceid.com/el/races/13889/registration"
     }
 ]
