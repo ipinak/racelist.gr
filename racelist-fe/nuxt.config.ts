@@ -77,6 +77,7 @@ export default defineNuxtConfig({
         '/arthra/garmin-forerunner-970/',
         '/arthra/zoni-garmin-hrm-600/',
         '/arthra/coros-pace-pro-review/',
+        '/arthra/gynaikeia-papoutsia-gia-treximo-dromou/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',

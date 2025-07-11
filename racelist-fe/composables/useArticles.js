@@ -92,6 +92,10 @@ export const useArticles = () => {
     {
       title: 'Coros Pace Pro',
       href: '/arthra/coros-pace-pro-review/',
+    },
+    {
+      title: 'Γυναικεία Παπούτσια για Τρέξιμο Δρόμου',
+      href: '/arthra/gynaikeia-papoutsia-gia-treximo-dromou'
     }
   ]
 
