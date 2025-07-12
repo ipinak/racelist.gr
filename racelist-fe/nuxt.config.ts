@@ -78,6 +78,7 @@ export default defineNuxtConfig({
         '/arthra/zoni-garmin-hrm-600/',
         '/arthra/coros-pace-pro-review/',
         '/arthra/gynaikeia-papoutsia-gia-treximo-dromou/',
+        '/arthra/ti-einai-dialeimmatiki-proponisi/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',

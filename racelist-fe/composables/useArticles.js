@@ -96,6 +96,10 @@ export const useArticles = () => {
     {
       title: 'Γυναικεία Παπούτσια για Τρέξιμο Δρόμου',
       href: '/arthra/gynaikeia-papoutsia-gia-treximo-dromou'
+    },
+    {
+      title: 'Τι είναι Διαλειμματική Προπόνηση',
+      href: '/arthra/ti-einai-dialeimmatiki-proponisi/'
     }
   ]
 
