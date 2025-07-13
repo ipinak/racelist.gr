@@ -26,10 +26,15 @@
     <div class="flex justify-center">
       <NewsletterSubmissionForm />
     </div>
+
+    <div class="flex justify-center my-8">
+      <SubmitRaceInfo />
+    </div>
   </div>
 </template>
 
 <script setup>
+  import SubmitRaceInfo from '@/components/SubmitRaceInfo.vue';
   import NewsletterSubmissionForm from '@/components/NewsletterSubmissionForm.vue';
   import Calendar from '@/components/Calendar.vue';
   import RaceList from '@/components/RaceList.vue';
