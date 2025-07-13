@@ -2648,5 +2648,45 @@
         ],
         "Slug": "9os-parathalassios-wave-running-2025/",
         "SignupLink": "https://raceid.com/el/races/13889/registration"
+    },
+    {
+        "ID": 215,
+        "Title": "2ο Ostria Paplinou Trail Run",
+        "Date": "2025-09-14",
+        "Location": "Ιεράπετρα",
+        "Distances": [
+            "12km"
+        ],
+        "Slug": "2o-ostria-paplinou-trail-run/",
+        "SignupLink": "https://atpro.gr/ostria-running-race-paplinou-trail/"
+    },
+    {
+        "ID": 216,
+        "Title": "Αρμένεια 2025",
+        "Date": "2025-08-03",
+        "Location": "Αρμένοι, Ρέθυμνο",
+        "Distances": [
+            "17km",
+            "5km",
+            "2km"
+        ],
+        "Slug": "armeneia-2025/",
+        "SignupLink": "https://atpro.gr/armeneia/"
+    },
+    {
+        "ID": 217,
+        "Title": "44οι Δικταίοι Αγώνες - ZEUSRUN 2025",
+        "Date": "2025-08-24",
+        "Location": "Ψυχρό, Οροπέδιο Λασιθίου",
+        "Distances": [
+            "24km",
+            "6km",
+            "1.5km",
+            "750m",
+            "500m",
+            "50m"
+        ],
+        "Slug": "44oi-diktaioi-agones-zeusrun-2025/",
+        "SignupLink": "https://atpro.gr/diktaioi-agones/"
     }
 ]
