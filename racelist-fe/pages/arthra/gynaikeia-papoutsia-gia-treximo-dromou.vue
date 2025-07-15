@@ -181,7 +181,7 @@
       links: [
         {
           label: 'Nike Greece',
-          url: 'https://www.nike.com/gr/t/alphafly-3-road-racing-shoes/',
+          url: 'https://www.nike.com/gr/t/%CE%B1%CE%BD%CE%B4%CF%81%CE%B9%CE%BA%CE%B1-%CF%80%CE%B1%CF%80%CE%BF%CF%85%CF%84%CF%83%CE%B9%CE%B1-%CE%B1%CE%B3%CF%89%CE%BD%CF%89%CE%BD-%CE%B4%CF%81%CE%BF%CE%BC%CE%BF%CF%85-alphafly-3-o19yH5bO/FD8311-600',
         },
       ],
       weight: '174 γρ.',
@@ -201,7 +201,7 @@
       links: [
         {
           label: 'Puma Greece',
-          url: 'https://gr.puma.com/fast-r-womens-running-shoes/',
+          url: 'https://eu.puma.com/gr/en/sports/running/fast-r',
         },
       ],
       offset: '8 mm',
@@ -221,7 +221,7 @@
       links: [
         {
           label: 'Adidas Greece',
-          url: 'https://www.adidas.gr/stella-mccartney-prime-x-2-strung-shoes/',
+          url: 'https://www.adidas.gr/adidas-by-stella-mccartney-prime-x-2.0-strung-shoes/JS0260.html',
         },
       ],
     },
@@ -240,14 +240,14 @@
       links: [
         {
           label: 'Saucony Greece',
-          url: 'https://saucony.veto.gr/women/shoes/running/saucony-endorphin-pro-4/',
+          url: 'https://saucony.veto.gr/women/shoes/running/saucony-endorphin-pro-4-womens-shoes-s10939-340/',
         },
       ],
       weight: '212 γρ.',
       offset: '8 mm',
     },
     {
-      name: 'CEP Running Shoes',
+      name: 'CEP Omnispeed Bowtech Shoes women',
       price: '~120€',
       description: `Τα γυναικεία παπούτσια running από την CEP είναι κατάλληλα για δρομείς που επιδιώκουν άνεση, στήριξη και
           απορρόφηση κραδασμών. Το Μonomesh επάνω μέρος εξασφαλίζει διαπνοή και κρατά τα πόδια δροσερά σε όλη τη διάρκεια της
@@ -261,8 +261,8 @@
       ],
       links: [
         {
-          label: 'CEP Greece',
-          url: 'https://cep.gr/running-shoes-women/',
+          label: 'CEP',
+          url: 'https://www.cepsports.com/en/cep-omnispeed-bowtech-shoes-women.html',
         },
       ],
       offset: '7 mm',
@@ -281,7 +281,7 @@
       links: [
         {
           label: 'ASICS Greece',
-          url: 'https://www.asics.com/gr/en-gr/superblast-2/p/1012B157-400.html',
+          url: 'https://www.asics.com/gb/en-gb/superblast-2/p/1013A142-401.html',
         },
       ],
       weight: '249 γρ.',
@@ -302,7 +302,7 @@
       links: [
         {
           label: 'Adidas Greece',
-          url: 'https://www.adidas.gr/adizero-adios-pro-3-shoes/',
+          url: 'https://www.adidas.gr/adizero-adios-pro-3-shoes/ID3612.html',
         },
       ],
       weight: '230 γρ.',
@@ -322,8 +322,8 @@
       ],
       links: [
         {
-          label: 'Altra Greece',
-          url: 'https://www.altrarunning.eu/eu/vanish-carbon-2-woman/',
+          label: 'Altra',
+          url: 'https://www.altrarunning.eu/eu/vanish-carbon-2-woman-al0a85pd161.html',
         },
       ],
       offset: '0 mm',
