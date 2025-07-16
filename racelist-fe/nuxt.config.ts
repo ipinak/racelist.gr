@@ -296,6 +296,7 @@ export default defineNuxtConfig({
         '/agwnas/2o-ostria-paplinou-trail-run/',
         '/agwnas/armeneia-2025/',
         '/agwnas/44oi-diktaioi-agones-zeusrun-2025/',
+        '/agwnas/makrakomibackyardultra-2025/',
       ],
     },
   },
