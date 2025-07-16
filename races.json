@@ -2688,5 +2688,16 @@
         ],
         "Slug": "44oi-diktaioi-agones-zeusrun-2025/",
         "SignupLink": "https://atpro.gr/diktaioi-agones/"
+    },
+    {
+        "ID": 218,
+        "Title": "Makrakomi Backyard Ultra",
+        "Date": "2025-10-11",
+        "Location": "Μακρακώμη, Φθιώτιδας",
+        "Distances": [
+            "6.7km (κύκλοι)"
+        ],
+        "Slug": "makrakomibackyardultra-2025/",
+        "SignupLink": "https://makrakomibackyardultra.gr/registration/"
     }
 ]
