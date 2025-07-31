@@ -297,6 +297,7 @@ export default defineNuxtConfig({
         '/agwnas/armeneia-2025/',
         '/agwnas/44oi-diktaioi-agones-zeusrun-2025/',
         '/agwnas/makrakomibackyardultra-2025/',
+        '/agwnas/xeskouriazw-trail-run-2025/',
       ],
     },
   },
