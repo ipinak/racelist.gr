@@ -878,17 +878,6 @@
         "Slug": "voio-race-series-2025-agonas-avgerinou/"
     },
     {
-        "ID": 69,
-        "Title": "Voio Race Series 2025 (Αγώνας Ναμάτων)",
-        "Date": "2025-08-10",
-        "Location": "Σιάτιστα",
-        "Distances": [
-            "24km"
-        ],
-        "SignupLink": "https://voio.gr/polites/voiorace/",
-        "Slug": "voio-race-series-2025-agonas-namaton/"
-    },
-    {
         "ID": 70,
         "Title": "Triman 2025 (Νightrun, Trifast & Triswim, Triman)",
         "Date": "2025-05-09",
@@ -1786,19 +1775,6 @@
         "SignupLink": "https://raceid.com/el/races/13639/about"
     },
     {
-        "ID": 141,
-        "Title": "6ος Λαΐκός Δρόμος Φράγμα λίμνης Πλαστήρα Μούχα - Καστανιά",
-        "Date": "2025-08-3",
-        "Location": "Καρδίτσα",
-        "Distances": [
-            "10km",
-            "5.5km",
-            "600m"
-        ],
-        "Slug": "6os-laikos-dromos-fragma-limnis-plastira-mouha/",
-        "SignupLink": "https://raceid.com/el/races/13668/about"
-    },
-    {
         "ID": 142,
         "Title": "Τρέχουμε για το ΚΔΑΠ ΑμεΑ 'Η Παιδόπολη' - Γινόμαστε όλοι μια αγκαλιά",
         "Date": "2025-08-30",
@@ -2100,17 +2076,17 @@
         "SignupLink": "https://theactive.gr/races/ikaria-run-2025"
     },
     {
-        "ID": 167,
-        "Title": "3o Coast to Coast Run – Κεραμωτή Νέστου",
-        "Date": "2025-08-02",
+        "ID": 166,
+        "Title": "2o Coast to Coast Run – Κεραμωτή Νέστου",
+        "Date": "2024-08-02",
         "Location": "Κεραμωτή",
         "Distances": [
-            "21km",
-            "14km",
-            "5km"
+            "20km",
+            "13km",
+            "4km"
         ],
-        "Slug": "3o-coast-to-coast-run-keramoti-nestou/",
-        "SignupLink": "https://raceid.com/el/races/13742/about"
+        "Slug": "2o-coast-to-coast-run-keramoti-nestou/",
+        "SignupLink": "https://raceid.com/el/races/13741/about"
     },
     {
         "ID": 168,
@@ -2160,20 +2136,6 @@
         ],
         "Slug": "olympos-x-2025/",
         "SignupLink": "https://triman.gr/"
-    },
-    {
-        "ID": 172,
-        "Title": "13ος Ημιμαραθώνιος Χίου",
-        "Date": "2025-08-31",
-        "Location": "Χίος (Θυμιανά)",
-        "Distances": [
-            "21.1km",
-            "10.5km",
-            "5km",
-            "1.5km"
-        ],
-        "Slug": "13os-imimarathonios-chiou/",
-        "SignupLink": "http://www.chiosrunning.gr"
     },
     {
         "ID": 173,
