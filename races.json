@@ -1474,19 +1474,9 @@
         "Location": "Μέτσοβο",
         "Distances": [
             "40km",
-            "1km"
-        ],
-        "SignupLink": "https://www.ursatrail.gr/en/main/",
-        "Slug": "ursa-trail-2025/"
-    },
-    {
-        "ID": 116,
-        "Title": "URSA TRAIL 2025",
-        "Date": "2025-06-01",
-        "Location": "Μέτσοβο",
-        "Distances": [
             "21km",
-            "11km"
+            "11km",
+            "1km"
         ],
         "SignupLink": "https://www.ursatrail.gr/en/main/",
         "Slug": "ursa-trail-2025/"
@@ -1699,7 +1689,7 @@
             "15km",
             "5km"
         ],
-        "Slug": "meteora-trail-run-2025/",
+        "Slug": "xeskouriazw-trail-run-2025/",
         "SignupLink": "https://xeskouriazo.gr/"
     },
     {
@@ -2365,17 +2355,6 @@
             "5km"
         ],
         "Slug": "6os-imimarathonios-kallitheas/"
-    },
-    {
-        "ID": 188,
-        "Title": "Patmos ChoRun 2025",
-        "Date": "2025-09-14",
-        "Location": "Πάτμος",
-        "Distances": [
-            "10km",
-            "5km"
-        ],
-        "Slug": "patmos-chorun-2025/"
     },
     {
         "ID": 189,
