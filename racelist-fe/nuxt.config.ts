@@ -312,6 +312,8 @@ export default defineNuxtConfig({
         '/agwnas/olympus-geo-trail-2025/',
         '/agwnas/pinelopeios-dromos-2025/',
         '/agwnas/ultra-pelion-trail-2025/',
+        '/agwnas/konitsa-race-2025/',
+        '/agwnas/serifos-sunset-race-2025/',
       ],
     },
   },
