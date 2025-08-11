@@ -1973,7 +1973,7 @@
     {
         "ID": 158,
         "Title": "Poikilo Night Trail 2025",
-        "Date": "2025-07-05",
+        "Date": "2025-08-30",
         "Location": "Πετρούπολη",
         "Distances": [
             "10km",
@@ -2640,5 +2640,169 @@
         ],
         "Slug": "makrakomibackyardultra-2025/",
         "SignupLink": "https://makrakomibackyardultra.gr/registration/"
+    },
+    {
+        "ID": 219,
+        "Title": "11ο Run the Lake Vouliagmeni",
+        "Date": "2025-12-21",
+        "Location": "Βουλιαγμένη",
+        "Distances": [
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "Slug": "11o-run-the-lake-vouliagmeni/",
+        "SignupLink": "https://runthelakevouliagmeni.gr/"
+    },
+    {
+        "ID": 220,
+        "Title": "1ο City Thessaloniki Marathon",
+        "Date": "2025-11-23",
+        "Location": "Θεσσαλονίκη",
+        "Distances": [
+            "42km",
+            "21km",
+            "10km",
+            "5km",
+            "1.5km"
+        ],
+        "Slug": "1o-city-thessaloniki-marathon/",
+        "SignupLink": "https://olympicdayrunshop.gr/product-category/agones/"
+    },
+    {
+        "ID": 221,
+        "Title": "11ος ΑΓΩΝΑΣ ΔΡΟΜΟΥ ΚΟΣΜΑΣ Ο ΑΙΤΩΛΟΣ",
+        "Date": "2025-08-17",
+        "Location": "Θέρμο Αιτωλοακαρνανίας",
+        "Distances": [
+            "10.2km",
+            "5.1km",
+            "1km"
+        ],
+        "Slug": "11os-agonas-dromou-kosmas-o-aitolos/",
+        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=6dc3fadd5fd8e2b1baa35cd6e76858b6&l=GR"
+    },
+    {
+        "ID": 222,
+        "Title": "Αγώνας Δρόμου Αγίου Νικολάου Σμύνου",
+        "Date": "2025-08-23",
+        "Location": "Άγιος Νικόλαος Σμύνος",
+        "Distances": [
+            "5km"
+        ],
+        "Slug": "agonas-dromou-agiou-nikolaou-smynou/",
+        "SignupLink": "https://forms.gle/Uxp1H59L6jhaStrL9"
+    },
+    {
+        "ID": 223,
+        "Title": "16ο ΥΠΕΡΚΟΠΕΛΙ",
+        "Date": "2025-10-12",
+        "Location": "Χανιά, Κρήτη",
+        "Distances": [
+            "Τρίαθλο Υπερκοπέλι",
+            "Τρίαθλο Υπερκοπελάκι",
+            "5km"
+        ],
+        "Slug": "16o-yperkopeli/",
+        "SignupLink": "https://forms.gle/RnCUrc7dhKhELPdt6"
+    },
+    {
+        "ID": 224,
+        "Title": "Γαβαθώνιος 2025",
+        "Date": "2025-08-23",
+        "Location": "Άντισσα, Λέσβος",
+        "Distances": [
+            "9km"
+        ],
+        "Slug": "gavathonios-2025/",
+        "SignupLink": "https://docs.google.com/forms/d/e/1FAIpQLSd9Yt9FsU0y9pfg7-B0XERSjf6-50iGOMnqgTaxRufIX5HYrQ/viewform"
+    },
+    {
+        "ID": 225,
+        "Title": "6th Lepanto Evening Run 2025",
+        "Date": "2025-08-23",
+        "Location": "Ναύπακτος",
+        "Distances": [
+            "9.2km",
+            "5.2km",
+            "600m"
+        ],
+        "Slug": "6th-lepanto-evening-run-2025/",
+        "SignupLink": "https://lepantorunners.gr/"
+    },
+    {
+        "ID": 226,
+        "Title": "Olympia Night Run – Run Under Zeus 2025",
+        "Date": "2025-08-23",
+        "Location": "Αρχαία Ολυμπία",
+        "Distances": [
+            "10km",
+            "5km",
+            "Παιδικός αγώνας"
+        ],
+        "Slug": "olympia-night-run-run-under-zeus-2025/",
+        "SignupLink": "http://www.olympiarunners.gr/"
+    },
+    {
+        "ID": 227,
+        "Title": "11ος Αγώνας Ορεινού Τρεξίματος «Στην σκιά του Κριάκουρα»",
+        "Date": "2025-08-24",
+        "Location": "Θεοδώριανα Άρτας",
+        "Distances": [
+            "23km",
+            "10km"
+        ],
+        "Slug": "11os-agonas-oreinoy-treksimatos-stin-skia-toy-kriakoura/",
+        "SignupLink": "https://kriakourasrace.gr/"
+    },
+    {
+        "ID": 228,
+        "Title": "Olympus Geo Trail 2025",
+        "Date": "2025-08-29",
+        "Location": "Παλιά Βροντού Πιερίας, Λιτόχωρο",
+        "Distances": [
+            "65km (ALOU Alpine Olympus ULTRA)",
+            "22km (Μπαρμπαλας)",
+            "11km (Κρεβάτια)"
+        ],
+        "Slug": "olympus-geo-trail-2025/",
+        "SignupLink": "https://bit.ly/OlympusGeoTrail2025"
+    },
+    {
+        "ID": 229,
+        "Title": "Κλεώναιος Δρόμος 2025",
+        "Date": "2025-08-30",
+        "Location": "Αρχαίες Κλεωνές Νεμέας",
+        "Distances": [
+            "8km",
+            "1000m"
+        ],
+        "Slug": "kleonaios-dromos-2025/",
+        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=5631dd05b9d37c6dce56b0d75f5e0bfa&l=GR"
+    },
+    {
+        "ID": 230,
+        "Title": "Πηνελόπειος δρόμος 2025",
+        "Date": "2025-08-30",
+        "Location": "Γεωργίτσι Λακωνίας",
+        "Distances": [
+            "20km",
+            "11km",
+            "2km"
+        ],
+        "Slug": "pinelopeios-dromos-2025/",
+        "SignupLink": "https://docs.google.com/forms/d/e/1FAIpQLScZOHRKa3eY-bPrHQxrqN4IXA-RUf1sK-OU-mdfY55xw1i9cA/viewform"
+    },
+    {
+        "ID": 231,
+        "Title": "Ultra Pelion Trail 2025",
+        "Date": "2025-09-07",
+        "Location": "Χάνια Πηλίου",
+        "Distances": [
+            "20km (1350 D+)",
+            "9km (600 D+)"
+        ],
+        "Slug": "ultra-pelion-trail-2025/",
+        "SignupLink": "https://upt.gr/index.php?l=el"
     }
 ]
