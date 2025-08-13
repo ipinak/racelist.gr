@@ -100,6 +100,10 @@ export const useArticles = () => {
     {
       title: 'Τι είναι Διαλειμματική Προπόνηση',
       href: '/arthra/ti-einai-dialeimmatiki-proponisi/'
+    },
+    {
+      title: 'Πού να τρέξω στο Ηράκλειο',
+      href: '/arthra/pou-na-trexw-sto-irakleio/'
     }
   ]
 

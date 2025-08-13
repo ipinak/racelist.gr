@@ -79,6 +79,7 @@ export default defineNuxtConfig({
         '/arthra/coros-pace-pro-review/',
         '/arthra/gynaikeia-papoutsia-gia-treximo-dromou/',
         '/arthra/ti-einai-dialeimmatiki-proponisi/',
+        '/arthra/pou-na-trexw-sto-irakleio/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',
