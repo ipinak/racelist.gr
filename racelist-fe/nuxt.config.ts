@@ -316,6 +316,8 @@ export default defineNuxtConfig({
         '/agwnas/konitsa-race-2025/',
         '/agwnas/serifos-sunset-race-2025/',
         '/agwnas/2nd-drama-halfmarathon-2025/',
+        '/agwnas/13os-thessaloniki-night-halfmarathon-2025/',
+        '/agwnas/karpenissi-trail-2025/',
       ],
     },
   },
