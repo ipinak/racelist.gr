@@ -2835,5 +2835,19 @@
         ],
         "Slug": "konitsa-race-2025/",
         "SignupLink": "https://www.konitsarace.gr/"
+    },
+    {
+        "ID": 235,
+        "Title": "2ος Ημιμαραθώνιος Δράμας (2nd Drama Halfmarathon)",
+        "Date": "2025-09-21",
+        "Location": "Δράμα",
+        "Distances": [
+            "21.1km (Drama Half Marathon)",
+            "10km (City Gold Run)",
+            "3km (Fun Run)",
+            "1km (Family Run & Μαθητών Δημ. Σχολείων)"
+        ],
+        "Slug": "2nd-drama-halfmarathon-2025/",
+        "SignupLink": "https://www.evest.gr/entries/index.php?option=com_chronoforms&chronoform=Drama_register"
     }
 ]
