@@ -2849,5 +2849,32 @@
         ],
         "Slug": "2nd-drama-halfmarathon-2025/",
         "SignupLink": "https://www.evest.gr/entries/index.php?option=com_chronoforms&chronoform=Drama_register"
+    },
+    {
+        "ID": 236,
+        "Title": "Karpenissi Trail 2025",
+        "Date": "2025-10-05",
+        "Location": "Καρπενήσι",
+        "Distances": [
+            "26km",
+            "13km",
+            "6km"
+        ],
+        "Slug": "karpenissi-trail-2025/",
+        "SignupLink": "https://karpenissitrail.gr/runners/"
+    },
+    {
+        "ID": 237,
+        "Title": "13ος Διεθνής Νυχτερινός Ημιμαραθώνιος Θεσσαλονίκης",
+        "Date": "2025-10-11",
+        "Location": "Θεσσαλονίκη",
+        "Distances": [
+            "21.1km",
+            "10km",
+            "5km",
+            "1 Μίλι (1609,34μ)"
+        ],
+        "Slug": "13os-thessaloniki-night-halfmarathon-2025/",
+        "SignupLink": "https://thesshalfmarathon.org/2018/08/11/registration-gr/"
     }
 ]
