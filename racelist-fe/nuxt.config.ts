@@ -315,6 +315,7 @@ export default defineNuxtConfig({
         '/agwnas/ultra-pelion-trail-2025/',
         '/agwnas/konitsa-race-2025/',
         '/agwnas/serifos-sunset-race-2025/',
+        '/agwnas/2nd-drama-halfmarathon-2025/',
       ],
     },
   },
