@@ -179,10 +179,9 @@
       <ul class="list-disc list-inside mb-4">
         <li>Bluetooth 5.2</li>
         <li>BLE (Bluetooth Low Energy)</li>
-        <li>Συγχρονισμός με smartwatches τρίτων</li>
+        <li>Συγχρονισμός με smartwatches</li>
         <li>
-          Συμβατότητα με εφαρμογές τρίτων (Strava, adidas Running,
-          TrainingPeaks, κ.ά.)
+          Συμβατότητα με εφαρμογές (Strava, adidas Running, TrainingPeaks)
         </li>
       </ul>
     </section>
@@ -297,8 +296,7 @@
       </h3>
       <ul class="list-disc list-inside mb-4">
         <li>Αποθήκευση καρδιακού ρυθμού έως 21 ημέρες offline</li>
-        <li>Συγχρονισμός με smartwatches τρίτων</li>
-        <li>Υποστήριξη εφαρμογών τρίτων</li>
+        <li>Συγχρονισμός τρίτων εφαρμογών</li>
         <li>PAI health assessment system</li>
         <li>Heart rate recovery analysis</li>
       </ul>
@@ -331,15 +329,8 @@
       <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Δωρεάν Zepp App</h3>
       <p class="mb-4">
         Ολοκληρωμένη εφαρμογή για παρακολούθηση διατροφής, ύπνου, άγχους και
-        προόδου της φυσικής κατάστασης χωρίς συνδρομές.
-      </p>
-
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
-        Ενσωμάτωση Εκοσυστήματος
-      </h3>
-      <p class="mb-4">
-        Το Helio Strap ενσωματώνεται άψογα με smartwatches Amazfit, το Helio
-        Ring και το Zepp App, δημιουργώντας ένα πλήρες σύστημα προπόνησης.
+        προόδου της φυσικής κατάστασης χωρίς συνδρομές, εν αντιθέσει με άλλες
+        ανταγωνιστικές συσκευές.
       </p>
 
       <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Συμβατότητα</h3>
@@ -365,16 +356,6 @@
         <li>Μνήμη: 32 MB</li>
         <li>Σχήμα: Ορθογώνιο</li>
         <li>GPS: Ενσωματωμένο</li>
-      </ul>
-
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
-        Περιεχόμενα Συσκευασίας
-      </h3>
-      <ul class="list-disc list-inside mb-4">
-        <li>Smart band & λουράκι (συναρμολογημένα)</li>
-        <li>Μαγνητική κεφαλή φόρτισης (χωρίς καλώδιο)</li>
-        <li>Εγχειρίδιο οδηγιών</li>
-        <li>Συσκευασία: Κατασκευασμένη από 100% ανακυκλώσιμα υλικά</li>
       </ul>
     </section>
 
