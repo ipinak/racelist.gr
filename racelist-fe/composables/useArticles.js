@@ -104,6 +104,10 @@ export const useArticles = () => {
     {
       title: 'Πού να τρέξω στο Ηράκλειο',
       href: '/arthra/pou-na-trexw-sto-irakleio/'
+    },
+    {
+      title: 'Amazfit Helio Strap Review',
+      href: '/arthra/amazfit-helio-strap-review/'
     }
   ]
 

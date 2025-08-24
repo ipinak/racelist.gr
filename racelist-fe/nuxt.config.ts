@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   ],
   // Google analytics
   gtag: {
-    id: 'G-1YBT2BFVT9',
+    // id: 'G-1YBT2BFVT9',
   },
   site: {
     name: 'racelist.gr',
@@ -80,6 +80,7 @@ export default defineNuxtConfig({
         '/arthra/gynaikeia-papoutsia-gia-treximo-dromou/',
         '/arthra/ti-einai-dialeimmatiki-proponisi/',
         '/arthra/pou-na-trexw-sto-irakleio/',
+        '/arthra/amazfit-helio-strap-review/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',
