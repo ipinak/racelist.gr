@@ -2392,11 +2392,14 @@
         "ID": 197,
         "Title": "Αγώνες Δρόμου Σκιάδεια 2025",
         "Date": "2025-09-28",
-        "Location": "Σκιάδεια",
+        "Location": "Παιανία",
         "Distances": [
-            "5km"
+            "5km",
+            "1.7km",
+            "1km"
         ],
-        "Slug": "agones-dromou-skiadeia-2025/"
+        "Slug": "agones-dromou-skiadeia-2025/",
+        "SignupLink": "https://raceid.com/el/races/13901/about"
     },
     {
         "ID": 198,
@@ -2875,5 +2878,129 @@
         ],
         "Slug": "13os-thessaloniki-night-halfmarathon-2025/",
         "SignupLink": "https://thesshalfmarathon.org/2018/08/11/registration-gr/"
+    },
+    {
+        "ID": 238,
+        "Title": "5ος Κρι Κρι Super Spoon Half-Marathon Σερρών",
+        "Date": "2025-10-05",
+        "Location": "Σέρρες",
+        "Distances": [
+            "21.1km",
+            "5km",
+            "1km",
+            "500m"
+        ],
+        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=f4d527f79559ffac6c29ca5367b8f068&l=GR&g=0",
+        "Slug": "5os-kri-kri-super-spoon-half-marathon-serron/"
+    },
+    {
+        "ID": 239,
+        "Title": "AXD Triathlon Weekend 2025",
+        "Date": "2025-09-07",
+        "Location": "Αξιός Δέλτα",
+        "Distances": [
+            "Sprint Triathlon (750m κολύμβηση + 20km ποδηλασία + 5km τρέξιμο)",
+            "Sprint Triathlon Σκυταλοδρομία",
+            "Kids Triathlon (50-100m κολύμβηση + 500-1000m ποδηλασία + 200-400m τρέξιμο)",
+            "Family Triathlon",
+            "Κολύμβηση Ανοιχτής Θάλασσας 500m",
+            "Κολύμβηση Ανοιχτής Θάλασσας 1000m",
+            "Κολύμβηση Ανοιχτής Θάλασσας 2000m"
+        ],
+        "SignupLink": "https://raceid.com/el/races/13902/about",
+        "Slug": "axd-triathlon-weekend-2025/"
+    },
+    {
+        "ID": 240,
+        "Title": "Στα Ίχνη τις Ιεράς Οδού 2025",
+        "Date": "2025-09-07",
+        "Location": "Ελευσίνα",
+        "Distances": [
+            "21km",
+            "5km"
+        ],
+        "SignupLink": "https://raceid.com/el/races/13934/about",
+        "Slug": "sta-ichni-tis-ieras-odou-2025/"
+    },
+    {
+        "ID": 241,
+        "Title": "Παράκτιος Δρόμος Πάτρας 2025 \"Νίκος Αργυρόπουλος\"",
+        "Date": "2025-09-14",
+        "Location": "Βραχνεΐκα, Πάτρα",
+        "Distances": [
+            "9.6km",
+            "5km"
+        ],
+        "SignupLink": "https://raceid.com/el/races/13989/about",
+        "Slug": "paraktios-dromos-patras-2025-nikos-argyropoulos/"
+    },
+    {
+        "ID": 242,
+        "Title": "Tyros Triathlon 2025",
+        "Date": "2025-09-21",
+        "Location": "Τυρός, Αρκαδίας",
+        "Distances": [
+            "Sprint Triathlon",
+            "Aquathlon",
+            "Sprint Triathlon Relay (2 ατόμων)",
+            "Sprint Triathlon Relay (3 ατόμων)",
+            "Kids Swim and Run"
+        ],
+        "SignupLink": "https://raceid.com/el/races/13939/about",
+        "Slug": "tyros-triathlon-2025/"
+    },
+    {
+        "ID": 243,
+        "Title": "8ος Ξενοδάμειος Δρόμος Αντίκυρας",
+        "Date": "2025-09-21",
+        "Location": "Αντίκυρα, Βοιωτίας",
+        "Distances": [
+            "10km",
+            "5km",
+            "1.2km",
+            "800m"
+        ],
+        "SignupLink": "https://raceid.com/el/races/13935/about",
+        "Slug": "8os-xenodameios-dromos-antikyras/"
+    },
+    {
+        "ID": 244,
+        "Title": "Aspropyrgos Run 2025",
+        "Date": "2025-09-21",
+        "Location": "Ασπρόπυργος, Αττικής",
+        "Distances": [
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "Slug": "aspropyrgos-run-2025/",
+        "SignupLink": "https://raceid.com/el/races/14065/about"
+    },
+    {
+        "ID": 245,
+        "Title": "Folegandros Challenge Run",
+        "Date": "2025-09-28",
+        "Location": "Φολέγανδρος",
+        "Distances": [
+            "21.1km",
+            "10km",
+            "5km"
+        ],
+        "SignupLink": "https://raceid.com/el/races/13945/about",
+        "Slug": "folegandros-challenge-run-2025/"
+    },
+    {
+        "ID": 246,
+        "Title": "8ος Δρόμος Κάστρου Άργους",
+        "Date": "2025-09-28",
+        "Location": "Άργος",
+        "Distances": [
+            "10.5km (Δρομείς)",
+            "10.5km (ΑμεΑ)",
+            "10.5km (Περιπατητές)",
+            "1.5km (Οικογενειακή)"
+        ],
+        "SignupLink": "https://raceid.com/el/races/14055/about",
+        "Slug": "8os-dromos-kastrou-argous/"
     }
 ]
