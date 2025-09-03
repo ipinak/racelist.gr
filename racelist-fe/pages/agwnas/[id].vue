@@ -31,7 +31,11 @@
           </div>
           <div v-if="race.SignupLink" class="mt-12 text-center">
             <a
-              :href="`${race.SignupLink}?utm_source=racelist.gr`"
+              :href="
+                race.SignupLink.includes('?')
+                  ? `${race.SignupLink}&utm_source=racelist.gr`
+                  : `${race.SignupLink}?utm_source=racelist.gr`
+              "
               class="inline-block bg-[#0057A0] text-white px-6 py-2 rounded hover:bg-[#0057A0]/90 transition-colors"
               target="_blank"
             >
@@ -76,7 +80,7 @@
     return 0; // Fallback for unparseable distances
   };
 
-  // Computed property for sorted distances with bar widths
+  // Computed property for sorted distances
   const sortedDistances = computed(() => {
     if (!race.value?.Distances?.length) return [];
 
@@ -86,14 +90,7 @@
       value: extractDistanceValue(distance),
     })).sort((a, b) => a.value - b.value);
 
-    // Find max distance for scaling
-    const maxDistance = Math.max(...parsedDistances.map((d) => d.value));
-
-    // Calculate bar widths (minimum 20%, maximum 100%)
-    return parsedDistances.map((distance) => ({
-      ...distance,
-      barWidth: Math.max(10, (distance.value / maxDistance) * 100),
-    }));
+    return parsedDistances;
   });
 
   onMounted(async () => {
