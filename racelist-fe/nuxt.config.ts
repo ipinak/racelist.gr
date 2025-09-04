@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   ],
   // Google analytics
   gtag: {
-    // id: 'G-1YBT2BFVT9',
+    id: 'G-1YBT2BFVT9',
   },
   site: {
     name: 'racelist.gr',
