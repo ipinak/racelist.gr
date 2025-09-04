@@ -2274,18 +2274,6 @@
         "Slug": "7o-naousa-vermio-trail/"
     },
     {
-        "ID": 184,
-        "Title": "Hercules Mountain Series 2025",
-        "Date": "2025-09-13",
-        "Location": "Ηράκλειο Κρήτης",
-        "Distances": [
-            "21km",
-            "14km",
-            "7km"
-        ],
-        "Slug": "hercules-mountain-series-2025/"
-    },
-    {
         "ID": 185,
         "Title": "4ο Νυχτερινό Ελάφι Βαρυμπόμπης 10χλμ.",
         "Date": "2025-09-13",
@@ -2305,7 +2293,8 @@
             "10km",
             "5km"
         ],
-        "Slug": "7os-agonas-dromou-kalon-neron/"
+        "Slug": "7os-agonas-dromou-kalon-neron/",
+        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=63b2d7e8664531b9cd3ab59b9a530136&l=GR&g=0"
     },
     {
         "ID": 187,
@@ -2317,7 +2306,8 @@
             "10km",
             "5km"
         ],
-        "Slug": "6os-imimarathonios-kallitheas/"
+        "Slug": "6os-imimarathonios-kallitheas/",
+        "SignupLink": "http://www.kallitheahalf.gr/index.php/el/event-gr"
     },
     {
         "ID": 189,
@@ -2535,7 +2525,7 @@
     {
         "ID": 210,
         "Title": "Hercules Series 2025",
-        "Date": "2025-06-15",
+        "Date": "2025-09-13",
         "Location": "Όρος Οίτη",
         "Distances": [
             "42km",
