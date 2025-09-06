@@ -328,6 +328,7 @@ export default defineNuxtConfig({
         '/agwnas/paraktios-dromos-patras-2025-nikos-argyropoulos/',
         '/agwnas/sta-ichni-tis-ieras-odou-2025/',
         '/agwnas/tyros-triathlon-2025/',
+        '/agwnas/festos-run-2025/',
       ],
     },
   },
