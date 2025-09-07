@@ -262,7 +262,7 @@
       </h3>
       <ul class="list-disc list-inside mb-4">
         <li>Φάσεις ύπνου (συμπεριλαμβανομένου REM)</li>
-        <li>Ημερήσιοι υπνάκοι</li>
+        <li>Ημερήσιοι ύπνοι</li>
         <li>Πρόγραμμα ύπνου</li>
         <li>Ποιότητα αναπνοής κατά τον ύπνο</li>
         <li>Sleep score</li>
@@ -323,7 +323,7 @@
     <!-- Zepp App & Εκοσύστημα -->
     <section class="mb-8">
       <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
-        Zepp App & Εκοσύστημα Amazfit
+        Zepp App & Οικοσύστημα Amazfit
       </h2>
 
       <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Δωρεάν Zepp App</h3>
