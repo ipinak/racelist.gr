@@ -135,7 +135,7 @@
   const slideWidth = computed(() => 100 / props.slidesToShow);
 
   const displayedArticles = computed(() => {
-    return articles.toReversed().slice(0, props.count);
+    return articles.slice(0, props.count);
   });
 
   const totalSlides = computed(() => {
