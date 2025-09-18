@@ -1,4 +1,11 @@
 <script setup>
+  const relatedArticles = [
+    {
+      title: 'Βρες τα καλύτερα παπούτσια για τρέξιμο δρόμου',
+      url: '/arthra/papoutsia-gia-treximo-dromou/',
+    },
+  ];
+
   useHead({
     title:
       'New Balance FuelCell Rebel v5: Παρουσίαση & Αξιολόγηση | racelist.gr',
@@ -319,7 +326,7 @@
       </p>
       <div class="aspect-video mb-4">
         <YoutubeVideo
-          videoId="cX-4nRTanBM"
+          video-id="cX-4nRTanBM"
           title="New Balance FuelCell Rebel v5 Review"
         />
       </div>
@@ -348,17 +355,8 @@
         ενεργητικοί σε κάθε βήμα, το FuelCell Rebel v5 είναι μια επιλογή που
         αξίζει σοβαρά να εξετάσετε.
       </p>
-
-      <ul class="list-disc list-inside text-[#0057A0]">
-        <li>
-          <NuxtLink
-            to="/arthra/papoutsia-gia-treximo-dromou/"
-            class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
-          >
-            Βρες τα καλύτερα παπούτσια για τρέξιμο δρόμου
-          </NuxtLink>
-        </li>
-      </ul>
     </section>
+
+    <RelatedArticles :articles="relatedArticles" />
   </div>
 </template>

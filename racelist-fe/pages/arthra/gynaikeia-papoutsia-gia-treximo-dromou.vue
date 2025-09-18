@@ -82,31 +82,23 @@
       </p>
     </section>
 
-    <hr class="mb-4 text-gray-300" />
-
-    <div class="flex justify-center">
-      <span class="mr-1">Βρες πληροφορίες για </span>
-      <NuxtLink
-        class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
-        to="/arthra/nike-running-shoes/"
-      >
-        Nike running shoes
-      </NuxtLink>
-
-      <span class="mr-0.5">,</span>
-
-      <NuxtLink
-        class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
-        to="/arthra/adidas-running-shoes/"
-      >
-        Adidas running shoes
-      </NuxtLink>
-    </div>
+    <RelatedArticles :articles="relatedArticles" />
   </div>
 </template>
 
 <script setup>
   import ShoeRow from '~/components/ShoeRow.vue';
+
+  const relatedArticles = [
+    {
+      title: 'Nike running shoes',
+      url: '/arthra/nike-running-shoes/',
+    },
+    {
+      title: 'Adidas running shoes',
+      url: '/arthra/adidas-running-shoes/',
+    },
+  ];
 
   useHead({
     title:

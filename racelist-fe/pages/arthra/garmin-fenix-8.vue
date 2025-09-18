@@ -1,4 +1,20 @@
 <script setup>
+  const relatedArticles = [
+    {
+      title:
+        'Garmin Forerunner 955 και 955 Solar: Αναλυτική Παρουσίαση & Αξιολόγηση 2025',
+      url: '/arthra/garmin-forerunner-955-kai-955-solar/',
+    },
+    {
+      title: 'Garmin Forerunner 965: Αναλυτική Παρουσίαση & Αξιολόγηση 2025',
+      url: '/arthra/garmin-forerunner-965/',
+    },
+    {
+      title: 'Garmin Fenix 7X Solar: Αναλυτική Παρουσίαση & Αξιολόγηση 2025',
+      url: '/arthra/garmin-fenix-7x-solar/',
+    },
+  ];
+
   useHead({
     title:
       'Garmin Fenix 8: Αναλυτική Παρουσίαση & Αξιολόγηση 2025 | racelist.gr',
@@ -330,36 +346,6 @@
       <YoutubeVideo video-id="8y78TxG4fgM" class="mb-3" />
     </div>
 
-    <div class="border-t border-gray-200 pt-6 mt-8">
-      <h3 class="text-lg font-semibold text-[#0057A0] mb-3">
-        Αναλυτικές Παρουσιάσεις
-      </h3>
-      <ul class="list-disc list-inside text-[#0057A0]">
-        <li>
-          <nuxt-link
-            to="/arthra/garmin-forerunner-955-kai-955-solar/"
-            class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
-          >
-            Garmin Forerunner 955 και 955 Solar: Αναλυτική Παρουσίαση & Αξιολόγηση 2025
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link
-            to="/arthra/garmin-forerunner-965/"
-            class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
-          >
-            Garmin Forerunner 965: Αναλυτική Παρουσίαση & Αξιολόγηση 2025
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link
-            to="/arthra/garmin-fenix-7x-solar/"
-            class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
-          >
-            Garmin Fenix 7X Solar: Αναλυτική Παρουσίαση & Αξιολόγηση 2025
-          </nuxt-link>
-        </li>
-      </ul>
-    </div>
+    <RelatedArticles :articles="relatedArticles" />
   </div>
 </template>

@@ -93,16 +93,7 @@
       </p>
     </section>
 
-    <hr class="mb-4 text-gray-300" />
-
-    <div class="flex justify-center">
-      <NuxtLink
-        class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
-        to="/gel-calculator/"
-      >
-        Μάθε πόσα gel χρειάζεσαι για τον αγώνα ή την προπόνηση σου
-      </NuxtLink>
-    </div>
+    <RelatedArticles :articles="relatedArticles" />
   </div>
 </template>
 
@@ -156,6 +147,21 @@
       },
     ],
   });
+
+  const relatedArticles = [
+    {
+      title: 'Υπολογιστής Gel - Μάθε πόσα gel χρειάζεσαι',
+      url: '/gel-calculator/',
+    },
+    {
+      title: 'Υπολογιστής Ρυθμού Τρεξίματος',
+      url: '/pace-calculator/',
+    },
+    {
+      title: 'Υπολογιστής Ενυδάτωσης για Δρομείς',
+      url: '/hydration-calculator/',
+    },
+  ];
 
   const gels = [
     {
