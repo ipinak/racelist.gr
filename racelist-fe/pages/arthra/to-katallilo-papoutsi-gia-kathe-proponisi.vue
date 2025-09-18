@@ -200,22 +200,6 @@
       </p>
     </section>
 
-    <div class="border-t border-gray-200 pt-6 mt-8">
-      <h3 class="text-lg font-semibold text-[#0057A0] mb-3">Σχετικά Άρθρα</h3>
-      <ul class="list-disc list-inside text-[#0057A0]">
-        <li
-          v-for="(article, index) in relatedArticles"
-          :key="index"
-          class="mb-2"
-        >
-          <nuxt-link
-            :to="article.url"
-            class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
-          >
-            {{ article.title }}
-          </nuxt-link>
-        </li>
-      </ul>
-    </div>
+    <RelatedArticles :articles="relatedArticles" />
   </div>
 </template>

@@ -1,4 +1,11 @@
 <script setup>
+  const relatedArticles = [
+    {
+      title: 'Suunto Run: Αναλυτική Παρουσίαση & Αξιολόγηση 2025',
+      url: '/arthra/suunto-run/',
+    },
+  ];
+
   useHead({
     title: 'Suunto 9 Peak Pro: Αναλυτική Παρουσίαση & Αξιολόγηση | racelist.gr',
     link: [
@@ -248,20 +255,6 @@
       <YoutubeVideo video-id="gXD-SGjMpyU" class="mb-3" />
     </div>
 
-    <div class="border-t border-gray-200 pt-6 mt-8">
-      <h3 class="text-lg font-semibold text-[#0057A0] mb-3">
-        Αναλυτικές Παρουσιάσεις Ρολογιών Suunto
-      </h3>
-      <ul class="list-disc list-inside text-[#0057A0]">
-        <li>
-          <nuxt-link
-            to="/arthra/suunto-run/"
-            class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
-          >
-            Suunto Run: Αναλυτική Παρουσίαση & Αξιολόγηση 2025
-          </nuxt-link>
-        </li>
-      </ul>
-    </div>
+    <RelatedArticles :articles="relatedArticles" />
   </div>
 </template>
