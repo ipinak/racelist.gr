@@ -108,8 +108,13 @@ export const useArticles = () => {
     {
       title: 'Amazfit Helio Strap Review',
       href: '/arthra/amazfit-helio-strap-review/'
+    },
+    {
+      title: 'Το Κατάλληλο Παπούτσι για Κάθε Προπόνηση',
+      href: '/arthra/to-katallilo-papoutsi-gia-kathe-proponisi/',
+      timestamp: '2024-06-19',
     }
-  ]
+  ].reverse()
 
   return {
     articles
