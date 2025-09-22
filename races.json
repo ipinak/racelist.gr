@@ -3008,15 +3008,15 @@
     },
     {
         "ID": 248,
-        "Title": "6ο Heraklew Goritsa Trail",
+        "Title": "6ο Heracles Goritsa Trail",
         "Date": "2025-10-12",
         "Location": "Γόριτσα, Μαγνησίας",
         "Distances": [
             "24km",
             "8km",
-            "500m"
+            "500m (kids)"
         ],
         "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=3001d117ffbfab56b73ac28509640474&l=GR",
-        "Slug": "6o-heraklew-goritsa-trail-2025/"
+        "Slug": "6o-heracles-goritsa-trail-2025/"
     }
 ]
