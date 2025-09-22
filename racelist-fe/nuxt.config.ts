@@ -330,6 +330,7 @@ export default defineNuxtConfig({
         '/agwnas/tyros-triathlon-2025/',
         '/agwnas/festos-run-2025/',
         '/agwnas/6o-heraklew-goritsa-trail-2025/',
+        '/agwnas/6o-herakles-goritsa-trail-2025/',
       ],
     },
   },
