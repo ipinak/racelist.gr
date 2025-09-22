@@ -3005,5 +3005,18 @@
         ],
         "SignupLink": "https://www.festosrun.gr/",
         "Slug": "festos-run-2025/"
+    },
+    {
+        "ID": 248,
+        "Title": "6ο Heraklew Goritsa Trail",
+        "Date": "2025-10-12",
+        "Location": "Γόριτσα, Μαγνησίας",
+        "Distances": [
+            "24km",
+            "8km",
+            "500m"
+        ],
+        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=3001d117ffbfab56b73ac28509640474&l=GR",
+        "Slug": "6o-heraklew-goritsa-trail-2025/"
     }
 ]
