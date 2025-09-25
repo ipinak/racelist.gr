@@ -332,6 +332,7 @@ export default defineNuxtConfig({
         '/agwnas/6o-heraklew-goritsa-trail-2025/',
         '/agwnas/6o-herakles-goritsa-trail-2025/',
         '/agwnas/6o-heracles-goritsa-trail-2025/',
+        '/agwnas/south-olympus-forest-trail-2025/',
       ],
     },
   },
