@@ -3030,5 +3030,71 @@
         ],
         "SignupLink": "https://south.pourliatrail.gr/",
         "Slug": "south-olympus-forest-trail-2025/"
+    },
+    {
+        "ID": 250,
+        "Title": "Dirfys Trail 2025",
+        "Date": "2025-11-29",
+        "Location": "Στενή Ευβοίας",
+        "Distances": [
+            "32.5km",
+            "14.6km",
+            "5.5km",
+            "4.0km"
+        ],
+        "SignupLink": "https://dromeisevias.gr/dtrhomegr/",
+        "Slug": "dirfys-trail-2025/"
+    },
+    {
+        "ID": 251,
+        "Title": "Το Γίδι των Μεθάνων",
+        "Date": "2025-11-15",
+        "Location": "Μέθανα",
+        "Distances": [
+            "28km",
+            "12km",
+            "5km"
+        ],
+        "SignupLink": "https://www.volcanotrails.gr/togidi/",
+        "Slug": "to-gidi-ton-methanon-2025/"
+    },
+    {
+        "ID": 252,
+        "Title": "LAMIA NIGHT RUN",
+        "Date": "2025-10-04",
+        "Location": "Λαμία",
+        "Distances": [
+            "10km",
+            "5km",
+            "2.5km",
+            "500m (ΑμΕΑ)"
+        ],
+        "SignupLink": "https://trahina.gr/register-night-run/",
+        "Slug": "lamia-night-run-2025/"
+    },
+    {
+        "ID": 253,
+        "Title": "Foloi Trail Run 2025",
+        "Date": "2025-10-19",
+        "Location": "Φολόη",
+        "Distances": [
+            "20km",
+            "12km",
+            "5km",
+            "Παιδικός αγώνας"
+        ],
+        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=ac4c289141a14d230485230283ec1df4&l=GR&g=0",
+        "Slug": "foloi-trail-run-2025/"
+    },
+    {
+        "ID": 254,
+        "Title": "36ος Δρόμος Ελευθερίας",
+        "Date": "2025-10-05",
+        "Location": "Θερμοπύλες, Γοργοπόταμος",
+        "Distances": [
+            "21km"
+        ],
+        "SignupLink": "https://trahina.gr/eggrafi-sterea-run/",
+        "Slug": "36os-dromos-eleftherias-2025/"
     }
 ]
