@@ -1,6 +1,12 @@
 <template>
   <div>
-    <RaceSearch @search="handleSearch" />
+    <RaceFilters
+      :races="races"
+      @search="handleSearch"
+      @area-filter="handleAreaFilter"
+      @city-filter="handleCityFilter"
+      @location-filter="handleLocationFilter"
+    />
 
     <ul class="text-center">
       <li v-if="displayedRaces.length === 0">{{ messages.no_races }}</li>
@@ -11,9 +17,10 @@
 
 <script setup>
   import RaceItem from './RaceItem.vue';
-  import RaceSearch from './SearchInput.vue';
+  import RaceFilters from './RaceFilters.vue';
   import { computed, ref, watchEffect } from 'vue';
   import Fuse from 'fuse.js';
+  import { parseLocation } from '~/shared/location.js';
 
   const props = defineProps({
     races: {
@@ -24,6 +31,9 @@
   });
 
   const searchTerm = ref('');
+  const selectedArea = ref('');
+  const selectedCity = ref('');
+  const selectedLocation = ref('');
   const fuse = ref(null);
 
   const messages = {
@@ -45,6 +55,24 @@
     searchTerm.value = query.toLowerCase();
   };
 
+  const handleAreaFilter = (area) => {
+    selectedArea.value = area;
+    selectedCity.value = '';
+    selectedLocation.value = '';
+  };
+
+  const handleCityFilter = (city) => {
+    selectedCity.value = city;
+    selectedArea.value = '';
+    selectedLocation.value = '';
+  };
+
+  const handleLocationFilter = (location) => {
+    selectedLocation.value = location;
+    selectedArea.value = '';
+    selectedCity.value = '';
+  };
+
   const displayedRaces = computed(() => {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
@@ -63,12 +91,38 @@
       });
     }
 
+    // Apply location filters
+    if (selectedArea.value) {
+      filtered = filtered.filter((race) => {
+        if (!race.Location) return false;
+        const parsedLocation = parseLocation(race.Location);
+        return parsedLocation.area === selectedArea.value;
+      });
+    }
+
+    if (selectedCity.value) {
+      filtered = filtered.filter((race) => {
+        if (!race.Location) return false;
+        const parsedLocation = parseLocation(race.Location);
+        return parsedLocation.city === selectedCity.value;
+      });
+    }
+
+    if (selectedLocation.value) {
+      filtered = filtered.filter(
+        (race) => race.Location && race.Location === selectedLocation.value
+      );
+    }
+
     // Apply fuzzy search if there's a search term
     if (searchTerm.value && fuse.value) {
       const searchResults = fuse.value.search(searchTerm.value);
-      filtered = searchResults
-        .map((result) => result.item)
-        .filter((race) => new Date(race.Date) > today);
+      const searchFilteredRaces = searchResults.map((result) => result.item);
+
+      // Combine search results with other filters
+      filtered = filtered.filter((race) =>
+        searchFilteredRaces.some((searchRace) => searchRace.ID === race.ID)
+      );
     }
 
     return filtered.sort((a, b) => new Date(a.Date) - new Date(b.Date));
