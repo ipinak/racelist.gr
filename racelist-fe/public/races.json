@@ -3096,5 +3096,16 @@
         ],
         "SignupLink": "https://trahina.gr/eggrafi-sterea-run/",
         "Slug": "36os-dromos-eleftherias-2025/"
+    },
+    {
+        "ID": 255,
+        "Title": "Hoka Ladies Run 2025",
+        "Date": "2025-11-02",
+        "Location": "Αθηναϊκή Ριβιέρα - Astir Beach, Αθήνα",
+        "Distances": [
+            "5km"
+        ],
+        "SignupLink": "https://www.ladiesrun.gr/",
+        "Slug": "hoka-ladies-run-2025/"
     }
 ]

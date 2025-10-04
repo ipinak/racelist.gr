@@ -338,6 +338,7 @@ export default defineNuxtConfig({
         '/agwnas/foloi-trail-run-2025/',
         '/agwnas/lamia-night-run-2025/',
         '/agwnas/to-gidi-ton-methanon-2025/',
+        '/agwnas/hoka-ladies-run-2025/',
       ],
     },
   },
