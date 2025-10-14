@@ -3107,5 +3107,34 @@
         ],
         "SignupLink": "https://www.ladiesrun.gr/",
         "Slug": "hoka-ladies-run-2025/"
+    },
+    {
+        "ID": 256,
+        "Title": "4ος Aγώνας Bουνού \"Ελλάνιος Δίας\"",
+        "Date": "2025-12-21",
+        "Location": "Πέρδικα, Αίγινα",
+        "Distances": [
+            "23km",
+            "10km",
+            "6km"
+        ],
+        "SignupLink": "https://aeginarun.gr/oaka/agonas-vounoy-ellanios-dias/758-anoiksan-oi-eggrafes-tou-ellaniou-dia-2025-prokiryksi.html",
+        "Slug": "4os-agonas-vounou-ellanios-dias/"
+    },
+    {
+        "ID": 257,
+        "Title": "15ος Αγώνας Δρόμου Ιωάννης Καποδίστριας",
+        "Date": "2026-01-25",
+        "Location": "Αίγινα, Αίγινα",
+        "Distances": [
+            "21km",
+            "10km",
+            "3km",
+            "1000m",
+            "500m",
+            "200m"
+        ],
+        "SignupLink": "https://aeginarun.gr/oaka/agonas-dromou-ioannis-kapodistrias/759-25-ianouariou-o-ioannis-kapodistrias-diloste-symmetoxi.html",
+        "Slug": "15os-agonas-dromou-ioannis-kapodistrias/"
     }
 ]

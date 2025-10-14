@@ -339,6 +339,8 @@ export default defineNuxtConfig({
         '/agwnas/lamia-night-run-2025/',
         '/agwnas/to-gidi-ton-methanon-2025/',
         '/agwnas/hoka-ladies-run-2025/',
+        '/agwnas/15os-agonas-dromou-ioannis-kapodistrias/',
+        '/agwnas/4os-agonas-vounou-ellanios-dias/',
       ],
     },
   },
