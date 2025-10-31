@@ -99,7 +99,7 @@
         "ID": 9,
         "Title": "Veikou Trail",
         "Date": "2025-01-19",
-        "Location": "Γαλάτσι, Αττικής",
+        "Location": "Γαλάτσι, Αττική",
         "Distances": [
             "5km",
             "10km",
@@ -469,7 +469,7 @@
         "ID": 37,
         "Title": "Run-Maroussi - Σπύρος Λούης 2025",
         "Date": "2025-03-16",
-        "Location": "Μαρούσι, Αττικής",
+        "Location": "Μαρούσι, Αττική",
         "Distances": [
             "10km",
             "5km",
@@ -686,7 +686,7 @@
         "ID": 54,
         "Title": "Poseidon Athens Half-Marathon",
         "Date": "2025-04-27",
-        "Location": "Φάληρο, Αττικής",
+        "Location": "Φάληρο, Αττική",
         "Distances": [
             "21km",
             "21km (relay)",
@@ -1288,7 +1288,7 @@
         "ID": 101,
         "Title": "LIFE RUN",
         "Date": "2025-05-10",
-        "Location": "Χαϊδάρι, Αττικής",
+        "Location": "Χαϊδάρι, Αττική",
         "Distances": [
             "4km",
             "8km"
@@ -2957,7 +2957,7 @@
         "ID": 244,
         "Title": "Aspropyrgos Run 2025",
         "Date": "2025-09-21",
-        "Location": "Ασπρόπυργος, Αττικής",
+        "Location": "Ασπρόπυργος, Αττική",
         "Distances": [
             "10km",
             "5km",
@@ -3136,5 +3136,31 @@
         ],
         "SignupLink": "https://aeginarun.gr/oaka/agonas-dromou-ioannis-kapodistrias/759-25-ianouariou-o-ioannis-kapodistrias-diloste-symmetoxi.html",
         "Slug": "15os-agonas-dromou-ioannis-kapodistrias/"
+    },
+    {
+        "ID": 258,
+        "Title": "12ος ΦΙΛΙΠΠΕΙΟΣ Δρόμος",
+        "Date": "2025-12-14",
+        "Location": "Βέροια, Βεργίνα",
+        "Distances": [
+            "14.5km",
+            "5km",
+            "2000m",
+            "1000m"
+        ],
+        "SignupLink": "https://www.sdverias.gr/index.php/registrations",
+        "Slug": "12os-filippeios-dromos/"
+    },
+    {
+        "ID": 259,
+        "Title": "Κυριαδίκεια 2025",
+        "Date": "2025-11-30",
+        "Location": "Φιλοθέη, Αττική",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "SignupLink": "https://www.myrace.gr/event/5902/registrations.html",
+        "Slug": "kyriadikeia-2025/"
     }
 ]

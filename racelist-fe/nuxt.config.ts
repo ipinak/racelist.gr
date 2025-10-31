@@ -341,6 +341,8 @@ export default defineNuxtConfig({
         '/agwnas/hoka-ladies-run-2025/',
         '/agwnas/15os-agonas-dromou-ioannis-kapodistrias/',
         '/agwnas/4os-agonas-vounou-ellanios-dias/',
+        '/agwnas/12os-filippeios-dromos/',
+        '/agwnas/kyriadikeia-2025/',
       ],
     },
   },
