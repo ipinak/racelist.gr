@@ -261,7 +261,7 @@
         "ID": 21,
         "Title": "23ος Δρόμος Αργολικού Κόλπου «Παναγιώτης Παπαβασιλείου»",
         "Date": "2025-02-16",
-        "Location": "Ναύπλιο, Αργολίδας",
+        "Location": "Ναύπλιο, Αργολίδα",
         "Distances": [
             "15.3km",
             "1km"
@@ -582,7 +582,7 @@
         "ID": 46,
         "Title": "Μαραθώνιος Ναυπλίου 2025",
         "Date": "2025-03-30",
-        "Location": "Ναύπλιο, Αργολίδας",
+        "Location": "Ναύπλιο, Αργολίδα",
         "Distances": [
             "42km"
         ],
@@ -3162,5 +3162,19 @@
         ],
         "SignupLink": "https://www.myrace.gr/event/5902/registrations.html",
         "Slug": "kyriadikeia-2025/"
+    },
+    {
+        "ID": 260,
+        "Title": "Artemisio Mountain Running",
+        "Date": "2025-12-07",
+        "Location": "Καρυά, Αργολίδα",
+        "Distances": [
+            "26km",
+            "12km",
+            "5km",
+            "1.5km"
+        ],
+        "SignupLink": "https://artemisiomr.gr/el/",
+        "Slug": "artemisio-mountain-running/"
     }
 ]

@@ -343,6 +343,7 @@ export default defineNuxtConfig({
         '/agwnas/4os-agonas-vounou-ellanios-dias/',
         '/agwnas/12os-filippeios-dromos/',
         '/agwnas/kyriadikeia-2025/',
+        '/agwnas/artemisio-mountain-running/',
       ],
     },
   },
