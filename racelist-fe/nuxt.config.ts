@@ -81,6 +81,7 @@ export default defineNuxtConfig({
         '/arthra/ti-einai-dialeimmatiki-proponisi/',
         '/arthra/pou-na-trexw-sto-irakleio/',
         '/arthra/amazfit-helio-strap-review/',
+        '/arthra/proetoimasia-gia-marathonio/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',

@@ -113,6 +113,11 @@ export const useArticles = () => {
       title: 'Το Κατάλληλο Παπούτσι για Κάθε Προπόνηση',
       href: '/arthra/to-katallilo-papoutsi-gia-kathe-proponisi/',
       timestamp: '2024-06-19',
+    },
+    {
+      title: 'Προετοιμασία για το Αυθεντικό Μαραθώνιο της Αθήνας (ΑΜΑ)',
+      href: '/arthra/proetoimasia-gia-marathonio/',
+      timestamp: '2025-10-08',
     }
   ].reverse()
 
