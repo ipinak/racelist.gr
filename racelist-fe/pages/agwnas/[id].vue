@@ -44,6 +44,20 @@
           </div>
         </div>
       </div>
+
+      <div v-if="race.ExtraInfo?.RacePromoVideoId" class="mt-5">
+        <h2 class="py-3 text-2xl font-semibold text-[#0057A0] text-center">
+          Promo Βίντεο
+        </h2>
+        <YoutubeVideo :video-id="race.ExtraInfo.RacePromoVideoId" />
+      </div>
+
+      <div v-if="race.ExtraInfo?.RaceBriefVideoId" class="mt-5">
+        <h2 class="py-3 text-2xl font-semibold text-[#0057A0] text-center">
+          Briefing Βίντεο
+        </h2>
+        <YoutubeVideo :video-id="race.ExtraInfo.RaceBriefVideoId" />
+      </div>
     </div>
     <div v-else class="text-center text-lg">Ο αγώνας δεν βρέθηκε</div>
   </div>
