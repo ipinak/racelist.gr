@@ -1519,7 +1519,10 @@
             "Last Man Standing"
         ],
         "Slug": "cretan-backyard-ultra-2026/",
-        "SignupLink": "https://ideanroutes.gr/event/cretan-backyard-ultra-2026/"
+        "SignupLink": "https://ideanroutes.gr/event/cretan-backyard-ultra-2026/",
+        "ExtraInfo": {
+            "RaceBriefVideoId": "1P9p3fdKlVo"
+        }
     },
     {
         "ID": 121,
@@ -3175,6 +3178,9 @@
             "1.5km"
         ],
         "SignupLink": "https://artemisiomr.gr/el/",
-        "Slug": "artemisio-mountain-running/"
+        "Slug": "artemisio-mountain-running/",
+        "ExtraInfo": {
+            "RaceBriefVideoId": "_GFYNcnuo2w"
+        }
     }
 ]
