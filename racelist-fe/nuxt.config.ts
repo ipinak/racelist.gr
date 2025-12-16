@@ -345,6 +345,8 @@ export default defineNuxtConfig({
         '/agwnas/12os-filippeios-dromos/',
         '/agwnas/kyriadikeia-2025/',
         '/agwnas/artemisio-mountain-running/',
+        '/agwnas/8os-agonas-trail-hmimarathonios-faneromenis-chilimodiou/',
+        '/agwnas/ymmitos-trail-time-trail/',
       ],
     },
   },

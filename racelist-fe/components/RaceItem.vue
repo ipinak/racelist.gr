@@ -13,6 +13,9 @@
     <div v-if="race.Distances?.length">
       <b>Αποστάσεις:</b> {{ race.Distances.join(', ') }}
     </div>
+    <div v-if="race.Description" class="mt-2">
+      {{ race.Description }}
+    </div>
     <div v-if="race.SignupLink">
       <a
         :href="`${race.SignupLink}?utm_source=racelist.gr`"
@@ -26,7 +29,7 @@
 </template>
 
 <script setup>
-import { formatDate } from "~/shared/formatters";
+  import { formatDate } from '~/shared/formatters';
 
   defineProps({
     race: {
