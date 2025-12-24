@@ -62,6 +62,22 @@
       label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Οκτώβριο',
       href: '/agwnes/kalentari-agwnwn-oktobrios-2025/',
     },
+    {
+      label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Νοέμβριο',
+      href: '/agwnes/kalentari-agwnwn-noemvrios-2025/',
+    },
+    {
+      label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Δεκέμβριο',
+      href: '/agwnes/kalentari-agwnwn-dekembrios-2025/',
+    },
+    {
+      label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Ιανουάριο 2026',
+      href: '/agwnes/kalentari-agwnwn-ianouarios-2026/',
+    },
+    {
+      label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Φεβρουάριο 2026',
+      href: '/agwnes/kalentari-agwnwn-febrouarios-2026/',
+    }
   ];
 
   useHead({
