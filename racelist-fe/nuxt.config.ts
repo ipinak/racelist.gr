@@ -40,6 +40,7 @@ export default defineNuxtConfig({
         '/gel-calculator/',
         '/hydration-calculator/',
         '/pace-calculator/',
+        '/race-time-predictor/',
         '/tools-for-runners/',
         '/agwnes/',
         '/agwnes/kalentari-agwnwn-febrouarios-2025/',

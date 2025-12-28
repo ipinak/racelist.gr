@@ -1,3 +1,10 @@
+Shoe "Cost-Per-Mile" & Retirement Tracker Running shoes are expensive. This tool
+helps runners justify the investment or realize when it’s time to buy new ones
+to avoid injury. How it works: User inputs the price of their shoes and their
+average weekly mileage. The Output: * Cost per mile: (e.g., "$0.25 per mile").
+Retirement Date: A predicted date they will hit the 400-mile mark (the standard
+lifespan of a shoe). Why it’s useful: It adds a fun, "gamified" financial aspect
+to gear management and promotes foot health.
 <template>
   <div>
     <h1 class="text-3xl text-center text-[#0057A0] my-6">Βοηθήματα Δρομέων</h1>
@@ -90,6 +97,10 @@
       title:
         'Υπολογιστής Ρυθμού & Χρόνου ανά Χιλιόμετρο | Εργαλείο για Δρομείς',
       href: '/pace-calculator/',
+    },
+    {
+      title: 'Υπολογιστής Προβλέψεων Χρόνων - Τύπος Riegel για Δρομείς',
+      href: '/race-time-predictor/',
     },
   ];
 </script>
