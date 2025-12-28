@@ -356,6 +356,7 @@ export default defineNuxtConfig({
         '/agwnas/5o-koumaria-trail-series-2026/',
         '/agwnas/lafonisios-dromos-2026/',
         '/agwnas/pilabox-trail-race-2026/',
+        '/agwnas/gyros-perivolion-2026/',
       ],
     },
   },
