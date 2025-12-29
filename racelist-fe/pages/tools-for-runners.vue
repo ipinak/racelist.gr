@@ -102,5 +102,9 @@ to gear management and promotes foot health.
       title: 'Υπολογιστής Προβλέψεων Χρόνων - Τύπος Riegel για Δρομείς',
       href: '/race-time-predictor/',
     },
+    {
+      title: 'Υπολογιστής Κόστους & Διάρκειας Ζωής Παπουτσιών Τρεξίματος',
+      href: '/shoe-cost-tracker/',
+    },
   ];
 </script>
