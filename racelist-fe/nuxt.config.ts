@@ -88,6 +88,7 @@ export default defineNuxtConfig({
         '/arthra/pou-na-trexw-sto-irakleio/',
         '/arthra/amazfit-helio-strap-review/',
         '/arthra/proetoimasia-gia-marathonio/',
+        '/arthra/nike-vomero-plus/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',

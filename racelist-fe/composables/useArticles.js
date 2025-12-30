@@ -118,6 +118,11 @@ export const useArticles = () => {
       title: 'Προετοιμασία για το Αυθεντικό Μαραθώνιο της Αθήνας (ΑΜΑ)',
       href: '/arthra/proetoimasia-gia-marathonio/',
       timestamp: '2025-10-08',
+    },
+    {
+      title: 'Nike Vomero Plus Review',
+      href: '/arthra/nike-vomero-plus/',
+      timestamp: '2025-12-30',
     }
   ].reverse()
 
