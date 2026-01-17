@@ -360,6 +360,7 @@ export default defineNuxtConfig({
         '/agwnas/lafonisios-dromos-2026/',
         '/agwnas/pilabox-trail-race-2026/',
         '/agwnas/gyros-perivolion-2026/',
+        '/agwnas/14os-hortiatis-trail-run/',
       ],
     },
   },
