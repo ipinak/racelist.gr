@@ -361,6 +361,7 @@ export default defineNuxtConfig({
         '/agwnas/pilabox-trail-race-2026/',
         '/agwnas/gyros-perivolion-2026/',
         '/agwnas/14os-hortiatis-trail-run/',
+        '/agwnas/8o-naoussa-vermio-trail/',
       ],
     },
   },
