@@ -364,6 +364,8 @@ export default defineNuxtConfig({
         '/agwnas/8o-naoussa-vermio-trail/',
         '/agwnas/11th-lycabettus-run/',
         '/agwnas/kilkis-trail-2026/',
+        '/agwnas/2nd-amanitis-trail/',
+        '/agwnas/3rd-kefalonia-backyard-ultra/',
       ],
     },
   },
