@@ -371,6 +371,7 @@ export default defineNuxtConfig({
         '/agwnas/tinos-running-experience-2026/',
         '/agwnas/2o-kolisaura-run/',
         '/agwnas/8os-krokodeilos-trail/',
+        '/agwnas/2o-spetses-mountain-run/',
       ],
     },
   },
