@@ -369,6 +369,8 @@ export default defineNuxtConfig({
         '/agwnas/11o-cycle-trail-run/',
         '/agwnas/piraeus-port-run-2026/',
         '/agwnas/tinos-running-experience-2026/',
+        '/agwnas/2o-kolisaura-run/',
+        '/agwnas/8os-krokodeilos-trail/',
       ],
     },
   },
