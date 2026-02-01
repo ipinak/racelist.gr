@@ -123,6 +123,11 @@ export const useArticles = () => {
       title: 'Nike Vomero Plus Review',
       href: '/arthra/nike-vomero-plus/',
       timestamp: '2025-12-30',
+    },
+    {
+      href: '/arthra/panellinio-protathlima-anomalo-edafos-trikala-2026/',
+      title: 'Πανελλήνιο Πρωτάθλημα Ανώμαλου Εδάφους Τρίκαλα 2026',
+      timestamp: '2026-02-01',
     }
   ].reverse()
 
