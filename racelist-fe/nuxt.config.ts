@@ -373,6 +373,7 @@ export default defineNuxtConfig({
         '/agwnas/8os-krokodeilos-trail/',
         '/agwnas/2o-spetses-mountain-run/',
         '/agwnas/15o-katerini-run-2026/',
+        '/agwnas/pepsico-gives-back-kifissia-2026/',
       ],
     },
   },
