@@ -19,7 +19,7 @@
   import RaceList from '~/components/Agwnes/RaceList.vue';
   import NewsletterSubmissionForm from '~/components/NewsletterSubmissionForm.vue';
 
-  const title = 'Αγώνες για τον Φεβρουάριο 2026';
+  const title = 'Αγώνες για τον Απρίλιο 2026';
 
   const { data: allRaces } = await useFetch('/min.races.json');
 
@@ -29,18 +29,18 @@
     return allRaces.value
       .filter((race) => {
         const raceDate = new Date(race.Date);
-        return raceDate.getMonth() === 1 && raceDate.getFullYear() === 2026;
+        return raceDate.getMonth() === 3 && raceDate.getFullYear() === 2026;
       })
       .sort((a, b) => new Date(a.Date) - new Date(b.Date));
   });
 
   useHead({
     title:
-      'Καλένταρι αγώνων δρομου και βουνού για τον Φεβρουάριο 2026 | racelist.gr',
+      'Καλένταρι αγώνων δρομου και βουνού για τον Απρίλιο 2026 | racelist.gr',
     link: [
       {
         rel: 'canonical',
-        href: 'https://racelist.gr/agwnes/kalentari-agwnwn-febrouarios-2026/',
+        href: 'https://racelist.gr/agwnes/kalentari-agwnwn-aprilios-2026/',
       },
     ],
     meta: [
@@ -54,7 +54,7 @@
       {
         property: 'og:title',
         content:
-          'Καλένταρι αγώνων δρομου και βουνού για τον Φεβρουάριο 2026 | racelist.gr',
+          'Καλένταρι αγώνων δρομου και βουνού για τον Απρίλιο 2026 | racelist.gr',
       },
       {
         property: 'og:description',
@@ -63,8 +63,7 @@
       },
       {
         property: 'og:url',
-        content:
-          'https://racelist.gr/agwnes/kalentari-agwnwn-febrouarios-2026/',
+        content: 'https://racelist.gr/agwnes/kalentari-agwnwn-aprilios-2026/',
       },
       { property: 'og:type', content: 'website' },
       {
@@ -78,7 +77,7 @@
       {
         name: 'twitter:title',
         content:
-          'Καλένταρι αγώνων δρομου και βουνού για τον Φεβρουάριο 2026 | racelist.gr',
+          'Καλένταρι αγώνων δρομου και βουνού για τον Απρίλιο 2026 | racelist.gr',
       },
       {
         name: 'twitter:description',
