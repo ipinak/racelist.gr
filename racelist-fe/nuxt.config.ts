@@ -386,6 +386,7 @@ export default defineNuxtConfig({
         '/agwnas/gyros-polis-rethymnou-2026/',
         '/agwnas/knossos-run-2026/',
         '/agwnas/kronio-trail-2026/',
+        '/agwnas/tsaritsani-trails-2026/',
       ],
     },
   },
