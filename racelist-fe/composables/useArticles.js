@@ -128,6 +128,11 @@ export const useArticles = () => {
       href: '/arthra/panellinio-protathlima-anomalo-edafos-trikala-2026/',
       title: 'Πανελλήνιο Πρωτάθλημα Ανώμαλου Εδάφους Τρίκαλα 2026',
       timestamp: '2026-02-01',
+    },
+    {
+      href: '/arthra/huawei-watch-gt-runner-2-review/',
+      title: 'Huawei Watch GT 2 Runner Review',
+      timestamp: '2026-03-15',
     }
   ].reverse()
 
