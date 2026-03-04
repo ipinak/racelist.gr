@@ -387,6 +387,7 @@ export default defineNuxtConfig({
         '/agwnas/knossos-run-2026/',
         '/agwnas/kronio-trail-2026/',
         '/agwnas/tsaritsani-trails-2026/',
+        '/agwnas/2o-candia-koules-run-2026/',
       ],
     },
   },
