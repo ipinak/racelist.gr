@@ -36,8 +36,23 @@
         elite field, έλαβαν μέρος σε ένα αξέχαστο αγώνισμα.
       </p>
 
-      <div class="my-8">
-        <YoutubeVideo video-id="8U-87SKjaGI" class="mb-3" />
+      <div class="aspect-video mb-3">
+        <iframe
+          src="https://www.youtube.com/embed/8U-87SKjaGI"
+          title="Tokyo Marathon 2026 Highlights"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          allowfullscreen
+          class="w-full h-full"
+        ></iframe>
       </div>
 
       <!-- Men's results -->

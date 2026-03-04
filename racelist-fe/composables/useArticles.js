@@ -139,6 +139,11 @@ export const useArticles = () => {
       title: 'Μαραθώνιος Τόκιο 2026 – Αποτελέσματα & Νικητές',
       timestamp: '2026-03-01',
     },
+    {
+      href: '/arthra/amazfit-active-3-premium-review/',
+      title: 'Amazfit Active 3 Premium Review',
+      timestamp: '2026-03-04',
+    },
   ].reverse()
 
   return {
