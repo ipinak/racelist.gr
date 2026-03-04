@@ -133,7 +133,12 @@ export const useArticles = () => {
       href: '/arthra/huawei-watch-gt-runner-2-review/',
       title: 'Huawei Watch GT 2 Runner Review',
       timestamp: '2026-03-15',
-    }
+    },
+    {
+      href: '/arthra/marathon-tokio-2026/',
+      title: 'Μαραθώνιος Τόκιο 2026 – Αποτελέσματα & Νικητές',
+      timestamp: '2026-03-01',
+    },
   ].reverse()
 
   return {
