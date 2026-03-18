@@ -29,8 +29,8 @@
         <div class="mb-4">
           <label class="block mb-1 font-medium">Τιμή Παπουτσιών (€)</label>
           <input
-            type="number"
             v-model.number="shoePrice"
+            type="number"
             class="border p-2 rounded w-full input-bordered"
             min="0"
             step="0.01"
@@ -43,8 +43,8 @@
             Μέσα Εβδομαδιαία Χιλιόμετρα
           </label>
           <input
-            type="number"
             v-model.number="weeklyMileage"
+            type="number"
             class="border p-2 rounded w-full input-bordered"
             min="0"
             step="1"
@@ -57,8 +57,8 @@
             Τρέχοντα Χιλιόμετρα Παπουτσιών (προαιρετικό)
           </label>
           <input
-            type="number"
             v-model.number="currentMileage"
+            type="number"
             class="border p-2 rounded w-full input-bordered"
             min="0"
             step="1"
@@ -74,8 +74,8 @@
             Διάρκεια Ζωής Παπουτσιών (χλμ)
           </label>
           <input
-            type="number"
             v-model.number="shoeLifespan"
+            type="number"
             class="border p-2 rounded w-full input-bordered"
             min="100"
             step="50"
@@ -118,7 +118,7 @@
               <div
                 class="bg-[#0057A0] h-2 rounded-full transition-all"
                 :style="{ width: results.usagePercentage + '%' }"
-              ></div>
+              />
             </div>
             <p class="text-xs text-gray-600 mt-1">
               {{ results.usagePercentage }}% χρησιμοποιημένα

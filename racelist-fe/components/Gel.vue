@@ -18,8 +18,8 @@
       <p class="text-gray-700 mb-4">Υδατάνθρακες: {{ gel.carbs }} γρ.</p>
 
       <div
-        class="flex flex-wrap gap-3"
         v-if="gel.links && gel.links.length > 0"
+        class="flex flex-wrap gap-3"
       >
         <a
           v-for="(link, index) in gel.links"

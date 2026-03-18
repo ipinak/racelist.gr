@@ -394,6 +394,8 @@ export default defineNuxtConfig({
         '/agwnas/2o-candia-koules-run-2026/',
         '/agwnas/sfakia-sky-marathon-2026/',
         '/agwnas/sougliani-trail-2026/',
+        '/agwnas/10os-marathonios-kritis-2026/',
+        '/agwnas/venizeleos-dromos-2026/',
       ],
     },
   },

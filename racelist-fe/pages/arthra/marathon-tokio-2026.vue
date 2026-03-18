@@ -52,7 +52,7 @@
           "
           allowfullscreen
           class="w-full h-full"
-        ></iframe>
+        />
       </div>
 
       <!-- Men's results -->

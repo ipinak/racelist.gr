@@ -3,7 +3,7 @@
     <div
       class="absolute inset-0 rounded"
       :class="getDistanceColor(distance.value)"
-    ></div>
+    />
     <div
       class="relative z-10 px-3 py-2 text-sm font-medium"
       :class="getTextColor(distance.value)"

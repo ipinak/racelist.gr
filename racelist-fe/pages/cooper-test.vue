@@ -73,7 +73,7 @@
           Υπολογιστής Τεστ Cooper
         </h2>
 
-        <form @submit.prevent="calculateResult" class="space-y-4">
+        <form class="space-y-4" @submit.prevent="calculateResult">
           <div>
             <label class="block mb-1 font-medium">Ηλικία</label>
             <input
@@ -467,7 +467,7 @@
     }
 
     const standard = standards.find(
-      (s) => s.age === ageGroup && s.gender === gender.value
+      (s) => s.age === ageGroup && s.gender === gender.value,
     );
 
     if (!standard) {

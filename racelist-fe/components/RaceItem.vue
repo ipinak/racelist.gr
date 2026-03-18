@@ -22,6 +22,7 @@
         Εγγραφή
       </a>
     </div>
+    <Countdown :date="race.Date" />
   </li>
 </template>
 

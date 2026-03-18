@@ -34,9 +34,9 @@
           Υπολογίστε το MHR σας
         </h3>
         <input
+          v-model="age"
           type="number"
           placeholder="Ηλικία"
-          v-model="age"
           class="border border-gray-300 rounded p-2 mb-4"
         />
         <div class="text-lg font-semibold text-[#aa57A9]">

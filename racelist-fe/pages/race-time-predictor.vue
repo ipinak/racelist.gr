@@ -43,8 +43,8 @@
         <div v-if="selectedDistance === 'custom'" class="mb-4">
           <label class="block mb-1 font-medium">Απόσταση (χλμ)</label>
           <input
-            type="number"
             v-model.number="customDistance"
+            type="number"
             class="border p-2 rounded w-full input-bordered"
             min="0.1"
             step="0.1"
@@ -56,8 +56,8 @@
           <div class="flex gap-2">
             <div class="flex-1">
               <input
-                type="number"
                 v-model.number="hours"
+                type="number"
                 class="border p-2 rounded w-full input-bordered"
                 placeholder="Ώρες"
                 min="0"
@@ -65,8 +65,8 @@
             </div>
             <div class="flex-1">
               <input
-                type="number"
                 v-model.number="minutes"
+                type="number"
                 class="border p-2 rounded w-full input-bordered"
                 placeholder="Λεπτά"
                 min="0"
@@ -75,8 +75,8 @@
             </div>
             <div class="flex-1">
               <input
-                type="number"
                 v-model.number="seconds"
+                type="number"
                 class="border p-2 rounded w-full input-bordered"
                 placeholder="Δευτ."
                 min="0"

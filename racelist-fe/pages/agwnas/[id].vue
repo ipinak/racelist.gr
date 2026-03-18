@@ -8,6 +8,7 @@
 
       <div class="bg-[#f4f4f4] border-l-4 border-[#0057A0] p-6 rounded">
         <div class="space-y-4">
+          <FlipCountdown :date="race.Date" />
           <div>
             <span class="font-semibold">Ημερομηνία:</span>
             {{ format(race.Date) }}
@@ -112,7 +113,7 @@
       const res = await fetch('/min.races.json');
       const races = await res.json();
       race.value = races.find(
-        (r) => r.Slug === route.params.id || r.Slug === `${route.params.id}/`
+        (r) => r.Slug === route.params.id || r.Slug === `${route.params.id}/`,
       );
     } catch (error) {
       console.error('Error loading race:', error);

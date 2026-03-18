@@ -364,7 +364,7 @@
           "
           allowfullscreen
           class="w-full h-full"
-        ></iframe>
+        />
       </div>
     </div>
   </div>

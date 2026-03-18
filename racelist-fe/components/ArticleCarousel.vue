@@ -29,9 +29,9 @@
       <!-- Navigation buttons -->
       <button
         v-if="showPrevious"
-        @click="previousSlide"
         class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full p-2 shadow-lg transition-all duration-200 z-10"
         aria-label="Previous articles"
+        @click="previousSlide"
       >
         <svg
           class="w-6 h-6 text-[#0057A0]"
@@ -44,15 +44,15 @@
             stroke-linejoin="round"
             stroke-width="2"
             d="M15 19l-7-7 7-7"
-          ></path>
+          />
         </svg>
       </button>
 
       <button
         v-if="showNext"
-        @click="nextSlide"
         class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full p-2 shadow-lg transition-all duration-200 z-10"
         aria-label="Next articles"
+        @click="nextSlide"
       >
         <svg
           class="w-6 h-6 text-[#0057A0]"
@@ -65,7 +65,7 @@
             stroke-linejoin="round"
             stroke-width="2"
             d="M9 5l7 7-7 7"
-          ></path>
+          />
         </svg>
       </button>
     </div>
@@ -75,7 +75,6 @@
       <button
         v-for="(dot, index) in totalSlides"
         :key="index"
-        @click="goToSlide(index)"
         class="w-2 h-2 rounded-full transition-all duration-200"
         :class="
           currentSlide === index
@@ -83,7 +82,8 @@
             : 'bg-gray-300 hover:bg-gray-400'
         "
         :aria-label="`Go to slide ${index + 1}`"
-      ></button>
+        @click="goToSlide(index)"
+      />
     </div>
 
     <!-- View All Articles Link -->
@@ -104,7 +104,7 @@
             stroke-linejoin="round"
             stroke-width="2"
             d="M9 5l7 7-7 7"
-          ></path>
+          />
         </svg>
       </NuxtLink>
     </div>

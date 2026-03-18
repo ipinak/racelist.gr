@@ -7,5 +7,5 @@
     scrolling="auto"
     allowfullscreen
     class="w-full max-w-[540px]"
-  ></iframe>
+  />
 </template>

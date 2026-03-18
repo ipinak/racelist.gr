@@ -31,7 +31,7 @@
             <div
               v-if="hasEvent(day)"
               class="w-2 h-2 bg-[#0057A0] rounded-full absolute bottom-1 left-1/2 -translate-x-1/2"
-            ></div>
+            />
           </td>
         </tr>
       </tbody>
@@ -55,9 +55,8 @@
   });
 
   const emit = defineEmits(['updateDate']);
-  const props = defineProps({ races: Array });
+  const props = defineProps({ races: { type: Array, default: () => [] } });
 
-  const today = new Date();
   const currentDate = ref(new Date());
 
   // const days = ['Κυρ.', 'Δευτ', 'Τρ.', 'Τετ.', 'Πεμ.', 'Παρ.', 'Σατ.'];
@@ -66,7 +65,7 @@
     currentDate.value.toLocaleString('el-GR', {
       month: 'long',
       year: 'numeric',
-    })
+    }),
   );
 
   const calendar = computed(() => {
@@ -99,7 +98,7 @@
     const year = currentDate.value.getFullYear();
     const month = currentDate.value.getMonth() + 1;
     const dateStr = `${year}-${String(month).padStart(2, '0')}-${String(
-      day
+      day,
     ).padStart(2, '0')}`;
     return props.races?.some((r) => r.Date === dateStr);
   };
@@ -119,6 +118,6 @@
     () => {
       emit('updateDate', currentDate.value);
     },
-    { immediate: true }
+    { immediate: true },
   );
 </script>

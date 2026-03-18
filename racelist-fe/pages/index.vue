@@ -14,10 +14,10 @@
     <h1 class="text-3xl text-center text-[#0057A0] my-6">
       Ημερολόγιο Αγώνων για το {{ currentDate.getFullYear() }}
     </h1>
-    <Calendar :races="races" @updateDate="updateDate" />
+    <Calendar :races="races" @update-date="updateDate" />
 
     <h2 class="text-2xl text-center my-6 text-[#0057A0]">Ερχόμενοι αγώνες</h2>
-    <RaceList :races="races" :currentDate="currentDate" />
+    <RaceList :races="races" :current-date="currentDate" />
 
     <!-- Latest Articles Carousel -->
     <ArticleCarousel :count="12" :slides-to-show="3" title="Τελευταία Άρθρα" />

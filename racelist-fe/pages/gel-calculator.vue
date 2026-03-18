@@ -29,20 +29,20 @@
         <div class="mb-4">
           <div class="flex border rounded-md overflow-hidden w-fit">
             <button
-              @click="isManual = false"
               :class="
                 isManual ? 'bg-white text-gray-700' : 'bg-[#0057A0] text-white'
               "
               class="px-4 py-2 text-sm font-medium transition-colors"
+              @click="isManual = false"
             >
               Αυτόματο
             </button>
             <button
-              @click="isManual = true"
               :class="
                 isManual ? 'bg-[#0057A0] text-white' : 'bg-white text-gray-700'
               "
               class="px-4 py-2 text-sm font-medium transition-colors"
+              @click="isManual = true"
             >
               Χειροκίνητο
             </button>
@@ -52,8 +52,8 @@
         <div class="mb-4">
           <label class="block mb-1">Απόσταση (χλμ)</label>
           <input
-            type="number"
             v-model.number="distance"
+            type="number"
             class="border p-2 rounded w-full input-bordered w-full"
             min="0"
           />
@@ -62,8 +62,8 @@
         <div class="mb-4">
           <label class="block mb-1">Μέσος Ρυθμός (λεπτά/χλμ)</label>
           <input
-            type="number"
             v-model.number="pace"
+            type="number"
             class="border p-2 rounded w-full input-bordered w-full"
             min="1"
           />
@@ -72,8 +72,8 @@
         <div v-if="isManual" class="mb-4">
           <label class="block mb-1">Υδατάνθρακες ανά gel (γρ.)</label>
           <input
-            type="number"
             v-model.number="carbsPerGel"
+            type="number"
             class="border p-2 rounded w-full input-bordered w-full"
             min="1"
           />
@@ -82,8 +82,8 @@
         <div v-if="isManual" class="mb-4">
           <label class="block mb-1">Υδατάνθρακες ανά ώρα (γρ.)</label>
           <input
-            type="number"
             v-model.number="carbsPerHour"
+            type="number"
             class="border p-2 rounded w-full input-bordered w-full"
             min="1"
           />
