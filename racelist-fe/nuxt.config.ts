@@ -57,6 +57,12 @@ export default defineNuxtConfig({
         '/agwnes/kalentari-agwnwn-dekembrios-2025/',
         '/agwnes/kalentari-agwnwn-ianouarios-2026/',
         '/agwnes/kalentari-agwnwn-febrouarios-2026/',
+        '/agwnes/kalentari-agwnwn-martios-2026/',
+        '/agwnes/kalentari-agwnwn-aprilios-2026/',
+        '/agwnes/kalentari-agwnwn-maios-2026/',
+        '/agwnes/kalentari-agwnwn-iounios-2026/',
+        '/agwnes/kalentari-agwnwn-ioulios-2026/',
+        '/agwnes/kalentari-agwnwn-augoustos-2026/',
 
         // arthra
         '/arthra/',
