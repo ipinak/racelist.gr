@@ -402,6 +402,7 @@ export default defineNuxtConfig({
         '/agwnas/sougliani-trail-2026/',
         '/agwnas/10os-marathonios-kritis-2026/',
         '/agwnas/venizeleos-dromos-2026/',
+        '/agwnas/evia-ultra-trail-2026/',
       ],
     },
   },
