@@ -86,6 +86,22 @@
       label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Απρίλιο 2026',
       href: '/agwnes/kalentari-agwnwn-aprilios-2026/',
     },
+    {
+      label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Μάιο 2026',
+      href: '/agwnes/kalentari-agwnwn-maios-2026/',
+    },
+    {
+      label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Ιούνιο 2026',
+      href: '/agwnes/kalentari-agwnwn-iounios-2026/',
+    },
+    {
+      label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Ιούλιο 2026',
+      href: '/agwnes/kalentari-agwnwn-ioulios-2026/',
+    },
+    {
+      label: 'Καλένταρι αγώνων δρόμου και βουνού για τον Αύγουστο 2026',
+      href: '/agwnes/kalentari-agwnwn-augoustos-2026/',
+    },
   ];
 
   useHead({
