@@ -99,6 +99,7 @@ export default defineNuxtConfig({
         '/arthra/huawei-watch-gt-runner-2-review/',
         '/arthra/marathon-tokio-2026/',
         '/arthra/amazfit-active-3-premium-review/',
+        '/arthra/hmimarathonios-pekinou-robot-vs-anthrwpwn/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',

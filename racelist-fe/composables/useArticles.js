@@ -142,8 +142,12 @@ export const useArticles = () => {
     {
       href: '/arthra/amazfit-active-3-premium-review/',
       title: 'Amazfit Active 3 Premium Review',
-      timestamp: '2026-03-04',
     },
+    {
+      href: '/arthra/hmimarathonios-pekinou-robot-vs-anthrwpwn/',
+      title: 'Ημιμαραθώνιος Πεκίνου: Ρομπότ vs Ανθρώπων',
+      timestamp: '2026-04-19',
+    }
   ].reverse()
 
   return {
