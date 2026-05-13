@@ -147,6 +147,11 @@ export const useArticles = () => {
       href: '/arthra/hmimarathonios-pekinou-robot-vs-anthrwpwn/',
       title: 'Ημιμαραθώνιος Πεκίνου: Ρομπότ vs Ανθρώπων',
       timestamp: '2026-04-19',
+    },
+    {
+      href: '/arthra/garmin-forerunner-170/',
+      title: 'Garmin Forerunner 170: Η Νέα Επιλογή που Αντικαθιστά το Forerunner 955',
+      timestamp: '2026-05-13',
     }
   ].reverse()
 
