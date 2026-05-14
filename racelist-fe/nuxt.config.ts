@@ -460,6 +460,7 @@ export default defineNuxtConfig({
         '/agwnas/poseidonia-2026/',
         '/agwnas/run-for-stroke-2026/',
         '/agwnas/tyros-run-2026/',
+        '/agwnas/4o-axios-running-festival-2026/',
       ],
     },
   },
