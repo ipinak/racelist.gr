@@ -461,6 +461,7 @@ export default defineNuxtConfig({
         '/agwnas/run-for-stroke-2026/',
         '/agwnas/tyros-run-2026/',
         '/agwnas/4o-axios-running-festival-2026/',
+        '/agwnas/olympus-marathon-2026/',
       ],
     },
   },
