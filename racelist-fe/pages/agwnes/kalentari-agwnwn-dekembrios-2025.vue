@@ -21,7 +21,11 @@
 
   const title = 'Αγώνες για τον Δεκέμβριο 2025';
 
-  const { data: allRaces } = await useFetch('/min.races.json');
+  const allRaces = ref([]);
+  onMounted(async () => {
+    const res = await fetch('/min.races.json');
+    allRaces.value = await res.json();
+  });
 
   const races = computed(() => {
     if (!allRaces.value) return [];
@@ -33,8 +37,7 @@
   });
 
   useHead({
-    title:
-      'Καλένταρι αγώνων δρομου και βουνού για τον Δεκέμβριο | racelist.gr',
+    title: 'Καλένταρι αγώνων δρομου και βουνού για τον Δεκέμβριο | racelist.gr',
     link: [
       {
         rel: 'canonical',
@@ -61,8 +64,7 @@
       },
       {
         property: 'og:url',
-        content:
-          'https://racelist.gr/agwnes/kalentari-agwnwn-dekembrios-2025/',
+        content: 'https://racelist.gr/agwnes/kalentari-agwnwn-dekembrios-2025/',
       },
       { property: 'og:type', content: 'website' },
       {
