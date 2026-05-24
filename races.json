@@ -4876,5 +4876,116 @@
         "SignupLink": "https://www.runningnews.gr/item.php?id=68234",
         "Slug": "2o-festival-athlitismou-dytikis-manis-2026/",
         "Description": "Διήμερο αθλητικό φεστιβάλ στην παραλία της Στούπας. Σάββατο 20/6: κολυμβητικοί αγώνες (500μ, 1χλμ, 2χλμ), αγώνες δρόμου 10,8χλμ & 5,4χλμ (€10 έκαστος) και παιδικός 1χλμ (δωρεάν). Κυριακή 21/6: Aquathlon (1χλμ τρέξιμο + 500μ κολύμβηση + 1χλμ τρέξιμο). Διοργάνωση: Δήμος Δυτικής Μάνης & εθελοντική οργάνωση «ΓΑΙΑ». Τα έσοδα διατίθενται στον εθελοντικό σύλλογο ΓΑΙΑ."
+    },
+    {
+        "ID": 383,
+        "Title": "10ος Επετειακός Αγώνας Δρόμου «Το Πέρασμα του Απ. Παύλου» 2026",
+        "Date": "2026-06-20",
+        "Location": "Μεθώνη – Αρχαία Πύδνα, Πιερία",
+        "Distances": [
+            "10km"
+        ],
+        "SignupLink": "https://docs.google.com/forms/d/e/1FAIpQLSfK6PGdfca_W92w6HYi-u5-TgBvewLVHIaLwun9RRx-UJ1VHw/viewform",
+        "Slug": "10os-epeteakos-agonas-dromou-to-perasma-tou-ap-paulou-2026/",
+        "Description": "Αγώνας δρόμου 10χλμ στη Βόρεια Πιερία. Αφετηρία: Ιερός Ναός Αποστόλου Παύλου (Κεντρική Πλατεία Μεθώνης), τερματισμός: Αρχαία Πύδνα. Εκκίνηση στις 19:00. Διοργάνωση: Ιερά Μητρόπολη Κίτρους, Κατερίνης & Πλαταμώνος, Δήμος Πύδνας Κολινδρού & ΑΠΣ Δρομέων Ν. Πιερίας «ΖΕΥΣ». Δηλώσεις συμμετοχής έως 17/06/2026."
+    },
+    {
+        "ID": 384,
+        "Title": "Go Florina – Run The City Experience 2026",
+        "Date": "2026-06-20",
+        "Location": "Φλώρινα",
+        "Distances": [
+            "10km",
+            "5km",
+            "3km",
+            "1km"
+        ],
+        "SignupLink": "https://goevents.gr/go-florina/",
+        "Slug": "go-florina-run-the-city-experience-2026/",
+        "Description": "Διήμερο urban outdoor festival στη Φλώρινα. Σάββατο 20/6: 5χλμ «Run The River» κατά μήκος του ποταμού Σακουλέβα (18:00) & 3χλμ νυχτερινός αγώνας στο κέντρο της πόλης (20:45). Κυριακή 21/6: 10χλμ «Urban Run» με εκκίνηση από το Χωριό Σίμος Ιωαννίδης (10:00) & 1χλμ Kids/Family Run. Διοργάνωση: Δήμος Φλώρινας & GOEvents."
+    },
+    {
+        "ID": 385,
+        "Title": "OrestisRun 2026",
+        "Date": "2026-06-21",
+        "Location": "Ορεστιάδα",
+        "Distances": [
+            "10km",
+            "5km",
+            "2km",
+            "800m"
+        ],
+        "SignupLink": "https://raceid.com/el/races/15073/about",
+        "Slug": "orestisrun-2026/",
+        "Description": "Αγώνας Δρόμου «ΟΡΕΣΤΗΣ» στην Ορεστιάδα. Διαδρομές: 10χλμ, 5χλμ, 2χλμ και OrestisKids 800μ. Ελεύθερη συμμετοχή (0 EUR)."
+    },
+    {
+        "ID": 386,
+        "Title": "3ο Galatsi Night Run 2026",
+        "Date": "2026-06-21",
+        "Location": "Κλειστό Ολυμπιακό Γυμναστήριο Γαλατσίου – ΠΑΛΑΙ, Γαλάτσι",
+        "Distances": [
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://www.galatsinightrun.gr",
+        "Slug": "3o-galatsi-night-run-2026/",
+        "Description": "Νυχτερινός αγώνας δρόμου του Δήμου Γαλατσίου. Εκκίνηση & τερματισμός στο Κλειστό Ολυμπιακό Γυμναστήριο ΠΑΛΑΙ. Προσέλευση: 19:30. 5χλμ (εκκίνηση 20:55) & παιδικός αγώνας 1χλμ για Δ΄-ΣΤ΄ Δημοτικού (εκκίνηση 20:40). Διοργάνωση: Δήμος Γαλατσίου & Galatsi Runners, τεχνική υλοποίηση: MySportEvent."
+    },
+    {
+        "ID": 387,
+        "Title": "25ος Αγώνας Δρόμου «Στα Χνάρια του Αποστόλου Παύλου» 2026",
+        "Date": "2026-06-21",
+        "Location": "Κεχριές – Αρχαία Κόρινθος",
+        "Distances": [
+            "11.4km"
+        ],
+        "SignupLink": "https://docs.google.com/forms/d/1jUUmjh37m0haeMHH0h5eKwCx_NUF7E8uxMmPzi667Zs/viewform",
+        "Slug": "25os-agonas-dromou-sta-chnaria-tou-apostolou-paulou-2026/",
+        "Description": "Αγώνας Δρόμου/Δυναμικού Βάδην 11.4χλμ από το Αρχαίο Λιμάνι Κεχριών έως την Κεντρική Πλατεία Αρχαίας Κορίνθου. Εκκίνηση 09:15. Διοργάνωση: Δήμος Κορινθίων. Συμμετοχή δωρεάν. Δηλώσεις έως 17/06/2026."
+    },
+    {
+        "ID": 388,
+        "Title": "SNF Nostos Run 2026",
+        "Date": "2026-06-23",
+        "Location": "Πολιτιστικό Κέντρο Σταύρος Νιάρχος (ΚΠΙΣΝ), Καλλιθέα",
+        "Distances": [
+            "10km",
+            "6km",
+            "1km"
+        ],
+        "SignupLink": "https://snfrun.randp.gr/epomenos-agonas",
+        "Slug": "snf-nostos-run-2026/",
+        "Description": "Το SNF Nostos Run 2026 επιστρέφει στις 23 Ιουνίου στο Πολιτιστικό Κέντρο Σταύρος Νιάρχος. Διαδρομές 10χλμ, 6χλμ και 1χλμ (Special Olympics). Κάθε συμμετοχή ενισχύει τα σωματεία Λάμψη και Πνοή Αγάπης. Εορτασμός 30 χρόνων ΙΣΝ."
+    },
+    {
+        "ID": 389,
+        "Title": "Silk City Run 2026",
+        "Date": "2026-06-27",
+        "Location": "Κεντρική Πλατεία Σουφλίου, Σουφλί",
+        "Distances": [
+            "10km",
+            "5km",
+            "1km",
+            "200m"
+        ],
+        "SignupLink": "https://www.dadiatrailrun.gr",
+        "Slug": "silk-city-run-2026/",
+        "Description": "Αγώνες δρόμου στην «Πόλη του Μεταξιού». 10χλμ «Silk Run» (19:00), 5χλμ «Cocoon Run» (18:55), 1χλμ «Kids & Family Run» (18:45), 200μ «Heroes Run» για ΑμεΑ (18:30). Εκκίνηση & τερματισμός: Κεντρική Πλατεία Σουφλίου. Συμμετοχή δωρεάν. Εγγραφές: dadiatrailrun.gr ή soufli.gr."
+    },
+    {
+        "ID": 390,
+        "Title": "Porto Heli Night Run & Ververonda Easy Trail Run 2026",
+        "Date": "2026-06-27",
+        "Location": "Λιμάνι Πορτοχελίου, Πορτοχέλι",
+        "Distances": [
+            "11km",
+            "5km",
+            "1km",
+            "500m"
+        ],
+        "SignupLink": "https://www.athletin.gr/events/56",
+        "Slug": "porto-heli-night-run-ververonda-easy-trail-run-2026/",
+        "Description": "8η διοργάνωση αθλητικών εκδηλώσεων στο Πορτοχέλι, αφιερωμένη στη μνήμη του Μίνωα Κυριακού. Ververonda Easy Trail Run 11χλμ (08:00), Porto Heli Night Run 5χλμ, Kids Run 500μ & 1χλμ (δωρεάν), AMEA 300μ (δωρεάν). Κόστος: 10€/αγώνας, 15€ και οι δύο. Εγγραφές έως 24/06/2026."
     }
 ]
