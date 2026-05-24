@@ -477,6 +477,7 @@ export default defineNuxtConfig({
         '/agwnas/ierapetra-city-run-6-2026/',
         '/agwnas/nea-smyrni-night-run-2026/',
         '/agwnas/sifnathlon-2026/',
+        '/agwnas/2os-agonas-dromou-kourouta-2026/',
       ],
     },
   },
