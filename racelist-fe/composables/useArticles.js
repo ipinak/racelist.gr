@@ -152,6 +152,11 @@ export const useArticles = () => {
       href: '/arthra/garmin-forerunner-170/',
       title: 'Garmin Forerunner 170: Η Νέα Επιλογή που Αντικαθιστά το Forerunner 955',
       timestamp: '2026-05-13',
+    },
+    {
+      href: '/arthra/beyond-kerkini-2026/',
+      title: 'Beyond Kerkini 2026: Ολοκληρώθηκε με επιτυχία ο αγώνας',
+      timestamp: '2026-06-20',
     }
   ].reverse()
 
