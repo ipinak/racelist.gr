@@ -4193,32 +4193,6 @@
         "Description": "Η σειρά αγώνων πόλης Run Greece επισκέπτεται την Καβάλα. Η διοργάνωση περιλαμβάνει αγώνες 10χλμ και 5χλμ, καθώς και παιδικό αγώνα. Οι αγώνες τελούν υπό την αιγίδα του ΣΕΓΑΣ και προσφέρουν χρηματικά έπαθλα για τους νικητές και συμμετοχή στον τελικό του Πειραιά."
     },
     {
-        "ID": 334,
-        "Title": "Run Greece Τρίκαλα 2026",
-        "Date": "2026-09-20",
-        "Location": "Τρίκαλα",
-        "Distances": [
-            "10km",
-            "5km"
-        ],
-        "SignupLink": "https://www.run-greece.gr/",
-        "Slug": "run-greece-trikala-2026/",
-        "Description": "Η σειρά αγώνων πόλης Run Greece επισκέπτεται τα Τρίκαλα. Η διοργάνωση περιλαμβάνει αγώνες 10χλμ και 5χλμ, καθώς και παιδικό αγώνα. Οι αγώνες τελούν υπό την αιγίδα του ΣΕΓΑΣ και προσφέρουν χρηματικά έπαθλα για τους νικητές και συμμετοχή στον τελικό του Πειραιά."
-    },
-    {
-        "ID": 335,
-        "Title": "Run Greece Αλεξανδρούπολη 2026",
-        "Date": "2026-09-27",
-        "Location": "Αλεξανδρούπολη",
-        "Distances": [
-            "10km",
-            "5km"
-        ],
-        "SignupLink": "https://www.run-greece.gr/",
-        "Slug": "run-greece-alexandroupoli-2026/",
-        "Description": "Η σειρά αγώνων πόλης Run Greece επισκέπτεται την Αλεξανδρούπολη. Η διοργάνωση περιλαμβάνει αγώνες 10χλμ και 5χλμ, καθώς και παιδικό αγώνα. Οι αγώνες προσφέρουν χρηματικά έπαθλα για τους νικητές και αποτελούν μέρος της σειράς Run Greece του ΣΕΓΑΣ."
-    },
-    {
         "ID": 336,
         "Title": "Run Greece Πειραιάς (Τελικός) 2026",
         "Date": "2026-10-04",
@@ -5245,5 +5219,216 @@
         "SignupLink": "https://atpro.gr/agonas-dromou-xonos-mylopotamou/",
         "Slug": "14os-fysilatrikos-agonas-dromou-xonous-nikistratou-gemistou-2026/",
         "Description": "Αγώνας δρόμου 12,4χλμ με εκκίνηση μπροστά από το Ηρώο του χωριού και διαδρομή μέσω Αίμωνα – Κρυονέρι – Τσαχιανά – Αγρίδια – Μακρύ Γιάννη – Γενί Γκαβέ, με τερματισμό στην πλατεία Χώνους. Εκκίνηση 18:30. Ηλεκτρονική χρονομέτρηση, αναμνηστικό τεχνικό μπλουζάκι και μετάλλιο. Διοργάνωση: Πολιτιστικός Σύλλογος Απανταχού Χωνιανών, Περιφέρεια Κρήτης, Δήμος Μυλοποτάμου & ΣΔΥ Ρεθύμνου."
+    },
+    {
+        "ID": 410,
+        "Title": "Evrytania Everlap Endurance Series 24h-12h-6h-3h",
+        "Date": "2026-09-05",
+        "Location": "Καρπενήσι",
+        "Distances": [
+            "24h",
+            "12h",
+            "6h",
+            "3h"
+        ],
+        "SignupLink": "https://www.athletin.gr/events/73",
+        "Slug": "evrytania-everlap-endurance-series-2026/"
+    },
+    {
+        "ID": 411,
+        "Title": "Kallithea Half Marathon 2026",
+        "Date": "2026-09-13",
+        "Location": "Κέντρο Πολιτισμού Ίδρυμα Σταύρος Νιάρχος, Αθήνα",
+        "Distances": [
+            "21km",
+            "10km",
+            "5km"
+        ],
+        "SignupLink": "http://www.kallitheahalf.gr/index.php/el/",
+        "Slug": "kallithea-half-marathon-2026/"
+    },
+    {
+        "ID": 412,
+        "Title": "7ος Καραμάνειος Δρόμος Υγείας",
+        "Date": "2026-07-16",
+        "Location": "Δράκεια Πηλίου",
+        "Distances": [
+            "3km"
+        ],
+        "Slug": "7os-karamanios-dromos-ygeias-2026/"
+    },
+    {
+        "ID": 413,
+        "Title": "9ος Αγώνας Δρόμου Κατούνας - Medeon Run 2026",
+        "Date": "2026-07-18",
+        "Location": "Κατούνα, Αιτωλοακαρνανία",
+        "Distances": [
+            "7.4km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=a6358bcee99c95a6d941e42d1b14c270&l=GR",
+        "Slug": "9os-agonas-dromou-katouna-medeon-run-2026/"
+    },
+    {
+        "ID": 414,
+        "Title": "Τσαμκιράνεια 2026",
+        "Date": "2026-07-19",
+        "Location": "Ελευθερές, Δήμος Παγγαίου",
+        "Distances": [
+            "5.5km"
+        ],
+        "SignupLink": "https://www.smfsports.gr/tsamkiraneia-2026/",
+        "Slug": "tsamkiraneia-2026/"
+    },
+    {
+        "ID": 415,
+        "Title": "1ος Νυχτερινός Αγώνας Δρόμου Αμμουδάρας Κριτσάς",
+        "Date": "2026-07-19",
+        "Location": "Αμμουδάρα Κριτσάς, Άγιος Νικόλαος",
+        "Distances": [
+            "6.3km"
+        ],
+        "SignupLink": "https://www.atpro.gr/1os-nuxterinos-agonas-dromou-ammoudaras-kritsas/",
+        "Slug": "1os-nuxterinos-agonas-dromou-ammoudaras-kritsas-2026/"
+    },
+    {
+        "ID": 416,
+        "Title": "I Run Myrtos 2026",
+        "Date": "2026-07-25",
+        "Location": "Μύρτος, Ιεράπετρα",
+        "Distances": [
+            "12km",
+            "5km",
+            "750m"
+        ],
+        "SignupLink": "https://www.atpro.gr/i-run-myrtos/",
+        "Slug": "i-run-myrtos-2026/"
+    },
+    {
+        "ID": 417,
+        "Title": "Αρμένεια 2026 - Αρμένειος Δρόμος",
+        "Date": "2026-08-01",
+        "Location": "Αρμένοι, Ρέθυμνο",
+        "Distances": [
+            "11.3km",
+            "5.3km",
+            "2km"
+        ],
+        "SignupLink": "https://www.atpro.gr/armeneia/",
+        "Slug": "armeneia-2026/"
+    },
+    {
+        "ID": 418,
+        "Title": "13ο Ikaria Run 2026",
+        "Date": "2026-08-01",
+        "Location": "Πλαγιά, Ικαρία",
+        "Distances": [
+            "10km",
+            "5km",
+            "2km"
+        ],
+        "SignupLink": "https://ikariarun.gr/",
+        "Slug": "13o-ikaria-run-2026/"
+    },
+    {
+        "ID": 419,
+        "Title": "6ος Γύρος Σιδηροκάστρου",
+        "Date": "2026-08-01",
+        "Location": "Σιδηρόκαστρο, Μεσσηνία",
+        "Distances": [
+            "8km",
+            "4km",
+            "1km",
+            "50m"
+        ],
+        "SignupLink": "https://docs.google.com/forms/d/e/1FAIpQLSd5_6LoYnMeTC1IMt4b8zkOtWAh0Y01QCByUExyYhFC5xQ6Ew/viewform",
+        "Slug": "6os-gyros-sidirokastrou-2026/"
+    },
+    {
+        "ID": 420,
+        "Title": "7ος Δρόμος Στείρι - Όσιος Λουκάς - Στείρι",
+        "Date": "2026-08-02",
+        "Location": "Στείρι, Βοιωτία",
+        "Distances": [
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://docs.google.com/forms/d/e/1FAIpQLSdYRUPKGNmwFX9QX4AmVEdWi-6zNScDIVxJNdoB8XoXZiHZPw/viewform",
+        "Slug": "7os-dromos-steiri-osios-loukas-2026/"
+    },
+    {
+        "ID": 421,
+        "Title": "10ος Αγώνας Δρόμου Παπαδάτου Ξηρομέρου",
+        "Date": "2026-08-02",
+        "Location": "Παπαδάτος, Ξηρόμερο",
+        "Distances": [
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://forms.gle/ovxThfAvHRv5mRZV7",
+        "Slug": "10os-agonas-dromou-papadatou-xiromero-2026/"
+    },
+    {
+        "ID": 422,
+        "Title": "Νεστόρεια 2026 - Δρόμος του Νέστορα",
+        "Date": "2026-08-02",
+        "Location": "Χώρα, Μεσσηνία",
+        "Distances": [
+            "9.1km",
+            "3.2km",
+            "1km",
+            "400m"
+        ],
+        "SignupLink": "https://raceid.com/el/races/15264/about",
+        "Slug": "nestoreia-dromos-nestora-2026/"
+    },
+    {
+        "ID": 423,
+        "Title": "3ος Δρυοπες Run",
+        "Date": "2026-08-08",
+        "Location": "Άνω Καλεντίνη, Άρτα",
+        "Distances": [
+            "10km",
+            "800m"
+        ],
+        "SignupLink": "https://forms.gle/Rp64aYiHEnQWaWCo7",
+        "Slug": "3os-dryopes-run-2026/"
+    },
+    {
+        "ID": 424,
+        "Title": "10ος Γύρος Κοντοβουνίων",
+        "Date": "2026-08-08",
+        "Location": "Κορομηλιά, Μεσσηνία",
+        "Distances": [
+            "8km",
+            "1km"
+        ],
+        "SignupLink": "https://docs.google.com/forms/d/e/1FAIpQLSdiROmx4IdW1x2uqslB_y357zfbpQwjlA9h3owRIg-Z_HnS7w/viewform",
+        "Slug": "10os-gyros-kontovoynion-2026/"
+    },
+    {
+        "ID": 425,
+        "Title": "Δρόμος της Φτέργας",
+        "Date": "2026-08-09",
+        "Location": "Φτερούντα, Λέσβος",
+        "Distances": [
+            "8km",
+            "1.5km"
+        ],
+        "Slug": "dromos-ftiergas-2026/"
+    },
+    {
+        "ID": 426,
+        "Title": "Δρήρεια 2026",
+        "Date": "2026-08-15",
+        "Location": "Νεάπολη, Λασιθίου",
+        "Distances": [
+            "10km"
+        ],
+        "Slug": "drireia-2026/",
+        "Description": "Αγώνας δρόμου 10χλμ με εκκίνηση από την πλατεία της Νεάπολης Λασιθίου και τερματισμό στο λιμάνι της Νεάπολης. Η διαδρομή περνά από το παραδοσιακό χωριό Δρήρος, με θέα τη θάλασσα και τα γύρω βουνά. Εκκίνηση 18:00. Διοργάνωση: Πολιτιστικός Σύλλογος Δρήρου & Δήμος Νεάπολης."
     }
 ]
