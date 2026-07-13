@@ -3454,14 +3454,14 @@
     {
         "ID": 281,
         "Title": "15ο Katerini Run 2026",
-        "Date": "2026-03-01",
+        "Date": "2026-09-13",
         "Location": "Κατερίνη, Πιερίας",
         "Distances": [
-            "21km",
+            "21.1km",
             "5km",
             "1km"
         ],
-        "SignupLink": "https://zeusrunnersclub.gr/",
+        "SignupLink": "https://bit.ly/KateriniRun2026-Individual",
         "Slug": "15o-katerini-run-2026/",
         "Description": "Ο Α.Π.Σ. Δρομέων Πιερίας «ΖΕΥΣ» διοργανώνει την Κυριακή 1 Μαρτίου 2026 τον 15ο Αγώνα Δρόμου με την επωνυμία Katerini Run 2026, σε συνεργασία με τον Οργανισμό Αθλητισμού (Ο.Π.Π.Α.Π.) του Δήμου Κατερίνης. Η διοργάνωση περιλαμβάνει: Αγώνας Δρόμου 21.095 μέτρων, Λαϊκός Δρόμος Υγείας & Δυναμικού Βαδίσματος 5.005 μέτρων, και Αγώνας 1.000 μέτρων για παιδιά κάτω των 12 ετών."
     },
@@ -5431,5 +5431,199 @@
         ],
         "Slug": "drireia-2026/",
         "Description": "Αγώνας δρόμου 10χλμ με εκκίνηση από την πλατεία της Νεάπολης Λασιθίου και τερματισμό στο λιμάνι της Νεάπολης. Η διαδρομή περνά από το παραδοσιακό χωριό Δρήρος, με θέα τη θάλασσα και τα γύρω βουνά. Εκκίνηση 18:00. Διοργάνωση: Πολιτιστικός Σύλλογος Δρήρου & Δήμος Νεάπολης."
+    },
+    {
+        "ID": 427,
+        "Title": "Mesta Mastic Run 2026",
+        "Date": "2026-08-09",
+        "Location": "Μεστά, Χίος",
+        "Distances": [
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=649293dd66cb6489de6c07607d2bdf15&l=GR",
+        "Slug": "mesta-mastic-run-2026/"
+    },
+    {
+        "ID": 428,
+        "Title": "7ος Λαϊκός Αγώνας Αστακού «Παντελής Καρασεβδάς»",
+        "Date": "2026-08-09",
+        "Location": "Αστακός, Ξηρόμερο",
+        "Distances": [
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://docs.google.com/forms/d/e/1FAIpQLScVeB0hp5Zwbs_CdtmD34Hve3sNsx-Os0TEcMSx4dzJSe2nnQ/viewform",
+        "Slug": "7os-laikos-agonas-astakou-karasevdas-2026/"
+    },
+    {
+        "ID": 429,
+        "Title": "7ος Λαϊκός Δρόμος Φράγμα Λίμνης Πλαστήρα - Μούχα - Καστανιά",
+        "Date": "2026-08-09",
+        "Location": "Καστανιά, Λίμνη Πλαστήρα",
+        "Distances": [
+            "10km",
+            "5.5km",
+            "600m"
+        ],
+        "SignupLink": "https://raceid.com/en/races/15081/about",
+        "Slug": "7os-laikos-dromos-fragma-limnis-plastira-2026/"
+    },
+    {
+        "ID": 430,
+        "Title": "15ος Επικούριος Δρόμος - ΙΑΘΗΜΕΝ",
+        "Date": "2026-08-13",
+        "Location": "Βάσσες - Φιγαλεία, Ηλεία",
+        "Distances": [
+            "14km"
+        ],
+        "Slug": "15os-epikorios-dromos-iathimen-2026/"
+    },
+    {
+        "ID": 431,
+        "Title": "Βαλτινές Διαδρομές 2026",
+        "Date": "2026-08-16",
+        "Location": "Ν. Χαλκιόπουλο, Βάλτος",
+        "Distances": [
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://www.athletin.gr/events/74",
+        "Slug": "valtines-diadhromes-2026/"
+    },
+    {
+        "ID": 432,
+        "Title": "Aidonochori Race 2026",
+        "Date": "2026-08-13",
+        "Location": "Αηδονοχώρι, Καρδίτσα",
+        "Distances": [
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://docs.google.com/forms/d/e/1FAIpQLSeGoaSFjRfEviaim1UUpWZOx6yE169mlbajs4f7nNs2KqwqQg/viewform",
+        "Slug": "aidonochori-race-2026/"
+    },
+    {
+        "ID": 433,
+        "Title": "7ο Λάνθι Run",
+        "Date": "2026-08-16",
+        "Location": "Λάνθι, Ρόδος",
+        "Distances": [
+            "10km",
+            "5km",
+            "Βάδην 5km"
+        ],
+        "Slug": "7o-lanthi-run-2026/"
+    },
+    {
+        "ID": 434,
+        "Title": "16ος Γαβαθώνιος",
+        "Date": "2026-08-17",
+        "Location": "Άντισσα, Λέσβος",
+        "Distances": [],
+        "SignupLink": "https://docs.google.com/forms/d/1g17eDczmqMAV16v5Loj6Bftwgik7yt4GT-6mX2N0JC0/edit",
+        "Slug": "16os-gavathonios-2026/"
+    },
+    {
+        "ID": 435,
+        "Title": "8ος Αλύζιος Αγώνας Δρόμου Βάρνακα - Μύτικα",
+        "Date": "2026-08-19",
+        "Location": "Βάρνακας - Μύτικας, Ξηρόμερο",
+        "Distances": [
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://docs.google.com/forms/d/e/1FAIpQLScrtPy5H4L6ln6QhN0t1zADY4B4TxFj5HFKsEFnyJS9urmihw/viewform",
+        "Slug": "8os-alyzios-agonas-dromou-varnaka-mytika-2026/"
+    },
+    {
+        "ID": 436,
+        "Title": "7th Lepanto Evening Run 2026",
+        "Date": "2026-08-22",
+        "Location": "Ναύπακτος",
+        "Distances": [
+            "9.5km",
+            "5.2km",
+            "600m"
+        ],
+        "SignupLink": "https://lepantorunners.gr/%ce%b1%ce%b8%ce%bb%ce%b7%cf%84%ce%b9%ce%ba%ce%ae-%ce%b4%cf%81%ce%bf%ce%bc%ce%b9%ce%ba%ce%ae-%ce%b5%ce%ba%ce%b4%ce%ae%ce%bb%cf%89%cf%83%ce%b7-%ce%bd%ce%b1%cf%85%cf%80%ce%ac%ce%ba%cf%84%ce%bf%cf%85-7/",
+        "Slug": "7th-lepanto-evening-run-2026/"
+    },
+    {
+        "ID": 437,
+        "Title": "6ος Πηνελόπειος Δρόμος 2026",
+        "Date": "2026-08-23",
+        "Location": "Γεωργίτσι, Λακωνία",
+        "Distances": [
+            "21km",
+            "11km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://forms.gle/bY17QQEv2tcT7wXu7",
+        "Slug": "6os-pinelopeios-dromos-2026/"
+    },
+    {
+        "ID": 438,
+        "Title": "Skiritida Run 2026",
+        "Date": "2026-08-29",
+        "Location": "Δάσος Σκιρίτιδας",
+        "Distances": [],
+        "SignupLink": "https://skiritidarun.gr/",
+        "Slug": "skiritida-run-2026/"
+    },
+    {
+        "ID": 439,
+        "Title": "2ο Salona Run",
+        "Date": "2026-08-29",
+        "Location": "Αλώνια, Πύδνα-Κολινδρός",
+        "Distances": [
+            "10km",
+            "500m"
+        ],
+        "SignupLink": "https://www.smfsports.gr/",
+        "Slug": "2o-salona-run-2026/"
+    },
+    {
+        "ID": 440,
+        "Title": "7ος Νυχτερινός Αγώνας Δρόμου Γουμένισσας «Τρέχω για Μένα»",
+        "Date": "2026-09-05",
+        "Location": "Γουμένισσα, Κιλκίς",
+        "Distances": [
+            "10.34km",
+            "5.15km",
+            "1.1km"
+        ],
+        "SignupLink": "https://www.racesystem.gr/",
+        "Slug": "7os-nychterinos-agonas-dromou-goumenissas-2026/"
+    },
+    {
+        "ID": 441,
+        "Title": "8ος Αγώνας Δρόμου Acheloos Run",
+        "Date": "2026-09-12",
+        "Location": "Νεοχώρι, Μεσολόγγι",
+        "Distances": [
+            "21.1km",
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://www.athletin.gr/events/44",
+        "Slug": "8os-acheloos-run-2026/"
+    },
+    {
+        "ID": 442,
+        "Title": "10ος Ημιμαραθώνιος «Στα Ίχνη της Ιεράς Οδού»",
+        "Date": "2026-09-13",
+        "Location": "Κεραμεικός - Ελευσίνα",
+        "Distances": [
+            "21.1km",
+            "5km"
+        ],
+        "SignupLink": "https://elefsina.gr/",
+        "Slug": "10os-imimarathonios-sta-ichni-tis-ieras-odou-2026/"
     }
 ]
