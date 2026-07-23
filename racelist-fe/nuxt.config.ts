@@ -543,6 +543,7 @@ export default defineNuxtConfig({
         '/agwnas/aidonochori-race-2026/',
         '/agwnas/skiritida-run-2026/',
         '/agwnas/valtines-diadhromes-2026/',
+        '/agwnas/14os-agonas-dromou-stin-ammo-korissos-2026/',
       ],
     },
   },
