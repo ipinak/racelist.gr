@@ -544,6 +544,7 @@ export default defineNuxtConfig({
         '/agwnas/skiritida-run-2026/',
         '/agwnas/valtines-diadhromes-2026/',
         '/agwnas/14os-agonas-dromou-stin-ammo-korissos-2026/',
+        '/agwnas/agonas-mnimis-kai-timis-dei-megalopolis-2026/',
       ],
     },
   },
