@@ -71,19 +71,22 @@
     </div>
 
     <!-- Dots indicator -->
-    <div class="flex justify-center mt-4 space-x-2">
+    <div class="flex justify-center mt-4">
       <button
         v-for="(dot, index) in totalSlides"
         :key="index"
-        class="w-2 h-2 rounded-full transition-all duration-200"
-        :class="
-          currentSlide === index
-            ? 'bg-[#0057A0]'
-            : 'bg-gray-300 hover:bg-gray-400'
-        "
+        class="flex items-center justify-center w-6 h-6"
         :aria-label="`Go to slide ${index + 1}`"
         @click="goToSlide(index)"
-      />
+      >
+        <span
+          class="w-2 h-2 rounded-full transition-all duration-200"
+          :class="
+            currentSlide === index
+              ? 'bg-[#0057A0]'
+              : 'bg-gray-300 hover:bg-gray-400'
+          "
+        /></button>
     </div>
 
     <!-- View All Articles Link -->

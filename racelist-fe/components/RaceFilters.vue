@@ -2,7 +2,11 @@
   <div class="max-w-xl mx-auto mb-8 space-y-4">
     <!-- Search Input -->
     <div class="relative">
+      <label for="race-search" class="sr-only">
+        Αναζήτηση αγώνα με όνομα, τοποθεσία, ή απόσταση
+      </label>
       <input
+        id="race-search"
         v-model="searchQuery"
         type="text"
         placeholder="Αναζήτηση αγώνα με όνομα, τοποθεσία, ή απόσταση..."
@@ -16,7 +20,9 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
       <!-- Area Filter -->
       <div class="relative">
+        <label for="area-filter" class="sr-only">Περιοχή</label>
         <select
+          id="area-filter"
           v-model="selectedArea"
           class="w-full p-3 pr-10 border border-gray-300 rounded-lg focus:outline-none focus:border-[#0057A0] text-gray-700 bg-white appearance-none"
           @change="handleAreaChange"
@@ -33,7 +39,9 @@
 
       <!-- City Filter -->
       <div class="relative">
+        <label for="city-filter" class="sr-only">Πόλη</label>
         <select
+          id="city-filter"
           v-model="selectedCity"
           class="w-full p-3 pr-10 border border-gray-300 rounded-lg focus:outline-none focus:border-[#0057A0] text-gray-700 bg-white appearance-none"
           @change="handleCityChange"
@@ -59,6 +67,7 @@
         <span>{{ filter.label }}: {{ filter.value }}</span>
         <button
           class="ml-2 text-white hover:text-gray-200"
+          :aria-label="`Αφαίρεση φίλτρου ${filter.label}`"
           @click="removeFilter(filter.type)"
         >
           ✕

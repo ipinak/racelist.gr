@@ -19,12 +19,12 @@
     </span>
     <span
       v-if="remaining.hours > 0"
-      class="inline-flex items-center rounded bg-[#003d73]/80 text-white px-1.5 py-0.5"
+      class="inline-flex items-center rounded bg-[#003d73] text-white px-1.5 py-0.5"
     >
       {{ remaining.hours }}ω
     </span>
     <span
-      class="inline-flex items-center rounded bg-[#003d73]/60 text-white px-1.5 py-0.5"
+      class="inline-flex items-center rounded bg-[#003d73] text-white px-1.5 py-0.5"
     >
       {{ remaining.minutes }}λ
     </span>

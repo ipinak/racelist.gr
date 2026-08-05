@@ -3,13 +3,20 @@
     <div class="flex justify-between items-center">
       <NuxtLink to="/" class="text-2xl font-bold">RL</NuxtLink>
       <!-- Mobile burger button -->
-      <button class="md:hidden" @click="isMenuOpen = !isMenuOpen">
+      <button
+        class="md:hidden"
+        :aria-label="isMenuOpen ? 'Κλείσιμο μενού' : 'Άνοιγμα μενού'"
+        :aria-expanded="isMenuOpen"
+        aria-controls="mobile-nav"
+        @click="isMenuOpen = !isMenuOpen"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-6 w-6"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
+          aria-hidden="true"
         >
           <path
             v-if="!isMenuOpen"
@@ -36,7 +43,11 @@
       </nav>
     </div>
     <!-- Mobile nav -->
-    <nav v-show="isMenuOpen" class="md:hidden pt-4 space-y-2 font-bold">
+    <nav
+      id="mobile-nav"
+      v-show="isMenuOpen"
+      class="md:hidden pt-4 space-y-2 font-bold"
+    >
       <NuxtLink to="/arthra" class="block hover:text-gray-200 py-2">
         Άρθρα
       </NuxtLink>
