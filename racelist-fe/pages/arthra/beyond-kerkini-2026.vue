@@ -320,6 +320,12 @@
 <script setup>
   useHead({
     title: 'Beyond Kerkini 2026 - Αποτελέσματα | Racelist.gr',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/arthra/beyond-kerkini-2026/',
+      },
+    ],
     meta: [
       {
         name: 'description',

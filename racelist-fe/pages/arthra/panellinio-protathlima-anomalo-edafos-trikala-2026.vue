@@ -283,6 +283,12 @@
   useHead({
     title:
       'Πανελλήνιο Πρωτάθλημα σε ανώμαλο έδαφος - Τρίκαλα 2026 | Αποτελέσματα',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/arthra/panellinio-protathlima-anomalo-edafos-trikala-2026/',
+      },
+    ],
     meta: [
       {
         name: 'description',

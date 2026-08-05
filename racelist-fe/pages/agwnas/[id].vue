@@ -66,10 +66,10 @@
 
 <script setup>
   import { formatDate } from '~/shared/formatters';
+  import allRaces from '~/public/min.races.json';
 
   const format = formatDate;
   const route = useRoute();
-  const race = ref(null);
 
   // Helper function to extract numeric value from distance string
   const extractDistanceValue = (distanceStr) => {
@@ -108,17 +108,13 @@
     return parsedDistances;
   });
 
-  onMounted(async () => {
-    try {
-      const res = await fetch('/min.races.json');
-      const races = await res.json();
-      race.value = races.find(
-        (r) => r.Slug === route.params.id || r.Slug === `${route.params.id}/`,
-      );
-    } catch (error) {
-      console.error('Error loading race:', error);
-    }
-  });
+  const race = computed(
+    () =>
+      allRaces.find(
+        (r) =>
+          r.Slug === route.params.id || r.Slug === `${route.params.id}/`,
+      ) ?? null,
+  );
 
   useHead(() => ({
     title: race.value

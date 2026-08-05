@@ -132,12 +132,19 @@
       </div>
     </div>
   </div>
+  
 </template>
 
 <script setup>
   useHead({
     title:
       'Ημιμαραθώνιος Πεκίνου: Ρομπότ κέρδισαν τους ανθρώπους | racelist.gr',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/arthra/hmimarathonios-pekinou-robot-vs-anthrwpwn/',
+      },
+    ],
     meta: [
       {
         name: 'description',
