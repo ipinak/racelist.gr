@@ -157,6 +157,11 @@ export const useArticles = () => {
       href: '/arthra/beyond-kerkini-2026/',
       title: 'Beyond Kerkini 2026: Ολοκληρώθηκε με επιτυχία ο αγώνας',
       timestamp: '2026-06-20',
+    },
+    {
+      href: '/arthra/garmin-cirqa-review/',
+      title: 'Garmin Cirqa Smart Band: Αναλυτική Παρουσίαση & Αξιολόγηση',
+      timestamp: '2026-08-12',
     }
   ].reverse()
 
