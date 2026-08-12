@@ -101,6 +101,7 @@ export default defineNuxtConfig({
         '/arthra/amazfit-active-3-premium-review/',
         '/arthra/hmimarathonios-pekinou-robot-vs-anthrwpwn/',
         '/arthra/garmin-forerunner-170/',
+        '/arthra/garmin-cirqa-review/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',
