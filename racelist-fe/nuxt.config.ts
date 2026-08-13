@@ -102,6 +102,7 @@ export default defineNuxtConfig({
         '/arthra/hmimarathonios-pekinou-robot-vs-anthrwpwn/',
         '/arthra/garmin-forerunner-170/',
         '/arthra/garmin-cirqa-review/',
+        '/arthra/poso-grigora-pigainoun-ta-pagosmia-rekor/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',

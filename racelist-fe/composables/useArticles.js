@@ -162,6 +162,11 @@ export const useArticles = () => {
       href: '/arthra/garmin-cirqa-review/',
       title: 'Garmin Cirqa Smart Band: Αναλυτική Παρουσίαση & Αξιολόγηση',
       timestamp: '2026-08-12',
+    },
+    {
+      href: '/arthra/poso-grigora-pigainoun-ta-pagosmia-rekor/',
+      title: 'Πόσο Γρήγορα Πάνε τα Παγκόσμια Ρεκόρ; Η Ταχύτητα Πίσω από τους Χρόνους',
+      timestamp: '2026-08-13',
     }
   ].reverse()
 
