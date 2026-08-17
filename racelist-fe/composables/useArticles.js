@@ -167,6 +167,11 @@ export const useArticles = () => {
       href: '/arthra/poso-grigora-pigainoun-ta-pagosmia-rekor/',
       title: 'Πόσο Γρήγορα Πάνε τα Παγκόσμια Ρεκόρ; Η Ταχύτητα Πίσω από τους Χρόνους',
       timestamp: '2026-08-13',
+    },
+    {
+      href: '/arthra/dririeia-2026/',
+      title: 'Δρήρεια 2026 - Αποτελέσματα',
+      timestamp: '2026-08-17',
     }
   ].reverse()
 
