@@ -5651,5 +5651,19 @@
         "Slug": "agonas-mnimis-kai-timis-dei-megalopolis-2026/",
         "Description": "Διοργάνωση του Συνδέσμου Συνταξιούχων ΔΕΗ Μεγαλόπολης σε συνεργασία με τον Δήμο Μεγαλόπολης και τη ΓΕΝΟΠ/ΔΕΗ. Αγώνας δρόμου 12 χλμ. μνήμης και τιμής για τους 33 εργαζομένους που έχασαν τη ζωή τους στους χώρους εργασίας της ΔΕΗ. Εκκίνηση: Κυριακή 23 Αυγούστου 2026 στις 18:30. Η συμμετοχή είναι δωρεάν.",
         "SignupLink": "https://shorturl.at/v1ZAT?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBEwekJCRlVCdlc4anlqVlpQTHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR7ug4RuSIh07ye651vLTJ6MrARJTpOzQcYPyJ7pRFQSH3W6aPomNdxLv_H5gQ_aem_MXejEdofQY_4hlAyRlOQrQ"
+    },
+    {
+        "ID": 445,
+        "Title": "9ο Olympic Day Run Greece",
+        "Date": "2026-11-22",
+        "Location": "Θεσσαλονίκη",
+        "Distances": [
+            "21km",
+            "10km",
+            "5km",
+            "1.5km"
+        ],
+        "SignupLink": "https://olympicdayrun.gr/",
+        "Slug": "9o-olympic-day-run-greece/"
     }
 ]
