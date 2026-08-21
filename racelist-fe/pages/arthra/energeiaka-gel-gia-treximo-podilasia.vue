@@ -148,6 +148,52 @@
     ],
   });
 
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Όλα τα ενεργειακά gel για τρέξιμο & ποδηλασία",
+      "description": "Δες τη μεγαλύτερη λίστα με ενεργειακά gel για τρέξιμο και ποδηλασία. Τιμές, περιγραφή και υδατάνθρακες για κάθε gel.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/energeiaka-gel-gia-treximo-podilasia/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Όλα τα ενεργειακά gel για τρέξιμο & ποδηλασία",
+          "item": "https://racelist.gr/arthra/energeiaka-gel-gia-treximo-podilasia/"
+        }
+      ]
+    },
+  ]);
+
+
   const relatedArticles = [
     {
       title: 'Υπολογιστής Gel - Μάθε πόσα gel χρειάζεσαι',

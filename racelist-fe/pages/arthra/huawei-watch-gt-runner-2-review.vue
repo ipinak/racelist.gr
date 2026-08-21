@@ -50,6 +50,53 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Huawei Watch GT Runner 2: Αναλυτική Παρουσίαση & Αξιολόγηση",
+      "description": "Αναλυτική παρουσίαση του Huawei Watch GT Runner 2 για δρομείς και αθλητές. Μάθετε για τα χαρακτηριστικά, το Intelligent Marathon Mode, την ακρίβεια GPS, τις λειτουργίες υγείας και όλα τα πλεονεκτήματα του ρολογιού.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/huawei-watch-gt-runner-2-review/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "datePublished": "2026-03-15"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Huawei Watch GT Runner 2: Αναλυτική Παρουσίαση & Αξιολόγηση",
+          "item": "https://racelist.gr/arthra/huawei-watch-gt-runner-2-review/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <template>

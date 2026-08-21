@@ -352,6 +352,53 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Beyond Kerkini 2026 - Αποτελέσματα | Racelist.gr",
+      "description": "Αποτελέσματα από τον αγώνα Beyond Kerkini 2026 στη Λίμνη Κερκίνης. Δείτε τα αποτελέσματα για τις αποστάσεις 21χλμ., 15χλμ., 13χλμ., 10χλμ. και 6χλμ.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/beyond-kerkini-2026/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "datePublished": "2026-06-20"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Beyond Kerkini 2026 - Αποτελέσματα | Racelist.gr",
+          "item": "https://racelist.gr/arthra/beyond-kerkini-2026/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <style scoped>

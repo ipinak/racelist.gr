@@ -50,6 +50,53 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Garmin Cirqa Smart Band: Αναλυτική Παρουσίαση & Αξιολόγηση",
+      "description": "Αναλυτική παρουσίαση του Garmin Cirqa Smart Band. Χωρίς οθόνη, χωρίς περισπασμούς — προηγμένη παρακολούθηση υγείας 24/7, αυτονομία 10 ημερών και λειτουργίες φυσικής κατάστασης χωρίς συνδρομή.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/garmin-cirqa-review/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "datePublished": "2026-08-12"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Garmin Cirqa Smart Band: Αναλυτική Παρουσίαση & Αξιολόγηση",
+          "item": "https://racelist.gr/arthra/garmin-cirqa-review/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <template>

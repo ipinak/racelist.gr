@@ -402,6 +402,53 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Πόσο Γρήγορα Πάνε τα Παγκόσμια Ρεκόρ;",
+      "description": "Πόσο γρήγορα τρέχουν οι κορυφαίοι δρομείς του κόσμου; Ανάλυση ταχύτητας των παγκόσμιων ρεκόρ σε 5χλμ, 10χλμ, ημιμαραθώνιο και μαραθώνιο, με αφορμή το ρεκόρ του Jakob Ingebrigtsen στα 5χλμ.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/posi-grigora-pigainoun-ta-pagosmia-rekor/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "datePublished": "2026-08-13"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Πόσο Γρήγορα Πάνε τα Παγκόσμια Ρεκόρ;",
+          "item": "https://racelist.gr/arthra/posi-grigora-pigainoun-ta-pagosmia-rekor/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <style scoped>

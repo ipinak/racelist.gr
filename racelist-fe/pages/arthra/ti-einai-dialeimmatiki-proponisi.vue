@@ -256,4 +256,50 @@ useHead({
     },
   ],
 });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Τι είναι η διαλειμματική προπόνηση;",
+      "description": "Ανακάλυψε τι είναι η διαλειμματική προπόνηση (Interval Training), τα οφέλη της και τους διαφορετικούς τύπους που μπορείς να εφαρμόσεις για βελτιωμένες επιδόσεις.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/ti-einai-dialeimmatiki-proponisi/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Τι είναι η διαλειμματική προπόνηση;",
+          "item": "https://racelist.gr/arthra/ti-einai-dialeimmatiki-proponisi/"
+        }
+      ]
+    },
+  ]);
+
 </script>

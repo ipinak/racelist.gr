@@ -139,4 +139,54 @@
       },
     ],
   }));
+
+  watchEffect(() => {
+    if (!race.value?.Slug) return;
+
+    const url = `https://racelist.gr/agwnas/${race.value.Slug}`;
+
+    useJsonld({
+      '@context': 'https://schema.org',
+      '@type': 'SportsEvent',
+      name: race.value.Title,
+      startDate: race.value.Date,
+      url,
+      location: {
+        '@type': 'Place',
+        name: race.value.Location,
+        address: race.value.Location,
+      },
+      ...(race.value.Description
+        ? { description: race.value.Description }
+        : {}),
+      ...(race.value.SignupLink
+        ? {
+            offers: {
+              '@type': 'Offer',
+              url: race.value.SignupLink,
+            },
+          }
+        : {}),
+      organizer: {
+        '@type': 'Organization',
+        name: 'racelist.gr',
+        url: 'https://racelist.gr',
+      },
+    });
+
+    useHead({
+      script: [
+        {
+          type: 'application/ld+json',
+          innerHTML: JSON.stringify(
+            buildBreadcrumbJsonld([
+              { name: 'Αρχική', url: 'https://racelist.gr/' },
+              { name: 'Αγώνες', url: 'https://racelist.gr/agwnes/' },
+              { name: race.value.Title, url },
+            ]),
+          ),
+        },
+      ],
+    });
+  });
 </script>

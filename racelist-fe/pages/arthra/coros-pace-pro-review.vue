@@ -294,4 +294,50 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "COROS PACE Pro Review: Το Νέο Smartwatch για Σοβαρούς Αθλητές",
+      "description": "Ανάλυση του νέου COROS PACE Pro GPS smartwatch. Χαρακτηριστικά, αυτονομία, ακρίβεια GPS και όλα όσα πρέπει να γνωρίζετε για αυτό το προηγμένο ρολόι αθλητών.",
+      "image": "https://racelist.gr/images/coros-pace-pro.jpg",
+      "url": "https://racelist.gr/arthra/coros-pace-pro-review/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "COROS PACE Pro Review: Το Νέο Smartwatch για Σοβαρούς Αθλητές",
+          "item": "https://racelist.gr/arthra/coros-pace-pro-review/"
+        }
+      ]
+    },
+  ]);
+
 </script>

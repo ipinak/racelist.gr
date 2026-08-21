@@ -259,6 +259,52 @@
     ],
   });
 
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Καρδιακός Παλμός στο Τρέξιμο",
+      "description": "Εϊναι 180 παλμοί φυσιολογικοί; Μάθετε πώς να υπολογίζετε και να διαχειρίζεστε τον καρδιακό σας παλμό στο τρέξιμο.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/kardiakos-palmos-sto-treximo/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Καρδιακός Παλμός στο Τρέξιμο",
+          "item": "https://racelist.gr/arthra/kardiakos-palmos-sto-treximo/"
+        }
+      ]
+    },
+  ]);
+
+
   const age = ref(null);
   const mhr = computed(() => {
     if (age.value) {

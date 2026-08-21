@@ -50,6 +50,52 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Garmin HRM 600: Αναλυτική Παρουσίαση & Αξιολόγηση 2025",
+      "description": "Αναλυτική παρουσίαση της ζώνης καρδιακών παλμών Garmin HRM 600 για δρομείς και αθλητές. Μάθετε για τα χαρακτηριστικά, την αυτονομία, τη δυναμική τρεξίματος και όλα τα πλεονεκτήματα του κορυφαίου αισθητήρα της Garmin.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/zoni-garmin-hrm-600/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Garmin HRM 600: Αναλυτική Παρουσίαση & Αξιολόγηση 2025",
+          "item": "https://racelist.gr/arthra/zoni-garmin-hrm-600/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <template>

@@ -68,6 +68,53 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Garmin Forerunner 955 και 955 Solar: Παρουσίαση & Αξιολόγηση 2025",
+      "description": "Αναλυτική παρουσίαση του Garmin Forerunner 170, του νέου running smartwatch που αντικαθιστά το Forerunner 955 με AMOLED οθόνη, έως 10 ημέρες μπαταρία και 80+ αθλητικές εφαρμογές.",
+      "image": "https://racelist.gr/images/garmin/garmin-170/Forerunner170_HR_black_Activity_Summary_Statute.webp",
+      "url": "https://racelist.gr/arthra/garmin-forerunner-170/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "datePublished": "2026-05-13"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Garmin Forerunner 955 και 955 Solar: Παρουσίαση & Αξιολόγηση 2025",
+          "item": "https://racelist.gr/arthra/garmin-forerunner-170/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <template>

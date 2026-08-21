@@ -646,6 +646,16 @@ export default defineNuxtConfig({
             "description": "Βρες όλους τους αγώνες τρεξίματος δρόμου και βουνού σε κάθε γωνιά της Ελλάδας για το 2026. Ημερολόγιο με πληροφορίες και ημερομηνίες για κάθε εκδήλωση."
           }`,
         },
+        {
+          type: 'application/ld+json',
+          innerHTML: `{
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "racelist.gr",
+            "url": "https://racelist.gr",
+            "logo": "https://racelist.gr/racelist-banner.jpg"
+          }`,
+        },
       ],
     },
   },

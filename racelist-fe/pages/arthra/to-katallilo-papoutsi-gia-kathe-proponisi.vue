@@ -48,6 +48,53 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Ποιο παπούτσι να βάλω ανάλογα με την προπόνηση",
+      "description": "Πρακτικός οδηγός για το ποιο παπούτσι να φορέσετε ανάλογα με τη προπόνηση: βραχείς διαδρομές, μεγάλα χιλιόμετρα, καθημερινή προπόνηση και χρήση carbon-plated παπουτσιών.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/pio-papoutsi-na-balo-analoga-me-tin-proponisi/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "datePublished": "2024-06-19"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Ποιο παπούτσι να βάλω ανάλογα με την προπόνηση",
+          "item": "https://racelist.gr/arthra/pio-papoutsi-na-balo-analoga-me-tin-proponisi/"
+        }
+      ]
+    },
+  ]);
+
   const relatedArticles = [
     {
       title: 'Γυναικεία Παπούτσια για Τρέξιμο Δρόμου',

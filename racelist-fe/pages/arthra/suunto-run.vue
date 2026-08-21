@@ -48,6 +48,52 @@
     ],
   });
 
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Suunto Run: Αναλυτική Παρουσίαση & Αξιολόγηση",
+      "description": "Αναλυτική παρουσίαση του Suunto Run - το ελαφρύτερο smartwatch της Suunto με μόλις 36g βάρος. Ιδανικό για δρομείς με 12 ημέρες αυτονομία, AMOLED οθόνη και 34 αθλητικές λειτουργίες.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/suunto-run/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Suunto Run: Αναλυτική Παρουσίαση & Αξιολόγηση",
+          "item": "https://racelist.gr/arthra/suunto-run/"
+        }
+      ]
+    },
+  ]);
+
+
   const relatedArticles = [
     {
       url: '/arthra/suunto-peak-9-pro/',

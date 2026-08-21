@@ -47,6 +47,52 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Adidas Παπούτσια για Τρέξιμο Δρόμου",
+      "description": "Οδηγός για τα παπούτσια τρεξίματος Adidas. Ανακαλύψτε τα κορυφαία μοντέλα όπως το Adios Pro 4 και βρείτε το ιδανικό παπούτσι για εσάς.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/adidas-running-shoes/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Adidas Παπούτσια για Τρέξιμο Δρόμου",
+          "item": "https://racelist.gr/arthra/adidas-running-shoes/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <template>

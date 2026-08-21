@@ -68,6 +68,52 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Suunto 9 Peak Pro: Αναλυτική Παρουσίαση & Αξιολόγηση 2025",
+      "description": "Οδηγός για τα καλύτερα smartwatches για δρομείς και ποδηλάτες. Ανακαλύψτε τα κορυφαία μοντέλα Garmin, Apple Watch, και άλλα για την καταγραφή των προπονήσεών σας.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/smartwatches-gia-dromeis-kai-podilates/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Suunto 9 Peak Pro: Αναλυτική Παρουσίαση & Αξιολόγηση 2025",
+          "item": "https://racelist.gr/arthra/smartwatches-gia-dromeis-kai-podilates/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <template>

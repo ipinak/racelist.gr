@@ -62,6 +62,52 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Garmin Fenix 8: Αναλυτική Παρουσίαση & Αξιολόγηση 2025",
+      "description": "Παρουσίαση του Garmin Forerunner 955 και 955 Solar για δρομείς και αθλητές. Μάθετε για τα χαρακτηριστικά, την αυτονομία και όλα τα πλεονεκτήματα ενός κορυφαίου smartwatch από την Garmin.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/garmin-forerunner-955-kai-955-solar/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Garmin Fenix 8: Αναλυτική Παρουσίαση & Αξιολόγηση 2025",
+          "item": "https://racelist.gr/arthra/garmin-forerunner-955-kai-955-solar/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <template>

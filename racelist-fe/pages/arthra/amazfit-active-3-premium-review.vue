@@ -52,6 +52,52 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Amazfit Active 3 Premium: Αναλυτική Παρουσίαση & Αξιολόγηση",
+      "description": "Αναλυτική παρουσίαση του Amazfit Active 3 Premium για νέους και αρχάριους δρομείς. Sapphire Glass AMOLED οθόνη, GPS με Offline Maps, Zepp Coach™ προπονητικά πλάνα και BioCharge™ παρακολούθηση ανάκαμψης.",
+      "image": "https://racelist.gr/images/amazfit/active-3-premium/main-image.jpg",
+      "url": "https://racelist.gr/arthra/amazfit-active-3-premium-review/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Amazfit Active 3 Premium: Αναλυτική Παρουσίαση & Αξιολόγηση",
+          "item": "https://racelist.gr/arthra/amazfit-active-3-premium-review/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <template>

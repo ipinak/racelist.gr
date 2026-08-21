@@ -56,6 +56,52 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Suunto Run: Αναλυτική Παρουσίαση & Αξιολόγηση 2025",
+      "description": "Αναλυτική παρουσίαση του Suunto 9 Peak Pro για δρομείς και αθλητές. Μάθετε για τα χαρακτηριστικά, τις επιδόσεις, την αυτονομία και όλα τα πλεονεκτήματα του κορυφαίου smartwatch της Suunto.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/suunto-peak-9-pro/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Suunto Run: Αναλυτική Παρουσίαση & Αξιολόγηση 2025",
+          "item": "https://racelist.gr/arthra/suunto-peak-9-pro/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <template>

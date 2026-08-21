@@ -258,4 +258,50 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Τα πιο γνωστά προβλήματα των δρομέων",
+      "description": "Ανακάλυψε τα πιο συχνά προβλήματα που αντιμετωπίζουν οι δρομείς – από πόνους στα γόνατα και φουσκάλες, μέχρι μυρωδιά αμμωνίας στον ιδρώτα – και πώς να τα αντιμετωπίσεις.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/ta-pio-gnwsto-problimata-dromewn/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Τα πιο γνωστά προβλήματα των δρομέων",
+          "item": "https://racelist.gr/arthra/ta-pio-gnwsto-problimata-dromewn/"
+        }
+      ]
+    },
+  ]);
+
 </script>

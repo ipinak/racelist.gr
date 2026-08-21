@@ -288,4 +288,51 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Προετοιμασία για Μαραθώνιο: Οδηγός για την Προηγούμενη Μέρα και τον Αγώνα",
+      "description": "Πλήρης οδηγός προετοιμασίας για μαραθώνιο: τι να φάτε, πώς να ενυδατωθείτε, πότε να πάρετε τζελ ενέργειας και πώς να διαχειριστείτε το άγχος. Συμβουλές για την προηγούμενη μέρα και κατά τη διάρκεια των 42 χιλιομέτρων.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/proetoimasia-gia-marathonio/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "datePublished": "2025-10-08"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Προετοιμασία για Μαραθώνιο: Οδηγός για την Προηγούμενη Μέρα και τον Αγώνα",
+          "item": "https://racelist.gr/arthra/proetoimasia-gia-marathonio/"
+        }
+      ]
+    },
+  ]);
+
 </script>

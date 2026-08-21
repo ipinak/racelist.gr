@@ -138,4 +138,50 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Πώς να Βρείτε Χρόνο για Τρέξιμο",
+      "description": "Ανακαλύψτε πρακτικούς τρόπους για να εντάξετε το τρέξιμο στην καθημερινότητά σας, ακόμα κι αν νομίζετε ότι δεν έχετε χρόνο.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/pws-na-vreis-xrono-gia-treximo/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Πώς να Βρείτε Χρόνο για Τρέξιμο",
+          "item": "https://racelist.gr/arthra/pws-na-vreis-xrono-gia-treximo/"
+        }
+      ]
+    },
+  ]);
+
 </script>

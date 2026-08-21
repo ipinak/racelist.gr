@@ -667,6 +667,53 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Δρήρεια 2026 - Αποτελέσματα | Racelist.gr",
+      "description": "Αποτελέσματα από τον αγώνα δρόμου Δρήρεια 2026, απόσταση 10χλμ. Δείτε την πλήρη κατάταξη ανδρών και γυναικών.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/dririeia-2026/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "datePublished": "2026-08-17"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Δρήρεια 2026 - Αποτελέσματα | Racelist.gr",
+          "item": "https://racelist.gr/arthra/dririeia-2026/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <style scoped>

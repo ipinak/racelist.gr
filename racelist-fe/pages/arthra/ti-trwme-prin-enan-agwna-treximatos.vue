@@ -144,4 +144,50 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Τι να Φάω πριν από Αγώνα Τρεξίματος",
+      "description": "Μάθε τι να φας πριν από έναν αγώνα τρεξίματος για μέγιστη ενέργεια χωρίς στομαχικές ενοχλήσεις. Συμβουλές διατροφής για δρομείς από το racelist.gr.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/ti-trwme-prin-enan-agwna-treximatos/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Τι να Φάω πριν από Αγώνα Τρεξίματος",
+          "item": "https://racelist.gr/arthra/ti-trwme-prin-enan-agwna-treximatos/"
+        }
+      ]
+    },
+  ]);
+
 </script>

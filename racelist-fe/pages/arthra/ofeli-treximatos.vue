@@ -202,4 +202,50 @@ useHead({
   ],
 })
 
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Οφέλη Από Το Τρέξιμο",
+      "description": "Ανακαλύψτε τα οφέλη του τρεξίματος για την υγεία και την ευεξία σας. Ενισχύστε την καρδιά, τους πνεύμονες και τη διάθεσή σας με το τρέξιμο.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/ofeli-treximatos/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Οφέλη Από Το Τρέξιμο",
+          "item": "https://racelist.gr/arthra/ofeli-treximatos/"
+        }
+      ]
+    },
+  ]);
+
+
 </script>

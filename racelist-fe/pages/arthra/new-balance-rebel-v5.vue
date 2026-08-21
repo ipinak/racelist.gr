@@ -57,6 +57,52 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Βρες τα καλύτερα παπούτσια για τρέξιμο δρόμου",
+      "description": "Παρουσίαση του New Balance FuelCell Rebel v5. Ελαφρύ παπούτσι 227g με τεχνολογία FuelCell, αφρό PEBA/EVA και drop 6mm. Ιδανικό για γρήγορα χιλιόμετρα και tempo runs.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/new-balance-rebel-v5/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Βρες τα καλύτερα παπούτσια για τρέξιμο δρόμου",
+          "item": "https://racelist.gr/arthra/new-balance-rebel-v5/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <template>

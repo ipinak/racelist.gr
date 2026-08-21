@@ -172,6 +172,53 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Ημιμαραθώνιος Πεκίνου: Ρομπότ κέρδισαν τους ανθρώπους",
+      "description": "Ανθρωποειδή ρομπότ νίκησαν ανθρώπινους δρομείς στον ημιμαραθώνιο του Πεκίνου. Πάνω από 100 ρομπότ αγωνίστηκαν με 12.000 ανθρώπους στη διαδρομή 21 χλμ., με το νικητήριο ρομπότ να τερματίζει σε 50 λεπτά και 26 δευτερόλεπτα.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/hmimarathonios-pekinou-robot-vs-anthrwpwn/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "datePublished": "2026-04-19"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Ημιμαραθώνιος Πεκίνου: Ρομπότ κέρδισαν τους ανθρώπους",
+          "item": "https://racelist.gr/arthra/hmimarathonios-pekinou-robot-vs-anthrwpwn/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <style scoped>

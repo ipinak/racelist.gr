@@ -49,6 +49,52 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Πού να τρέξω στο Ηράκλειο: Οι καλύτερες διαδρομές για τρέξιμο",
+      "description": "Ανακάλυψε τις καλύτερες διαδρομές για τρέξιμο στο Ηράκλειο: Ενετικά Τείχη, Μώλος, Παραλιακή και Γιούχτας. Ιδανικές επιλογές για κάθε δρομέα, με χάρτες και συμβουλές! racelist.gr",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/pou-na-trexw-sto-irakleio/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Πού να τρέξω στο Ηράκλειο: Οι καλύτερες διαδρομές για τρέξιμο",
+          "item": "https://racelist.gr/arthra/pou-na-trexw-sto-irakleio/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <template>

@@ -437,6 +437,53 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Μαραθώνιος Τόκιο 2026 – Αποτελέσματα & Νικητές",
+      "description": "Αποτελέσματα και νικητές από τον Μαραθώνιο Τόκιο 2026 (19η έκδοση, 1 Μαρτίου 2026). Ο Tadese Takele νίκησε στους άνδρες (2:03:37) και η Brigid Kosgei στις γυναίκες (2:14:29).",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/marathon-tokio-2026/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "datePublished": "2026-03-01"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Μαραθώνιος Τόκιο 2026 – Αποτελέσματα & Νικητές",
+          "item": "https://racelist.gr/arthra/marathon-tokio-2026/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <style scoped>

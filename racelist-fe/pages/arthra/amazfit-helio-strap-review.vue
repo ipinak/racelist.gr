@@ -50,6 +50,52 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Amazfit Helio Strap: Αναλυτική Παρουσίαση & Αξιολόγηση",
+      "description": "Αναλυτική παρουσίαση του Amazfit Helio Strap για δρομείς και αθλητές. Μάθετε για τα χαρακτηριστικά, την αυτονομία, τις λειτουργίες υγείας και όλα τα πλεονεκτήματα του fitness tracker.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/amazfit-helio-strap-review/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Amazfit Helio Strap: Αναλυτική Παρουσίαση & Αξιολόγηση",
+          "item": "https://racelist.gr/arthra/amazfit-helio-strap-review/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <template>

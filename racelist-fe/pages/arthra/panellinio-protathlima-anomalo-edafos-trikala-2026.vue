@@ -316,6 +316,53 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Πανελλήνιο Πρωτάθλημα σε ανώμαλο έδαφος - Τρίκαλα 2026 | Αποτελέσματα",
+      "description": "Αποτελέσματα και πληροφορίες από το Πανελλήνιο Πρωτάθλημα σε ανώμαλο έδαφος (Cross Country) στην Πηγή Τρικάλων, 1 Φεβρουαρίου 2026. Δείτε τα αποτελέσματα όλων των κατηγοριών.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/panellinio-protathlima-anomalo-edafos-trikala-2026/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "datePublished": "2026-02-01"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Πανελλήνιο Πρωτάθλημα σε ανώμαλο έδαφος - Τρίκαλα 2026 | Αποτελέσματα",
+          "item": "https://racelist.gr/arthra/panellinio-protathlima-anomalo-edafos-trikala-2026/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <style scoped>

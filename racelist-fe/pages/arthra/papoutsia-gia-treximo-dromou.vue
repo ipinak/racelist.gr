@@ -164,6 +164,52 @@
     ],
   });
 
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Nike running shoes",
+      "description": "Δες πώς να διαλέξεις τα καλύτερα παπούτσια για τρέξιμο και ανακάλυψε 13 επιλογές για κάθε τύπο δρομέα.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/papoutsia-gia-treximo-dromou/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Nike running shoes",
+          "item": "https://racelist.gr/arthra/papoutsia-gia-treximo-dromou/"
+        }
+      ]
+    },
+  ]);
+
+
   const shoes = [
     {
       name: 'Brooks Ghost 16',

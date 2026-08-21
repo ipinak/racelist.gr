@@ -51,6 +51,52 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Nike Παπούτσια για Τρέξιμο Δρόμου",
+      "description": "Οδηγός για τα παπούτσια τρεξίματος Nike. Ανακαλύψτε τα κορυφαία μοντέλα όπως το Vaporfly 4 και βρείτε το ιδανικό παπούτσι για εσάς.",
+      "image": "https://racelist.gr/racelist-banner.jpg",
+      "url": "https://racelist.gr/arthra/nike-running-shoes/",
+      "author": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Αρχική",
+          "item": "https://racelist.gr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Άρθρα",
+          "item": "https://racelist.gr/arthra/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Nike Παπούτσια για Τρέξιμο Δρόμου",
+          "item": "https://racelist.gr/arthra/nike-running-shoes/"
+        }
+      ]
+    },
+  ]);
+
 </script>
 
 <template>
