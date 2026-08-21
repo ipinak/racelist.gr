@@ -4,6 +4,8 @@
       Πόσο Γρήγορα Πάνε τα Παγκόσμια Ρεκόρ; Η Ταχύτητα Πίσω από τους Χρόνους
     </h1>
 
+    <PublishedDate date="2026-08-13" :centered="true" />
+
     <div class="prose prose-lg max-w-none">
       <div class="bg-blue-50 p-6 rounded-lg mb-8">
         <h2 class="text-2xl font-bold text-[#0057A0] mt-0 mb-4">

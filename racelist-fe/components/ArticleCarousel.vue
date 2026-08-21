@@ -18,9 +18,16 @@
           >
             <NuxtLink
               :to="article.href"
-              class="text-lg font-semibold text-[#0057A0] hover:text-[#0057A0]/60 capitalize block h-full flex items-center justify-center"
+              class="text-lg font-semibold text-[#0057A0] hover:text-[#0057A0]/60 capitalize block h-full flex flex-col items-center justify-center"
             >
-              {{ article.title }}
+              <span>{{ article.title }}</span>
+              <time
+                v-if="article.timestamp"
+                :datetime="article.timestamp"
+                class="block text-xs text-gray-500 font-normal mt-1 normal-case"
+              >
+                {{ formatDate(article.timestamp) }}
+              </time>
             </NuxtLink>
           </div>
         </div>
@@ -116,6 +123,7 @@
 
 <script setup>
   import { ref, computed, onMounted, onUnmounted } from 'vue';
+  import { formatDate } from '~/shared/formatters';
 
   const props = defineProps({
     count: {

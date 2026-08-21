@@ -13,10 +13,19 @@
       >
       {{ article.title }}
     </NuxtLink>
+    <time
+      v-if="article.timestamp"
+      :datetime="article.timestamp"
+      class="block text-xs text-gray-500 mt-1"
+    >
+      {{ formatDate(article.timestamp) }}
+    </time>
   </li>
 </template>
 
 <script setup>
+  import { formatDate } from '~/shared/formatters';
+
   defineProps({
     article: {
       type: Object,

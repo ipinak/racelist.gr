@@ -123,6 +123,8 @@
       Garmin Forerunner 170: Η Νέα Επιλογή που Αντικαθιστά το Forerunner 955
     </h1>
 
+    <PublishedDate date="2026-05-13" />
+
     <img
       src="/images/garmin/garmin-170/Forerunner170_HR_black_Activity_Summary_Statute.webp"
       alt="Garmin Forerunner 170 σε μαύρο χρώμα"

@@ -105,6 +105,8 @@
       Huawei Watch GT Runner 2: Το Ρολόι για Σοβαρούς Δρομείς
     </h1>
 
+    <PublishedDate date="2026-03-15" />
+
     <div class="product-info mb-6">
       <div class="row">
         <div class="col-md-6">

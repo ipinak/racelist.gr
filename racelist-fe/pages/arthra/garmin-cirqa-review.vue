@@ -105,6 +105,8 @@
       Garmin Cirqa Smart Band: Χωρίς Οθόνη, Χωρίς Περισπασμούς
     </h1>
 
+    <PublishedDate date="2026-08-12" />
+
     <div class="product-info mb-6">
       <div class="row">
         <div class="col-md-6">
