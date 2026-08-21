@@ -172,7 +172,7 @@ useHead({
     },
     {
       property: 'og:url',
-      content: 'https://www.racelist.gr/arthra/ofeli-treximatos/',
+      content: 'https://racelist.gr/arthra/ofeli-treximatos/',
     },
     {
       property: 'og:image',
@@ -197,7 +197,7 @@ useHead({
     },
     {
       property: 'twitter:url',
-      content: 'https://www.racelist.gr/arthra/ofeli-treximatos/',
+      content: 'https://racelist.gr/arthra/ofeli-treximatos/',
     },
   ],
 })

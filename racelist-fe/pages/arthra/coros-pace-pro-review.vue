@@ -286,7 +286,7 @@
       },
       {
         property: 'og:url',
-        content: 'https://www.racelist.gr/arthra/coros-pace-pro-review',
+        content: 'https://racelist.gr/arthra/coros-pace-pro-review',
       },
       {
         property: 'og:image',

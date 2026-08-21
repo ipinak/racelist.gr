@@ -139,7 +139,7 @@
       },
       {
         property: 'og:url',
-        content: 'https://www.racelist.gr/agwnes',
+        content: 'https://racelist.gr/agwnes',
       },
       {
         property: 'og:image',

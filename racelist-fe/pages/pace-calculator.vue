@@ -224,7 +224,7 @@
       },
       {
         property: 'og:url',
-        content: 'https://www.racelist.gr/pace-calculator/',
+        content: 'https://racelist.gr/pace-calculator/',
       },
       {
         property: 'og:image',

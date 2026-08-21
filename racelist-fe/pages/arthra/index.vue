@@ -61,7 +61,7 @@
       },
       {
         property: 'og:url',
-        content: 'https://www.racelist.gr/arthra',
+        content: 'https://racelist.gr/arthra',
       },
       {
         property: 'og:image',

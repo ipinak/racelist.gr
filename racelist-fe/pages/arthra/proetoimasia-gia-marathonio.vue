@@ -258,7 +258,7 @@
       },
       {
         property: 'og:url',
-        content: 'https://www.racelist.gr/arthra/proetoimasia-gia-marathonio/',
+        content: 'https://racelist.gr/arthra/proetoimasia-gia-marathonio/',
       },
       {
         property: 'og:image',
@@ -284,7 +284,7 @@
       },
       {
         property: 'twitter:url',
-        content: 'https://www.racelist.gr/arthra/proetoimasia-gia-marathonio/',
+        content: 'https://racelist.gr/arthra/proetoimasia-gia-marathonio/',
       },
     ],
   });

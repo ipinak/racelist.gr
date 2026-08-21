@@ -192,7 +192,7 @@
       },
       {
         property: 'og:url',
-        content: 'https://www.racelist.gr/cooper-test/',
+        content: 'https://racelist.gr/cooper-test/',
       },
       {
         property: 'og:image',

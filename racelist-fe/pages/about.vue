@@ -64,7 +64,7 @@
       },
       {
         property: 'og:url',
-        content: 'https://www.racelist.gr/about',
+        content: 'https://racelist.gr/about',
       },
       {
         property: 'og:image',

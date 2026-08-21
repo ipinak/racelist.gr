@@ -115,7 +115,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://www.racelist.gr/arthra/papoutsia-gia-treximo-dromou/',
+        href: 'https://racelist.gr/arthra/papoutsia-gia-treximo-dromou/',
       },
     ],
     meta: [

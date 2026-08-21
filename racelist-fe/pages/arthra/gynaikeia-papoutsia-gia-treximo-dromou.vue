@@ -106,7 +106,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://www.racelist.gr/arthra/gynaikeia-papoutsia-gia-treximo-dromou/',
+        href: 'https://racelist.gr/arthra/gynaikeia-papoutsia-gia-treximo-dromou/',
       },
     ],
     meta: [

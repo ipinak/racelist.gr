@@ -62,7 +62,7 @@
       },
       {
         property: 'og:url',
-        content: 'https://www.racelist.gr/faq',
+        content: 'https://racelist.gr/faq',
       },
       {
         property: 'og:image',
