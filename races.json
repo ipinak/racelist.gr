@@ -5665,5 +5665,17 @@
         ],
         "SignupLink": "https://olympicdayrun.gr/",
         "Slug": "9o-olympic-day-run-greece/"
+    },
+    {
+        "ID": 446,
+        "Title": "10ο Lailias Mountain Running",
+        "Date": "2026-09-20",
+        "Location": "Λαϊλιάς, Σέρρες",
+        "Distances": [
+            "21km",
+            "6km"
+        ],
+        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=bb912c5028aafc8fa8e90c26ee982e6a&l=GR",
+        "Slug": "10o-lailias-mountain-running/"
     }
 ]

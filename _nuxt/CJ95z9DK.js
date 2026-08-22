@@ -1,1 +1,0 @@
-import{u as n}from"./D18EewB5.js";function r(t){const e=Array.isArray(t)?t:[t];n({script:e.map(i=>({type:"application/ld+json",innerHTML:JSON.stringify(i)}))})}function a(t){return{"@context":"https://schema.org","@type":"BreadcrumbList",itemListElement:t.map((e,i)=>({"@type":"ListItem",position:i+1,name:e.name,item:e.url}))}}export{a as b,r as u};
