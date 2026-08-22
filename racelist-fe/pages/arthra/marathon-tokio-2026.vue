@@ -1,14 +1,14 @@
 <template>
-  <div class="blog-content max-w-5xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-center text-[#0057A0] my-6 font-bold">
+  <div class="prose-article blog-content max-w-5xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-center text-blue my-6 font-bold">
       Μαραθώνιος Τόκιο 2026 – Αποτελέσματα & Νικητές
     </h1>
 
     <PublishedDate date="2026-03-01" :centered="true" />
 
     <div class="prose prose-lg max-w-none">
-      <div class="bg-blue-50 p-6 rounded-lg mb-8">
-        <h2 class="text-2xl font-bold text-[#0057A0] mt-0 mb-4">
+      <div class="bg-paper-dim border-l-4 border-blue p-6 rounded-lg mb-8">
+        <h2 class="text-2xl font-bold text-blue mt-0 mb-4">
           Πληροφορίες Αγώνα
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -58,7 +58,7 @@
       </div>
 
       <!-- Men's results -->
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Αποτελέσματα Ανδρών
       </h2>
 
@@ -70,8 +70,8 @@
       </p>
 
       <div class="overflow-x-auto mb-8">
-        <table class="min-w-full bg-white border border-gray-300">
-          <thead class="bg-[#0057A0] text-white">
+        <table class="min-w-full bg-paper border border-line">
+          <thead class="bg-blue-deep text-white">
             <tr>
               <th class="py-3 px-4 text-left">Θέση</th>
               <th class="py-3 px-4 text-left">Αθλητής</th>
@@ -79,14 +79,14 @@
               <th class="py-3 px-4 text-left">Χρόνος</th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
-            <tr class="bg-yellow-50 font-semibold">
+          <tbody class="divide-y divide-line">
+            <tr class="bg-flag/10 font-semibold">
               <td class="py-3 px-4">🥇 1ος</td>
               <td class="py-3 px-4">Tadese Takele</td>
               <td class="py-3 px-4">Αιθιοπία 🇪🇹</td>
               <td class="py-3 px-4">2:03:37</td>
             </tr>
-            <tr class="bg-gray-50 font-semibold">
+            <tr class="bg-paper-dim font-semibold">
               <td class="py-3 px-4">🥈 2ος</td>
               <td class="py-3 px-4">Geoffrey Toroitich</td>
               <td class="py-3 px-4">Κένυα 🇰🇪</td>
@@ -98,43 +98,43 @@
               <td class="py-3 px-4">Κένυα 🇰🇪</td>
               <td class="py-3 px-4">2:03:38</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">4ος</td>
               <td class="py-3 px-4">Daniel Mateiko</td>
               <td class="py-3 px-4">Κένυα 🇰🇪</td>
               <td class="py-3 px-4">2:03:44</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">5ος</td>
               <td class="py-3 px-4">Muktar Edris</td>
               <td class="py-3 px-4">Αιθιοπία 🇪🇹</td>
               <td class="py-3 px-4">2:04:07</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">6ος</td>
               <td class="py-3 px-4">Iliass Aouani</td>
               <td class="py-3 px-4">Ιταλία 🇮🇹</td>
               <td class="py-3 px-4">2:04:26</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">7ος</td>
               <td class="py-3 px-4">Selemon Barega</td>
               <td class="py-3 px-4">Αιθιοπία 🇪🇹</td>
               <td class="py-3 px-4">2:05:00</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">8ος</td>
               <td class="py-3 px-4">Seifu Tura</td>
               <td class="py-3 px-4">Αιθιοπία 🇪🇹</td>
               <td class="py-3 px-4">2:05:02</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">9ος</td>
               <td class="py-3 px-4">Vincent Kipkemoi Ngetich</td>
               <td class="py-3 px-4">Κένυα 🇰🇪</td>
               <td class="py-3 px-4">2:05:21</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">10ος</td>
               <td class="py-3 px-4">Shifera Tamru</td>
               <td class="py-3 px-4">Αιθιοπία 🇪🇹</td>
@@ -145,7 +145,7 @@
       </div>
 
       <!-- Women's results -->
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Αποτελέσματα Γυναικών
       </h2>
 
@@ -157,8 +157,8 @@
       </p>
 
       <div class="overflow-x-auto mb-8">
-        <table class="min-w-full bg-white border border-gray-300">
-          <thead class="bg-[#0057A0] text-white">
+        <table class="min-w-full bg-paper border border-line">
+          <thead class="bg-blue-deep text-white">
             <tr>
               <th class="py-3 px-4 text-left">Θέση</th>
               <th class="py-3 px-4 text-left">Αθλήτρια</th>
@@ -166,14 +166,14 @@
               <th class="py-3 px-4 text-left">Χρόνος</th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
-            <tr class="bg-yellow-50 font-semibold">
+          <tbody class="divide-y divide-line">
+            <tr class="bg-flag/10 font-semibold">
               <td class="py-3 px-4">🥇 1η</td>
               <td class="py-3 px-4">Brigid Kosgei</td>
               <td class="py-3 px-4">Κένυα 🇰🇪</td>
               <td class="py-3 px-4">2:14:29</td>
             </tr>
-            <tr class="bg-gray-50 font-semibold">
+            <tr class="bg-paper-dim font-semibold">
               <td class="py-3 px-4">🥈 2η</td>
               <td class="py-3 px-4">Bertukan Welde</td>
               <td class="py-3 px-4">Αιθιοπία 🇪🇹</td>
@@ -185,43 +185,43 @@
               <td class="py-3 px-4">Αιθιοπία 🇪🇹</td>
               <td class="py-3 px-4">2:17:39</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">4η</td>
               <td class="py-3 px-4">Sutume Asefa Kebede</td>
               <td class="py-3 px-4">Αιθιοπία 🇪🇹</td>
               <td class="py-3 px-4">2:17:39</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">5η</td>
               <td class="py-3 px-4">Alemu Megertu</td>
               <td class="py-3 px-4">Αιθιοπία 🇪🇹</td>
               <td class="py-3 px-4">2:18:50</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">6η</td>
               <td class="py-3 px-4">Viola Cheptoo</td>
               <td class="py-3 px-4">Κένυα 🇰🇪</td>
               <td class="py-3 px-4">2:19:05</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">7η</td>
               <td class="py-3 px-4">Mestawot Fikir</td>
               <td class="py-3 px-4">Αιθιοπία 🇪🇹</td>
               <td class="py-3 px-4">2:20:00</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">8η</td>
               <td class="py-3 px-4">Aberu Ayana</td>
               <td class="py-3 px-4">Αιθιοπία 🇪🇹</td>
               <td class="py-3 px-4">2:20:30</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">9η</td>
               <td class="py-3 px-4">Pascalia Jepkogei</td>
               <td class="py-3 px-4">Κένυα 🇰🇪</td>
               <td class="py-3 px-4">2:21:39</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">10η</td>
               <td class="py-3 px-4">Ai Hosoda</td>
               <td class="py-3 px-4">Ιαπωνία 🇯🇵</td>
@@ -232,13 +232,13 @@
       </div>
 
       <!-- Wheelchair results -->
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Αποτελέσματα Αθλητών σε Αμαξίδιο
       </h2>
 
       <div class="overflow-x-auto mb-8">
-        <table class="min-w-full bg-white border border-gray-300">
-          <thead class="bg-[#0057A0] text-white">
+        <table class="min-w-full bg-paper border border-line">
+          <thead class="bg-blue-deep text-white">
             <tr>
               <th class="py-3 px-4 text-left">Κατηγορία</th>
               <th class="py-3 px-4 text-left">Νικητής/τρια</th>
@@ -246,14 +246,14 @@
               <th class="py-3 px-4 text-left">Χρόνος</th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
-            <tr class="bg-yellow-50 font-semibold">
+          <tbody class="divide-y divide-line">
+            <tr class="bg-flag/10 font-semibold">
               <td class="py-3 px-4">🥇 Άνδρες</td>
               <td class="py-3 px-4">Marcel Hug</td>
               <td class="py-3 px-4">Ελβετία 🇨🇭</td>
               <td class="py-3 px-4">1:21:09</td>
             </tr>
-            <tr class="bg-yellow-50 font-semibold">
+            <tr class="bg-flag/10 font-semibold">
               <td class="py-3 px-4">🥇 Γυναίκες</td>
               <td class="py-3 px-4">Catherine Debrunner</td>
               <td class="py-3 px-4">Ελβετία 🇨🇭</td>
@@ -264,14 +264,14 @@
       </div>
 
       <!-- Race highlights -->
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Κορυφαίες Στιγμές του Αγώνα
       </h2>
 
-      <div class="bg-yellow-50 p-6 rounded-lg mb-8">
+      <div class="bg-flag/10 border-l-4 border-flag p-6 rounded-lg mb-8">
         <ul class="space-y-3">
           <li class="flex items-start gap-2">
-            <span class="text-[#0057A0] font-bold text-lg">🏆</span>
+            <span class="text-blue font-bold text-lg">🏆</span>
             <span>
               Ο <strong>Tadese Takele</strong> νίκησε σε έναν από τους πιο
               συναρπαστικούς τερματισμούς, με πάνω από 1 δευτερόλεπτo διαφορά
@@ -279,7 +279,7 @@
             </span>
           </li>
           <li class="flex items-start gap-2">
-            <span class="text-[#0057A0] font-bold text-lg">⚡</span>
+            <span class="text-blue font-bold text-lg">⚡</span>
             <span>
               Το top-4 ανδρών τελείωσε μέσα σε μόλις
               <strong>7 δευτερόλεπτα</strong>
@@ -287,7 +287,7 @@
             </span>
           </li>
           <li class="flex items-start gap-2">
-            <span class="text-[#0057A0] font-bold text-lg">👑</span>
+            <span class="text-blue font-bold text-lg">👑</span>
             <span>
               Η <strong>Brigid Kosgei</strong> επέστρεψε στην κορυφή,
               ολοκληρώνοντας με 2:14:29 — μία ακόμη εντυπωσιακή επίδοση από την
@@ -295,7 +295,7 @@
             </span>
           </li>
           <li class="flex items-start gap-2">
-            <span class="text-[#0057A0] font-bold text-lg">♿</span>
+            <span class="text-blue font-bold text-lg">♿</span>
             <span>
               Η Ελβετία κέρδισε και τις δύο κατηγορίες αμαξιδίου:
               <strong>Marcel Hug</strong> (1:21:09) και
@@ -306,7 +306,7 @@
       </div>
 
       <!-- About Tokyo Marathon -->
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Σχετικά με τον Μαραθώνιο Τόκιο
       </h2>
 
@@ -328,48 +328,48 @@
       </p>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-        <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg">
-          <div class="text-3xl font-bold text-[#0057A0] mb-2">19η</div>
-          <div class="text-gray-700">Έκδοση 2026</div>
+        <div class="bg-paper-dim border border-blue/20 p-6 rounded-lg">
+          <div class="text-3xl font-bold text-blue mb-2">19η</div>
+          <div class="text-ink/80">Έκδοση 2026</div>
         </div>
         <div
-          class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg"
+          class="bg-paper-dim border border-flag/20 p-6 rounded-lg"
         >
-          <div class="text-3xl font-bold text-[#0057A0] mb-2">6</div>
-          <div class="text-gray-700">World Marathon Majors</div>
+          <div class="text-3xl font-bold text-blue mb-2">6</div>
+          <div class="text-ink/80">World Marathon Majors</div>
         </div>
         <div
-          class="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg"
+          class="bg-paper-dim border border-line p-6 rounded-lg"
         >
-          <div class="text-3xl font-bold text-[#0057A0] mb-2">Platinum</div>
-          <div class="text-gray-700">World Athletics Label</div>
+          <div class="text-3xl font-bold text-blue mb-2">Platinum</div>
+          <div class="text-ink/80">World Athletics Label</div>
         </div>
       </div>
 
-      <div class="bg-blue-50 p-6 rounded-lg mt-8">
+      <div class="bg-paper-dim border-l-4 border-blue p-6 rounded-lg mt-8">
         <h3 class="text-xl font-semibold mb-4">Χρήσιμοι Σύνδεσμοι</h3>
         <div class="space-y-3">
           <a
             href="https://www.marathon.tokyo/en/"
             target="_blank"
             rel="noopener noreferrer"
-            class="block p-4 bg-white rounded-md hover:bg-gray-50 transition-colors border border-gray-200"
+            class="block p-4 bg-paper rounded-md hover:bg-paper-dim transition-colors border border-line"
           >
-            <div class="font-semibold text-[#0057A0]">
+            <div class="font-semibold text-blue">
               🏃 Επίσημη Ιστοσελίδα Μαραθωνίου Τόκιο
             </div>
-            <div class="text-sm text-gray-600 mt-1">marathon.tokyo</div>
+            <div class="text-sm text-grey mt-1">marathon.tokyo</div>
           </a>
           <a
             href="https://www.youtube.com/watch?v=8U-87SKjaGI"
             target="_blank"
             rel="noopener noreferrer"
-            class="block p-4 bg-white rounded-md hover:bg-gray-50 transition-colors border border-gray-200"
+            class="block p-4 bg-paper rounded-md hover:bg-paper-dim transition-colors border border-line"
           >
-            <div class="font-semibold text-[#0057A0]">
+            <div class="font-semibold text-blue">
               📺 Highlights Αγώνα στο YouTube
             </div>
-            <div class="text-sm text-gray-600 mt-1">
+            <div class="text-sm text-grey mt-1">
               Παρακολουθήστε τις κορυφαίες στιγμές του αγώνα
             </div>
           </a>
@@ -377,19 +377,19 @@
             href="https://en.wikipedia.org/wiki/2026_Tokyo_Marathon"
             target="_blank"
             rel="noopener noreferrer"
-            class="block p-4 bg-white rounded-md hover:bg-gray-50 transition-colors border border-gray-200"
+            class="block p-4 bg-paper rounded-md hover:bg-paper-dim transition-colors border border-line"
           >
-            <div class="font-semibold text-[#0057A0]">
+            <div class="font-semibold text-blue">
               📊 Wikipedia – 2026 Tokyo Marathon
             </div>
-            <div class="text-sm text-gray-600 mt-1">
+            <div class="text-sm text-grey mt-1">
               Πλήρη αποτελέσματα και στατιστικά
             </div>
           </a>
         </div>
       </div>
 
-      <div class="mt-8 text-center text-gray-600">
+      <div class="mt-8 text-center text-grey">
         <p class="text-sm">Τελευταία ενημέρωση: 1 Μαρτίου 2026</p>
       </div>
     </div>
@@ -490,14 +490,11 @@
 
 <style scoped>
   .blog-content {
-    font-family:
-      system-ui,
-      -apple-system,
-      sans-serif;
+    font-family: 'Inter', system-ui, sans-serif;
   }
 
   .prose {
-    color: #374151;
+    color: #0F1F2E;
     line-height: 1.75;
   }
 
@@ -516,7 +513,7 @@
   }
 
   .prose a {
-    color: #0057a0;
+    color: #1F5FA8;
     text-decoration: none;
   }
 

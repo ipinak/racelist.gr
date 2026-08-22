@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1 class="text-3xl text-center text-[#0057A0] my-6">Σχετικά με εμάς</h1>
+    <h1 class="font-display text-3xl font-semibold text-center text-ink my-6">Σχετικά με εμάς</h1>
     <div
-      class="faq-container max-w-3xl mx-auto bg-[#f4f4f4] p-6 rounded-lg leading-7"
+      class="faq-container max-w-3xl mx-auto bg-paper-dim border border-line p-6 rounded-lg leading-7"
     >
       <p class="mb-4">
         Όταν δεν γράφουμε κώδικα, τρέχουμε... στους δρόμους, στα βουνά, παντού!
@@ -15,7 +15,7 @@
         👉 Για τον προγραμματισμό, στο
         <a
           href="https://www.techpals.eu/?utm_source=racelist.gr&utm_content=footer&utm_medium=referral"
-          class="text-[#0057A0] hover:text-[#0057A0]/60 font-semibold"
+          class="text-blue hover:text-blue-deep font-semibold transition-colors"
           target="_blank"
         >
           techpals </a

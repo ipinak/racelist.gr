@@ -1,12 +1,12 @@
 <template>
   <div class="max-w-4xl mx-auto px-4 py-8">
-    <NuxtLink to="/" class="inline-block mb-6 text-[#0057A0] hover:underline">
+    <NuxtLink to="/" class="inline-block mb-6 text-blue hover:text-blue-deep transition-colors">
       ← Επιστροφή στην αρχική
     </NuxtLink>
     <div v-if="race">
-      <h1 class="text-3xl text-center text-[#0057A0] mb-8">{{ race.Title }}</h1>
+      <h1 class="font-display text-3xl font-semibold text-center text-ink mb-8">{{ race.Title }}</h1>
 
-      <div class="bg-[#f4f4f4] border-l-4 border-[#0057A0] p-6 rounded">
+      <div class="bg-paper-dim border-l-4 border-blue p-6 rounded-lg">
         <div class="space-y-4">
           <FlipCountdown :date="race.Date" />
           <div>
@@ -37,7 +37,7 @@
                   ? `${race.SignupLink}&utm_source=racelist.gr`
                   : `${race.SignupLink}?utm_source=racelist.gr`
               "
-              class="inline-block bg-[#0057A0] text-white px-6 py-2 rounded hover:bg-[#0057A0]/90 transition-colors"
+              class="inline-block bg-blue-deep text-paper px-7 py-3 rounded-full font-semibold text-sm hover:bg-ink transition-colors"
               target="_blank"
             >
               Εγγραφή στον αγώνα
@@ -47,20 +47,20 @@
       </div>
 
       <div v-if="race.ExtraInfo?.RacePromoVideoId" class="mt-5">
-        <h2 class="py-3 text-2xl font-semibold text-[#0057A0] text-center">
+        <h2 class="py-3 font-display text-2xl font-semibold text-blue text-center">
           Promo Βίντεο
         </h2>
         <YoutubeVideo :video-id="race.ExtraInfo.RacePromoVideoId" />
       </div>
 
       <div v-if="race.ExtraInfo?.RaceBriefVideoId" class="mt-5">
-        <h2 class="py-3 text-2xl font-semibold text-[#0057A0] text-center">
+        <h2 class="py-3 font-display text-2xl font-semibold text-blue text-center">
           Briefing Βίντεο
         </h2>
         <YoutubeVideo :video-id="race.ExtraInfo.RaceBriefVideoId" />
       </div>
     </div>
-    <div v-else class="text-center text-lg">Ο αγώνας δεν βρέθηκε</div>
+    <div v-else class="text-center text-lg text-grey">Ο αγώνας δεν βρέθηκε</div>
   </div>
 </template>
 

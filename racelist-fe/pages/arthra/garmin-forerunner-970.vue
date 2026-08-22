@@ -115,8 +115,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Garmin Forerunner 970: Το Κορυφαίο Running Smartwatch 2025
     </h1>
 
@@ -152,11 +152,11 @@
 
     <!-- Καινοτόμα Χαρακτηριστικά -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Καινοτόμα Χαρακτηριστικά του Forerunner 970
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Ενσωματωμένος LED Φακός
       </h3>
 
@@ -175,7 +175,7 @@
         για σηματοδότηση.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Ηχείο και Μικρόφωνο
       </h3>
       <p class="mb-4">
@@ -186,7 +186,7 @@
         smartphone για απάντηση σε μηνύματα.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Premium Κατασκευή με Sapphire Φακό
       </h3>
       <p class="mb-4">
@@ -199,11 +199,11 @@
 
     <!-- Προηγμένες Λειτουργίες Τρεξίματος -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Προηγμένες Λειτουργίες Τρεξίματος
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Running Economy</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">Running Economy</h3>
 
       <img
         src="/images/garmin/garmin-970-4.webp"
@@ -219,7 +219,7 @@
         και λειτουργεί σε συνδυασμό με το HRM 600 monitor (πωλείται ξεχωριστά).
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Running Tolerance
       </h3>
       <p class="mb-4">
@@ -229,7 +229,7 @@
         προπονείστε αποτελεσματικά χωρίς να αναλάβετε υπερβολικό φορτίο.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Hill Score και Endurance Score
       </h3>
       <p class="mb-4">
@@ -243,7 +243,7 @@
 
     <!-- Οθόνη και Εμπειρία Χρήστη -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Φωτεινή AMOLED Οθόνη και Εμπειρία Χρήστη
       </h2>
 
@@ -254,7 +254,7 @@
         αξιόπιστο έλεγχο σε όλες τις συνθήκες.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Έγχρωμη Χαρτογράφηση
       </h3>
       <p class="mb-4">
@@ -264,7 +264,7 @@
         στροφή με οδηγίες που σας ενημερώνουν νωρίτερα για την επόμενη στροφή.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Training Readiness
       </h3>
       <p class="mb-4">
@@ -277,10 +277,10 @@
 
     <!-- Αυτονομία και GPS -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Εντυπωσιακή Αυτονομία και GPS Ακρίβεια
       </h2>
-      <div class="bg-blue-50 p-4 rounded-lg mb-4">
+      <div class="bg-paper-dim border-l-4 border-blue p-4 rounded-lg mb-4">
         <h4 class="font-semibold mb-2">Διάρκεια Μπαταρίας</h4>
         <ul class="list-disc ml-6 space-y-1">
           <li><strong>Έως 15 ημέρες</strong> σε smartwatch mode</li>
@@ -298,7 +298,7 @@
         συστήματα για κορυφαία ακρίβεια ακόμα και σε απαιτητικά περιβάλλοντα.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Προηγμένες Λειτουργίες Πλοήγησης
       </h3>
       <p class="mb-4">
@@ -312,14 +312,14 @@
 
     <!-- Παρακολούθηση Υγείας -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Ολοκληρωμένη Παρακολούθηση Υγείας 24/7
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Καινοτόμες Λειτουργίες Υγείας
       </h3>
-      <div class="bg-green-50 p-4 rounded-lg mb-4">
+      <div class="bg-paper-dim border-l-4 border-blue p-4 rounded-lg mb-4">
         <ul class="list-disc ml-6 space-y-1">
           <li>
             <strong>Garmin ECG App:</strong> Ανίχνευση κολπικής μαρμαρυγής
@@ -348,7 +348,7 @@
         υπενθυμίσεις για τον ύπνο, την προπόνηση και τον καιρό.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Women's Health Tracking
       </h3>
       <p class="mb-4">
@@ -361,11 +361,11 @@
 
     <!-- Προπόνηση και Αγώνες -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Προηγμένες Λειτουργίες Προπόνησης και Αγώνων
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Garmin Coach Adaptive Training Plans
       </h3>
       <p class="mb-4">
@@ -376,7 +376,7 @@
         αποκατάστασης και των μετρήσεων υγείας σας.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Race Predictor και Projected Race Time
       </h3>
       <p class="mb-4">
@@ -386,7 +386,7 @@
         προπονείστε καλά μέχρι την ημερομηνία του αγώνα.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         PacePro™ Pacing Strategies
       </h3>
       <p class="mb-4">
@@ -399,11 +399,11 @@
 
     <!-- Έξυπνες Λειτουργίες -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Έξυπνες Λειτουργίες και Συνδεσιμότητα
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Μουσική και Ψυχαγωγία
       </h3>
       <p class="mb-4">
@@ -413,7 +413,7 @@
         έλεγχο λειτουργιών.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Ασφάλεια και Πληρωμές
       </h3>
       <p class="mb-4">
@@ -426,7 +426,7 @@
 
     <!-- Συμπέρασμα -->
     <section>
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπέρασμα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπέρασμα</h2>
       <p class="mb-4">
         Το Garmin Forerunner 970 αποτελεί την κορυφή της τεχνολογίας στα
         αθλητικά smartwatch, συνδυάζοντας καινοτόμα χαρακτηριστικά όπως τον
@@ -457,7 +457,7 @@
     </section>
 
     <div class="mb-6 mt-12">
-      <h2 class="text-3xl text-[#0057A0] font-bold my-6 capitalize">
+      <h2 class="text-3xl text-blue font-bold my-6 capitalize">
         Video review για το Garmin Forerunner 970
       </h2>
       <YoutubeVideo video-id="yWSWu9CnP0k" class="mb-3" />

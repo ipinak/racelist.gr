@@ -1,6 +1,6 @@
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6 capitalize">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6 capitalize">
       Τι είναι η διαλειμματική προπόνηση;
     </h1>
 
@@ -20,12 +20,12 @@
     </p>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Βασικά Χαρακτηριστικά της Διαλειμματικής Προπόνησης
       </h2>
       <ul class="space-y-4">
         <li>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-2">
+          <h3 class="text-xl font-semibold text-blue mb-2">
             Περίοδοι Υψηλής Έντασης (Work Intervals)
           </h3>
           <p class="mb-2">
@@ -35,7 +35,7 @@
           </p>
         </li>
         <li>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-2">
+          <h3 class="text-xl font-semibold text-blue mb-2">
             Περίοδοι Ανάκαμψης (Recovery Intervals)
           </h3>
           <p class="mb-2">
@@ -46,7 +46,7 @@
           </p>
         </li>
         <li>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-2">
+          <h3 class="text-xl font-semibold text-blue mb-2">
             Επαναλήψεις (Reps/Sets)
           </h3>
           <p class="mb-2">
@@ -55,7 +55,7 @@
           </p>
         </li>
         <li>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-2">
+          <h3 class="text-xl font-semibold text-blue mb-2">
             Προθέρμανση και Αποθεραπεία
           </h3>
           <p class="mb-2">
@@ -67,7 +67,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Γιατί είναι τόσο αποτελεσματική η διαλειμματική προπόνηση;
       </h2>
       <p class="mb-4">
@@ -77,7 +77,7 @@
       </p>
       <ul class="space-y-4">
         <li>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-2">
+          <h3 class="text-xl font-semibold text-blue mb-2">
             Βελτίωση Καρδιοαναπνευστικής Αντοχής
           </h3>
           <p class="mb-2">
@@ -88,7 +88,7 @@
           </p>
         </li>
         <li>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-2">
+          <h3 class="text-xl font-semibold text-blue mb-2">
             Αύξηση Ταχύτητας και Δύναμης
           </h3>
           <p class="mb-2">
@@ -98,7 +98,7 @@
           </p>
         </li>
         <li>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-2">
+          <h3 class="text-xl font-semibold text-blue mb-2">
             Κάψιμο Θερμίδων και Λίπους
           </h3>
           <p class="mb-2">
@@ -110,7 +110,7 @@
           </p>
         </li>
         <li>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-2">
+          <h3 class="text-xl font-semibold text-blue mb-2">
             Εξοικονόμηση Χρόνου
           </h3>
           <p class="mb-2">
@@ -120,7 +120,7 @@
           </p>
         </li>
         <li>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-2">
+          <h3 class="text-xl font-semibold text-blue mb-2">
             Μείωση της Μονοτονίας
           </h3>
           <p class="mb-2">
@@ -132,12 +132,12 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Τύποι Διαλειμματικής Προπόνησης
       </h2>
       <ul class="space-y-4">
         <li>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-2">
+          <h3 class="text-xl font-semibold text-blue mb-2">
             Υψηλής Έντασης Διαλειμματική Προπόνηση (HIIT - High-Intensity
             Interval Training)
           </h3>
@@ -148,7 +148,7 @@
           </p>
         </li>
         <li>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-2">Fartlek</h3>
+          <h3 class="text-xl font-semibold text-blue mb-2">Fartlek</h3>
           <p class="mb-2">
             Πρόκειται για μια λιγότερο δομημένη διαλειμματική προπόνηση, όπου
             εναλλάσσεις τις ταχύτητες (π.χ., τρέχεις γρήγορα μέχρι το επόμενο
@@ -157,7 +157,7 @@
           </p>
         </li>
         <li>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-2">
+          <h3 class="text-xl font-semibold text-blue mb-2">
             Πυραμιδικά Διαλείμματα
           </h3>
           <p class="mb-2">
@@ -166,7 +166,7 @@
           </p>
         </li>
         <li>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-2">
+          <h3 class="text-xl font-semibold text-blue mb-2">
             Επαναλήψεις σε Ανωφέρειες (Hill Repeats)
           </h3>
           <p class="mb-2">
@@ -178,9 +178,9 @@
     </section>
 
     <section
-      class="mb-8 bg-amber-50 p-6 rounded-lg border-l-4 border-amber-500"
+      class="mb-8 bg-flag/10 p-6 rounded-lg border-l-4 border-flag"
     >
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Σημαντική Σημείωση
       </h2>
       <p class="mb-2">
@@ -192,7 +192,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπέρασμα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπέρασμα</h2>
       <p class="mb-2">
         Η διαλειμματική προπόνηση είναι ένα από τα πιο αποτελεσματικά εργαλεία
         στη διάθεση κάθε αθλητή και ασκούμενου. Με τη σωστή εφαρμογή και

@@ -5,10 +5,10 @@
         v-model="searchQuery"
         type="text"
         placeholder="Αναζήτηση αγώνα με όνομα, τοποθεσία, ή απόσταση..."
-        class="w-full p-3 pl-4 pr-10 border border-gray-300 rounded-lg focus:outline-none focus:border-[#0057A0] text-gray-700"
+        class="w-full p-3 pl-4 pr-10 border border-line rounded-lg focus:outline-none focus:border-blue text-ink bg-paper"
         @input="handleSearch"
       />
-      <span class="absolute right-3 top-3 text-gray-400">🔍</span>
+      <span class="absolute right-3 top-3 text-grey">🔍</span>
     </div>
   </div>
 </template>

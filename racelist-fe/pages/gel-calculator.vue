@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6 text-center">
+    <h1 class="font-display text-3xl text-blue font-bold mb-6 text-center">
       Πόσα gel χρειάζεσαι για ένα αγώνα;
     </h1>
-    <div class="max-w-4xl mx-auto px-4 py-8 text-gray-800 space-y-4">
+    <div class="max-w-4xl mx-auto px-4 py-8 text-ink space-y-4">
       <p>
         Η σωστή στρατηγική κατανάλωσης ενεργειακών gel μπορεί να κάνει τη
         διαφορά ανάμεσα σε έναν καλό αγώνα και μια δύσκολη εμπειρία. Ο γενικός
@@ -18,11 +18,11 @@
       </p>
     </div>
 
-    <hr class="text-gray-300 my-3" />
+    <hr class="text-line my-3" />
 
     <div class="flex items-center justify-center p-6">
-      <div class="bg-white shadow-lg rounded-lg max-w-md w-full p-6">
-        <h2 class="text-3xl text-[#0057A0] font-bold mb-6">
+      <div class="bg-paper shadow-lg border border-line rounded-lg max-w-md w-full p-6">
+        <h2 class="font-display text-3xl text-blue font-bold mb-6">
           Υπολογιστής Ενεργειακών Gel
         </h2>
 
@@ -30,7 +30,7 @@
           <div class="flex border rounded-md overflow-hidden w-fit">
             <button
               :class="
-                isManual ? 'bg-white text-gray-700' : 'bg-[#0057A0] text-white'
+                isManual ? 'bg-paper text-grey' : 'bg-blue-deep text-paper'
               "
               class="px-4 py-2 text-sm font-medium transition-colors"
               @click="isManual = false"
@@ -39,7 +39,7 @@
             </button>
             <button
               :class="
-                isManual ? 'bg-[#0057A0] text-white' : 'bg-white text-gray-700'
+                isManual ? 'bg-blue-deep text-paper' : 'bg-paper text-grey'
               "
               class="px-4 py-2 text-sm font-medium transition-colors"
               @click="isManual = true"
@@ -95,21 +95,21 @@
 
         <div
           v-if="gelsNeeded !== null"
-          class="mt-6 p-4 bg-gray-100 rounded-lg shadow"
+          class="mt-6 p-4 bg-paper-dim rounded-lg shadow"
         >
           <p class="text-lg font-semibold">
             Χρειάζεστε περίπου
-            <span class="text-blue-600">{{ gelsNeeded }}</span> gel για τη
+            <span class="text-blue-deep">{{ gelsNeeded }}</span> gel για τη
             δραστηριότητά σας.
           </p>
         </div>
       </div>
     </div>
 
-    <hr class="text-gray-300 my-3" />
+    <hr class="text-line my-3" />
 
     <div class="max-w-4xl mx-auto px-4 py-8">
-      <h2 class="text-3xl text-[#0057A0] font-bold mb-6">
+      <h2 class="font-display text-3xl text-blue font-bold mb-6">
         Όλα Όσα Πρέπει να Ξέρεις για τα Ενεργειακά Gel στο Τρέξιμο
       </h2>
       <p class="mb-6">
@@ -129,7 +129,7 @@
         νάτριο και κάλιο, ενώ μερικά περιέχουν και καφεΐνη για έξτρα ώθηση.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">
         Γιατί τα Χρειάζεσαι
       </h3>
       <p class="mb-6">
@@ -146,7 +146,7 @@
         ενέργεια και συγκέντρωση κατά τη διάρκεια της άσκησης.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">
         Πότε τα Χρειάζεσαι
       </h3>
       <ul class="list-disc list-inside space-y-2 mb-4">
@@ -168,7 +168,7 @@
         απορροφά καλύτερα τους υδατάνθρακες όταν δεν είναι πλήρως εξαντλημένο.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">
         Πότε ΔΕΝ τα Χρειάζεσαι
       </h3>
       <p class="mb-4">Τα gel δεν είναι απαραίτητα για:</p>
@@ -184,7 +184,7 @@
         αντιδρά το στομάχι σου.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">
         Γιατί τα Gel Είναι Ιδανικά για Τρέξιμο
       </h3>
       <ul class="list-disc list-inside space-y-2 mb-4">
@@ -210,12 +210,12 @@
         όπου η μεταφορά στερεών τροφών είναι δύσκολη.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">Τελικές Σκέψεις</h3>
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">Τελικές Σκέψεις</h3>
       <p class="mb-4">
         Τα
         <NuxtLink
           to="/arthra/energeiaka-gel-gia-treximo-podilasia/"
-          class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
         >
           ενεργειακά gel
         </NuxtLink>
@@ -226,14 +226,14 @@
         σώμα σου.
       </p>
 
-      <hr class="text-gray-300 my-3" />
+      <hr class="text-line my-3" />
 
       <div>
         Τα gel παρότι είναι σημαντικά για τον αγώνα, δεν ειναι το μόνο πράγμα
         που πρεπει να πάρει ενας δρομέας. Το πιο σημαντικό είναι το νερό. Έχουμε
         φτιάξει ένα εργαλείο για να υπολογίσεται
         <NuxtLink
-          class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
           to="/hydration-calculator/"
           >ποσο νερό χρειάζεστε.
         </NuxtLink>

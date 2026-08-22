@@ -115,8 +115,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Garmin fēnix 7X Solar: Το Κορυφαίο Multisport GPS Smartwatch
     </h1>
 
@@ -150,11 +150,11 @@
 
     <!-- Σχεδιασμός για Απόλυτες Επιδόσεις -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Σχεδιασμός για Απόλυτες Επιδόσεις
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Οθόνη Αφής & Χειριστήρια
       </h3>
       <p class="mb-4">
@@ -165,7 +165,7 @@
         ενσωματωμένη απρόσκοπτα στο γυαλί.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Κατασκευή & Υλικά
       </h3>
       <p class="mb-4">
@@ -178,11 +178,11 @@
 
     <!-- Ολοκληρωμένες Αθλητικές Εφαρμογές -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Ολοκληρωμένες Αθλητικές Εφαρμογές
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Προφίλ Αθλημάτων
       </h3>
       <p class="mb-4">
@@ -209,11 +209,11 @@
 
     <!-- Προηγμένες Λειτουργίες Προπόνησης -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Προηγμένες Λειτουργίες Προπόνησης
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Εργαλεία Ανάλυσης
       </h3>
       <p class="mb-4">
@@ -238,7 +238,7 @@
         <li><strong>Race Predictor:</strong> Πρόβλεψη χρόνων αγώνων</li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Προγράμματα Προπόνησης
       </h3>
       <p class="mb-4">
@@ -250,11 +250,11 @@
 
     <!-- Πλοήγηση & Χαρτογράφηση -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Πλοήγηση & Χαρτογράφηση Υψηλής Ακρίβειας
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Συστήματα GPS & Αισθητήρες
       </h3>
       <p class="mb-4">
@@ -269,7 +269,7 @@
         <li>Αισθητήρας φωτός για αυτόματη ρύθμιση οθόνης</li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Χάρτες & Πλοήγηση
       </h3>
       <p class="mb-4">
@@ -281,11 +281,11 @@
 
     <!-- Ολοκληρωμένη Παρακολούθηση Υγείας -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Ολοκληρωμένη Παρακολούθηση Υγείας
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Καρδιακός Ρυθμός & Οξυγόνωση
       </h3>
       <p class="mb-4">
@@ -305,7 +305,7 @@
         <li><strong>Sleep Score:</strong> Λεπτομερής ανάλυση ύπνου</li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Γυναικεία Υγεία & Ευεξία
       </h3>
       <p class="mb-4">
@@ -316,11 +316,11 @@
 
     <!-- Έξυπνες Λειτουργίες & Συνδεσιμότητα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Έξυπνες Λειτουργίες & Συνδεσιμότητα
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Smart Notifications
       </h3>
       <p class="mb-4">
@@ -329,7 +329,7 @@
         προκαθορισμένες απαντήσεις (Android συσκευές).
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Garmin Pay & Μουσική
       </h3>
       <p class="mb-4">
@@ -338,7 +338,7 @@
         Deezer.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Συνδεσιμότητα</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">Συνδεσιμότητα</h3>
       <ul class="list-disc list-inside mb-4">
         <li>Bluetooth, ANT+, Wi-Fi</li>
         <li>Συμβατότητα με εξωτερικούς αισθητήρες</li>
@@ -349,7 +349,7 @@
 
     <!-- Επαναστατική Ηλιακή Φόρτιση -->
     <div
-      class="bg-gradient-to-br from-blue-900 to-blue-700 text-white p-6 rounded-xl my-8"
+      class="bg-blue-deep text-paper p-6 rounded-xl my-8"
     >
       <h2 class="text-2xl font-semibold mb-4 text-white">
         ⚡ Επαναστατική Ηλιακή Φόρτιση
@@ -378,11 +378,11 @@
 
     <!-- Τεχνικές Προδιαγραφές -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Τεχνικές Προδιαγραφές
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Διαστάσεις & Βάρος
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -393,7 +393,7 @@
         <li>Bezel: Ανοξείδωτο ατσάλι</li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Οθόνη & Μνήμη</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">Οθόνη & Μνήμη</h3>
       <ul class="list-disc list-inside mb-4">
         <li>Οθόνη: 1.4" (35.56mm) διαμέτρου</li>
         <li>Ανάλυση: 280 x 280 pixels</li>
@@ -404,7 +404,7 @@
 
     <!-- Συμπεράσματα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπεράσματα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπεράσματα</h2>
       <p class="mb-4">
         Το Garmin fēnix 7X Solar αντιπροσωπεύει την κορυφή της τεχνολογίας
         smartwatch για αθλητές και outdoor enthusiasts. Η συνδυασμένη χρήση
@@ -421,7 +421,7 @@
     </section>
 
     <div class="mb-6 mt-12">
-      <h2 class="text-3xl text-[#0057A0] font-bold my-6 capitalize">
+      <h2 class="text-3xl text-blue font-bold my-6 capitalize">
         Video review για το Garmin fēnix 7X Solar
       </h2>
       <YoutubeVideo video-id="LLJ01lWu89c" class="mb-3" />

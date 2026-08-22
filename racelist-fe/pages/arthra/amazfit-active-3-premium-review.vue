@@ -101,8 +101,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Amazfit Active 3 Premium: Το Smartwatch για τον Αρχάριο Δρομέα
     </h1>
 
@@ -151,7 +151,7 @@
 
     <!-- Κύρια Χαρακτηριστικά -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Κύρια Χαρακτηριστικά
       </h2>
 
@@ -194,7 +194,7 @@
 
     <!-- Απόδοση σε Πραγματικό Χρόνο -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Απόδοση σε Πραγματικό Χρόνο
       </h2>
 
@@ -219,7 +219,7 @@
 
     <!-- GPS και Πλοήγηση -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         GPS & Offline Maps
       </h2>
 
@@ -254,7 +254,7 @@
 
     <!-- Αποθήκευση -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Αποθήκευση & Συνδεσιμότητα
       </h2>
 
@@ -275,11 +275,11 @@
 
     <!-- Ανάκαμψη και Υγεία -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Ανάκαμψη & Παρακολούθηση Υγείας
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         BioCharge™ Monitoring
       </h3>
       <p class="mb-4">
@@ -288,7 +288,7 @@
         καθημερινές σου προπονήσεις, δραστηριότητες και επίπεδα άγχους.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">RestoreIQ™</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">RestoreIQ™</h3>
       <p class="mb-4">
         Ο αλγόριθμος παρακολούθησης ύπνου <strong>RestoreIQ™</strong> σε βοηθά
         να παρακολουθείς την ανάκαμψή σου με λεπτομερείς πληροφορίες για:
@@ -301,7 +301,7 @@
         <li>Σύντομους ύπνους (naps)</li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         One-Tap Measuring
       </h3>
       <p class="mb-4">
@@ -313,7 +313,7 @@
 
     <!-- Λευκή Έκδοση -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Σχεδιασμός</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Σχεδιασμός</h2>
 
       <p class="mb-4">
         Το Active 3 Premium διατίθεται σε κομψές παραλλαγές χρωμάτων,
@@ -333,7 +333,7 @@
 
     <!-- Αυτονομία Μπαταρίας -->
     <div
-      class="bg-gradient-to-br from-blue-900 to-blue-700 text-white p-6 rounded-xl my-8"
+      class="bg-blue-deep text-paper p-6 rounded-xl my-8"
     >
       <h2 class="text-2xl font-semibold mb-4 text-white">
         🔋 Μεγάλη Αυτονομία Μπαταρίας
@@ -347,7 +347,7 @@
 
     <!-- Zepp Coach -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Zepp Coach™ & Προπονητικά Πλάνα
       </h2>
 
@@ -367,7 +367,7 @@
 
     <!-- Συμπεράσματα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπεράσματα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπεράσματα</h2>
 
       <p class="mb-4">
         Το Amazfit Active 3 Premium αποτελεί μια ολοκληρωμένη πρόταση για τον
@@ -391,7 +391,7 @@
     </section>
 
     <div class="mb-6 mt-12">
-      <h2 class="text-3xl text-[#0057A0] font-bold my-6 capitalize">
+      <h2 class="text-3xl text-blue font-bold my-6 capitalize">
         Video review για το Amazfit Active 3 Premium
       </h2>
       <div class="aspect-video mb-3">

@@ -1,14 +1,14 @@
 <template>
-  <div class="blog-content max-w-5xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-center text-[#0057A0] my-6 font-bold">
+  <div class="prose-article blog-content max-w-5xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-center text-blue my-6 font-bold">
       Πανελλήνιο Πρωτάθλημα σε ανώμαλο έδαφος - Τρίκαλα 2026
     </h1>
 
     <PublishedDate date="2026-02-01" :centered="true" />
 
     <div class="prose prose-lg max-w-none">
-      <div class="bg-blue-50 p-6 rounded-lg mb-8">
-        <h2 class="text-2xl font-bold text-[#0057A0] mt-0 mb-4">
+      <div class="bg-paper-dim border-l-4 border-blue p-6 rounded-lg mb-8">
+        <h2 class="text-2xl font-bold text-blue mt-0 mb-4">
           Πληροφορίες Αγώνα
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -24,56 +24,56 @@
         </div>
       </div>
 
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Πρόγραμμα Αγώνων
       </h2>
 
       <div class="overflow-x-auto mb-8">
-        <table class="min-w-full bg-white border border-gray-300">
-          <thead class="bg-[#0057A0] text-white">
+        <table class="min-w-full bg-paper border border-line">
+          <thead class="bg-blue-deep text-white">
             <tr>
               <th class="py-3 px-4 text-left">Ώρα</th>
               <th class="py-3 px-4 text-left">Αγώνισμα</th>
               <th class="py-3 px-4 text-left">Απόσταση</th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
-            <tr class="hover:bg-gray-50">
+          <tbody class="divide-y divide-line">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">10:00</td>
               <td class="py-3 px-4">Γυναικών Κ20</td>
               <td class="py-3 px-4">4χλμ.</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">10:20</td>
               <td class="py-3 px-4">Γυναικών Κ18</td>
               <td class="py-3 px-4">3χλμ.</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">10:35</td>
               <td class="py-3 px-4">Αγοριών Κ16</td>
               <td class="py-3 px-4">3χλμ.</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">10:55</td>
               <td class="py-3 px-4">Κοριτσιών Κ16</td>
               <td class="py-3 px-4">2χλμ.</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">11:15</td>
               <td class="py-3 px-4">Ανδρών Κ18</td>
               <td class="py-3 px-4">4χλμ.</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">11:35</td>
               <td class="py-3 px-4">Γυναικών και Γυναικών Κ23</td>
               <td class="py-3 px-4">8χλμ. / 6χλμ.</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">12:15</td>
               <td class="py-3 px-4">Ανδρών Κ20</td>
               <td class="py-3 px-4">6χλμ.</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">12:45</td>
               <td class="py-3 px-4">Ανδρών και Ανδρών Κ23</td>
               <td class="py-3 px-4">10χλμ. / 8χλμ.</td>
@@ -82,7 +82,7 @@
         </table>
       </div>
 
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Αποτελέσματα Αγώνων
       </h2>
 
@@ -93,7 +93,7 @@
         δοκιμασία την αντοχή και την ταχύτητα των συμμετεχόντων.
       </p>
 
-      <div class="bg-yellow-50 p-6 rounded-lg mb-8">
+      <div class="bg-flag/10 border-l-4 border-flag p-6 rounded-lg mb-8">
         <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -116,12 +116,12 @@
             href="https://my.raceresult.com/381222/results"
             target="_blank"
             rel="noopener noreferrer"
-            class="block p-4 bg-white rounded-md hover:bg-gray-50 transition-colors border border-gray-200"
+            class="block p-4 bg-paper rounded-md hover:bg-paper-dim transition-colors border border-line"
           >
-            <div class="font-semibold text-[#0057A0]">
+            <div class="font-semibold text-blue">
               📊 Αναλυτικά Αποτελέσματα
             </div>
-            <div class="text-sm text-gray-600 mt-1">
+            <div class="text-sm text-grey mt-1">
               Δείτε τα πλήρη αποτελέσματα όλων των κατηγοριών στο Race Result
             </div>
           </a>
@@ -130,10 +130,10 @@
             href="https://meets.rosterathletics.com/public/competitions/details/schedule?id=28135"
             target="_blank"
             rel="noopener noreferrer"
-            class="block p-4 bg-white rounded-md hover:bg-gray-50 transition-colors border border-gray-200"
+            class="block p-4 bg-paper rounded-md hover:bg-paper-dim transition-colors border border-line"
           >
-            <div class="font-semibold text-[#0057A0]">📋 Roster Athletics</div>
-            <div class="text-sm text-gray-600 mt-1">
+            <div class="font-semibold text-blue">📋 Roster Athletics</div>
+            <div class="text-sm text-grey mt-1">
               Επίσημα αποτελέσματα και χρονομετρήσεις
             </div>
           </a>
@@ -142,10 +142,10 @@
             href="https://www.youtube.com/watch?v=lutoSelQKfM"
             target="_blank"
             rel="noopener noreferrer"
-            class="block p-4 bg-white rounded-md hover:bg-gray-50 transition-colors border border-gray-200"
+            class="block p-4 bg-paper rounded-md hover:bg-paper-dim transition-colors border border-line"
           >
-            <div class="font-semibold text-[#0057A0]">📺 Live Streaming</div>
-            <div class="text-sm text-gray-600 mt-1">
+            <div class="font-semibold text-blue">📺 Live Streaming</div>
+            <div class="text-sm text-grey mt-1">
               Παρακολουθήστε το βίντεο των αγώνων στο YouTube
             </div>
           </a>
@@ -154,64 +154,64 @@
             href="https://www.segas.gr/events/panellinio-protathlima-se-anomalo-edafos-pigi-trikala/"
             target="_blank"
             rel="noopener noreferrer"
-            class="block p-4 bg-white rounded-md hover:bg-gray-50 transition-colors border border-gray-200"
+            class="block p-4 bg-paper rounded-md hover:bg-paper-dim transition-colors border border-line"
           >
-            <div class="font-semibold text-[#0057A0]">
+            <div class="font-semibold text-blue">
               🏃 Σελίδα Αγώνα ΣΕΓΑΣ
             </div>
-            <div class="text-sm text-gray-600 mt-1">
+            <div class="text-sm text-grey mt-1">
               Επίσημη σελίδα του αγώνα στην ιστοσελίδα του ΣΕΓΑΣ
             </div>
           </a>
         </div>
       </div>
 
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Σημαντικές Πληροφορίες
       </h2>
 
-      <div class="bg-gray-50 p-6 rounded-lg mb-8">
+      <div class="bg-paper-dim p-6 rounded-lg mb-8">
         <h3 class="text-xl font-semibold mb-4">Σχετικά Έγγραφα</h3>
         <ul class="space-y-2">
           <li class="flex items-start gap-2">
-            <span class="text-[#0057A0]">📄</span>
+            <span class="text-blue">📄</span>
             <span>Προκήρυξη Αγώνα</span>
           </li>
           <li class="flex items-start gap-2">
-            <span class="text-[#0057A0]">📊</span>
+            <span class="text-blue">📊</span>
             <span>Λίστα Συμμετοχών (Startlist)</span>
           </li>
           <li class="flex items-start gap-2">
-            <span class="text-[#0057A0]">ℹ️</span>
+            <span class="text-blue">ℹ️</span>
             <span>Χρήσιμες Πληροφορίες και Επίσημη Ανακοίνωση</span>
           </li>
         </ul>
       </div>
 
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Στατιστικά Αγώνα
       </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-        <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg">
-          <div class="text-3xl font-bold text-[#0057A0] mb-2">89</div>
-          <div class="text-gray-700">Συνολικοί Συμμετέχοντες</div>
+        <div class="bg-paper-dim border border-blue/20 p-6 rounded-lg">
+          <div class="text-3xl font-bold text-blue mb-2">89</div>
+          <div class="text-ink/80">Συνολικοί Συμμετέχοντες</div>
         </div>
         <div
-          class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg"
+          class="bg-paper-dim border border-flag/20 p-6 rounded-lg"
         >
-          <div class="text-3xl font-bold text-[#0057A0] mb-2">8</div>
-          <div class="text-gray-700">Κατηγορίες Αγώνων</div>
+          <div class="text-3xl font-bold text-blue mb-2">8</div>
+          <div class="text-ink/80">Κατηγορίες Αγώνων</div>
         </div>
         <div
-          class="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg"
+          class="bg-paper-dim border border-line p-6 rounded-lg"
         >
-          <div class="text-3xl font-bold text-[#0057A0] mb-2">Κ16-Ανδρών</div>
-          <div class="text-gray-700">Εύρος Κατηγοριών</div>
+          <div class="text-3xl font-bold text-blue mb-2">Κ16-Ανδρών</div>
+          <div class="text-ink/80">Εύρος Κατηγοριών</div>
         </div>
       </div>
 
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Σχετικά με τον Αγώνα
       </h2>
 
@@ -231,31 +231,31 @@
         στίβο.
       </p>
 
-      <div class="bg-blue-50 p-6 rounded-lg mt-8">
+      <div class="bg-paper-dim border-l-4 border-blue p-6 rounded-lg mt-8">
         <h3 class="text-xl font-semibold mb-4">Γιατί είναι Σημαντικός;</h3>
         <ul class="space-y-2">
           <li class="flex items-start gap-2">
-            <span class="text-[#0057A0] font-bold">✓</span>
+            <span class="text-blue font-bold">✓</span>
             <span
               >Καθορίζει τους Πανελλήνιους Πρωταθλητές σε όλες τις
               κατηγορίες</span
             >
           </li>
           <li class="flex items-start gap-2">
-            <span class="text-[#0057A0] font-bold">✓</span>
+            <span class="text-blue font-bold">✓</span>
             <span
               >Χρησιμεύει ως επιλεκτικός αγώνας για διεθνείς διοργανώσεις</span
             >
           </li>
           <li class="flex items-start gap-2">
-            <span class="text-[#0057A0] font-bold">✓</span>
+            <span class="text-blue font-bold">✓</span>
             <span
               >Προωθεί τον αθλητισμό και το cross country running στην
               Ελλάδα</span
             >
           </li>
           <li class="flex items-start gap-2">
-            <span class="text-[#0057A0] font-bold">✓</span>
+            <span class="text-blue font-bold">✓</span>
             <span
               >Δίνει την ευκαιρία σε νέους αθλητές να διακριθούν σε εθνικό
               επίπεδο</span
@@ -264,9 +264,9 @@
         </ul>
       </div>
 
-      <div class="mt-8 p-6 bg-gray-50 rounded-lg">
+      <div class="mt-8 p-6 bg-paper-dim rounded-lg">
         <h3 class="text-xl font-semibold mb-4">Επικοινωνία ΣΕΓΑΣ</h3>
-        <div class="space-y-2 text-gray-700">
+        <div class="space-y-2 text-ink/80">
           <p><strong>Διεύθυνση:</strong> Λ. Συγγρού 137, Νέα Σμύρνη, 171 21</p>
           <p><strong>Πόλη:</strong> Αθήνα, Ελλάδα</p>
           <p><strong>Τηλέφωνο:</strong> 211 18 777 00-01</p>
@@ -274,7 +274,7 @@
         </div>
       </div>
 
-      <div class="mt-8 text-center text-gray-600">
+      <div class="mt-8 text-center text-grey">
         <p class="text-sm">Τελευταία ενημέρωση: 1 Φεβρουαρίου 2026</p>
       </div>
     </div>
@@ -369,14 +369,11 @@
 
 <style scoped>
   .blog-content {
-    font-family:
-      system-ui,
-      -apple-system,
-      sans-serif;
+    font-family: 'Inter', system-ui, sans-serif;
   }
 
   .prose {
-    color: #374151;
+    color: #0F1F2E;
     line-height: 1.75;
   }
 
@@ -399,7 +396,7 @@
   }
 
   .prose a {
-    color: #0057a0;
+    color: #1F5FA8;
     text-decoration: none;
   }
 

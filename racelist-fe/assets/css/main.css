@@ -1,1 +1,55 @@
 @import "tailwindcss";
+
+@theme {
+  --color-ink: #0f1f2e;
+  --color-paper: #f3f5f8;
+  --color-paper-dim: #e7ecf1;
+  --color-blue: #1f5fa8;
+  --color-blue-deep: #123a63;
+  --color-sky: #6fa8d9;
+  --color-flag: #d98e2b;
+  --color-line: #d3d8de;
+  --color-grey: #5c6570;
+  /* Darker text pairing for flag-tinted (trail) pills/badges, where
+     text-flag itself lacks contrast against a light flag background. */
+  --color-trail: #8a5a16;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-sans: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Shared long-form article typography (pages/arthra/*.vue).
+   Applied via a wrapper class so headings/links inside hand-authored
+   article bodies pick up the new design system without per-file rewrites. */
+.prose-article {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  line-height: 1.7;
+}
+.prose-article :where(h1) {
+  font-family: var(--font-display);
+  color: var(--color-ink);
+}
+.prose-article :where(h2, h3) {
+  font-family: var(--font-display);
+  color: var(--color-blue);
+}
+.prose-article :where(a) {
+  color: var(--color-blue);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose-article :where(a:hover) {
+  color: var(--color-blue-deep);
+}
+.prose-article :where(strong) {
+  color: var(--color-ink);
+}

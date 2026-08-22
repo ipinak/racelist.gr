@@ -10,10 +10,10 @@
         v-model="searchQuery"
         type="text"
         placeholder="Αναζήτηση αγώνα με όνομα, τοποθεσία, ή απόσταση..."
-        class="w-full p-3 pl-4 pr-10 border border-gray-300 rounded-lg focus:outline-none focus:border-[#0057A0] text-gray-700"
+        class="w-full p-3 pl-4 pr-10 border border-line rounded-lg focus:outline-none focus:border-blue text-ink bg-paper"
         @input="handleSearch"
       />
-      <span class="absolute right-3 top-3 text-gray-400">🔍</span>
+      <span class="absolute right-3 top-3 text-grey">🔍</span>
     </div>
 
     <!-- Location Filters Row -->
@@ -24,7 +24,7 @@
         <select
           id="area-filter"
           v-model="selectedArea"
-          class="w-full p-3 pr-10 border border-gray-300 rounded-lg focus:outline-none focus:border-[#0057A0] text-gray-700 bg-white appearance-none"
+          class="w-full p-3 pr-10 border border-line rounded-lg focus:outline-none focus:border-blue text-ink bg-paper appearance-none"
           @change="handleAreaChange"
         >
           <option value="">Όλες οι περιοχές</option>
@@ -32,7 +32,7 @@
             {{ area }}
           </option>
         </select>
-        <span class="absolute right-3 top-3 text-gray-400 pointer-events-none"
+        <span class="absolute right-3 top-3 text-grey pointer-events-none"
           >🏙️</span
         >
       </div>
@@ -43,7 +43,7 @@
         <select
           id="city-filter"
           v-model="selectedCity"
-          class="w-full p-3 pr-10 border border-gray-300 rounded-lg focus:outline-none focus:border-[#0057A0] text-gray-700 bg-white appearance-none"
+          class="w-full p-3 pr-10 border border-line rounded-lg focus:outline-none focus:border-blue text-ink bg-paper appearance-none"
           @change="handleCityChange"
         >
           <option value="">Όλες οι πόλεις</option>
@@ -51,7 +51,7 @@
             {{ city }}
           </option>
         </select>
-        <span class="absolute right-3 top-3 text-gray-400 pointer-events-none"
+        <span class="absolute right-3 top-3 text-grey pointer-events-none"
           >🌆</span
         >
       </div>
@@ -62,11 +62,11 @@
       <div
         v-for="filter in activeFilters"
         :key="filter.type"
-        class="flex items-center bg-[#0057A0] text-white px-3 py-1 rounded-full text-sm"
+        class="flex items-center bg-blue-deep text-paper px-3 py-1 rounded-full text-sm"
       >
         <span>{{ filter.label }}: {{ filter.value }}</span>
         <button
-          class="ml-2 text-white hover:text-gray-200"
+          class="ml-2 text-paper hover:text-sky"
           :aria-label="`Αφαίρεση φίλτρου ${filter.label}`"
           @click="removeFilter(filter.type)"
         >

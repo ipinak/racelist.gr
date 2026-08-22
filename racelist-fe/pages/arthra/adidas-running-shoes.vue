@@ -96,8 +96,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Adidas Παπούτσια για Τρέξιμο Δρόμου
     </h1>
 
@@ -111,12 +111,12 @@
     </p>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         1. Αγωνιστικά Παπούτσια
       </h2>
 
       <div class="mb-6">
-        <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+        <h3 class="text-xl font-semibold text-blue mb-3">
           Adidas Adios Pro 4
         </h3>
 
@@ -148,7 +148,7 @@
       </div>
 
       <div class="mb-6">
-        <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+        <h3 class="text-xl font-semibold text-blue mb-3">
           Adidas Adizero X 2.0
         </h3>
 
@@ -177,12 +177,12 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         2. Παπούτσια Καθημερινής Προπόνησης
       </h2>
 
       <div class="mb-6">
-        <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+        <h3 class="text-xl font-semibold text-blue mb-3">
           Adidas Adizero SL
         </h3>
 
@@ -213,7 +213,7 @@
       </div>
 
       <div class="mb-6">
-        <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+        <h3 class="text-xl font-semibold text-blue mb-3">
           Adidas Adizero Boston 12
         </h3>
 
@@ -246,7 +246,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Πώς να Επιλέξετε τα Κατάλληλα Adidas Παπούτσια
       </h2>
       <ul class="list-disc list-inside space-y-2 mb-4">
@@ -262,7 +262,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπέρασμα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπέρασμα</h2>
       <p class="mb-4">
         Η Adidas προσφέρει μια πλήρη γκάμα παπουτσιών για κάθε τύπο δρομέα. Από
         το κορυφαίο αγωνιστικό Adios Pro 4 μέχρι το άνετο Adizero SL για

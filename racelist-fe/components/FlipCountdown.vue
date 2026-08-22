@@ -105,10 +105,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, #003d73 50%, #00325e 50%);
+    background: linear-gradient(to bottom, #123a63 50%, #0f1f2e 50%);
     border-radius: 8px;
     box-shadow:
-      0 2px 8px rgba(0, 57, 100, 0.35),
+      0 2px 8px rgba(15, 31, 46, 0.35),
       inset 0 1px 0 rgba(255, 255, 255, 0.1);
     animation: flip-drop 0.5s ease-in-out;
   }
@@ -124,10 +124,10 @@
   }
 
   .flip-value {
-    font-family: 'Courier New', monospace;
+    font-family: 'JetBrains Mono', monospace;
     font-size: 1.4rem;
     font-weight: 700;
-    color: #e0f0ff;
+    color: #6fa8d9;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
     letter-spacing: 2px;
   }
@@ -137,14 +137,14 @@
     font-size: 0.6rem;
     font-weight: 600;
     text-transform: uppercase;
-    color: #003d73;
+    color: #123a63;
     letter-spacing: 1px;
   }
 
   .flip-separator {
     font-size: 1.2rem;
     font-weight: 700;
-    color: #003d73;
+    color: #123a63;
     margin-bottom: 16px;
   }
 

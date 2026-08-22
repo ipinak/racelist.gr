@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="p-6 max-w-md mx-auto">
-      <h1 class="text-3xl text-[#0057A0] font-bold mb-6 text-center">
+      <h1 class="font-display text-3xl text-blue font-bold mb-6 text-center">
         Υπολογιστής Ενυδάτωσης
       </h1>
 
@@ -73,7 +73,7 @@
         <Button title="Υπολογισμός" type="submit" />
       </form>
 
-      <div v-if="hydration" class="mt-4 p-4 bg-green-100 rounded">
+      <div v-if="hydration" class="mt-4 p-4 bg-paper-dim border-l-4 border-blue rounded">
         <p>
           Η προτεινόμενη ενυδάτωση σας είναι:
           <span class="font-bold">{{ hydration }} λίτρα</span>
@@ -83,7 +83,7 @@
 
     <div class="max-w-4xl mx-auto px-4 py-8">
       <div class="mt-6 p-4">
-        <h2 class="text-xl font-semibold mb-3 text-[#0057A0]">
+        <h2 class="font-display text-xl font-semibold mb-3 text-blue">
           Η σημασία της ενυδάτωσης στην άσκηση
         </h2>
         <p>
@@ -104,7 +104,7 @@
       </div>
 
       <div class="p-4">
-        <h2 class="text-xl font-semibold mb-3 text-[#0057A0]">
+        <h2 class="font-display text-xl font-semibold mb-3 text-blue">
           Οδηγός ενυδάτωσης για δρομείς και αθλητές
         </h2>
 
@@ -295,6 +295,6 @@
 <style scoped>
   input,
   select {
-    border: 1px solid #ccc;
+    border: 1px solid #d3d8de;
   }
 </style>

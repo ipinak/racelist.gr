@@ -1,6 +1,6 @@
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Προετοιμασία για Μαραθώνιο: Τι να Κάνετε την Προηγούμενη Μέρα και κατά τη
       Διάρκεια του Αγώνα
     </h1>
@@ -16,11 +16,11 @@
     </p>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Η Προηγούμενη Μέρα: Ξεκούραση και Προετοιμασία
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3 mt-6">
+      <h3 class="text-xl font-semibold text-blue mb-3 mt-6">
         Αποφύγετε το Τρέξιμο
       </h3>
       <p class="mb-4">
@@ -31,7 +31,7 @@
         πλήρως και να αποθηκεύσουν ενέργεια.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3 mt-6">
+      <h3 class="text-xl font-semibold text-blue mb-3 mt-6">
         Διατροφή: Μείνετε στα Γνωστά
       </h3>
       <p class="mb-4">
@@ -47,7 +47,7 @@
         τροφές που μπορεί να προκαλέσουν φούσκωμα. Η απλότητα είναι το κλειδί.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3 mt-6">
+      <h3 class="text-xl font-semibold text-blue mb-3 mt-6">
         Ύπνος και Άγχος
       </h3>
       <p class="mb-4">
@@ -65,11 +65,11 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Το Πρωί του Αγώνα: Το Σωστό Ξεκίνημα
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3 mt-6">
+      <h3 class="text-xl font-semibold text-blue mb-3 mt-6">
         Πρωινό: Ισορροπία και Χρονοδιάγραμμα
       </h3>
       <p class="mb-4">
@@ -92,7 +92,7 @@
         δοκιμάσει στις προπονήσεις σας και γνωρίζετε ότι λειτουργεί για εσάς.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3 mt-6">
+      <h3 class="text-xl font-semibold text-blue mb-3 mt-6">
         Καφές: Ο Σύμμαχός Σας
       </h3>
       <p class="mb-4">
@@ -102,7 +102,7 @@
         αγώνα! Ένα φλιτζάνι espresso ή έναν αμερικάνο είναι αρκετό.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3 mt-6">
+      <h3 class="text-xl font-semibold text-blue mb-3 mt-6">
         Ενυδάτωση: Η Χρυσή Τομή
       </h3>
       <p class="mb-4">
@@ -119,11 +119,11 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Κατά τη Διάρκεια του Αγώνα: Διατήρηση της Ενέργειας
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3 mt-6">
+      <h3 class="text-xl font-semibold text-blue mb-3 mt-6">
         Στρατηγική Τροφοδοσίας με Τζελ
       </h3>
       <p class="mb-4">
@@ -143,7 +143,7 @@
         αποφύγετε στομαχικά προβλήματα.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3 mt-6">
+      <h3 class="text-xl font-semibold text-blue mb-3 mt-6">
         Ενυδάτωση στους Σταθμούς
       </h3>
       <p class="mb-4">
@@ -158,7 +158,7 @@
         του σώματος χαμηλά.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3 mt-6">
+      <h3 class="text-xl font-semibold text-blue mb-3 mt-6">
         Ισοτονικά και Κόκα-Κόλα: Με Μέτρο
       </h3>
       <p class="mb-4">
@@ -180,7 +180,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Ψυχολογική Προετοιμασία
       </h2>
       <p class="mb-4">
@@ -202,7 +202,7 @@
     </section>
 
     <section>
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπέρασμα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπέρασμα</h2>
       <p class="mb-4">
         Η προετοιμασία για έναν μαραθώνιο δεν τελειώνει με την τελευταία
         προπόνηση. Οι τελευταίες 24 ώρες και η διαχείριση κατά τη διάρκεια του

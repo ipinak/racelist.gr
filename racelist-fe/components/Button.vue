@@ -1,6 +1,6 @@
 <template>
   <button
-    class="bg-[#0057A0] text-white p-3 rounded hover:bg-[#0057A0]/70 transition truncate"
+    class="bg-blue-deep text-paper px-6 py-3 rounded-full font-semibold text-sm hover:bg-ink transition-colors truncate"
     :type="type"
     @click="onClick"
   >

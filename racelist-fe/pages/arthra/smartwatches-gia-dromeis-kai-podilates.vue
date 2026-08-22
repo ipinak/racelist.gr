@@ -117,8 +117,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Smartwatches για Δρομείς και Ποδηλάτες - Οδηγός 2025
     </h1>
 
@@ -134,13 +134,13 @@
 
     <!-- 1. Garmin -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         1. Garmin: Η Απόλυτη Επιλογή για Αθλητές
       </h2>
 
       <!-- Garmin Fenix 8 -->
       <div class="mb-6">
-        <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+        <h3 class="text-xl font-semibold text-blue mb-3">
           Garmin Fenix 8
         </h3>
         <p class="mb-4">
@@ -162,13 +162,13 @@
 
     <!-- 2. Apple Watch -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         2. Apple Watch: Πολυτέλεια και Έξυπνη Λειτουργικότητα
       </h2>
 
       <!-- Apple Watch Ultra 2 -->
       <div class="mb-6">
-        <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+        <h3 class="text-xl font-semibold text-blue mb-3">
           Apple Watch Ultra 2
         </h3>
         <p class="mb-4">
@@ -190,13 +190,13 @@
 
     <!-- 3. Coros -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         3. Coros: Καινοτομία σε Κάθε Επίπεδο
       </h2>
 
       <!-- Coros Vertix 2S -->
       <div class="mb-6">
-        <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+        <h3 class="text-xl font-semibold text-blue mb-3">
           Coros Vertix 2S
         </h3>
         <p class="mb-4">
@@ -217,7 +217,7 @@
 
       <!-- Coros Pace 3 -->
       <div class="mb-6">
-        <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Coros Pace 3</h3>
+        <h3 class="text-xl font-semibold text-blue mb-3">Coros Pace 3</h3>
         <p class="mb-4">
           Το Pace 3 αποτελεί την ιδανική επιλογή value-for-money, προσφέροντας
           προηγμένα χαρακτηριστικά σε προσιτή τιμή.
@@ -237,13 +237,13 @@
 
     <!-- 4. Suunto -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         4. Suunto: Σκανδιναβική Κομψότητα
       </h2>
 
       <!-- Suunto 9 Peak Pro -->
       <div class="mb-6">
-        <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+        <h3 class="text-xl font-semibold text-blue mb-3">
           Suunto 9 Peak Pro
         </h3>
         <p class="mb-4">
@@ -264,11 +264,11 @@
 
     <!-- 5. Σύγκριση και Επιλογή -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Πώς να Επιλέξετε το Κατάλληλο Smartwatch
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Ανάλογα με τις Ανάγκες σας:
       </h3>
       <ul class="list-disc list-inside space-y-2 mb-6">
@@ -279,7 +279,7 @@
         <li>Οικονομική επιλογή με προηγμένα χαρακτηριστικά → Coros Pace 3</li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Σημαντικά Κριτήρια:
       </h3>
       <ul class="list-disc list-inside space-y-2 mb-4">
@@ -293,7 +293,7 @@
 
     <!-- Συμπέρασμα -->
     <section>
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπέρασμα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπέρασμα</h2>
       <p class="mb-4">
         Το 2025, η επιλογή smartwatch είναι πιο προσωπική από ποτέ. Η Garmin
         παραμένει ηγέτης στα αθλητικά δεδομένα, η Apple προσφέρει την καλύτερη

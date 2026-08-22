@@ -120,8 +120,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6 capitalize">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6 capitalize">
       Ποιο παπούτσι να βάλω ανάλογα με την προπόνηση
     </h1>
 
@@ -134,7 +134,7 @@
         επιλέξετε ανάλογα με τον τύπο προπόνησης.
       </p>
 
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Γρήγορες διαδρομές (Speed Work)
       </h2>
       <p class="mb-4">
@@ -150,10 +150,10 @@
           alt="Adidas Boston 13"
           class="rounded-2xl mx-auto"
         />
-        <p class="text-sm text-gray-500 mt-2 italic">Adidas Boston 13</p>
+        <p class="text-sm text-grey mt-2 italic">Adidas Boston 13</p>
       </div>
 
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Μεγάλες διαδρομές, Ημι-Μαραθώνιοι, Μαραθώνιοι
       </h2>
       <p class="mb-4">
@@ -164,7 +164,7 @@
         αίσθηση.
       </p>
 
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Καθημερινή προπόνηση
       </h2>
       <p class="mb-4">
@@ -180,7 +180,7 @@
             alt="Saucony Triumph 23"
             class="rounded-2xl mx-auto"
           />
-          <p class="text-sm text-gray-500 mt-2 italic">Saucony Triumph 23</p>
+          <p class="text-sm text-grey mt-2 italic">Saucony Triumph 23</p>
         </div>
         <div class="text-center">
           <img
@@ -188,11 +188,11 @@
             alt="Brooks Ghost 17"
             class="rounded-2xl mx-auto"
           />
-          <p class="text-sm text-gray-500 mt-2 italic">Brooks Ghost 17</p>
+          <p class="text-sm text-grey mt-2 italic">Brooks Ghost 17</p>
         </div>
       </div>
 
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Carbon-plated</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Carbon-plated</h2>
       <p class="mb-4">
         Φορέστε carbon-plated running shoes κυρίως σε αγώνες και σε έντονα speed
         sessions, όπως tempo runs και σπριντ. Για κανονική προπόνηση, περιορίστε
@@ -207,7 +207,7 @@
             alt="Asics Metaspeed Tokyo"
             class="rounded-2xl mx-auto"
           />
-          <p class="text-sm text-gray-500 mt-2 italic">Asics Metaspeed Tokyo</p>
+          <p class="text-sm text-grey mt-2 italic">Asics Metaspeed Tokyo</p>
         </div>
         <div class="text-center">
           <img
@@ -215,11 +215,11 @@
             alt="Asics Metaspeed Ray"
             class="rounded-2xl mx-auto"
           />
-          <p class="text-sm text-gray-500 mt-2 italic">Asics Metaspeed Ray</p>
+          <p class="text-sm text-grey mt-2 italic">Asics Metaspeed Ray</p>
         </div>
       </div>
 
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Πρακτικές συμβουλές
       </h2>
       <ul class="list-disc pl-5 mb-4">

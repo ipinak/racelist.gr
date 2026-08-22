@@ -1,19 +1,19 @@
 <template>
   <div>
-    <h1 class="text-3xl text-center text-[#0057A0] my-6">Συχνές ερωτήσεις</h1>
-    <div class="faq-container max-w-4xl mx-auto bg-[#f4f4f4] p-6 rounded-lg">
+    <h1 class="font-display text-3xl font-semibold text-center text-ink my-6">Συχνές ερωτήσεις</h1>
+    <div class="faq-container max-w-4xl mx-auto bg-paper-dim border border-line p-6 rounded-lg">
       <div
         v-for="(faq, index) in faqs"
         :key="index"
-        class="faq-item border-b border-[#0057A0] py-4"
+        class="faq-item border-b border-line py-4"
       >
         <div
-          class="faq-question font-bold cursor-pointer hover:text-[#0057A0]/60"
+          class="faq-question font-semibold cursor-pointer hover:text-blue-deep transition-colors"
           @click="toggle(index)"
         >
           {{ faq.question }}
         </div>
-        <div v-show="faq.open" class="faq-answer mt-2 text-gray-700 pl-4">
+        <div v-show="faq.open" class="faq-answer mt-2 text-grey pl-4">
           {{ faq.answer }}
         </div>
       </div>

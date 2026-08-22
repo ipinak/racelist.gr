@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="max-w-4xl mx-auto px-4 py-8">
-      <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+      <h1 class="font-display text-3xl text-blue font-bold mb-6">
         Τι είναι το Τεστ Cooper;
       </h1>
 
@@ -15,7 +15,7 @@
       </p>
 
       <section class="mb-8">
-        <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+        <h2 class="font-display text-2xl font-semibold text-blue mb-4">
           📏 Πώς γίνεται;
         </h2>
         <p class="mb-4">
@@ -32,7 +32,7 @@
       </section>
 
       <section class="mb-8">
-        <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+        <h2 class="font-display text-2xl font-semibold text-blue mb-4">
           ✅ Τι αξιολογεί;
         </h2>
         <ul class="list-disc list-inside space-y-2 mb-4">
@@ -43,7 +43,7 @@
       </section>
 
       <section class="mb-8">
-        <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+        <h2 class="font-display text-2xl font-semibold text-blue mb-4">
           📊 Πώς ερμηνεύονται τα αποτελέσματα;
         </h2>
         <p class="mb-4">
@@ -54,7 +54,7 @@
       </section>
 
       <section>
-        <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+        <h2 class="font-display text-2xl font-semibold text-blue mb-4">
           💡 Πότε να το χρησιμοποιήσεις
         </h2>
         <ul class="list-disc list-inside space-y-2">
@@ -65,10 +65,10 @@
       </section>
     </div>
 
-    <hr class="text-gray-300 my-3" />
+    <hr class="text-line my-3" />
 
     <div class="flex items-center justify-center p-6">
-      <div class="bg-white shadow-lg rounded-lg max-w-md w-full p-6">
+      <div class="bg-paper shadow-lg border border-line rounded-lg max-w-md w-full p-6">
         <h2 class="text-2xl font-bold mb-4 text-center">
           Υπολογιστής Τεστ Cooper
         </h2>
@@ -81,7 +81,7 @@
               type="number"
               min="11"
               max="100"
-              class="w-full border rounded px-3 py-2"
+              class="w-full border border-line rounded px-3 py-2 bg-paper text-ink focus:outline-none focus:border-blue"
               placeholder="π.χ. 25"
               required
             />
@@ -91,7 +91,7 @@
             <label class="block mb-1 font-medium">Φύλο</label>
             <select
               v-model="gender"
-              class="w-full border rounded px-3 py-2"
+              class="w-full border border-line rounded px-3 py-2 bg-paper text-ink focus:outline-none focus:border-blue"
               required
             >
               <option value="">Επιλέξτε φύλο</option>
@@ -104,7 +104,7 @@
             <label class="block mb-1 font-medium">Επίπεδο προπόνησης</label>
             <select
               v-model="athleteLevel"
-              class="w-full border rounded px-3 py-2"
+              class="w-full border border-line rounded px-3 py-2 bg-paper text-ink focus:outline-none focus:border-blue"
               required
             >
               <option value="">Επιλέξτε επίπεδο</option>
@@ -122,11 +122,11 @@
               type="number"
               step="1"
               min="0"
-              class="w-full border rounded px-3 py-2"
+              class="w-full border border-line rounded px-3 py-2 bg-paper text-ink focus:outline-none focus:border-blue"
               placeholder="π.χ. 2400"
               required
             />
-            <span class="text-sm text-gray-500">Σε μέτρα (π.χ. 2400m)</span>
+            <span class="text-sm text-grey">Σε μέτρα (π.χ. 2400m)</span>
           </div>
 
           <Button title="Αξιολόγηση Αποτελέσματος" type="submit" />
@@ -510,7 +510,7 @@
       yellow: 'bg-yellow-100 border-yellow-300 text-yellow-800',
       orange: 'bg-orange-100 border-orange-300 text-orange-800',
       red: 'bg-red-100 border-red-300 text-red-800',
-      gray: 'bg-gray-100 border-gray-300 text-gray-800',
+      gray: 'bg-gray-100 border-line text-gray-800',
     };
 
     return colorMap[result.value.color] || colorMap['gray'];

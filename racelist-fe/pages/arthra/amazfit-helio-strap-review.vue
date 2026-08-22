@@ -99,8 +99,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Amazfit Helio Strap: Το Νέο Fitness Band για Σοβαρούς Αθλητές
     </h1>
 
@@ -143,7 +143,7 @@
 
     <!-- Βασικά Χαρακτηριστικά -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Κύρια Χαρακτηριστικά
       </h2>
 
@@ -178,11 +178,11 @@
 
     <!-- Σχεδιασμός και Κατασκευή -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Σχεδιασμός και Κατασκευή
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Εμφάνιση & Υλικά
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -201,18 +201,18 @@
 
     <!-- Αισθητήρες και Τεχνολογία -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Αισθητήρες και Τεχνολογία
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">BioTracker™ 6.0</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">BioTracker™ 6.0</h3>
       <p class="mb-4">
         Το Helio Strap ενσωματώνει τον προηγμένο αισθητήρα BioTracker™ 6.0 PPG
         με 5 φωτοδιόδους και 2 LED για εξαιρετική ακρίβεια στις μετρήσεις
         υγείας.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Αισθητήρες Κίνησης
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -221,7 +221,7 @@
         <li>Αισθητήρας θερμοκρασίας</li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Συνδεσιμότητα</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">Συνδεσιμότητα</h3>
       <ul class="list-disc list-inside mb-4">
         <li>Bluetooth 5.2</li>
         <li>BLE (Bluetooth Low Energy)</li>
@@ -234,11 +234,11 @@
 
     <!-- Αθλητικά Προφίλ -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         27 Αθλητικά Προφίλ
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Τρέξιμο & Περπάτημα
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -247,16 +247,16 @@
         <li>Περπάτημα</li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Ποδηλασία</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">Ποδηλασία</h3>
       <ul class="list-disc list-inside mb-4">
         <li>Υπαίθρια ποδηλασία</li>
         <li>Εσωτερική ποδηλασία</li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">HYROX</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">HYROX</h3>
       <p class="mb-4">Επίσημο προφίλ HYROX race για συμμετοχή σε αγώνες</p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Εσωτερικές Προπονήσεις
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -271,11 +271,11 @@
 
     <!-- Λειτουργίες Υγείας -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Προηγμένες Λειτουργίες Υγείας
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         BioCharge™ Energy Monitoring
       </h3>
       <p class="mb-4">
@@ -283,7 +283,7 @@
         για υποστήριξη ανάκαμψης και κορυφαίας απόδοσης.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         24/7 Παρακολούθηση
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -303,7 +303,7 @@
         </li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Λεπτομερής Ανάλυση Ύπνου
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -317,11 +317,11 @@
 
     <!-- Αθλητικές Λειτουργίες -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Προηγμένες Αθλητικές Λειτουργίες
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         PeakBeats™ Workout Status
       </h3>
       <p class="mb-4">
@@ -329,7 +329,7 @@
         αποτελεσμάτων της άσκησης.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Έξυπνη Προπόνηση Δύναμης
       </h3>
       <p class="mb-4">
@@ -337,7 +337,7 @@
         και ανάλυση της προπόνησης.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Αποθήκευση & Συγχρονισμός
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -350,7 +350,7 @@
 
     <!-- Διάρκεια Μπαταρίας -->
     <div
-      class="bg-gradient-to-br from-blue-900 to-blue-700 text-white p-6 rounded-xl my-8"
+      class="bg-blue-deep text-paper p-6 rounded-xl my-8"
     >
       <h2 class="text-2xl font-semibold mb-4 text-white">
         🔋 Εκτεταμένη Διάρκεια Μπαταρίας
@@ -368,18 +368,18 @@
 
     <!-- Zepp App & Εκοσύστημα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Zepp App & Οικοσύστημα Amazfit
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Δωρεάν Zepp App</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">Δωρεάν Zepp App</h3>
       <p class="mb-4">
         Ολοκληρωμένη εφαρμογή για παρακολούθηση διατροφής, ύπνου, άγχους και
         προόδου της φυσικής κατάστασης χωρίς συνδρομές, εν αντιθέσει με άλλες
         ανταγωνιστικές συσκευές.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Συμβατότητα</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">Συμβατότητα</h3>
       <ul class="list-disc list-inside mb-4">
         <li>Android 7.0 και νεότερο</li>
         <li>iOS 15.0 και νεότερο</li>
@@ -390,11 +390,11 @@
 
     <!-- Τεχνικές Προδιαγραφές -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Πλήρεις Τεχνικές Προδιαγραφές
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Λειτουργικό Σύστημα & Μνήμη
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -407,7 +407,7 @@
 
     <!-- Εμπειρία Χρήσης -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Εμπειρία Χρήσης
       </h2>
 
@@ -426,7 +426,7 @@
 
     <!-- Συμπεράσματα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπεράσματα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπεράσματα</h2>
       <p class="mb-4">
         Το Amazfit Helio Strap αντιπροσωπεύει μια εξαιρετική πρόταση αξίας στον
         χώρο των fitness trackers. Με την προσιτή τιμή των $99.99, προσφέρει
@@ -456,7 +456,7 @@
     </section>
 
     <div class="mb-6 mt-12">
-      <h2 class="text-3xl text-[#0057A0] font-bold my-6 capitalize">
+      <h2 class="text-3xl text-blue font-bold my-6 capitalize">
         Video review για το Amazfit Helio Strap
       </h2>
       <YoutubeVideo video-id="xoyZlu3PeYY" class="mb-3" />

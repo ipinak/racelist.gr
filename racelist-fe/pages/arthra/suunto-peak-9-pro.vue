@@ -105,8 +105,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Suunto 9 Peak Pro: Αναλυτική Παρουσίαση & Αξιολόγηση 2025
     </h1>
 
@@ -135,7 +135,7 @@
 
     <!-- Ενότητα για το Suunto 9 Peak Pro -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Σχεδιασμός και Κατασκευή
       </h2>
       <p class="mb-4">
@@ -166,7 +166,7 @@
 
     <!-- Εμπειρία Χρήστη & UI -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Λειτουργικότητα και Εμπειρία Χρήστη
       </h2>
       <p class="mb-4">
@@ -181,7 +181,7 @@
         στο μενού ακόμα και με γάντια ή βρεγμένα χέρια.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Αθλητικές Λειτουργίες
       </h3>
       <p class="mb-4">
@@ -196,7 +196,7 @@
 
     <!-- Αυτονομία & GPS -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Αυτονομία και GPS Ακρίβεια
       </h2>
       <p class="mb-4">
@@ -222,7 +222,7 @@
 
     <!-- Οικοσύστημα & Εφαρμογές -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Εφαρμογή και Οικοσύστημα Suunto
       </h2>
       <p class="mb-4">
@@ -241,7 +241,7 @@
 
     <!-- Σύγκριση με Ανταγωνιστικά Μοντέλα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Πώς Συγκρίνεται με τον Ανταγωνισμό
       </h2>
       <p class="mb-4">
@@ -267,7 +267,7 @@
 
     <!-- Συμπέρασμα -->
     <section>
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπέρασμα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπέρασμα</h2>
       <p class="mb-4">
         Το Suunto 9 Peak Pro είναι ένα εξαιρετικό multisport ρολόι που ξεχωρίζει
         για τον λεπτό και κομψό σχεδιασμό του, την εντυπωσιακή διάρκεια
@@ -293,7 +293,7 @@
     </section>
 
     <div class="mb-6 mt-12">
-      <h2 class="text-3xl text-[#0057A0] font-bold my-6 capitalize">
+      <h2 class="text-3xl text-blue font-bold my-6 capitalize">
         Video review για το Suunto 9 Peak Pro
       </h2>
       <YoutubeVideo video-id="8NZXDP2dBkQ" class="mb-3" />

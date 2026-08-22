@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="max-w-4xl mx-auto px-4 py-8">
-      <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+      <h1 class="font-display text-3xl text-blue font-bold mb-6">
         Γιατί να υπολογίσω τον ρυθμό και τα splits μου;
       </h1>
 
@@ -20,10 +20,10 @@
       </p>
     </div>
 
-    <hr class="text-gray-300 mb-3" />
+    <hr class="text-line mb-3" />
 
     <div class="flex items-center justify-center p-6">
-      <div class="bg-white shadow-md rounded-lg max-w-md w-full p-6">
+      <div class="bg-paper shadow-md border border-line rounded-lg max-w-md w-full p-6">
         <h2 class="text-2xl font-bold text-center mb-4">
           Υπολογιστής Ρυθμού & Χρόνου ανά Χιλιόμετρο
         </h2>
@@ -36,11 +36,11 @@
               type="number"
               min="0"
               step="0.01"
-              class="w-full border px-3 py-2 rounded"
+              class="w-full border border-line px-3 py-2 rounded bg-paper text-ink focus:outline-none focus:border-blue"
               placeholder="e.g. 5"
               required
             />
-            <span class="text-sm text-gray-500">Σε χιλίομετρα</span>
+            <span class="text-sm text-grey">Σε χιλίομετρα</span>
           </div>
 
           <div>
@@ -50,11 +50,11 @@
               type="number"
               min="0"
               step="0.01"
-              class="w-full border px-3 py-2 rounded"
+              class="w-full border border-line px-3 py-2 rounded bg-paper text-ink focus:outline-none focus:border-blue"
               placeholder="e.g. 25.5"
               required
             />
-            <span class="text-sm text-gray-500">Σε λεπτά</span>
+            <span class="text-sm text-grey">Σε λεπτά</span>
           </div>
 
           <Button title="Υπολόγισε Ρυθμό & Χρόνους" type="submit" />
@@ -63,7 +63,7 @@
         <div v-if="pace !== null" class="mt-6 space-y-3">
           <p class="text-center text-lg font-semibold">
             Μέσος ρυθμός:
-            <span class="text-blue-600">{{ formattedPace }}</span> ανα χλμ.
+            <span class="text-blue-deep">{{ formattedPace }}</span> ανα χλμ.
           </p>
 
           <div class="border-t pt-4">
@@ -80,7 +80,7 @@
 
     <div class="max-w-4xl mx-auto px-4 py-8">
       <div class="mt-8 space-y-6">
-        <h2 class="text-2xl text-[#0057A0] font-bold mb-4">Συχνές Ερωτήσεις</h2>
+        <h2 class="font-display text-2xl text-blue font-bold mb-4">Συχνές Ερωτήσεις</h2>
 
         <div class="space-y-4">
           <div>

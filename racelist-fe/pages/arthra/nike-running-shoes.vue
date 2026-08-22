@@ -100,8 +100,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Nike Παπούτσια για Τρέξιμο Δρόμου
     </h1>
 
@@ -115,13 +115,13 @@
 
     <!-- 1. Αγωνιστικά Παπούτσια -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         1. Αγωνιστικά Παπούτσια
       </h2>
 
       <!-- Nike Vaporfly 4 -->
       <div class="mb-6">
-        <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+        <h3 class="text-xl font-semibold text-blue mb-3">
           Nike Vaporfly 4
         </h3>
         <p class="mb-4">
@@ -141,7 +141,7 @@
 
       <!-- Nike Streakfly 2 -->
       <div class="mb-6">
-        <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+        <h3 class="text-xl font-semibold text-blue mb-3">
           Nike Streakfly 2
         </h3>
         <p class="mb-4">
@@ -164,13 +164,13 @@
 
     <!-- 2. Παπούτσια Καθημερινής Προπόνησης -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         2. Παπούτσια Καθημερινής Προπόνησης
       </h2>
 
       <!-- Nike Pegasus Premium -->
       <div class="mb-6">
-        <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+        <h3 class="text-xl font-semibold text-blue mb-3">
           Nike Pegasus Premium
         </h3>
         <p class="mb-4">
@@ -190,7 +190,7 @@
 
       <!-- Nike Vomero 18 -->
       <div class="mb-6">
-        <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+        <h3 class="text-xl font-semibold text-blue mb-3">
           Nike Vomero 18
         </h3>
         <p class="mb-4">
@@ -210,7 +210,7 @@
 
     <!-- 3. Πώς να Επιλέξετε -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Πώς να Επιλέξετε τα Κατάλληλα Nike Παπούτσια
       </h2>
       <ul class="list-disc list-inside space-y-2 mb-4">
@@ -227,7 +227,7 @@
 
     <!-- Συμπέρασμα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπέρασμα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπέρασμα</h2>
       <p class="mb-4">
         Η Nike προσφέρει μια πλήρη γκάμα παπουτσιών για κάθε τύπο δρομέα. Από το
         κορυφαίο αγωνιστικό Vaporfly 4 μέχρι το άνετο Vomero 18 για καθημερινή

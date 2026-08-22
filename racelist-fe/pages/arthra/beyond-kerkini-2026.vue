@@ -1,14 +1,14 @@
 <template>
-  <div class="blog-content max-w-5xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-center text-[#0057A0] my-6 font-bold">
+  <div class="prose-article blog-content max-w-5xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-center text-blue my-6 font-bold">
       Beyond Kerkini 2026 - Αποτελέσματα
     </h1>
 
     <PublishedDate date="2026-06-20" :centered="true" />
 
     <div class="prose prose-lg max-w-none">
-      <div class="bg-blue-50 p-6 rounded-lg mb-8">
-        <h2 class="text-2xl font-bold text-[#0057A0] mt-0 mb-4">
+      <div class="bg-paper-dim border-l-4 border-blue p-6 rounded-lg mb-8">
+        <h2 class="text-2xl font-bold text-blue mt-0 mb-4">
           Πληροφορίες Αγώνα
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -23,7 +23,7 @@
         </div>
       </div>
 
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Αποτελέσματα Αγώνων
       </h2>
 
@@ -32,7 +32,7 @@
         της Λίμνης Κερκίνης, με αγώνες 21χλμ., 15χλμ., 13χλμ., 10χλμ. και 6χλμ.
       </p>
 
-      <div class="bg-yellow-50 p-6 rounded-lg mb-8">
+      <div class="bg-flag/10 border-l-4 border-flag p-6 rounded-lg mb-8">
         <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -55,12 +55,12 @@
             href="https://www.smfsports.gr/beyond-kerkini-2026/"
             target="_blank"
             rel="noopener noreferrer"
-            class="block p-4 bg-white rounded-md hover:bg-gray-50 transition-colors border border-gray-200"
+            class="block p-4 bg-paper rounded-md hover:bg-paper-dim transition-colors border border-line"
           >
-            <div class="font-semibold text-[#0057A0]">
+            <div class="font-semibold text-blue">
               📊 Αναλυτικά Αποτελέσματα
             </div>
-            <div class="text-sm text-gray-600 mt-1">
+            <div class="text-sm text-grey mt-1">
               Δείτε τα πλήρη αποτελέσματα όλων των κατηγοριών στο SMF Sports
             </div>
           </a>
@@ -68,13 +68,13 @@
       </div>
 
       <!-- 21km -->
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         21χλμ. - Top 3
       </h2>
 
       <div class="overflow-x-auto mb-8">
-        <table class="min-w-full bg-white border border-gray-300">
-          <thead class="bg-[#0057A0] text-white">
+        <table class="min-w-full bg-paper border border-line">
+          <thead class="bg-blue-deep text-white">
             <tr>
               <th class="py-3 px-4 text-left">Θέση</th>
               <th class="py-3 px-4 text-left">Αθλητής</th>
@@ -83,22 +83,22 @@
               <th class="py-3 px-4 text-left">Ρυθμός (χλμ./ώρα)</th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
-            <tr class="hover:bg-gray-50">
+          <tbody class="divide-y divide-line">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">1</td>
               <td class="py-3 px-4">ΣΙΜΟΝΙΑΝ ΓΚΕΒΟΡΓΚ</td>
               <td class="py-3 px-4">ΑΠΣ ΠΥΓΜΗ</td>
               <td class="py-3 px-4">1:18:22</td>
               <td class="py-3 px-4">16.08</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">2</td>
               <td class="py-3 px-4">EVRO KLEJTI</td>
               <td class="py-3 px-4">RUNNING X</td>
               <td class="py-3 px-4">1:27:40</td>
               <td class="py-3 px-4">14.37</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">3</td>
               <td class="py-3 px-4">ΖΑΪΜΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ</td>
               <td class="py-3 px-4">SOXOS</td>
@@ -110,13 +110,13 @@
       </div>
 
       <!-- 15km -->
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         15χλμ. - Top 3
       </h2>
 
       <div class="overflow-x-auto mb-8">
-        <table class="min-w-full bg-white border border-gray-300">
-          <thead class="bg-[#0057A0] text-white">
+        <table class="min-w-full bg-paper border border-line">
+          <thead class="bg-blue-deep text-white">
             <tr>
               <th class="py-3 px-4 text-left">Θέση</th>
               <th class="py-3 px-4 text-left">Αθλητής</th>
@@ -125,22 +125,22 @@
               <th class="py-3 px-4 text-left">Ρυθμός (χλμ./ώρα)</th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
-            <tr class="hover:bg-gray-50">
+          <tbody class="divide-y divide-line">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">1</td>
               <td class="py-3 px-4">ΕΛΕΥΘΕΡΙΑΔΗΣ ΕΛΕΥΘΕΡΙΟΣ</td>
               <td class="py-3 px-4">-</td>
               <td class="py-3 px-4">1:04:58</td>
               <td class="py-3 px-4">13.85</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">2</td>
               <td class="py-3 px-4">EVRO KLEJTI</td>
               <td class="py-3 px-4">RUNNING X</td>
               <td class="py-3 px-4">1:05:40</td>
               <td class="py-3 px-4">13.71</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">3</td>
               <td class="py-3 px-4">ΤΡΙΑΝΤΑΦΥΛΛΟΥ ΚΩΝΣΤΑΝΤΙΝΟΣ</td>
               <td class="py-3 px-4">
@@ -154,13 +154,13 @@
       </div>
 
       <!-- 13km -->
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         13χλμ. - Top 3
       </h2>
 
       <div class="overflow-x-auto mb-8">
-        <table class="min-w-full bg-white border border-gray-300">
-          <thead class="bg-[#0057A0] text-white">
+        <table class="min-w-full bg-paper border border-line">
+          <thead class="bg-blue-deep text-white">
             <tr>
               <th class="py-3 px-4 text-left">Θέση</th>
               <th class="py-3 px-4 text-left">Αθλητής</th>
@@ -169,22 +169,22 @@
               <th class="py-3 px-4 text-left">Ρυθμός (χλμ./ώρα)</th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
-            <tr class="hover:bg-gray-50">
+          <tbody class="divide-y divide-line">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">1</td>
               <td class="py-3 px-4">ΚΑΛΛΙΜΑΝΗΣ ΜΙΧΑΗΛ</td>
               <td class="py-3 px-4">SOUGIOL TEAM</td>
               <td class="py-3 px-4">0:48:07</td>
               <td class="py-3 px-4">16.21</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">2</td>
               <td class="py-3 px-4">ΣΟΥΓΙΟΛΤΖΟΓΛΟΥ ΜΙΧΑΛΗΣ</td>
               <td class="py-3 px-4">-</td>
               <td class="py-3 px-4">0:48:08</td>
               <td class="py-3 px-4">16.20</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">3</td>
               <td class="py-3 px-4">ΓΑΤΟΥΛΑΣ ΧΡΗΣΤΟΣ</td>
               <td class="py-3 px-4">ΜΑΡΑΘΩΝΟΔΡΟΜΟΙ ΣΕΡΡΩΝ</td>
@@ -196,13 +196,13 @@
       </div>
 
       <!-- 10km -->
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         10χλμ. - Top 3
       </h2>
 
       <div class="overflow-x-auto mb-8">
-        <table class="min-w-full bg-white border border-gray-300">
-          <thead class="bg-[#0057A0] text-white">
+        <table class="min-w-full bg-paper border border-line">
+          <thead class="bg-blue-deep text-white">
             <tr>
               <th class="py-3 px-4 text-left">Θέση</th>
               <th class="py-3 px-4 text-left">Αθλητής</th>
@@ -211,22 +211,22 @@
               <th class="py-3 px-4 text-left">Ρυθμός (χλμ./ώρα)</th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
-            <tr class="hover:bg-gray-50">
+          <tbody class="divide-y divide-line">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">1</td>
               <td class="py-3 px-4">ΚΡΑΝΑΣ ΑΛΕΞΑΝΔΡΟΣ</td>
               <td class="py-3 px-4">ΕΛΛΗΝΙΚΗ ΑΣΤΥΝΟΜΙΑ</td>
               <td class="py-3 px-4">0:38:12</td>
               <td class="py-3 px-4">15.71</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">2</td>
               <td class="py-3 px-4">PAPADOPOULOS JOHNNY</td>
               <td class="py-3 px-4">Saucony Running Team</td>
               <td class="py-3 px-4">0:39:21</td>
               <td class="py-3 px-4">15.25</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">3</td>
               <td class="py-3 px-4">ΣΤΑΜΑΤΙΟΥ ΔΗΜΗΤΡΙΟΣ</td>
               <td class="py-3 px-4">-</td>
@@ -238,11 +238,11 @@
       </div>
 
       <!-- 6km -->
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">6χλμ. - Top 3</h2>
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">6χλμ. - Top 3</h2>
 
       <div class="overflow-x-auto mb-8">
-        <table class="min-w-full bg-white border border-gray-300">
-          <thead class="bg-[#0057A0] text-white">
+        <table class="min-w-full bg-paper border border-line">
+          <thead class="bg-blue-deep text-white">
             <tr>
               <th class="py-3 px-4 text-left">Θέση</th>
               <th class="py-3 px-4 text-left">Αθλητής</th>
@@ -251,22 +251,22 @@
               <th class="py-3 px-4 text-left">Ρυθμός (χλμ./ώρα)</th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
-            <tr class="hover:bg-gray-50">
+          <tbody class="divide-y divide-line">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">1</td>
               <td class="py-3 px-4">ΑΠΟΣΤΟΛΙΔΗΣ ΔΗΜΗΤΡΙΟΣ</td>
               <td class="py-3 px-4">ΣΚΑΔ</td>
               <td class="py-3 px-4">0:22:09</td>
               <td class="py-3 px-4">16.25</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">2</td>
               <td class="py-3 px-4">SEMENAKOV VLATKO</td>
               <td class="py-3 px-4">Ak7mi Noemvri Gevgelija</td>
               <td class="py-3 px-4">0:22:19</td>
               <td class="py-3 px-4">16.13</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">3</td>
               <td class="py-3 px-4">ΧΡΥΣΟΧΟΟΥ ΓΕΩΡΓΙΟΣ</td>
               <td class="py-3 px-4">ΚΑΒΑΛΑ</td>
@@ -277,30 +277,30 @@
         </table>
       </div>
 
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Στατιστικά Αγώνα
       </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-        <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg">
-          <div class="text-3xl font-bold text-[#0057A0] mb-2">5</div>
-          <div class="text-gray-700">Αγωνίσματα</div>
+        <div class="bg-paper-dim border border-blue/20 p-6 rounded-lg">
+          <div class="text-3xl font-bold text-blue mb-2">5</div>
+          <div class="text-ink/80">Αγωνίσματα</div>
         </div>
         <div
-          class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg"
+          class="bg-paper-dim border border-flag/20 p-6 rounded-lg"
         >
-          <div class="text-3xl font-bold text-[#0057A0] mb-2">6-21χλμ.</div>
-          <div class="text-gray-700">Εύρος Αποστάσεων</div>
+          <div class="text-3xl font-bold text-blue mb-2">6-21χλμ.</div>
+          <div class="text-ink/80">Εύρος Αποστάσεων</div>
         </div>
         <div
-          class="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg"
+          class="bg-paper-dim border border-line p-6 rounded-lg"
         >
-          <div class="text-3xl font-bold text-[#0057A0] mb-2">Κερκίνη</div>
-          <div class="text-gray-700">Τοποθεσία</div>
+          <div class="text-3xl font-bold text-blue mb-2">Κερκίνη</div>
+          <div class="text-ink/80">Τοποθεσία</div>
         </div>
       </div>
 
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Σχετικά με τον Αγώνα
       </h2>
 
@@ -312,7 +312,7 @@
         εντυπωσιακή θέα στη λίμνη και το όρος Μπέλες.
       </p>
 
-      <div class="mt-8 text-center text-gray-600">
+      <div class="mt-8 text-center text-grey">
         <p class="text-sm">Τελευταία ενημέρωση: Ιούνιος 2026</p>
       </div>
     </div>
@@ -405,14 +405,11 @@
 
 <style scoped>
   .blog-content {
-    font-family:
-      system-ui,
-      -apple-system,
-      sans-serif;
+    font-family: 'Inter', system-ui, sans-serif;
   }
 
   .prose {
-    color: #374151;
+    color: #0F1F2E;
     line-height: 1.75;
   }
 
@@ -435,7 +432,7 @@
   }
 
   .prose a {
-    color: #0057a0;
+    color: #1F5FA8;
     text-decoration: none;
   }
 

@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6 text-center">
+    <h1 class="font-display text-3xl text-blue font-bold mb-6 text-center">
       Προβλέψτε τους Χρόνους σας με τον Τύπο Riegel
     </h1>
-    <div class="max-w-4xl mx-auto px-4 py-8 text-gray-800 space-y-4">
+    <div class="max-w-4xl mx-auto px-4 py-8 text-ink space-y-4">
       <p>
         Έχετε αναρωτηθεί ποτέ, "Αν έτρεξα 5 χιλιόμετρα σε 24 λεπτά, τι χρόνο
         μπορώ να κάνω σε στον ημιμαραθώνιο;" Ο τύπος του Peter Riegel είναι ένα
@@ -18,11 +18,11 @@
       </p>
     </div>
 
-    <hr class="text-gray-300 my-3" />
+    <hr class="text-line my-3" />
 
     <div class="flex items-center justify-center p-6">
-      <div class="bg-white shadow-lg rounded-lg max-w-md w-full p-6">
-        <h2 class="text-3xl text-[#0057A0] font-bold mb-6">
+      <div class="bg-paper shadow-lg border border-line rounded-lg max-w-md w-full p-6">
+        <h2 class="font-display text-3xl text-blue font-bold mb-6">
           Υπολογιστής Προβλέψεων Χρόνων Για Δρομείς
         </h2>
 
@@ -95,29 +95,29 @@
 
         <div
           v-if="predictions.length > 0"
-          class="mt-6 p-4 bg-gray-100 rounded-lg shadow"
+          class="mt-6 p-4 bg-paper-dim rounded-lg shadow"
         >
-          <h3 class="text-lg font-semibold mb-4 text-[#0057A0]">
+          <h3 class="font-display text-lg font-semibold mb-4 text-blue">
             Προβλεπόμενοι Χρόνοι
           </h3>
           <div class="space-y-2">
             <div
               v-for="pred in predictions"
               :key="pred.distance"
-              class="flex justify-between items-center py-2 border-b border-gray-300 last:border-b-0"
+              class="flex justify-between items-center py-2 border-b border-line last:border-b-0"
             >
               <span class="font-medium">{{ pred.label }}:</span>
-              <span class="text-blue-600 font-semibold">{{ pred.time }}</span>
+              <span class="text-blue-deep font-semibold">{{ pred.time }}</span>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <hr class="text-gray-300 my-3" />
+    <hr class="text-line my-3" />
 
     <div class="max-w-4xl mx-auto px-4 py-8">
-      <h2 class="text-3xl text-[#0057A0] font-bold mb-6">
+      <h2 class="font-display text-3xl text-blue font-bold mb-6">
         Τι είναι ο Τύπος του Riegel και Πώς Λειτουργεί;
       </h2>
       <p class="mb-6">
@@ -128,10 +128,10 @@
         κόπωσης και εξάντλησης των ενεργειακών αποθεμάτων.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">
         Ο Μαθηματικός Τύπος
       </h3>
-      <div class="bg-gray-100 p-4 rounded-lg mb-6">
+      <div class="bg-paper-dim p-4 rounded-lg mb-6">
         <p class="text-center text-lg">
           <img
             src="/images/peter-riegel-formula.png"
@@ -149,7 +149,7 @@
         <li>1.06 = Ο εκθέτης κόπωσης (fatigue factor)</li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">
         Γιατί Λειτουργεί αυτός ο Τύπος;
       </h3>
       <p class="mb-6">
@@ -166,7 +166,7 @@
         φυσική επιβράδυνση.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">
         Πότε είναι Χρήσιμος ο Υπολογιστής;
       </h3>
       <ul class="list-disc list-inside space-y-2 mb-6">
@@ -190,7 +190,7 @@
         </li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">
         Περιορισμοί και Σημειώσεις
       </h3>
       <p class="mb-4">
@@ -217,7 +217,7 @@
         </li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">
         Συμβουλές Χρήσης
       </h3>
       <ol class="list-decimal list-inside space-y-2 mb-6">
@@ -239,7 +239,7 @@
         </li>
       </ol>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">Τελικές Σκέψεις</h3>
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">Τελικές Σκέψεις</h3>
       <p class="mb-4">
         Να έχετε πάντα υποψιν σας οτι οι αριθμοί είναι οδηγοί, όχι εγγυήσεις.
         Παράγοντες όπως η σωστή προπόνηση, η διατροφή, η ανάρρωση και η
@@ -248,13 +248,13 @@
         προπόνησης!
       </p>
 
-      <hr class="text-gray-300 my-3" />
+      <hr class="text-line my-3" />
 
       <div>
         Εκτός από την πρόβλεψη χρόνων, είναι σημαντικό να γνωρίζετε και τον
         ρυθμό σας. Δείτε τον
         <NuxtLink
-          class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
           to="/pace-calculator/"
         >
           υπολογιστή ρυθμού
@@ -262,14 +262,14 @@
         για να σχεδιάσετε την προπόνησή σας. Επίσης, μην ξεχνάτε τη σωστή
         διατροφή και ενυδάτωση, ρίξτε μια ματιά στον
         <NuxtLink
-          class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
           to="/gel-calculator/"
         >
           υπολογιστή ενεργειακών gel
         </NuxtLink>
         και τον
         <NuxtLink
-          class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
           to="/hydration-calculator/"
         >
           υπολογιστή ενυδάτωσης.

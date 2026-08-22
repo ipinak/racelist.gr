@@ -103,8 +103,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Suunto Run: Αναλυτική Παρουσίαση & Αξιολόγηση
     </h1>
 
@@ -132,7 +132,7 @@
 
     <!-- Σχεδιασμός και Κατασκευή -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Σχεδιασμός και Κατασκευή: Έμφαση στην Ελαφρότητα
       </h2>
       <p class="mb-4">
@@ -161,7 +161,7 @@
 
     <!-- Οθόνη και Διεπαφή -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         AMOLED Οθόνη και Εύκολη Πλοήγηση
       </h2>
       <p class="mb-4">
@@ -186,7 +186,7 @@
 
     <!-- Αυτονομία Μπαταρίας -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Εντυπωσιακή Αυτονομία: Τρέχω Περισσότερο, Φορτίζω Λιγότερο
       </h2>
       <p class="mb-4">
@@ -195,7 +195,7 @@
         προσφέρει:
       </p>
 
-      <div class="bg-blue-50 p-4 rounded-lg mb-4">
+      <div class="bg-paper-dim border-l-4 border-blue p-4 rounded-lg mb-4">
         <ul class="list-disc ml-6 space-y-2">
           <li>
             <strong>Έως 12 ημέρες</strong> σε καθημερινή χρήση με παρακολούθηση
@@ -221,7 +221,7 @@
 
     <!-- GPS και Ακρίβεια -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Κορυφαία GPS Ακρίβεια και Λειτουργίες Πλοήγησης
       </h2>
       <p class="mb-4">
@@ -246,7 +246,7 @@
 
     <!-- Αθλητικές Λειτουργίες -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         34 Αθλητικές Λειτουργίες: Ειδικά Σχεδιασμένο για Δρομείς
       </h2>
       <p class="mb-4">
@@ -255,10 +255,10 @@
         ευρύ φάσμα δραστηριοτήτων:
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Ειδικές Λειτουργίες για Τρέξιμο
       </h3>
-      <div class="bg-green-50 p-4 rounded-lg mb-4">
+      <div class="bg-paper-dim border-l-4 border-blue p-4 rounded-lg mb-4">
         <ul class="list-disc ml-6 space-y-1">
           <li>
             <strong>Τρέξιμο δρόμου</strong> - Βελτιστοποιημένο για αστικές
@@ -278,7 +278,7 @@
         </ul>
       </div>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Επιπλέον Αθλητικές Δραστηριότητες
       </h3>
       <p class="mb-4">
@@ -290,7 +290,7 @@
 
     <!-- Προπονήσεις και Ανάλυση -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Έξυπνες Προπονήσεις και Αναλυτική Παρακολούθηση
       </h2>
       <p class="mb-4">
@@ -298,7 +298,7 @@
         δρομείς να βελτιώσουν την απόδοσή τους:
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Δεδομένα και Insights για Τρέξιμο
       </h3>
       <ul class="list-disc ml-6 mb-4">
@@ -319,7 +319,7 @@
         </li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Εφαρμογή Suunto και Συνδεσιμότητα
       </h3>
       <p class="mb-4">
@@ -332,7 +332,7 @@
 
     <!-- 24/7 Παρακολούθηση -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         24/7 Παρακολούθηση και Καθημερινές Λειτουργίες
       </h2>
       <p class="mb-4">
@@ -341,7 +341,7 @@
       </p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-        <div class="bg-gray-50 p-4 rounded-lg">
+        <div class="bg-paper-dim p-4 rounded-lg">
           <h4 class="font-semibold mb-2">Υγεία και Δραστηριότητα</h4>
           <ul class="text-sm space-y-1">
             <li>• Παρακολούθηση καρδιακού ρυθμού</li>
@@ -350,7 +350,7 @@
             <li>• Παρακολούθηση stress</li>
           </ul>
         </div>
-        <div class="bg-gray-50 p-4 rounded-lg">
+        <div class="bg-paper-dim p-4 rounded-lg">
           <h4 class="font-semibold mb-2">Έξυπνες Λειτουργίες</h4>
           <ul class="text-sm space-y-1">
             <li>• Ειδοποιήσεις τηλεφώνου</li>
@@ -365,10 +365,10 @@
 
     <!-- Τεχνικές Προδιαγραφές -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Τεχνικές Προδιαγραφές
       </h2>
-      <div class="bg-blue-50 p-4 rounded-lg">
+      <div class="bg-paper-dim border-l-4 border-blue p-4 rounded-lg">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <h4 class="font-semibold mb-2">Φυσικά Χαρακτηριστικά</h4>
@@ -398,7 +398,7 @@
 
     <!-- Τιμή και Αξία -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Τιμή και Αξία για τα Χρήματα
       </h2>
       <p class="mb-4">
@@ -417,7 +417,7 @@
 
     <!-- Σύγκριση με Ανταγωνισμό -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Πώς Συγκρίνεται με τον Ανταγωνισμό
       </h2>
       <p class="mb-4">
@@ -437,7 +437,7 @@
 
     <!-- Συμπέρασμα -->
     <section>
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπέρασμα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπέρασμα</h2>
       <p class="mb-4">
         Το Suunto Run αποτελεί μια εξαιρετική επιλογή για δρομείς που αναζητούν
         ένα ελαφρύ, αξιόπιστο και προσιτό αθλητικό ρολόι. Η εστίαση στις ανάγκες
@@ -462,7 +462,7 @@
     </section>
 
     <div class="mb-6 mt-12">
-      <h2 class="text-3xl text-[#0057A0] font-bold my-6 capitalize">
+      <h2 class="text-3xl text-blue font-bold my-6 capitalize">
         Video review για το Suunto Run
       </h2>
       <YoutubeVideo video-id="g-V2e2B-6gI" class="mb-3" />

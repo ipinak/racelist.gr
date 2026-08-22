@@ -1,6 +1,6 @@
 <template>
-  <div class="blog-content max-w-5xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-center text-[#0057A0] my-6 font-bold">
+  <div class="prose-article blog-content max-w-5xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-center text-blue my-6 font-bold">
       Ημιμαραθώνιος Πεκίνου: Ρομπότ κέρδισαν τους ανθρώπους στη διαδρομή των 21
       χλμ.
     </h1>
@@ -8,8 +8,8 @@
     <PublishedDate date="2026-04-19" :centered="true" />
 
     <div class="prose prose-lg max-w-none">
-      <div class="bg-blue-50 p-6 rounded-lg mb-8">
-        <h2 class="text-2xl font-bold text-[#0057A0] mt-0 mb-4">
+      <div class="bg-paper-dim border-l-4 border-blue p-6 rounded-lg mb-8">
+        <h2 class="text-2xl font-bold text-blue mt-0 mb-4">
           Πληροφορίες Αγώνα
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -29,7 +29,7 @@
         </div>
       </div>
 
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Ιστορική Αναμέτρηση: Ρομπότ εναντίον Ανθρώπων
       </h2>
 
@@ -48,11 +48,11 @@
         προς το τέλος της διαδρομής.
       </p>
 
-      <div class="bg-yellow-50 p-6 rounded-lg mb-8">
+      <div class="bg-flag/10 border-l-4 border-flag p-6 rounded-lg mb-8">
         <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
           🤖 Τα Κορυφαία Ρομπότ του Αγώνα
         </h3>
-        <p class="text-gray-700 mb-2">
+        <p class="text-ink/80 mb-2">
           Τρία ανθρωποειδή ρομπότ τερμάτισαν μπροστά από τον πρώτο άνθρωπο
           δρομέα. Το πρωταθλητή-ρομπότ κατάφερε να διατηρήσει σταθερό ρυθμό για
           το μεγαλύτερο μέρος της διαδρομής, επιδεικνύοντας εντυπωσιακή αντοχή
@@ -60,30 +60,30 @@
         </p>
       </div>
 
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Στατιστικά Αγώνα
       </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-        <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg">
-          <div class="text-3xl font-bold text-[#0057A0] mb-2">100+</div>
-          <div class="text-gray-700">Ρομπότ συμμετέχοντες</div>
+        <div class="bg-paper-dim border border-blue/20 p-6 rounded-lg">
+          <div class="text-3xl font-bold text-blue mb-2">100+</div>
+          <div class="text-ink/80">Ρομπότ συμμετέχοντες</div>
         </div>
         <div
-          class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg"
+          class="bg-paper-dim border border-flag/20 p-6 rounded-lg"
         >
-          <div class="text-3xl font-bold text-[#0057A0] mb-2">~12.000</div>
-          <div class="text-gray-700">Άνθρωποι δρομείς</div>
+          <div class="text-3xl font-bold text-blue mb-2">~12.000</div>
+          <div class="text-ink/80">Άνθρωποι δρομείς</div>
         </div>
         <div
-          class="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg"
+          class="bg-paper-dim border border-line p-6 rounded-lg"
         >
-          <div class="text-3xl font-bold text-[#0057A0] mb-2">50:26</div>
-          <div class="text-gray-700">Νικητήριος χρόνος ρομπότ</div>
+          <div class="text-3xl font-bold text-blue mb-2">50:26</div>
+          <div class="text-ink/80">Νικητήριος χρόνος ρομπότ</div>
         </div>
       </div>
 
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Βίντεο του Αγώνα
       </h2>
 
@@ -92,18 +92,18 @@
           href="https://www.youtube.com/watch?v=1vUnusbzNMQ"
           target="_blank"
           rel="noopener noreferrer"
-          class="block p-4 bg-white rounded-md hover:bg-gray-50 transition-colors border border-gray-200"
+          class="block p-4 bg-paper rounded-md hover:bg-paper-dim transition-colors border border-line"
         >
-          <div class="font-semibold text-[#0057A0]">
+          <div class="font-semibold text-blue">
             📺 Ημιμαραθώνιος Πεκίνου: Ρομπότ vs Άνθρωποι
           </div>
-          <div class="text-sm text-gray-600 mt-1">
+          <div class="text-sm text-grey mt-1">
             Δείτε το βίντεο του ιστορικού αγώνα στο YouTube
           </div>
         </a>
       </div>
 
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Η Κίνα και η Ρομποτική Επανάσταση
       </h2>
 
@@ -123,13 +123,13 @@
       </p>
 
       <div class="mb-6 mt-12">
-        <h2 class="text-3xl text-[#0057A0] font-bold my-6 capitalize">
+        <h2 class="text-3xl text-blue font-bold my-6 capitalize">
           Robots vs Humans: The Beijing Half Marathon
         </h2>
         <YoutubeVideo video-id="1vUnusbzNMQ" class="mb-3" />
       </div>
 
-      <div class="mt-8 text-center text-gray-600">
+      <div class="mt-8 text-center text-grey">
         <p class="text-sm">Τελευταία ενημέρωση: 22 Απριλίου 2026</p>
       </div>
     </div>
@@ -225,14 +225,11 @@
 
 <style scoped>
   .blog-content {
-    font-family:
-      system-ui,
-      -apple-system,
-      sans-serif;
+    font-family: 'Inter', system-ui, sans-serif;
   }
 
   .prose {
-    color: #374151;
+    color: #0F1F2E;
     line-height: 1.75;
   }
 
@@ -255,7 +252,7 @@
   }
 
   .prose a {
-    color: #0057a0;
+    color: #1F5FA8;
     text-decoration: none;
   }
 

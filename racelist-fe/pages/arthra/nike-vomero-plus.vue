@@ -109,8 +109,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Nike Vomero Plus: Παρουσίαση & Αξιολόγηση
     </h1>
 
@@ -141,7 +141,7 @@
 
     <!-- Άνω Μέρος -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Άνω Μέρος</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Άνω Μέρος</h2>
 
       <p class="mb-4">
         Το άνω μέρος του Vomero Plus είναι άνετο και ξεχωρίζει για την ποιότητα
@@ -149,7 +149,7 @@
         από μαλακά υλικά που προσφέρουν άνετη εφαρμογή και σταθερότητα.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Χαρακτηριστικά Άνω Μέρους
       </h3>
       <ul class="list-disc pl-6 mb-4">
@@ -179,7 +179,7 @@
 
     <!-- Ενδιάμεση Σόλα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Ενδιάμεση Σόλα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Ενδιάμεση Σόλα</h2>
 
       <p class="mb-4">
         Το σημείο όπου το Vomero Plus πραγματικά ξεχωρίζει είναι η ενδιάμεση
@@ -188,7 +188,7 @@
         αγωνιστικά της παπούτσια.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Τεχνολογία ZoomX
       </h3>
       <p class="mb-4">
@@ -213,7 +213,7 @@
         </li>
       </ul>
 
-      <div class="bg-yellow-50 p-4 rounded-lg mb-4">
+      <div class="bg-flag/10 border-l-4 border-flag p-4 rounded-lg mb-4">
         <h4 class="font-semibold mb-2">Προσοχή στη Χρήση</h4>
         <p>
           Λόγω του σημαντικού πάχους της σόλας, το Vomero Plus δεν συνιστάται
@@ -221,7 +221,7 @@
         </p>
       </div>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Εμπειρία Τρεξίματος
       </h3>
       <p class="mb-4">
@@ -244,7 +244,7 @@
         </li>
       </ul>
 
-      <div class="bg-blue-50 p-4 rounded-lg mb-4">
+      <div class="bg-paper-dim border-l-4 border-blue p-4 rounded-lg mb-4">
         <h4 class="font-semibold mb-2">Σημείωση για την Άνεση</h4>
         <p>
           Η επιλογή μισού νούμερου μικρότερου μπορεί να επηρεάσει ελαφρώς την
@@ -261,7 +261,7 @@
 
     <!-- Εξωτερική Σόλα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Εξωτερική Σόλα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Εξωτερική Σόλα</h2>
 
       <p class="mb-4">
         Η εξωτερική σόλα του Nike Vomero Plus είναι ίσως το πιο εντυπωσιακό
@@ -278,7 +278,7 @@
         />
       </div>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Χαρακτηριστικά Εξωτερικής Σόλας
       </h3>
       <ul class="list-disc pl-6 mb-4">
@@ -297,7 +297,7 @@
         </li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Απόδοση σε Υγρές Συνθήκες
       </h3>
       <p class="mb-4">
@@ -314,7 +314,7 @@
 
     <!-- Συνολική Αξιολόγηση -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Συνολική Αξιολόγηση
       </h2>
 
@@ -332,7 +332,7 @@
         <li>Δρομείς που χρειάζονται επιπλέον προστασία και απόσβεση</li>
       </ul>
 
-      <div class="bg-blue-50 p-4 rounded-lg mb-4">
+      <div class="bg-paper-dim border-l-4 border-blue p-4 rounded-lg mb-4">
         <h4 class="font-semibold mb-2">Πλεονεκτήματα</h4>
         <ul class="list-disc pl-6 space-y-1">
           <li>Πλήρης ενδιάμεση σόλα ZoomX για premium απόσβεση</li>
@@ -343,7 +343,7 @@
         </ul>
       </div>
 
-      <div class="bg-yellow-50 p-4 rounded-lg mb-4">
+      <div class="bg-flag/10 border-l-4 border-flag p-4 rounded-lg mb-4">
         <h4 class="font-semibold mb-2">Μειονεκτήματα</h4>
         <ul class="list-disc pl-6 space-y-1">
           <li>Υψηλή τιμή (179.99€)</li>
@@ -356,8 +356,8 @@
         </ul>
       </div>
 
-      <div class="bg-gray-100 p-6 rounded-lg mb-6">
-        <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
+      <div class="bg-paper-dim p-6 rounded-lg mb-6">
+        <h3 class="text-xl font-semibold text-blue mb-4">
           Τεχνικά Χαρακτηριστικά
         </h3>
         <div class="grid grid-cols-2 gap-4">
@@ -380,7 +380,7 @@
         </div>
       </div>
 
-      <div class="text-center p-6 bg-[#0057A0] text-white rounded-lg">
+      <div class="text-center p-6 bg-blue-deep text-white rounded-lg">
         <h3 class="text-2xl font-bold mb-2">Συνολική Βαθμολογία</h3>
         <p class="text-5xl font-bold mb-2">8.5/10</p>
         <p class="text-lg">
@@ -391,7 +391,7 @@
 
     <!-- Συμπέρασμα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπέρασμα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπέρασμα</h2>
 
       <p class="mb-4">
         Το Nike Vomero Plus δικαιολογεί την τιμή των 179.99€ με την ποιότητα
@@ -417,7 +417,7 @@
     </section>
 
     <div class="mb-6 mt-12">
-      <h2 class="text-3xl text-[#0057A0] font-bold my-6 capitalize">
+      <h2 class="text-3xl text-blue font-bold my-6 capitalize">
         Video review για το Nike Vomero Plus
       </h2>
       <YoutubeVideo video-id="sfwNx7mxpk4" class="mb-3" />
@@ -426,7 +426,7 @@
 
     <!-- Related Articles -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Σχετικά Άρθρα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Σχετικά Άρθρα</h2>
       <RelatedArticles :articles="relatedArticles" />
     </section>
   </div>
@@ -434,10 +434,10 @@
 
 <style scoped>
   .blog-content {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-      'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      Roboto, 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.8;
-    color: #333;
+    color: #0f1f2e;
   }
 
   .blog-content h1 {

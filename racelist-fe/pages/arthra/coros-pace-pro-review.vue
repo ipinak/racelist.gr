@@ -1,6 +1,6 @@
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-center text-[#0057A0] my-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-center text-blue my-6">
       COROS PACE Pro: Το Νέο Smartwatch για Σοβαρούς Αθλητές
     </h1>
 
@@ -12,14 +12,14 @@
       />
 
       <div class="prose prose-lg max-w-none">
-        <p class="text-lg text-gray-700 mb-6">
+        <p class="text-lg text-ink/80 mb-6">
           Η COROS παρουσιάζει το νέο PACE Pro, ένα GPS smartwatch που στοχεύει
           στους πολυαθλητές που αναζητούν ακρίβεια, απόδοση και σαφήνεια. Με την
           χαμηλή του τιμή, το PACE Pro έρχεται να ανταγωνιστεί τα κορυφαία
           μοντέλα της αγοράς.
         </p>
 
-        <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+        <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
           Βασικά Χαρακτηριστικά
         </h2>
 
@@ -69,7 +69,7 @@
           </li>
         </ul>
 
-        <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+        <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
           Χαρακτηριστικά για Αθλητές
         </h2>
 
@@ -111,7 +111,7 @@
           <li>HRV παρακολούθηση</li>
         </ul>
 
-        <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+        <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
           Συνδεσιμότητα και Εφαρμογές
         </h2>
 
@@ -133,7 +133,7 @@
           />
         </div>
 
-        <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">Αξεσουάρ</h2>
+        <h2 class="text-2xl font-bold text-blue mt-8 mb-4">Αξεσουάρ</h2>
 
         <p class="mb-4">
           Η COROS προσφέρει μια σειρά αξεσουάρ για να μεγιστοποιήσετε την
@@ -156,11 +156,11 @@
           </li>
         </ul>
 
-        <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+        <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
           Τεχνικές Προδιαγραφές
         </h2>
 
-        <div class="bg-gray-50 p-6 rounded-lg mb-6">
+        <div class="bg-paper-dim p-6 rounded-lg mb-6">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <h4 class="font-semibold mb-2">Οθόνη</h4>
@@ -184,7 +184,7 @@
           </div>
         </div>
 
-        <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+        <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
           Κριτικές Χρηστών
         </h2>
 
@@ -204,7 +204,7 @@
           ανθεκτικότητα της οθόνης.
         </p>
 
-        <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">Συμπέρασμα</h2>
+        <h2 class="text-2xl font-bold text-blue mt-8 mb-4">Συμπέρασμα</h2>
 
         <p class="mb-4">
           Το COROS PACE Pro αποτελεί μια εξαιρετική επιλογή για σοβαρούς αθλητές
@@ -221,8 +221,8 @@
           παρακολουθούν και να βελτιώνουν την απόδοσή τους.
         </p>
 
-        <div class="bg-blue-50 p-6 rounded-lg mt-8">
-          <h3 class="text-lg font-semibold text-[#0057A0] mb-3">
+        <div class="bg-paper-dim border-l-4 border-blue p-6 rounded-lg mt-8">
+          <h3 class="text-lg font-semibold text-blue mb-3">
             Βαθμολογία: 4.5/5
           </h3>
           <p class="font-semibold text-green-600 mb-2">Πλεονεκτήματα:</p>

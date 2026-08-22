@@ -1,6 +1,6 @@
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Πώς να Βρείτε Χρόνο για Τρέξιμο — Ακόμα κι αν Νομίζετε ότι Δεν Έχετε
     </h1>
 
@@ -20,7 +20,7 @@
     </p>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Ξεκινήστε τη Μέρα σας με Τρέξιμο
       </h2>
       <p class="mb-4">
@@ -33,7 +33,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Τρέξτε στο Μεσημεριανό Διάλειμμα
       </h2>
       <p class="mb-4">
@@ -46,7 +46,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Λύσεις Αν Έχετε Παιδιά
       </h2>
       <p class="mb-4">
@@ -61,7 +61,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Επενδύστε σε Έναν Διάδρομο
       </h2>
       <p class="mb-4">
@@ -73,7 +73,7 @@
       </p>
     </section>
 
-    <hr class="my-8 border-t border-gray-300" />
+    <hr class="my-8 border-t border-line" />
 
     <section>
       <p class="mb-4">

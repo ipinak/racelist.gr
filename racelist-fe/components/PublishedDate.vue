@@ -1,7 +1,7 @@
 <template>
   <time
     :datetime="date"
-    class="block text-sm text-gray-500 mb-6"
+    class="block text-sm font-mono text-grey mb-6"
     :class="{ 'text-center': centered }"
   >
     Δημοσιεύτηκε στις {{ formatDate(date) }}

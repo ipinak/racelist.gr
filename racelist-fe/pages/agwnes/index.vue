@@ -1,28 +1,28 @@
 <template>
   <div class="max-w-4xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold text-center mb-8">
+    <h1 class="font-display text-3xl font-semibold text-ink text-center mb-8">
       Αγώνες τρεξίματος δρόμου και βουνού για το {{ year }} ανα μήνα
     </h1>
 
-    <h2 class="text-xl font-semibold text-[#0057A0] mb-4">{{ year }}</h2>
+    <h2 class="font-display text-xl font-semibold text-ink mb-4">{{ year }}</h2>
     <ul
       class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 list-none p-0 mb-10"
     >
       <li
         v-for="month in currentYearMonths"
         :key="month.href"
-        class="border-2 border-gray-300 rounded-xl p-4 text-center hover:bg-gray-100 transition"
+        class="border border-line rounded-xl p-4 text-center hover:bg-paper-dim hover:border-blue transition-colors"
       >
         <NuxtLink
           :to="month.href"
-          class="text-lg font-semibold text-[#0057A0] hover:text-[#0057A0]/60"
+          class="text-lg font-semibold text-blue hover:text-blue-deep"
         >
           {{ month.label }}
         </NuxtLink>
       </li>
     </ul>
 
-    <h2 class="text-xl font-semibold text-gray-500 mb-4">
+    <h2 class="font-display text-xl font-semibold text-grey mb-4">
       Αρχείο {{ year - 1 }}
     </h2>
     <ul
@@ -31,11 +31,11 @@
       <li
         v-for="month in previousYearMonths"
         :key="month.href"
-        class="border-2 border-gray-200 rounded-xl p-4 text-center hover:bg-gray-100 transition"
+        class="border border-line rounded-xl p-4 text-center hover:bg-paper-dim transition-colors"
       >
         <NuxtLink
           :to="month.href"
-          class="text-base text-gray-500 hover:text-gray-700"
+          class="text-base text-grey hover:text-ink"
         >
           {{ month.label }}
         </NuxtLink>

@@ -100,8 +100,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Huawei Watch GT Runner 2: Το Ρολόι για Σοβαρούς Δρομείς
     </h1>
 
@@ -147,7 +147,7 @@
 
     <!-- Βασικά Χαρακτηριστικά -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Κύρια Χαρακτηριστικά
       </h2>
 
@@ -185,11 +185,11 @@
 
     <!-- Σχεδιασμός και Κατασκευή -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Σχεδιασμός και Κατασκευή
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Εμφάνιση & Υλικά
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -219,11 +219,11 @@
 
     <!-- Αισθητήρες και Τεχνολογία -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Αισθητήρες και Τεχνολογία
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         GPS & Εντοπισμός Θέσης
       </h3>
       <p class="mb-4">
@@ -233,7 +233,7 @@
         υψηλότερη σε σχέση με τη σειρά GT 6, με dual-band GNSS.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Αισθητήρες Υγείας
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -245,7 +245,7 @@
         <li>Επταχυνσιόμετρο & Γυροσκόπιο</li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Συνδεσιμότητα</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">Συνδεσιμότητα</h3>
       <ul class="list-disc list-inside mb-4">
         <li>Bluetooth (κλήσεις hands-free)</li>
         <li>NFC (πληρωμές)</li>
@@ -256,11 +256,11 @@
 
     <!-- Αθλητικά Προφίλ -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         100+ Αθλητικά Προφίλ
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Τρέξιμο</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">Τρέξιμο</h3>
       <ul class="list-disc list-inside mb-4">
         <li>Υπαίθριο τρέξιμο (με πλήρεις μετρήσεις GPS)</li>
         <li>Trail Running (υψόμετρο, waypoints, χάρτες)</li>
@@ -268,14 +268,14 @@
         <li>13 ενσωματωμένα running courses ή δημιουργία δικού σου</li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Νερό & Φύση</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">Νερό & Φύση</h3>
       <ul class="list-disc list-inside mb-4">
         <li>Κολύμβηση (πισίνα & ανοιχτό νερό)</li>
         <li>Ελεύθερη κατάδυση (freediving) έως 40m</li>
         <li>Γκολφ (17.000+ παγκόσμια γήπεδα)</li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Ποδηλασία & Άλλα
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -288,11 +288,11 @@
 
     <!-- Λειτουργίες Υγείας -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Προηγμένες Λειτουργίες Υγείας
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Καρδιαγγειακή Υγεία
       </h3>
       <p class="mb-4">
@@ -302,7 +302,7 @@
         (PPG) εντοπίζει κινδύνους κολπικής μαρμαρυγής και ανωμαλίες.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         24/7 Παρακολούθηση
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -327,7 +327,7 @@
         </li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Ανάλυση Ύπνου</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">Ανάλυση Ύπνου</h3>
       <ul class="list-disc list-inside mb-4">
         <li>Φάσεις ύπνου (συμπεριλαμβανομένου REM)</li>
         <li>Ρυθμός αναπνοής & αναγνώριση ανώμαλης αναπνοής κατά τον ύπνο</li>
@@ -339,11 +339,11 @@
 
     <!-- Αθλητικές Λειτουργίες -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Προηγμένες Αθλητικές Λειτουργίες
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Intelligent Marathon Mode
       </h3>
       <p class="mb-4">
@@ -353,7 +353,7 @@
         υπενθυμίσεις ανεφοδιασμού ενέργειας.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Επαγγελματικές Μετρήσεις Τρεξίματος
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -364,7 +364,7 @@
         <li>Εξατομικευμένα επιστημονικά πλάνα προπόνησης</li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Οδηγός Ρυθμού Καρδιακού κατά την Άσκηση
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -377,7 +377,7 @@
 
     <!-- Διάρκεια Μπαταρίας -->
     <div
-      class="bg-gradient-to-br from-blue-900 to-blue-700 text-white p-6 rounded-xl my-8"
+      class="bg-blue-deep text-paper p-6 rounded-xl my-8"
     >
       <h2 class="text-2xl font-semibold mb-4 text-white">
         🔋 Εκτεταμένη Διάρκεια Μπαταρίας
@@ -405,11 +405,11 @@
 
     <!-- Huawei Health App & Οικοσύστημα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Huawei Health App & Οικοσύστημα
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Huawei Health App
       </h3>
       <p class="mb-4">
@@ -419,7 +419,7 @@
         global city runs και premium fitness courses.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Συμβατότητα</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">Συμβατότητα</h3>
       <ul class="list-disc list-inside mb-4">
         <li>Android 9.0 και νεότερο</li>
         <li>iOS 13.0 και νεότερο</li>
@@ -431,11 +431,11 @@
 
     <!-- Τεχνικές Προδιαγραφές -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Πλήρεις Τεχνικές Προδιαγραφές
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Υλικό & Λογισμικό
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -451,7 +451,7 @@
 
     <!-- Εμπειρία Χρήσης -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Εμπειρία Χρήσης
       </h2>
 
@@ -473,7 +473,7 @@
 
     <!-- Συμπεράσματα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπεράσματα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπεράσματα</h2>
       <p class="mb-4">
         Το Huawei Watch GT Runner 2 αντιπροσωπεύει ένα σημαντικό hardware leap
         σε σχέση με τον προκάτοχό του. Το κράμα τιτανίου, η οθόνη 3.000 nits και
@@ -506,7 +506,7 @@
     </section>
 
     <div class="mb-6 mt-12">
-      <h2 class="text-3xl text-[#0057A0] font-bold my-6 capitalize">
+      <h2 class="text-3xl text-blue font-bold my-6 capitalize">
         Huawei Watch GT Runner 2 Video Reviews
       </h2>
       <YoutubeVideo video-id="E3ZK6IEcRPA" class="mb-3" />

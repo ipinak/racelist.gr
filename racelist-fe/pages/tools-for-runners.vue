@@ -1,24 +1,17 @@
-Shoe "Cost-Per-Mile" & Retirement Tracker Running shoes are expensive. This tool
-helps runners justify the investment or realize when it’s time to buy new ones
-to avoid injury. How it works: User inputs the price of their shoes and their
-average weekly mileage. The Output: * Cost per mile: (e.g., "$0.25 per mile").
-Retirement Date: A predicted date they will hit the 400-mile mark (the standard
-lifespan of a shoe). Why it’s useful: It adds a fun, "gamified" financial aspect
-to gear management and promotes foot health.
 <template>
   <div>
-    <h1 class="text-3xl text-center text-[#0057A0] my-6">Βοηθήματα Δρομέων</h1>
+    <h1 class="font-display text-3xl font-semibold text-center text-ink my-6">Βοηθήματα Δρομέων</h1>
     <ul
       class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 list-none p-0"
     >
       <li
         v-for="link in links"
         :key="link.href"
-        class="border-2 border-gray-300 rounded-xl p-4 text-center hover:bg-gray-100 transition"
+        class="border border-line rounded-xl p-4 text-center hover:bg-paper-dim hover:border-blue transition-colors"
       >
         <NuxtLink
           :to="link.href"
-          class="text-lg font-semibold text-[#0057A0] hover:text-[#0057A0]/60"
+          class="font-display text-lg font-semibold text-blue hover:text-blue-deep"
         >
           {{ link.title }}
         </NuxtLink>

@@ -1,6 +1,6 @@
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6 capitalize">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6 capitalize">
       Ο κατάλληλος καρδιακός παλμός στο τρέξιμο: Είναι 180 παλμοί φυσιολογικοί;
     </h1>
 
@@ -15,7 +15,7 @@
 
     <!-- 1. Μέγιστος Καρδιακός Παλμός (MHR) -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         1. Μέγιστος Καρδιακός Παλμός (MHR)
       </h2>
       <p class="mb-4">
@@ -23,27 +23,27 @@
         υψηλότερο ρυθμό (σε bpm) που μπορεί να επιτύχει η καρδιά σας υπό απόλυτη
         κόπωση. Ένας απλός τρόπος υπολογισμού είναι:
       </p>
-      <pre class="bg-gray-100 p-4 rounded mb-4">MHR ≈ 220 − ηλικία</pre>
+      <pre class="bg-paper-dim p-4 rounded mb-4">MHR ≈ 220 − ηλικία</pre>
       <p>
         Π.χ. για ηλικία 40 ετών → MHR ≈ 180 bpm. Αυτό σημαίνει ότι αν τρέχετε με
         180 bpm, είστε στο όριο της αντοχής σας.
       </p>
 
       <div class="flex flex-col items-center my-6">
-        <h3 class="text-xl font-semibold text-[#0057A0] my-4">
+        <h3 class="text-xl font-semibold text-blue my-4">
           Υπολογίστε το MHR σας
         </h3>
         <input
           v-model="age"
           type="number"
           placeholder="Ηλικία"
-          class="border border-gray-300 rounded p-2 mb-4"
+          class="border border-line rounded p-2 mb-4 bg-paper text-ink focus:outline-none focus:border-blue"
         />
-        <div class="text-lg font-semibold text-[#aa57A9]">
+        <div class="text-lg font-semibold text-blue-deep">
           MHR: {{ mhr }} bpm
         </div>
 
-        <p class="text-xs text-gray-500 mt-2">
+        <p class="text-xs text-grey mt-2">
           Για ακριβέστερο αποτέλεσμα προτιμήστε εργομετρικό τεστ.
         </p>
       </div>
@@ -51,7 +51,7 @@
 
     <!-- 2. Ζώνες Καρδιακού Ρυθμού -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         2. Ζώνες καρδιακού ρυθμού
       </h2>
       <p class="mb-4">Με βάση το MHR, η ένταση χωρίζεται σε πέντε ζώνες:</p>
@@ -107,7 +107,7 @@
 
     <!-- 3. Παρακολούθηση Παλμού -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         3. Πώς να παρακολουθήσετε τον παλμό σας
       </h2>
       <ul class="list-disc list-inside mb-4 space-y-2">
@@ -124,7 +124,7 @@
 
     <!-- 4. Παράγοντες που επηρεάζουν τον παλμό -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         4. Παράγοντες που επηρεάζουν τον καρδιακό παλμό
       </h2>
       <ul class="list-disc list-inside space-y-2 mb-4">
@@ -144,7 +144,7 @@
 
     <!-- 6. Συχνές Ερωτήσεις -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">6. FAQ</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">6. FAQ</h2>
       <ul class="list-disc list-inside space-y-2">
         <li>
           <strong>Είναι κακό να τρέχω με υψηλό παλμό;</strong> Μόνο αν
@@ -168,7 +168,7 @@
 
     <!-- Συμπέρασμα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπέρασμα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπέρασμα</h2>
       <p>
         Η σωστή διαχείριση καρδιακού ρυθμού μετατρέπει το τρέξιμο σε στοχευμένη,
         ασφαλή και αποδοτική προπόνηση. Εντοπίστε το MHR, δουλέψτε κυρίως στις
@@ -186,12 +186,12 @@
     </section>
 
     <div class="mb-8">
-      <h3 class="text-2xl font-semibold text-[#0057A0] mb-4">Αναφορές</h3>
+      <h3 class="text-2xl font-semibold text-blue mb-4">Αναφορές</h3>
       <ul class="list-disc list-inside space-y-2 mb-4">
         <li>
           <NuxtLink
             to="https://www.brownhealth.org/be-well/target-heart-rate-zones-safely-maximize-your-workouts"
-            class="text-blue-600"
+            class="text-blue-deep"
           >
             Target Heart Rate Zones: Safely Maximize Your Workouts
           </NuxtLink>
@@ -199,7 +199,7 @@
         <li>
           <NuxtLink
             to="https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise-intensity/art-20046887"
-            class="text-blue-600"
+            class="text-blue-deep"
           >
             Exercise intensity: How to measure it
           </NuxtLink>

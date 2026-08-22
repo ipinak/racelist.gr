@@ -106,8 +106,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       New Balance FuelCell Rebel v5: Παρουσίαση & Αξιολόγηση
     </h1>
 
@@ -135,11 +135,11 @@
 
     <!-- Κύρια Χαρακτηριστικά -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Κύρια Χαρακτηριστικά και Τεχνολογίες
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Τεχνολογία FuelCell
       </h3>
       <p class="mb-4">
@@ -149,7 +149,7 @@
         αποδοτικό και δυναμικό.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Μείγμα Αφρών PEBA/EVA
       </h3>
       <p class="mb-4">
@@ -159,7 +159,7 @@
         απόκριση και την ανταπόκριση.
       </p>
 
-      <div class="bg-blue-50 p-4 rounded-lg mb-4">
+      <div class="bg-paper-dim border-l-4 border-blue p-4 rounded-lg mb-4">
         <h4 class="font-semibold mb-2">Βελτιώσεις στη v5</h4>
         <ul class="list-disc ml-6 space-y-2">
           <li>
@@ -180,7 +180,7 @@
 
     <!-- Σχεδιασμός και Κατασκευή -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Σχεδιασμός και Άνω Μέρος
       </h2>
 
@@ -190,7 +190,7 @@
         class="w-full object-cover rounded-2xl mb-6"
       />
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Αεροδυναμικό Mesh Άνω Μέρος
       </h3>
       <p class="mb-4">
@@ -199,7 +199,7 @@
         γρήγορο αλλά και βελτιώνει την αεροδυναμική του παπουτσιού.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Τεχνολογία FantomFit
       </h3>
       <p class="mb-4">
@@ -209,7 +209,7 @@
         κινήσεων.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Χρώματα και Στυλ
       </h3>
       <p class="mb-4">
@@ -221,10 +221,10 @@
 
     <!-- Τεχνικές Προδιαγραφές -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Τεχνικές Προδιαγραφές
       </h2>
-      <div class="bg-green-50 p-4 rounded-lg">
+      <div class="bg-paper-dim border-l-4 border-blue p-4 rounded-lg">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <h4 class="font-semibold mb-2">Βασικά Στοιχεία</h4>
@@ -254,11 +254,11 @@
 
     <!-- Απόδοση και Χρήση -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Απόδοση και Ιδανικές Χρήσεις
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Γρήγορα Χιλιόμετρα και Tempo Runs
       </h3>
       <p class="mb-4">
@@ -274,14 +274,14 @@
         class="w-full object-cover rounded-2xl mb-6"
       />
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Ευελιξία Χρήσης</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">Ευελιξία Χρήσης</h3>
       <p class="mb-4">
         Αυτό το δυναμικό παπούτσι μπορεί εύκολα να περάσει από μεγάλες, σταθερές
         διαδρομές σε κάτι πιο γρήγορο και αυθόρμητο. Η ευελιξία του το καθιστά
         κατάλληλο για:
       </p>
 
-      <div class="bg-gray-50 p-4 rounded-lg mb-4">
+      <div class="bg-paper-dim p-4 rounded-lg mb-4">
         <ul class="list-disc ml-6 space-y-1">
           <li>
             <strong>Tempo Runs:</strong> Η προωθητική αίσθηση βοηθά στη
@@ -302,7 +302,7 @@
 
     <!-- Σύγκριση με Προκάτοχο -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Βελτιώσεις από το Rebel v4
       </h2>
       <p class="mb-4">
@@ -311,8 +311,8 @@
       </p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-        <div class="bg-blue-50 p-4 rounded-lg">
-          <h4 class="font-semibold mb-2 text-green-700">Νέα στη v5</h4>
+        <div class="bg-paper-dim border-l-4 border-blue p-4 rounded-lg">
+          <h4 class="font-semibold mb-2 text-blue-deep">Νέα στη v5</h4>
           <ul class="text-sm space-y-1">
             <li>• Περισσότερος αφρός στην ενδιάμεση σόλα</li>
             <li>• Βελτιωμένη εξωτερική σόλα με περισσότερο καουτσούκ</li>
@@ -320,8 +320,8 @@
             <li>• Βελτιωμένη άνεση σε γρήγορα χιλιόμετρα</li>
           </ul>
         </div>
-        <div class="bg-gray-50 p-4 rounded-lg">
-          <h4 class="font-semibold mb-2 text-blue-700">Διατηρημένα στοιχεία</h4>
+        <div class="bg-paper-dim p-4 rounded-lg">
+          <h4 class="font-semibold mb-2 text-blue-deep">Διατηρημένα στοιχεία</h4>
           <ul class="text-sm space-y-1">
             <li>• FuelCell τεχνολογία ενδιάμεσης σόλας</li>
             <li>• Μείγμα αφρών PEBA/EVA</li>
@@ -334,7 +334,7 @@
 
     <!-- Ανταγωνισμός -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Σύγκριση με τον Ανταγωνισμό
       </h2>
       <p class="mb-4">
@@ -342,7 +342,7 @@
         παπούτσια όπως:
       </p>
 
-      <div class="bg-yellow-50 p-4 rounded-lg mb-4">
+      <div class="bg-flag/10 border-l-4 border-flag p-4 rounded-lg mb-4">
         <h4 class="font-semibold mb-2">Κύριοι Ανταγωνιστές</h4>
         <ul class="space-y-2 text-sm">
           <li><strong>Nike Zoom Fly 5:</strong> Παρόμοιο drop αλλά πιο βαρύ</li>
@@ -364,10 +364,10 @@
 
     <!-- Video Review -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Video Παρουσίαση
       </h2>
-      <p class="mb-4 text-gray-600">
+      <p class="mb-4 text-grey">
         Παρακολουθήστε αναλυτική παρουσίαση του New Balance FuelCell Rebel v5:
       </p>
       <div class="aspect-video mb-4">
@@ -380,7 +380,7 @@
 
     <!-- Συμπέρασμα -->
     <section>
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπέρασμα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπέρασμα</h2>
       <p class="mb-4">
         Το New Balance FuelCell Rebel v5 αποτελεί μια εξαιρετική εξέλιξη μιας
         ήδη επιτυχημένης σειράς. Με το βάρος των 227 γραμμαρίων, την προωθητική

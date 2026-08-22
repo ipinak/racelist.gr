@@ -115,8 +115,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Garmin Fenix 8: Αναλυτική Παρουσίαση & Αξιολόγηση 2025
     </h1>
 
@@ -150,7 +150,7 @@
 
     <!-- Ενότητα για το Garmin Fenix 8 -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Σχεδιασμός και Κατασκευή
       </h2>
       <p class="mb-4">
@@ -195,7 +195,7 @@
 
     <!-- Εμπειρία Χρήστη & UI -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Λειτουργικότητα και Εμπειρία Χρήστη
       </h2>
       <p class="mb-4">
@@ -214,7 +214,7 @@
         ή έναρξη νέας δραστηριότητας.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Αθλητικές και Ειδικές Λειτουργίες
       </h3>
       <p class="mb-4">
@@ -252,7 +252,7 @@
 
     <!-- Αυτονομία & GPS -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Αυτονομία και Χαρτογράφηση
       </h2>
       <p class="mb-4">
@@ -284,7 +284,7 @@
 
     <!-- Οικοσύστημα & Εφαρμογές -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Εφαρμογή και Οικοσύστημα Garmin
       </h2>
       <p class="mb-4">
@@ -316,7 +316,7 @@
 
     <!-- Σύγκριση με Ανταγωνιστικά Μοντέλα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Πώς Συγκρίνεται με τον Ανταγωνισμό
       </h2>
       <p class="mb-4">
@@ -350,7 +350,7 @@
 
     <!-- Συμπέρασμα -->
     <section>
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπέρασμα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπέρασμα</h2>
       <p class="mb-4">
         Το Garmin Fenix 8 αναμφισβήτητα αποτελεί την κορυφαία πρόταση στην
         κατηγορία των premium multisport GPS smartwatch για το 2025. Η
@@ -384,7 +384,7 @@
     </section>
 
     <div class="mb-6 mt-12">
-      <h2 class="text-3xl text-[#0057A0] font-bold my-6 capitalize">
+      <h2 class="text-3xl text-blue font-bold my-6 capitalize">
         Video review για το Garmin Fenix 8
       </h2>
       <YoutubeVideo video-id="M8kR2A_3n0A" class="mb-3" />

@@ -98,8 +98,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Πού να τρέξω στο Ηράκλειο: Οι καλύτερες διαδρομές για τρέξιμο
     </h1>
 
@@ -108,16 +108,16 @@
     </p>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         1. Τρέξιμο στα Ενετικά Τείχη
       </h2>
       <p class="mb-4">
-        Τα ενετικά τείχη του Ηρακλείου είναι ένα από τα πιο εμβληματικά σημεία της πόλης και προσφέρουν μια μοναδική εμπειρία τρεξίματος. Ξεκίνα από το <a href="https://maps.app.goo.gl/z7qoNGW6sYEDgog96" target="_blank" class="underline text-blue-700">σημείο εκκίνησης</a> κοντά στην Πύλη Χανίων και ακολούθησε τη διαδρομή πάνω στα τείχη. Αυτή τη στιγμή δεν μπορείς να διασχίσεις ολόκληρη τη διαδρομή, καθώς ένα τμήμα βρίσκεται ακόμα υπό διαμόρφωση, αλλά το μεγαλύτερο μέρος είναι ανοιχτό και φτάνεις σχεδόν ως τη θάλασσα. Η θέα στην πόλη και το λιμάνι είναι μοναδική, ενώ το τερέν είναι ιδανικό για ήπιο τρέξιμο ή περπάτημα.
+        Τα ενετικά τείχη του Ηρακλείου είναι ένα από τα πιο εμβληματικά σημεία της πόλης και προσφέρουν μια μοναδική εμπειρία τρεξίματος. Ξεκίνα από το <a href="https://maps.app.goo.gl/z7qoNGW6sYEDgog96" target="_blank" class="underline text-blue-deep">σημείο εκκίνησης</a> κοντά στην Πύλη Χανίων και ακολούθησε τη διαδρομή πάνω στα τείχη. Αυτή τη στιγμή δεν μπορείς να διασχίσεις ολόκληρη τη διαδρομή, καθώς ένα τμήμα βρίσκεται ακόμα υπό διαμόρφωση, αλλά το μεγαλύτερο μέρος είναι ανοιχτό και φτάνεις σχεδόν ως τη θάλασσα. Η θέα στην πόλη και το λιμάνι είναι μοναδική, ενώ το τερέν είναι ιδανικό για ήπιο τρέξιμο ή περπάτημα.
       </p>
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         2. Τρέξιμο στο Μώλο (Κούλες)
       </h2>
       <p class="mb-4">
@@ -132,7 +132,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         3. Τρέξιμο στην Παραλιακή
       </h2>
       <p class="mb-4">
@@ -147,7 +147,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         4. Τρέξιμο στο Γιούχτα (Μονοπάτια εκτός δρόμου)
       </h2>
       <p class="mb-4">
@@ -160,11 +160,11 @@
       </p>
     </section>
 
-    <div class="border-t border-gray-200 pt-6 mt-8">
-      <h3 class="text-lg font-semibold text-[#0057A0] mb-3">
+    <div class="border-t border-line pt-6 mt-8">
+      <h3 class="text-lg font-semibold text-blue mb-3">
         Extra Tips για τρέξιμο στο Ηράκλειο
       </h3>
-      <ul class="list-disc list-inside text-[#0057A0]">
+      <ul class="list-disc list-inside text-blue">
         <li>Προτίμησε πρωινές ή βραδινές ώρες για να αποφύγεις τη ζέστη και την κίνηση.</li>
         <li>Έχε πάντα μαζί σου νερό, ειδικά το καλοκαίρι.</li>
         <li>Σε διαδρομές με κίνηση, τρέξε στην άκρη και με προσοχή.</li>

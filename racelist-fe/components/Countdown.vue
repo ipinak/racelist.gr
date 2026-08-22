@@ -1,7 +1,7 @@
 <template>
   <div
     v-if="remaining"
-    class="flex items-center justify-center gap-1.5 mt-2 text-xs font-medium text-[#003d73]"
+    class="flex items-center justify-center gap-1.5 mt-2 text-xs font-mono font-medium text-blue-deep"
   >
     <svg class="w-3.5 h-3.5 shrink-0" viewBox="0 0 20 20" fill="currentColor">
       <path
@@ -13,18 +13,18 @@
     <span>Απομένουν</span>
     <span
       v-if="remaining.days > 0"
-      class="inline-flex items-center rounded bg-[#003d73] text-white px-1.5 py-0.5"
+      class="inline-flex items-center rounded bg-blue-deep text-paper px-1.5 py-0.5"
     >
       {{ remaining.days }}μ
     </span>
     <span
       v-if="remaining.hours > 0"
-      class="inline-flex items-center rounded bg-[#003d73] text-white px-1.5 py-0.5"
+      class="inline-flex items-center rounded bg-blue-deep text-paper px-1.5 py-0.5"
     >
       {{ remaining.hours }}ω
     </span>
     <span
-      class="inline-flex items-center rounded bg-[#003d73] text-white px-1.5 py-0.5"
+      class="inline-flex items-center rounded bg-blue-deep text-paper px-1.5 py-0.5"
     >
       {{ remaining.minutes }}λ
     </span>

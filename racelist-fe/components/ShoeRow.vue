@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col md:flex-row items-center gap-6 p-4 rounded-2xl shadow-md bg-white"
+    class="flex flex-col md:flex-row items-center gap-6 p-4 rounded-2xl shadow-md bg-paper border border-line"
     :class="{ 'md:flex-row-reverse': !imageLeft }"
   >
     <!-- Single Image Display -->
@@ -28,8 +28,8 @@
           class="w-12 h-12 border-2 rounded-lg overflow-hidden transition-all duration-200"
           :class="
             activeImageIndex === index
-              ? 'border-[#0057A0]'
-              : 'border-gray-300 hover:border-gray-400'
+              ? 'border-blue'
+              : 'border-line hover:border-grey'
           "
           @click="activeImageIndex = index"
         >
@@ -43,11 +43,11 @@
     </div>
 
     <div class="w-full md:w-2/3">
-      <h2 class="text-2xl font-bold mb-2">{{ name }}</h2>
-      <p class="text-gray-600 mb-1">
+      <h2 class="font-display text-2xl font-bold mb-2 text-ink">{{ name }}</h2>
+      <p class="text-grey mb-1">
         <strong>Τιμή (ή εύρος):</strong> {{ price }}
       </p>
-      <p class="text-gray-700 italic mb-4">{{ description }}</p>
+      <p class="text-grey italic mb-4">{{ description }}</p>
 
       <div class="flex flex-wrap gap-3">
         <a
@@ -55,7 +55,7 @@
           :key="index"
           :href="link.url"
           target="_blank"
-          class="bg-[#0057A0] text-white p-3 rounded hover:bg-[#0057A0]/60 transition"
+          class="bg-blue-deep text-paper px-4 py-3 rounded-full font-semibold text-sm hover:bg-ink transition-colors"
         >
           {{ link.label }}
         </a>

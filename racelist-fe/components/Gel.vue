@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col md:flex-row items-center gap-6 p-4 rounded-2xl shadow-md bg-white"
+    class="flex flex-col md:flex-row items-center gap-6 p-4 rounded-2xl shadow-md bg-paper border border-line"
     :class="{ 'md:flex-row-reverse': !imageLeft }"
   >
     <img
@@ -10,12 +10,12 @@
     />
 
     <div class="w-full md:w-2/3">
-      <h2 class="text-2xl font-bold mb-2">{{ gel.name }}</h2>
-      <p class="text-gray-600 mb-1">
+      <h2 class="font-display text-2xl font-bold mb-2 text-ink">{{ gel.name }}</h2>
+      <p class="text-grey mb-1">
         <strong>Τιμή (ή εύρος):</strong> {{ gel.price }} €
       </p>
-      <p class="text-gray-700 italic mb-4">{{ gel.description }}</p>
-      <p class="text-gray-700 mb-4">Υδατάνθρακες: {{ gel.carbs }} γρ.</p>
+      <p class="text-grey italic mb-4">{{ gel.description }}</p>
+      <p class="text-grey mb-4">Υδατάνθρακες: {{ gel.carbs }} γρ.</p>
 
       <div
         v-if="gel.links && gel.links.length > 0"
@@ -26,7 +26,7 @@
           :key="index"
           :href="link.url"
           target="_blank"
-          class="bg-[#0057A0] text-white p-3 rounded hover:bg-[#a4c5ca] transition"
+          class="bg-blue-deep text-paper px-4 py-3 rounded-full font-semibold text-sm hover:bg-ink transition-colors"
         >
           {{ link.label }}
         </a>

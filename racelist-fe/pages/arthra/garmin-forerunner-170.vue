@@ -118,8 +118,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Garmin Forerunner 170: Η Νέα Επιλογή που Αντικαθιστά το Forerunner 955
     </h1>
 
@@ -147,11 +147,11 @@
     </p>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Τα Highlights του Forerunner 170
       </h2>
 
-      <div class="bg-blue-50 p-4 rounded-lg mb-4">
+      <div class="bg-paper-dim border-l-4 border-blue p-4 rounded-lg mb-4">
         <ul class="list-disc ml-6 space-y-1">
           <li><strong>AMOLED 1.2" οθόνη αφής</strong> με ανάλυση 390 x 390</li>
           <li><strong>Έως 10 ημέρες</strong> μπαταρία σε smartwatch mode</li>
@@ -169,7 +169,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Τι Αλλάζει σε Σχέση με το Forerunner 955
       </h2>
 
@@ -196,11 +196,11 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Προπόνηση, Απόδοση και Αποκατάσταση
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Καθημερινές Προτάσεις Ασκήσεων και Garmin Coach
       </h3>
       <p class="mb-4">
@@ -211,7 +211,7 @@
         προσωπικά ρεκόρ.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Προηγμένα Metrics για πιο έξυπνες αποφάσεις
       </h3>
       <p class="mb-4">
@@ -222,7 +222,7 @@
         συνολική κατάσταση οργανισμού και στρες.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Δρομική δυναμική και ισχύς από τον καρπό
       </h3>
       <p class="mb-4">
@@ -234,7 +234,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Υγεία, Ευεξία και Καθημερινές Λειτουργίες
       </h2>
 
@@ -261,7 +261,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Σχεδιασμός, Χρώματα και Τεχνικά Χαρακτηριστικά
       </h2>
 
@@ -272,8 +272,8 @@
         126-203 mm.
       </p>
 
-      <div class="bg-green-50 p-4 rounded-lg mb-4">
-        <h3 class="text-lg font-semibold text-[#0057A0] mb-2">
+      <div class="bg-paper-dim border-l-4 border-blue p-4 rounded-lg mb-4">
+        <h3 class="text-lg font-semibold text-blue mb-2">
           Βασικά Specs με μια ματιά
         </h3>
         <ul class="list-disc ml-6 space-y-1">
@@ -302,7 +302,7 @@
     </section>
 
     <section>
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπέρασμα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπέρασμα</h2>
       <p class="mb-4">
         Το Garmin Forerunner 170 είναι μια ολοκληρωμένη επιλογή για δρομείς που
         θέλουν σύγχρονη εμπειρία χρήσης, καθαρή προπονητική καθοδήγηση και
@@ -314,7 +314,7 @@
     </section>
 
     <div class="mb-6 mt-12">
-      <h2 class="text-3xl text-[#0057A0] font-bold my-6 capitalize">
+      <h2 class="text-3xl text-blue font-bold my-6 capitalize">
         Video review για το Garmin Forerunner 170
       </h2>
       <YoutubeVideo video-id="Wbes5X0-Aho" class="mb-3" />

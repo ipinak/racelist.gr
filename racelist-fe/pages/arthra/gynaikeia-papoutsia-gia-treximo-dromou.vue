@@ -1,6 +1,6 @@
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6 capitalize">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6 capitalize">
       Βρες τα καλύτερα γυναικεία παπούτσια για τρέξιμο δρόμου
     </h1>
 
@@ -31,7 +31,7 @@
     </p>
 
     <div class="mb-6 mt-12">
-      <h2 class="text-3xl text-[#0057A0] font-bold mt-6 capitalize">
+      <h2 class="text-3xl text-blue font-bold mt-6 capitalize">
         {{ shoes.length }} γυναικεία παπούτσια για οποιαδήποτε δρομέα
       </h2>
 
@@ -49,7 +49,7 @@
     </div>
 
     <section class="mb-6 mt-12">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4 capitalize">
+      <h2 class="text-2xl font-semibold text-blue mb-4 capitalize">
         Ποιο να διαλέξεις;
       </h2>
       <p class="mb-4">

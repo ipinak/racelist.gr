@@ -1,14 +1,14 @@
 <template>
-  <div class="blog-content max-w-5xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-center text-[#0057A0] my-6 font-bold">
+  <div class="prose-article blog-content max-w-5xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-center text-blue my-6 font-bold">
       Πόσο Γρήγορα Πάνε τα Παγκόσμια Ρεκόρ; Η Ταχύτητα Πίσω από τους Χρόνους
     </h1>
 
     <PublishedDate date="2026-08-13" :centered="true" />
 
     <div class="prose prose-lg max-w-none">
-      <div class="bg-blue-50 p-6 rounded-lg mb-8">
-        <h2 class="text-2xl font-bold text-[#0057A0] mt-0 mb-4">
+      <div class="bg-paper-dim border-l-4 border-blue p-6 rounded-lg mb-8">
+        <h2 class="text-2xl font-bold text-blue mt-0 mb-4">
           Με μια Ματιά
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -34,7 +34,7 @@
       </p>
 
       <!-- Ingebrigtsen highlight -->
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Το Ρεκόρ: Ingebrigtsen στα 5χλμ
       </h2>
 
@@ -51,7 +51,7 @@
         απόσταση.
       </p>
 
-      <div class="bg-yellow-50 p-6 rounded-lg mb-8">
+      <div class="bg-flag/10 border-l-4 border-flag p-6 rounded-lg mb-8">
         <p class="mb-0">
           💡 <strong>Πώς το υπολογίζουμε:</strong> Ταχύτητα (χλμ/ώρα) =
           Απόσταση (χλμ) ÷ Χρόνος (ώρες). Για τα 5χλμ σε 13:15.29, ο χρόνος σε
@@ -60,7 +60,7 @@
       </div>
 
       <!-- Comparison table -->
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Σύγκριση Ταχύτητας ανά Απόσταση
       </h2>
 
@@ -72,8 +72,8 @@
       </p>
 
       <div class="overflow-x-auto mb-8">
-        <table class="min-w-full bg-white border border-gray-300">
-          <thead class="bg-[#0057A0] text-white">
+        <table class="min-w-full bg-paper border border-line">
+          <thead class="bg-blue-deep text-white">
             <tr>
               <th class="py-3 px-4 text-left">Απόσταση</th>
               <th class="py-3 px-4 text-left">Ρεκόρ</th>
@@ -82,29 +82,29 @@
               <th class="py-3 px-4 text-left">Μέση Ταχύτητα</th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
-            <tr class="bg-yellow-50 font-semibold">
+          <tbody class="divide-y divide-line">
+            <tr class="bg-flag/10 font-semibold">
               <td class="py-3 px-4">5 χλμ (δρόμος)</td>
               <td class="py-3 px-4">13:15.29</td>
               <td class="py-3 px-4">Jakob Ingebrigtsen 🇳🇴</td>
               <td class="py-3 px-4">2:39/χλμ</td>
               <td class="py-3 px-4">~22,6 χλμ/ώρα</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">10 χλμ (δρόμος)</td>
               <td class="py-3 px-4">26:24</td>
               <td class="py-3 px-4">Yomif Kejelcha 🇪🇹</td>
               <td class="py-3 px-4">2:38/χλμ</td>
               <td class="py-3 px-4">~22,7 χλμ/ώρα</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">Ημιμαραθώνιος (21,0975 χλμ)</td>
               <td class="py-3 px-4">56:42</td>
               <td class="py-3 px-4">Jacob Kiplimo 🇺🇬</td>
               <td class="py-3 px-4">2:41/χλμ</td>
               <td class="py-3 px-4">~22,3 χλμ/ώρα</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">Μαραθώνιος (42,195 χλμ)</td>
               <td class="py-3 px-4">2:00:35</td>
               <td class="py-3 px-4">Kelvin Kiptum 🇰🇪</td>
@@ -125,13 +125,13 @@
       </p>
 
       <!-- Women's records -->
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Και στις Γυναίκες, η Ταχύτητα Εντυπωσιάζει Εξίσου
       </h2>
 
       <div class="overflow-x-auto mb-8">
-        <table class="min-w-full bg-white border border-gray-300">
-          <thead class="bg-[#0057A0] text-white">
+        <table class="min-w-full bg-paper border border-line">
+          <thead class="bg-blue-deep text-white">
             <tr>
               <th class="py-3 px-4 text-left">Απόσταση</th>
               <th class="py-3 px-4 text-left">Ρεκόρ</th>
@@ -139,26 +139,26 @@
               <th class="py-3 px-4 text-left">Μέση Ταχύτητα</th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
-            <tr class="hover:bg-gray-50">
+          <tbody class="divide-y divide-line">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">5 χλμ (δρόμος)</td>
               <td class="py-3 px-4">14:29</td>
               <td class="py-3 px-4">Beatrice Chebet 🇰🇪</td>
               <td class="py-3 px-4">~20,7 χλμ/ώρα</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">10 χλμ (δρόμος)</td>
               <td class="py-3 px-4">28:46</td>
               <td class="py-3 px-4">Agnes Ngetich 🇰🇪</td>
               <td class="py-3 px-4">~20,9 χλμ/ώρα</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">Ημιμαραθώνιος</td>
               <td class="py-3 px-4">62:52</td>
               <td class="py-3 px-4">Agnes Ngetich 🇰🇪</td>
               <td class="py-3 px-4">~20,1 χλμ/ώρα</td>
             </tr>
-            <tr class="hover:bg-gray-50">
+            <tr class="hover:bg-paper-dim">
               <td class="py-3 px-4">Μαραθώνιος</td>
               <td class="py-3 px-4">2:09:56</td>
               <td class="py-3 px-4">Brigid Kosgei 🇰🇪 (Σικάγο 2023)</td>
@@ -171,21 +171,21 @@
       <p class="text-lg mb-4">
         Η <strong>Brigid Kosgei</strong>, που είδαμε πρόσφατα να θριαμβεύει
         και στον
-        <NuxtLink to="/arthra/marathon-tokio-2026/" class="text-[#0057A0] underline">
+        <NuxtLink to="/arthra/marathon-tokio-2026/" class="text-blue underline">
           Μαραθώνιο Τόκιο 2026
         </NuxtLink>, παραμένει σημείο αναφοράς στον γυναικείο μαραθώνιο, διατηρώντας
         μέση ταχύτητα σχεδόν 20 χλμ/ώρα για πάνω από δύο ώρες τρεξίματος.
       </p>
 
       <!-- Why speed drops -->
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Γιατί Πέφτει η Ταχύτητα Όσο Μεγαλώνει η Απόσταση;
       </h2>
 
-      <div class="bg-blue-50 p-6 rounded-lg mb-8">
+      <div class="bg-paper-dim border-l-4 border-blue p-6 rounded-lg mb-8">
         <ul class="space-y-3">
           <li class="flex items-start gap-2">
-            <span class="text-[#0057A0] font-bold text-lg">⚡</span>
+            <span class="text-blue font-bold text-lg">⚡</span>
             <span>
               <strong>Ενεργειακά συστήματα:</strong> Στα 5-10χλμ, το σώμα
               λειτουργεί κοντά στο ανώτατο όριο πρόσληψης οξυγόνου (VO2max).
@@ -194,7 +194,7 @@
             </span>
           </li>
           <li class="flex items-start gap-2">
-            <span class="text-[#0057A0] font-bold text-lg">🔥</span>
+            <span class="text-blue font-bold text-lg">🔥</span>
             <span>
               <strong>Καύσιμα:</strong> Τα αποθέματα γλυκογόνου αρκούν για
               περίπου 90-120 λεπτά έντονης προσπάθειας. Στον μαραθώνιο, η
@@ -203,7 +203,7 @@
             </span>
           </li>
           <li class="flex items-start gap-2">
-            <span class="text-[#0057A0] font-bold text-lg">🌡️</span>
+            <span class="text-blue font-bold text-lg">🌡️</span>
             <span>
               <strong>Θερμορύθμιση:</strong> Όσο διαρκεί περισσότερο ο αγώνας,
               τόσο πιο πολύ ανεβαίνει η θερμοκρασία σώματος, κάτι που
@@ -211,7 +211,7 @@
             </span>
           </li>
           <li class="flex items-start gap-2">
-            <span class="text-[#0057A0] font-bold text-lg">🦵</span>
+            <span class="text-blue font-bold text-lg">🦵</span>
             <span>
               <strong>Μυϊκή κόπωση:</strong> Η επαναλαμβανόμενη κρούση στο
               έδαφος για δεκάδες χιλιάδες βήματα προκαλεί σταδιακή μείωση της
@@ -223,7 +223,7 @@
       </div>
 
       <!-- Evolution over time -->
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Πόσο Γρήγορα Εξελίσσονται τα Ρεκόρ
       </h2>
 
@@ -247,26 +247,26 @@
       </p>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-        <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg">
-          <div class="text-3xl font-bold text-[#0057A0] mb-2">22,6</div>
-          <div class="text-gray-700">χλμ/ώρα στα 5χλμ (Ingebrigtsen)</div>
+        <div class="bg-paper-dim border border-blue/20 p-6 rounded-lg">
+          <div class="text-3xl font-bold text-blue mb-2">22,6</div>
+          <div class="text-ink/80">χλμ/ώρα στα 5χλμ (Ingebrigtsen)</div>
         </div>
         <div
-          class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg"
+          class="bg-paper-dim border border-flag/20 p-6 rounded-lg"
         >
-          <div class="text-3xl font-bold text-[#0057A0] mb-2">21,0</div>
-          <div class="text-gray-700">χλμ/ώρα σε ολόκληρο μαραθώνιο (Kiptum)</div>
+          <div class="text-3xl font-bold text-blue mb-2">21,0</div>
+          <div class="text-ink/80">χλμ/ώρα σε ολόκληρο μαραθώνιο (Kiptum)</div>
         </div>
         <div
-          class="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg"
+          class="bg-paper-dim border border-line p-6 rounded-lg"
         >
-          <div class="text-3xl font-bold text-[#0057A0] mb-2">~2:52</div>
-          <div class="text-gray-700">ανά χιλιόμετρο, για 42,195 χλμ</div>
+          <div class="text-3xl font-bold text-blue mb-2">~2:52</div>
+          <div class="text-ink/80">ανά χιλιόμετρο, για 42,195 χλμ</div>
         </div>
       </div>
 
       <!-- For everyday runners -->
-      <h2 class="text-2xl font-bold text-[#0057A0] mt-8 mb-4">
+      <h2 class="text-2xl font-bold text-blue mt-8 mb-4">
         Τι Σημαίνει αυτό για τον Ερασιτέχνη Δρομέα;
       </h2>
 
@@ -280,12 +280,12 @@
 
       <p class="text-lg mb-4">
         Θέλετε να δείτε τα δικά σας νούμερα; Με τον
-        <NuxtLink to="/pace-calculator/" class="text-[#0057A0] underline"
+        <NuxtLink to="/pace-calculator/" class="text-blue underline"
           >υπολογιστή ρυθμού</NuxtLink
         >
         μπορείτε να βρείτε τον μέσο ρυθμό και τα splits σας ανά χιλιόμετρο, ενώ
         με τον
-        <NuxtLink to="/race-time-predictor/" class="text-[#0057A0] underline"
+        <NuxtLink to="/race-time-predictor/" class="text-blue underline"
           >υπολογιστή πρόβλεψης χρόνων</NuxtLink
         >
         (βασισμένο στον τύπο του Riegel) μπορείτε να δείτε τι χρόνο θα
@@ -293,68 +293,68 @@
         ξεκινώντας από μια πρόσφατη επίδοσή σας.
       </p>
 
-      <div class="bg-blue-50 p-6 rounded-lg mt-8">
+      <div class="bg-paper-dim border-l-4 border-blue p-6 rounded-lg mt-8">
         <h3 class="text-xl font-semibold mb-4">Χρήσιμοι Σύνδεσμοι</h3>
         <div class="space-y-3">
           <a
             href="https://worldathletics.org/records/all-time-toplists"
             target="_blank"
             rel="noopener noreferrer"
-            class="block p-4 bg-white rounded-md hover:bg-gray-50 transition-colors border border-gray-200"
+            class="block p-4 bg-paper rounded-md hover:bg-paper-dim transition-colors border border-line"
           >
-            <div class="font-semibold text-[#0057A0]">
+            <div class="font-semibold text-blue">
               🏅 World Athletics – All-Time Records
             </div>
-            <div class="text-sm text-gray-600 mt-1">worldathletics.org</div>
+            <div class="text-sm text-grey mt-1">worldathletics.org</div>
           </a>
           <NuxtLink
             to="/arthra/marathon-tokio-2026/"
-            class="block p-4 bg-white rounded-md hover:bg-gray-50 transition-colors border border-gray-200"
+            class="block p-4 bg-paper rounded-md hover:bg-paper-dim transition-colors border border-line"
           >
-            <div class="font-semibold text-[#0057A0]">
+            <div class="font-semibold text-blue">
               🏃 Μαραθώνιος Τόκιο 2026 – Αποτελέσματα & Νικητές
             </div>
-            <div class="text-sm text-gray-600 mt-1">
+            <div class="text-sm text-grey mt-1">
               Δείτε πώς τα σημερινά ρεκόρ διαμορφώνονται στην πράξη
             </div>
           </NuxtLink>
           <NuxtLink
             to="/arthra/proetoimasia-gia-marathonio/"
-            class="block p-4 bg-white rounded-md hover:bg-gray-50 transition-colors border border-gray-200"
+            class="block p-4 bg-paper rounded-md hover:bg-paper-dim transition-colors border border-line"
           >
-            <div class="font-semibold text-[#0057A0]">
+            <div class="font-semibold text-blue">
               📋 Προετοιμασία για το Αυθεντικό Μαραθώνιο της Αθήνας
             </div>
-            <div class="text-sm text-gray-600 mt-1">
+            <div class="text-sm text-grey mt-1">
               Χτίστε τη δική σας στρατηγική ρυθμού
             </div>
           </NuxtLink>
           <NuxtLink
             to="/pace-calculator/"
-            class="block p-4 bg-white rounded-md hover:bg-gray-50 transition-colors border border-gray-200"
+            class="block p-4 bg-paper rounded-md hover:bg-paper-dim transition-colors border border-line"
           >
-            <div class="font-semibold text-[#0057A0]">
+            <div class="font-semibold text-blue">
               ⏱️ Υπολογιστής Ρυθμού & Χρόνου ανά Χιλιόμετρο
             </div>
-            <div class="text-sm text-gray-600 mt-1">
+            <div class="text-sm text-grey mt-1">
               Δείτε τον μέσο ρυθμό και τα splits σας
             </div>
           </NuxtLink>
           <NuxtLink
             to="/race-time-predictor/"
-            class="block p-4 bg-white rounded-md hover:bg-gray-50 transition-colors border border-gray-200"
+            class="block p-4 bg-paper rounded-md hover:bg-paper-dim transition-colors border border-line"
           >
-            <div class="font-semibold text-[#0057A0]">
+            <div class="font-semibold text-blue">
               🎯 Υπολογιστής Πρόβλεψης Χρόνων (Τύπος Riegel)
             </div>
-            <div class="text-sm text-gray-600 mt-1">
+            <div class="text-sm text-grey mt-1">
               Προβλέψτε τον χρόνο σας σε 10χλμ, ημιμαραθώνιο ή μαραθώνιο
             </div>
           </NuxtLink>
         </div>
       </div>
 
-      <div class="mt-8 text-center text-gray-600">
+      <div class="mt-8 text-center text-grey">
         <p class="text-sm">Τελευταία ενημέρωση: 13 Αυγούστου 2026</p>
       </div>
     </div>
@@ -455,14 +455,11 @@
 
 <style scoped>
   .blog-content {
-    font-family:
-      system-ui,
-      -apple-system,
-      sans-serif;
+    font-family: 'Inter', system-ui, sans-serif;
   }
 
   .prose {
-    color: #374151;
+    color: #0F1F2E;
     line-height: 1.75;
   }
 
@@ -481,7 +478,7 @@
   }
 
   .prose a {
-    color: #0057a0;
+    color: #1F5FA8;
     text-decoration: none;
   }
 

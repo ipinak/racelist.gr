@@ -1,5 +1,5 @@
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
     <h1 class="text-3xl font-bold text-center mb-6">
       Ο Τερματισμός Ενός Αγώνα: Μια Σημαντική Εμπειρία
     </h1>
@@ -76,7 +76,7 @@
         αποφασιστικό εαυτό.
       </p>
     </section>
-    <blockquote class="quote p-4 border-l-4 border-blue-400 bg-gray-50 italic">
+    <blockquote class="quote p-4 border-l-4 border-blue bg-paper-dim italic">
       Στο τέλος της ημέρας, δεν έχει σημασία πόσο γρήγορα έτρεξες, αλλά ότι δεν
       σταμάτησες.
     </blockquote>

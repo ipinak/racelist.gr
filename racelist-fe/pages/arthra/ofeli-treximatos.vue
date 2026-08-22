@@ -1,6 +1,6 @@
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Οφέλη Από Το Τρέξιμο: Ένα Δώρο για το Σώμα και την Ψυχή σας
     </h1>
 
@@ -14,7 +14,7 @@
     </p>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Καρδιά και Πνεύμονες: Η Βασική Μηχανή
       </h2>
       <p class="mb-4">
@@ -28,7 +28,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Μυϊκή Δύναμη: Θεμέλια
       </h2>
       <p class="mb-4">
@@ -43,7 +43,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Απώλεια Βάρους: Η Φυσική Λύση
       </h2>
       <p class="mb-4">
@@ -57,7 +57,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Εγκέφαλος σε Εγρήγορση: Διαύγεια και Συγκέντρωση
       </h2>
       <p class="mb-4">
@@ -71,7 +71,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Ευεξία και Ψυχική Υγεία: Η Δύναμη των Ενδορφινών
       </h2>
       <p class="mb-4">
@@ -84,7 +84,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Η Ευφορία του Δρομέα (Runner's High)
       </h2>
       <p class="mb-4">
@@ -98,7 +98,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Ψυχολογική Τόνωση
       </h2>
       <p class="mb-4">

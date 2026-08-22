@@ -99,8 +99,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Garmin HRM 600: Αναλυτική Παρουσίαση & Αξιολόγηση 2025
     </h1>
 
@@ -129,7 +129,7 @@
 
     <!-- Σχεδιασμός και Κατασκευή -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Σχεδιασμός και Κατασκευή
       </h2>
       <p class="mb-4">
@@ -166,7 +166,7 @@
 
     <!-- Λειτουργικότητα και Χαρακτηριστικά -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Λειτουργικότητα και Χαρακτηριστικά
       </h2>
       <p class="mb-4">
@@ -178,7 +178,7 @@
         και την προσαρμογή της έντασης ανάλογα με τα δεδομένα.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Εκτεταμένη Δυναμική Τρεξίματος
       </h3>
       <p class="mb-4">
@@ -206,7 +206,7 @@
         στην πρόληψη τραυματισμών και στη βελτιστοποίηση της απόδοσης.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Καταγραφή Δραστηριότητας Χωρίς Ρολόι
       </h3>
       <p class="mb-4">
@@ -226,7 +226,7 @@
         ολοκληρωθεί η δραστηριότητα.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Παρακολούθηση Καθημερινής Δραστηριότητας
       </h3>
       <p class="mb-4">
@@ -240,14 +240,14 @@
 
     <!-- Ευελιξία στην Προπόνηση -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Ευελιξία στην Προπόνηση
       </h2>
       <p class="mb-4">
         Η HRM 600 προσφέρει εξαιρετική ευελιξία για διάφορους τύπους προπόνησης:
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Τρέξιμο σε Κλειστό Χώρο
       </h3>
       <p class="mb-4">
@@ -257,7 +257,7 @@
         δεν είναι αποτελεσματικό.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Κολύμβηση</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">Κολύμβηση</h3>
       <p class="mb-4">
         Κατά τη διάρκεια δραστηριοτήτων κολύμβησης, η HRM 600 αποθηκεύει τα
         δεδομένα της καρδιακής συχνότητας και τα προωθεί στο συμβατό σας
@@ -267,7 +267,7 @@
         πληροφορίες.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">Ποδηλασία</h3>
+      <h3 class="text-xl font-semibold text-blue mb-3">Ποδηλασία</h3>
       <p class="mb-4">
         Η ζώνη είναι πλήρως συμβατή με τους υπολογιστές ποδηλασίας Edge® της
         Garmin, παρέχοντας ακριβή δεδομένα καρδιακής συχνότητας για την ανάλυση
@@ -278,7 +278,7 @@
 
     <!-- Αυτονομία & Συνδεσιμότητα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Αυτονομία και Συνδεσιμότητα
       </h2>
       <p class="mb-4">
@@ -308,7 +308,7 @@
 
     <!-- Σύγκριση με Άλλα Μοντέλα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Πώς Συγκρίνεται με Άλλα Μοντέλα
       </h2>
       <p class="mb-4">
@@ -336,7 +336,7 @@
 
     <!-- Συμπέρασμα -->
     <section>
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπέρασμα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπέρασμα</h2>
       <p class="mb-4">
         Η Garmin HRM 600 αποτελεί μια κορυφαία ζώνη καρδιακών παλμών για το
         2025, προσφέροντας προηγμένες λειτουργίες και εξαιρετική αξιοπιστία για
@@ -368,21 +368,21 @@
     </section>
 
     <div class="mb-6 mt-12">
-      <h2 class="text-3xl text-[#0057A0] font-bold my-6 capitalize">
+      <h2 class="text-3xl text-blue font-bold my-6 capitalize">
         Video παρουσίαση για το Garmin HRM 600
       </h2>
       <YoutubeVideo video-id="LU9lj_1byHc" class="mb-3" />
     </div>
 
-    <div class="border-t border-gray-200 pt-6 mt-8">
-      <h3 class="text-lg font-semibold text-[#0057A0] mb-3">
+    <div class="border-t border-line pt-6 mt-8">
+      <h3 class="text-lg font-semibold text-blue mb-3">
         Σχετικά Προϊόντα Garmin
       </h3>
-      <ul class="list-disc list-inside text-[#0057A0]">
+      <ul class="list-disc list-inside text-blue">
         <li>
           <nuxt-link
             to="/arthra/garmin-forerunner-970/"
-            class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+            class="underline hover:bg-blue-deep hover:text-white pr-0.5 py-0.5"
           >
             Garmin Forerunner 970: Αναλυτική Παρουσίαση & Αξιολόγηση 2025
           </nuxt-link>
@@ -390,7 +390,7 @@
         <li>
           <nuxt-link
             to="/arthra/garmin-fenix-8/"
-            class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+            class="underline hover:bg-blue-deep hover:text-white pr-0.5 py-0.5"
           >
             Garmin Fenix 8: Αναλυτική Παρουσίαση & Αξιολόγηση 2025
           </nuxt-link>
@@ -398,7 +398,7 @@
         <li>
           <nuxt-link
             to="/arthra/garmin-forerunner-965/"
-            class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+            class="underline hover:bg-blue-deep hover:text-white pr-0.5 py-0.5"
           >
             Garmin Forerunner 965: Αναλυτική Παρουσίαση & Αξιολόγηση 2025
           </nuxt-link>

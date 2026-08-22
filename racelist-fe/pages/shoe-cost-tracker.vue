@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6 text-center">
+    <h1 class="font-display text-3xl text-blue font-bold mb-6 text-center">
       Υπολογιστής Κόστους & Διάρκειας Ζωής Αθλητικών Παπουτσιών
     </h1>
-    <div class="max-w-4xl mx-auto px-4 py-8 text-gray-800 space-y-4">
+    <div class="max-w-4xl mx-auto px-4 py-8 text-ink space-y-4">
       <p>
         Τα παπούτσια για τρέξιμο αποτελούν ισως το μεγαλύτερο και σημαντικότερο
         έξοδο (μετά τις εγγραφές σε αγώνες). Αλλά εχετε ποτέ αναρρωτηθεί πόσο
@@ -18,11 +18,11 @@
       </p>
     </div>
 
-    <hr class="text-gray-300 my-3" />
+    <hr class="text-line my-3" />
 
     <div class="flex items-center justify-center p-6">
-      <div class="bg-white shadow-lg rounded-lg max-w-md w-full p-6">
-        <h2 class="text-3xl text-[#0057A0] font-bold mb-6">
+      <div class="bg-paper shadow-lg border border-line rounded-lg max-w-md w-full p-6">
+        <h2 class="font-display text-3xl text-blue font-bold mb-6">
           Υπολογιστής Κόστους Παπουτσιών
         </h2>
 
@@ -64,7 +64,7 @@
             step="1"
             placeholder="π.χ. 150"
           />
-          <p class="text-sm text-gray-600 mt-1">
+          <p class="text-sm text-grey mt-1">
             Αν τα παπούτσια σας είναι καινούρια, αφήστε το στο 0.
           </p>
         </div>
@@ -81,7 +81,7 @@
             step="50"
             placeholder="600-800"
           />
-          <p class="text-sm text-gray-600 mt-1">
+          <p class="text-sm text-grey mt-1">
             Συνήθως 600-800 χλμ. Προσαρμόστε ανάλογα με το βάρος και το στυλ
             τρεξίματός σας.
           </p>
@@ -93,44 +93,44 @@
 
         <div
           v-if="results.costPerKm !== null"
-          class="mt-6 p-4 bg-gray-100 rounded-lg shadow space-y-3"
+          class="mt-6 p-4 bg-paper-dim rounded-lg shadow space-y-3"
         >
-          <div class="border-b border-gray-300 pb-3">
-            <p class="text-sm text-gray-600">Κόστος ανά Χιλιόμετρο</p>
-            <p class="text-2xl font-bold text-[#0057A0]">
+          <div class="border-b border-line pb-3">
+            <p class="text-sm text-grey">Κόστος ανά Χιλιόμετρο</p>
+            <p class="text-2xl font-bold text-blue">
               {{ results.costPerKm }}
             </p>
           </div>
 
-          <div class="border-b border-gray-300 pb-3">
-            <p class="text-sm text-gray-600">Συνολικό Κόστος Ζωής</p>
-            <p class="text-lg font-semibold text-gray-800">
+          <div class="border-b border-line pb-3">
+            <p class="text-sm text-grey">Συνολικό Κόστος Ζωής</p>
+            <p class="text-lg font-semibold text-ink">
               €{{ shoePrice.toFixed(2) }} για {{ shoeLifespan }} χλμ,
             </p>
           </div>
 
-          <div class="border-b border-gray-300 pb-3">
-            <p class="text-sm text-gray-600">Εναπομείναντα Χιλιόμετρα</p>
-            <p class="text-lg font-semibold text-gray-800">
+          <div class="border-b border-line pb-3">
+            <p class="text-sm text-grey">Εναπομείναντα Χιλιόμετρα</p>
+            <p class="text-lg font-semibold text-ink">
               {{ results.remainingKm }} χλμ
             </p>
-            <div class="w-full bg-gray-300 rounded-full h-2 mt-2">
+            <div class="w-full bg-line rounded-full h-2 mt-2">
               <div
-                class="bg-[#0057A0] h-2 rounded-full transition-all"
+                class="bg-blue-deep h-2 rounded-full transition-all"
                 :style="{ width: results.usagePercentage + '%' }"
               />
             </div>
-            <p class="text-xs text-gray-600 mt-1">
+            <p class="text-xs text-grey mt-1">
               {{ results.usagePercentage }}% χρησιμοποιημένα
             </p>
           </div>
 
           <div v-if="results.retirementDate">
-            <p class="text-sm text-gray-600">Εκτιμώμενη Ημερομηνία Αλλαγής</p>
-            <p class="text-lg font-semibold text-blue-600">
+            <p class="text-sm text-grey">Εκτιμώμενη Ημερομηνία Αλλαγής</p>
+            <p class="font-display text-lg font-semibold text-blue-deep">
               {{ results.retirementDate }}
             </p>
-            <p class="text-xs text-gray-600 mt-1">
+            <p class="text-xs text-grey mt-1">
               ({{ results.weeksRemaining }} εβδομάδες από σήμερα)
             </p>
           </div>
@@ -163,10 +163,10 @@
       </div>
     </div>
 
-    <hr class="text-gray-300 my-3" />
+    <hr class="text-line my-3" />
 
     <div class="max-w-4xl mx-auto px-4 py-8">
-      <h2 class="text-3xl text-[#0057A0] font-bold mb-6">
+      <h2 class="font-display text-3xl text-blue font-bold mb-6">
         Πότε Πρέπει να Αντικαταστήσετε τα Παπούτσια σας;
       </h2>
       <p class="mb-6">
@@ -175,7 +175,7 @@
         κραδασμών. Αυτό μπορεί να οδηγήσει σε τραυματισμούς ή πόνους.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">
         Τυπική Διάρκεια Ζωής
       </h3>
       <p class="mb-6">
@@ -207,7 +207,7 @@
         </li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">
         Σημάδια ότι Χρειάζεστε Νέα Παπούτσια
       </h3>
       <ul class="list-disc list-inside space-y-2 mb-6">
@@ -237,7 +237,7 @@
         </li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">
         Το Οικονομικό Όφελος της Παρακολούθησης
       </h3>
       <p class="mb-6">
@@ -246,7 +246,7 @@
         παράδειγμα:
       </p>
 
-      <div class="bg-blue-50 p-4 rounded-lg mb-6">
+      <div class="bg-paper-dim border-l-4 border-blue p-4 rounded-lg mb-6">
         <p class="mb-2">
           <strong>Παράδειγμα 1:</strong> Παπούτσια €150 / 700 χλμ = €0.21 ανά
           χλμ
@@ -255,13 +255,13 @@
           <strong>Παράδειγμα 2:</strong> Παπούτσια €100 / 500 χλμ = €0.20 ανά
           χλμ
         </p>
-        <p class="text-sm text-gray-700 mt-3">
+        <p class="text-sm text-grey mt-3">
           Τα ακριβότερα παπούτσια συχνά διαρκούν περισσότερο και προσφέρουν
           καλύτερη προστασία, κάνοντας την επιπλέον επένδυση να αξίζει.
         </p>
       </div>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">
         Συμβουλές για Μεγαλύτερη Διάρκεια Ζωής
       </h3>
       <ul class="list-disc list-inside space-y-2 mb-6">
@@ -297,7 +297,7 @@
         </li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">
         Η Σημασία της Έγκαιρης Αντικατάστασης
       </h3>
       <p class="mb-6">
@@ -310,7 +310,7 @@
         ζευγαριού.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-4">Τελικές Σκέψεις</h3>
+      <h3 class="font-display text-xl font-semibold text-blue mb-4">Τελικές Σκέψεις</h3>
       <p class="mb-4">
         Η παρακολούθηση των χιλιομέτρων στα παπούτσια σας είναι ένας απλός
         τρόπος να προλάβετε τραυματισμούς και να εξασφαλίσετε βέλτιστη απόδοση.
@@ -327,27 +327,27 @@
         πάνε χαμένα οταν γεμίσουν τα χιλιόμετρα τους.
       </p>
 
-      <hr class="text-gray-300 my-3" />
+      <hr class="text-line my-3" />
 
       <div>
         Για να βελτιστοποιήσετε την απόδοσή σας, εκτός από τα σωστά παπούτσια,
         χρειάζεστε και σωστό σχεδιασμό. Δείτε τον
         <NuxtLink
-          class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
           to="/race-time-predictor/"
         >
           υπολογιστή προβλέψεων χρόνων
         </NuxtLink>
         για να ορίσετε ρεαλιστικούς στόχους, τον
         <NuxtLink
-          class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
           to="/pace-calculator/"
         >
           υπολογιστή ρυθμού
         </NuxtLink>
         για την προπόνηση, και μην ξεχνάτε τη σωστή διατροφή με τον
         <NuxtLink
-          class="underline hover:bg-[#0057A0] hover:text-white pr-0.5 py-0.5"
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
           to="/gel-calculator/"
         >
           υπολογιστή ενεργειακών gel.

@@ -1,6 +1,6 @@
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6 capitalize">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6 capitalize">
       Τα πιο γνωστά προβλήματα των δρομέων
     </h1>
 
@@ -20,7 +20,7 @@
     <section class="mb-8">
       <ul>
         <li>
-          <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+          <h2 class="text-2xl font-semibold text-blue mb-4">
             Πόνος στις θηλές
           </h2>
           <p class="mb-2">
@@ -37,7 +37,7 @@
             να πονέσουν, ακόμα και να ματώσουν. Η κατάσταση χειροτερεύει με τον
             ιδρώτα, που μαλακώνει το δέρμα και αυξάνει την τριβή.
           </p>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-4">Λύσεις</h3>
+          <h3 class="text-xl font-semibold text-blue mb-4">Λύσεις</h3>
           <ul class="list-disc list-inside space-y-2 mb-4">
             <li>Βαζελίνη στις θηλές πριν από κάθε τρέξιμο (πρόληψη)</li>
             <li>Ταινία πάνω στις θηλές για αποφυγή τριβής (πρόληψη)</li>
@@ -52,7 +52,7 @@
           </ul>
         </li>
         <li>
-          <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+          <h2 class="text-2xl font-semibold text-blue mb-4">
             Μυρωδιά αμμωνίας στον ιδρώτα
           </h2>
           <p class="mb-2">
@@ -83,7 +83,7 @@
             επεξεργάζονται επαρκώς την περίσσεια αμμωνίας. Σε τέτοιες
             περιπτώσεις, καλό είναι να ζητηθεί ιατρική συμβουλή.
           </p>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-4">Λύσεις</h3>
+          <h3 class="text-xl font-semibold text-blue mb-4">Λύσεις</h3>
           <ul class="list-disc list-inside space-y-2 mb-4">
             <li>Προσθήκη υδατανθράκων στην διατροφή</li>
             <li>Καλύτερη ενυδάτωση</li>
@@ -94,7 +94,7 @@
           </ul>
         </li>
         <li>
-          <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+          <h2 class="text-2xl font-semibold text-blue mb-4">
             Πόνοι στα γόνατα
           </h2>
           <p class="mb-2">
@@ -103,7 +103,7 @@
             παραξευτείτε αν αρχισουν να πονάνε αλλα μην το αφήσετε στην τύχη
             του.
           </p>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-4">Λύσεις</h3>
+          <h3 class="text-xl font-semibold text-blue mb-4">Λύσεις</h3>
           <p class="mb-2">
             Επισκεφτείτε ένα ορθοπεδικό γιατρό, περιγράψτε το πρόβλημα και θα
             σας βρεί τη λύση. Αυτή μπορεί να είναι ξεκούραση, κάποια άσκηση
@@ -126,7 +126,7 @@
           <YoutubeVideo video-id="0Uh7Z0o6XLY" class="mt-4" />
         </li>
         <li class="mt-4">
-          <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+          <h2 class="text-2xl font-semibold text-blue mb-4">
             Πόνοι στις πατούσες
           </h2>
           <p class="mb-2">
@@ -142,7 +142,7 @@
             Tα δυο αυτά προβλήματα πρεπει να διαγνωστούν από ένα γιατρό ή ακομά
             και με χρήση ακτινογραφιας (στην περίπτωση της ακάνθου).
           </p>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-4">Λύσεις</h3>
+          <h3 class="text-xl font-semibold text-blue mb-4">Λύσεις</h3>
           <p class="mb-2">
             Επισκεφτείτε ένα ορθοπεδικό γιατρό και αυτός θα σας συστήσει τα
             επόμενα βήματα, είτε αυτά είναι ακτινογραφίες είτε κάτι άλλο.
@@ -154,7 +154,7 @@
           </p>
         </li>
         <li>
-          <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+          <h2 class="text-2xl font-semibold text-blue mb-4">
             Σπασμένα ή χτυπημένα νύχια
           </h2>
           <p class="mb-2">
@@ -162,7 +162,7 @@
             εσας). Πολλοί δρομείς τα θεωρούν παράσημα γιατί τα αποκτάς μετά από
             πάρα πολύ προπόνηση και κατεπεκταση καταπόνηση των ποδιών.
           </p>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-4">Λύσεις</h3>
+          <h3 class="text-xl font-semibold text-blue mb-4">Λύσεις</h3>
           <p class="mb-2">
             Ένα ειδικός ποδολόγος θα μπορέσει να σας καθοδηγήσει για το τι
             πρέπει να κάνετε. Σε πολλές περιπτώσεις θα σας διορθώσουν αυτοί το
@@ -171,7 +171,7 @@
           </p>
         </li>
         <li>
-          <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+          <h2 class="text-2xl font-semibold text-blue mb-4">
             Κάλοι στα πέλματα
           </h2>
           <p class="mb-2">
@@ -180,7 +180,7 @@
             μεγαλύτερη πιθανότητα να έχουν κάλους λόγω των παπουτσιών με ψηλα
             τακουνια.
           </p>
-          <h3 class="text-xl font-semibold text-[#0057A0] mb-4">Λύσεις</h3>
+          <h3 class="text-xl font-semibold text-blue mb-4">Λύσεις</h3>
           <p class="mb-2">
             Οι ποδολόγοι είναι οι κατάλληλοι άνθρωποι για αυτό το πρόβλημα. Η
             θεραπεία πονάει λίγο και για 1-2 μέρες (ίσως και παραπάνω) δεν θα
@@ -191,7 +191,7 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπέρασμα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπέρασμα</h2>
       <p class="mb-2">
         Όσο περισσότερο τρέχουμε, τόσο πιο καλά γνωρίζουμε το σώμα μας – και τα
         σημάδια που μας δίνει. Το κλειδί είναι να μην αγνοούμε τους πόνους, όσο

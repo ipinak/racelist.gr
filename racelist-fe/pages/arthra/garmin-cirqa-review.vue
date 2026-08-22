@@ -100,8 +100,8 @@
 </script>
 
 <template>
-  <div class="blog-content max-w-3xl mx-auto px-4 py-8">
-    <h1 class="text-3xl text-[#0057A0] font-bold mb-6">
+  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl text-blue font-bold mb-6">
       Garmin Cirqa Smart Band: Χωρίς Οθόνη, Χωρίς Περισπασμούς
     </h1>
 
@@ -154,7 +154,7 @@
 
     <!-- Βασικά Χαρακτηριστικά -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Κύρια Χαρακτηριστικά
       </h2>
 
@@ -199,11 +199,11 @@
 
     <!-- Σχεδιασμός και Κατασκευή -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Σχεδιασμός και Κατασκευή
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Εμφάνιση & Υλικά
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -224,7 +224,7 @@
 
     <!-- Λειτουργίες Υγείας -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Παρακολούθηση Υγείας 24/7
       </h2>
 
@@ -276,7 +276,7 @@
 
     <!-- Ύπνος -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Προηγμένη Παρακολούθηση Ύπνου
       </h2>
 
@@ -312,11 +312,11 @@
 
     <!-- Φυσική Κατάσταση -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Λειτουργίες Φυσικής Κατάστασης
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Αυτόματη Ανίχνευση Δραστηριοτήτων
       </h3>
       <p class="mb-4">
@@ -326,7 +326,7 @@
         μεγαλύτερη ακρίβεια τις δραστηριότητές σας στο μέλλον.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         80+ Αθλητικά Προφίλ
       </h3>
       <p class="mb-4">
@@ -335,7 +335,7 @@
         πατώντας απλώς το κουμπί στη συσκευή.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Μετρήσεις Απόδοσης
       </h3>
       <ul class="list-disc list-inside mb-4 space-y-2">
@@ -367,7 +367,7 @@
         </li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Πρόσθετες Λειτουργίες
       </h3>
       <ul class="list-disc list-inside mb-4 space-y-2">
@@ -393,7 +393,7 @@
 
     <!-- Διάρκεια Μπαταρίας -->
     <div
-      class="bg-gradient-to-br from-blue-900 to-blue-700 text-white p-6 rounded-xl my-8"
+      class="bg-blue-deep text-paper p-6 rounded-xl my-8"
     >
       <h2 class="text-2xl font-semibold mb-4 text-white">
         🔋 Αυτονομία Μπαταρίας
@@ -409,11 +409,11 @@
 
     <!-- Garmin Connect -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Garmin Connect & Οικοσύστημα
       </h2>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Εφαρμογή Garmin Connect
       </h3>
       <p class="mb-4">
@@ -423,7 +423,7 @@
         αντίθεση με ανταγωνιστικές συσκευές όπως το WHOOP.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Garmin Connect+ (Προαιρετική Συνδρομή)
       </h3>
       <p class="mb-4">
@@ -433,7 +433,7 @@
         καθοδηγούμενες ασκήσεις διαλογισμού και αναπνοών.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0057A0] mb-3">
+      <h3 class="text-xl font-semibold text-blue mb-3">
         Συμβατότητα
       </h3>
       <ul class="list-disc list-inside mb-4">
@@ -444,7 +444,7 @@
 
     <!-- Εμπειρία Χρήσης -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
         Εμπειρία Χρήσης
       </h2>
 
@@ -472,7 +472,7 @@
 
     <!-- Συμπεράσματα -->
     <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-[#0057A0] mb-4">Συμπεράσματα</h2>
+      <h2 class="text-2xl font-semibold text-blue mb-4">Συμπεράσματα</h2>
       <p class="mb-4">
         Αν και αυτό το νέο είδος fitness band χωρίς οθόνη φαίνεται ελκυστικό —
         μια λιγότερη οθόνη να σε αποσπά — η υλοποίηση της Garmin είναι αρκετά
@@ -502,7 +502,7 @@
     </section>
 
     <div class="mb-6 mt-12">
-      <h2 class="text-3xl text-[#0057A0] font-bold my-6 capitalize">
+      <h2 class="text-3xl text-blue font-bold my-6 capitalize">
         Video reviews για το Garmin Cirqa Smart Band
       </h2>
       <YoutubeVideo video-id="L8VmgarkLX4" class="mb-3" />
