@@ -5677,5 +5677,489 @@
         ],
         "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=bb912c5028aafc8fa8e90c26ee982e6a&l=GR",
         "Slug": "10o-lailias-mountain-running/"
+    },
+    {
+        "ID": 447,
+        "Title": "Αγώνας Δρόμου Αγκιστρίου 2026",
+        "Date": "2026-09-12",
+        "Location": "Αγκίστρι",
+        "Distances": [
+            "10km",
+            "3km",
+            "Παιδικός αγώνας 100m",
+            "Παιδικός αγώνας 300m",
+            "Παιδικός αγώνας 600m"
+        ],
+        "SignupLink": "https://results.chronolog.gr/registrationc1.aspx?h=bdc5739b07442fcb3701fa9e055adaab",
+        "Slug": "agonas-dromou-agkistriou-2026/"
+    },
+    {
+        "ID": 448,
+        "Title": "1st Prostate Cancer Race – Τρέχουμε για την Πρόληψη",
+        "Date": "2026-09-12",
+        "Location": "Πολυτεχνειούπολη Ζωγράφου",
+        "Distances": [
+            "8km",
+            "Παιδικός αγώνας 1000m"
+        ],
+        "SignupLink": "https://www.athletin.gr/events/80",
+        "Slug": "1st-prostate-cancer-race-2026/"
+    },
+    {
+        "ID": 449,
+        "Title": "Patmos Chora Run 2026",
+        "Date": "2026-09-13",
+        "Location": "Πάτμος",
+        "Distances": [
+            "21km",
+            "5km",
+            "Παιδικός αγώνας 1000m",
+            "Family Run",
+            "Δυναμικό βάδισμα"
+        ],
+        "SignupLink": "https://raceid.com/el/races/14527/about",
+        "Slug": "patmos-chora-run-2026/"
+    },
+    {
+        "ID": 450,
+        "Title": "Παράκτιος Δρόμος Πάτρας 2026 «Νίκος Αργυρόπουλος»",
+        "Date": "2026-09-13",
+        "Location": "Βραχναίικα, Πάτρα",
+        "Distances": [
+            "10km",
+            "5km",
+            "Παιδικός αγώνας 1000m",
+            "ΑΜΕΑ 200m"
+        ],
+        "SignupLink": "https://www.athletin.gr/events/76",
+        "Slug": "paraktios-dromos-patras-2026-nikos-argyropoulos/"
+    },
+    {
+        "ID": 451,
+        "Title": "20ος Γύρος Λίμνης Ιωαννίνων",
+        "Date": "2026-09-19",
+        "Location": "Ιωάννινα",
+        "Distances": [
+            "30km",
+            "30km Δυναμικό βάδισμα",
+            "10km",
+            "5km",
+            "ΑΜΕΑ",
+            "Παιδικός αγώνας",
+            "Μαμά Καρότσι"
+        ],
+        "SignupLink": "https://www.ioanninalakerun.gr",
+        "Slug": "20os-gyros-limnis-ioanninon-2026/"
+    },
+    {
+        "ID": 452,
+        "Title": "8ος Δρόμος Μουσούρων",
+        "Date": "2026-09-20",
+        "Location": "Δ.Ε. Μουσούρων, Δήμος Πλατανιά, Χανιά",
+        "Distances": [
+            "21km",
+            "10km",
+            "4km"
+        ],
+        "SignupLink": "https://www.atpro.gr/dromos-mousouron/",
+        "Slug": "8os-dromos-mousouron-2026/"
+    },
+    {
+        "ID": 453,
+        "Title": "5ο Sterea Run – Lamia Night Run 2026",
+        "Date": "2026-09-26",
+        "Location": "Λαμία",
+        "Distances": [
+            "10km",
+            "5km",
+            "2.5km",
+            "ΑμΕΑ & Συνοδών"
+        ],
+        "SignupLink": "https://trahina.gr/register-night-run/",
+        "Slug": "lamia-night-run-2026/"
+    },
+    {
+        "ID": 454,
+        "Title": "5ο STEREARUN – 14ος Τροφώνιος Ημιμαραθώνιος Δρόμος Λιβαδειάς 2026",
+        "Date": "2026-09-27",
+        "Location": "Λιβαδειά, Βοιωτία",
+        "Distances": [
+            "21.1km",
+            "10km",
+            "5km",
+            "1000m"
+        ],
+        "SignupLink": "https://levados.akol.gr",
+        "Slug": "5o-stearun-trofonios-imimarathonios-livadias-2026/"
+    },
+    {
+        "ID": 455,
+        "Title": "7ο Open Door Run 2026",
+        "Date": "2026-09-27",
+        "Location": "Αργυρούπολη, Αθήνα",
+        "Distances": [
+            "10km",
+            "5km",
+            "Αγώνας ΑμΕΑ 400m",
+            "Παιδικός αγώνας 800m"
+        ],
+        "SignupLink": "https://www.myrace.gr/event/5965/registrations.html",
+        "Slug": "7o-open-door-run-2026/"
+    },
+    {
+        "ID": 456,
+        "Title": "15α Διδασκάλεια 2026",
+        "Date": "2026-09-27",
+        "Location": "Αθίκια, Κορινθία",
+        "Distances": [
+            "8.5km",
+            "1000m"
+        ],
+        "SignupLink": "https://docs.google.com/forms/d/1LED3o8bpEixMMt8CxncU60Yx48qSRA0LGqGRhTcWUKw/edit?usp=sharing",
+        "Slug": "15a-didaskaleia-2026/"
+    },
+    {
+        "ID": 457,
+        "Title": "Δερβένεια 2026 – Kithaironas Trail",
+        "Date": "2026-09-27",
+        "Location": "Βίλια, Αττική",
+        "Distances": [
+            "22.5km",
+            "2km",
+            "1km"
+        ],
+        "SignupLink": "https://my.raceresult.com/409612/registration",
+        "Slug": "dervenia-2026-kithaironas-trail/"
+    },
+    {
+        "ID": 458,
+        "Title": "Αγώνας Δρόμου «Μίνως Κυριακού» 2026",
+        "Date": "2026-09-27",
+        "Location": "Πεδίο του Άρεως, Αθήνα",
+        "Distances": [
+            "10km",
+            "5km",
+            "1000m"
+        ],
+        "SignupLink": "https://www.athletin.gr/events/78",
+        "Slug": "agonas-dromou-minos-kyriakou-2026/"
+    },
+    {
+        "ID": 459,
+        "Title": "10ος Επετειακός Αγώνας Δρόμου Αλμυρού «Δίδυμες Μετεωριτικές Λίμνες Ζερέλια»",
+        "Date": "2026-10-04",
+        "Location": "Αλμυρός, Μαγνησία",
+        "Distances": [
+            "21km",
+            "10km",
+            "5km",
+            "750m",
+            "500m"
+        ],
+        "SignupLink": "https://almyros-city.gr/",
+        "Slug": "10os-epeteiakos-agonas-dromou-almyrou-zerelia-2026/"
+    },
+    {
+        "ID": 460,
+        "Title": "6ο Flamingo Run Kalochori 2026",
+        "Date": "2026-10-04",
+        "Location": "Λιμνοθάλασσα Καλοχωρίου, Θεσσαλονίκη",
+        "Distances": [
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://raceid.com/el/races/15262/about",
+        "Slug": "6o-flamingo-run-kalochori-2026/"
+    },
+    {
+        "ID": 461,
+        "Title": "18ο Greece Race for the Cure 2026",
+        "Date": "2026-10-04",
+        "Location": "Πεδίον του Άρεως, Αθήνα",
+        "Distances": [
+            "5km",
+            "2km Περίπατος"
+        ],
+        "SignupLink": "https://greecerace.gr/greece-race-for-the-cure-registrations/",
+        "Slug": "18o-greece-race-for-the-cure-2026/"
+    },
+    {
+        "ID": 462,
+        "Title": "Run As One 2026",
+        "Date": "2026-10-04",
+        "Location": "Πλατεία Μιαούλη, Ερμούπολη, Σύρος",
+        "Distances": [
+            "10km",
+            "5km"
+        ],
+        "SignupLink": "https://syroshealingwaves.com/",
+        "Slug": "run-as-one-2026/"
+    },
+    {
+        "ID": 463,
+        "Title": "POWERADE B2Run Athens 2026",
+        "Date": "2026-10-08",
+        "Location": "ΟΑΚΑ, Αθήνα",
+        "Distances": [
+            "5km"
+        ],
+        "SignupLink": "https://feelosophy.gr/b2run-greece/",
+        "Slug": "powerade-b2run-athens-2026/"
+    },
+    {
+        "ID": 464,
+        "Title": "5ο Sterea Run – 18ος Δρόμος του Επαμεινώνδα",
+        "Date": "2026-10-04",
+        "Location": "Θήβα",
+        "Distances": [
+            "21.5km",
+            "6.8km",
+            "1000m"
+        ],
+        "SignupLink": "https://raceid.com/el/races/15275/about",
+        "Slug": "5o-sterea-run-18os-dromos-epameinonda-2026/"
+    },
+    {
+        "ID": 465,
+        "Title": "5η Mellon Run 2026",
+        "Date": "2026-10-11",
+        "Location": "Φανερωμένη, Δήμος Φαιστού, Κρήτη",
+        "Distances": [
+            "16.6km"
+        ],
+        "SignupLink": "https://www.atpro.gr/mellon-run/",
+        "Slug": "5i-mellon-run-2026/"
+    },
+    {
+        "ID": 466,
+        "Title": "13ος Αγώνας Δρόμου «Τρέχω για την Κατερίνη»",
+        "Date": "2026-10-11",
+        "Location": "Κατερίνη, Πιερία",
+        "Distances": [
+            "8km"
+        ],
+        "SignupLink": "https://www.katerini.gr",
+        "Slug": "13os-agonas-dromou-trecho-gia-tin-katerini-2026/"
+    },
+    {
+        "ID": 467,
+        "Title": "Athens Company Run 2026",
+        "Date": "2026-10-11",
+        "Location": "Εθνικό Αθλητικό Προπονητικό Κέντρο Ολυμπιακού Χωριού, Αθήνα",
+        "Distances": [
+            "10km",
+            "5km",
+            "2.5km Sports Walk"
+        ],
+        "SignupLink": "https://www.athletin.gr/events/90",
+        "Slug": "athens-company-run-2026/"
+    },
+    {
+        "ID": 468,
+        "Title": "2ο Lefkas Fun Run Half Marathon 2026",
+        "Date": "2026-10-11",
+        "Location": "Βασιλική, Λευκάδα",
+        "Distances": [
+            "21.1km",
+            "10km",
+            "5km",
+            "1000m"
+        ],
+        "SignupLink": "https://www.athletin.gr/events/63",
+        "Slug": "2o-lefkas-fun-run-half-marathon-2026/"
+    },
+    {
+        "ID": 469,
+        "Title": "3ος Ημιμαραθώνιος Σπάρτης",
+        "Date": "2026-10-11",
+        "Location": "Σπάρτη",
+        "Distances": [
+            "21.1km",
+            "5km"
+        ],
+        "SignupLink": "https://www.athletin.gr/events/86",
+        "Slug": "3os-imimarathonios-spartis-2026/"
+    },
+    {
+        "ID": 470,
+        "Title": "14ος Διεθνής Νυχτερινός Ημιμαραθώνιος Θεσσαλονίκης – ZeniΘ",
+        "Date": "2026-10-17",
+        "Location": "Πλατεία Αριστοτέλους, Θεσσαλονίκη",
+        "Distances": [
+            "21.1km",
+            "10km",
+            "5km",
+            "1 Μίλι (1609,34μ)"
+        ],
+        "SignupLink": "https://www.thesshalfmarathon.org",
+        "Slug": "14os-thessaloniki-night-halfmarathon-2026/"
+    },
+    {
+        "ID": 471,
+        "Title": "10ο Kallithea Night Run 2026",
+        "Date": "2026-10-17",
+        "Location": "Πλατεία Τζιτζιφιών, Καλλιθέα",
+        "Distances": [
+            "10km",
+            "5km",
+            "2.5km"
+        ],
+        "SignupLink": "https://www.kallitheanightrun.gr",
+        "Slug": "10o-kallithea-night-run-2026/"
+    },
+    {
+        "ID": 472,
+        "Title": "10ος Ημιμαραθώνιος Παλαιόχωρας",
+        "Date": "2026-10-18",
+        "Location": "Παλαιόχωρα, Χανιά",
+        "Distances": [
+            "21km",
+            "10km",
+            "5km",
+            "Παιδικός αγώνας"
+        ],
+        "Slug": "10os-imimarathonios-palaiochoras-2026/"
+    },
+    {
+        "ID": 473,
+        "Title": "10ος Ημιμαραθώνιος Άρτας «Ο Δρόμος του Γιοφυριού»",
+        "Date": "2026-10-18",
+        "Location": "Άρτα",
+        "Distances": [
+            "21.1km",
+            "10km",
+            "5km",
+            "5km Περιπατητικός",
+            "800m",
+            "600m",
+            "300m"
+        ],
+        "SignupLink": "https://artarunningfestival.gr/",
+        "Slug": "10os-imimarathonios-artas-dromos-tou-giofyriou-2026/"
+    },
+    {
+        "ID": 474,
+        "Title": "5ο Run Πύργος – Κατάκολο",
+        "Date": "2026-10-25",
+        "Location": "Πύργος – Κατάκολο, Ηλεία",
+        "Distances": [
+            "13km",
+            "5km"
+        ],
+        "SignupLink": "https://www.athletin.gr/events/89",
+        "Slug": "5o-run-pyrgos-katakolo-2026/"
+    },
+    {
+        "ID": 475,
+        "Title": "Γύρος Αιγάλεω 2026",
+        "Date": "2026-10-25",
+        "Location": "Αιγάλεω, Αθήνα",
+        "Distances": [
+            "9.3km",
+            "1.2km"
+        ],
+        "Slug": "gyros-aigaleo-2026/"
+    },
+    {
+        "ID": 476,
+        "Title": "11ος Λαϊκός Αγώνας Δρόμου Παναγία Μερέντα 2026",
+        "Date": "2026-11-01",
+        "Location": "Μερέντα, Μαρκόπουλο Μεσογαίας",
+        "Distances": [
+            "9km",
+            "1km"
+        ],
+        "Slug": "11os-laikos-agonas-dromou-panagia-merenta-2026/"
+    },
+    {
+        "ID": 477,
+        "Title": "9ος Μαραθώνιος Λάρνακας 2026",
+        "Date": "2026-11-15",
+        "Location": "Λάρνακα, Κύπρος",
+        "Distances": [
+            "42.195km",
+            "21.1km",
+            "10km",
+            "5km",
+            "1km"
+        ],
+        "SignupLink": "https://larnakamarathon.com/",
+        "Slug": "9os-marathonios-larnakas-2026/"
+    },
+    {
+        "ID": 478,
+        "Title": "Μαραθώνιος Ολυμπίας 2026",
+        "Date": "2026-11-28",
+        "Location": "Αρχαία Ολυμπία",
+        "Distances": [],
+        "SignupLink": "https://www.olympiamarathon.gr/",
+        "Slug": "marathonios-olympias-2026/"
+    },
+    {
+        "ID": 479,
+        "Title": "18ος Ημιμαραθώνιος «Μιχάλης Κούσης»",
+        "Date": "2026-12-06",
+        "Location": "Αγρίνιο",
+        "Distances": [
+            "21.1km",
+            "5km",
+            "1000m"
+        ],
+        "SignupLink": "https://kousishalfmarathon.gr/",
+        "Slug": "18os-imimarathonios-michalis-kousis-2026/"
+    },
+    {
+        "ID": 480,
+        "Title": "11th Volos Half Marathon 2027",
+        "Date": "2027-03-28",
+        "Location": "Βόλος, Μαγνησία",
+        "Distances": [
+            "21km",
+            "10km",
+            "5km",
+            "1 Mile",
+            "500m"
+        ],
+        "SignupLink": "https://www.voloshalfmarathon.gr",
+        "Slug": "11th-volos-half-marathon-2027/"
+    },
+    {
+        "ID": 481,
+        "Title": "18ος Ημιμαραθώνιος Καλαμπάκα – Τρίκαλα «Θανάσης Σταμόπουλος»",
+        "Date": "2027-03-21",
+        "Location": "Καλαμπάκα - Τρίκαλα",
+        "Distances": [
+            "21.1km",
+            "5km",
+            "2.5km AMEA"
+        ],
+        "SignupLink": "https://www.trikalahalfmarathon.org",
+        "Slug": "18os-imimarathonios-kalampaka-trikala-thanasis-stamopoulos-2027/"
+    },
+    {
+        "ID": 482,
+        "Title": "19ος Μαραθώνιος Λεμεσού 2027",
+        "Date": "2027-04-03",
+        "Location": "Λεμεσός, Κύπρος",
+        "Distances": [
+            "42km",
+            "21km",
+            "10km",
+            "5km"
+        ],
+        "SignupLink": "https://www.limassolmarathon.com/",
+        "Slug": "19os-marathonios-lemesou-2027/"
+    },
+    {
+        "ID": 483,
+        "Title": "20ος Επετειακός Μαραθώνιος Μεσσήνης 2027",
+        "Date": "2027-04-11",
+        "Location": "Μεσσήνη",
+        "Distances": [
+            "42.195km"
+        ],
+        "SignupLink": "https://marathon.messini.gr/",
+        "Slug": "20os-epeteiakos-marathonios-messinis-2027/"
     }
 ]
