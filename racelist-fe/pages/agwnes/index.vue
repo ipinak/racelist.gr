@@ -172,6 +172,18 @@
         property: 'og:image',
         content: 'https://racelist.gr/racelist-banner.jpg',
       },
+      {
+        name: 'twitter:title',
+        content: `Καλένταρι Αγώνων Δρόμου & Βουνού ${year} | racelist.gr`,
+      },
+      {
+        name: 'twitter:description',
+        content: `Όλοι οι αγώνες τρεξίματος δρόμου και βουνού στην Ελλάδα για το ${year}. Αναζήτησε μήνα-μήνα τον επόμενο σου αγώνα.`,
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://racelist.gr/racelist-banner.jpg',
+      },
     ],
   });
 </script>

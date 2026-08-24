@@ -402,6 +402,15 @@
         property: 'og:url',
         content: 'https://racelist.gr/arthra/posi-grigora-pigainoun-ta-pagosmia-rekor/',
       },
+      {
+        name: 'twitter:title',
+        content: 'Πόσο Γρήγορα Πάνε τα Παγκόσμια Ρεκόρ; | racelist.gr',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          'Από τα 22,6 χλμ/ώρα του Ingebrigtsen στα 5χλμ μέχρι τα 21 χλμ/ώρα του Kiptum στον μαραθώνιο — δείτε πώς συγκρίνεται η ταχύτητα των παγκόσμιων ρεκόρ.',
+      },
     ],
   });
 

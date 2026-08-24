@@ -68,6 +68,19 @@
         property: 'og:image',
         content: 'https://racelist.gr/racelist-banner.jpg',
       },
+      {
+        name: 'twitter:title',
+        content: 'Συχνές Ερωτήσεις | racelist.gr',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          'Όλα όσα χρειάζεται να ξέρεις για το racelist.gr — αγώνες, εγγραφές, και πληροφορίες χρήσης της πλατφόρμας.',
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://racelist.gr/racelist-banner.jpg',
+      },
     ],
   });
 

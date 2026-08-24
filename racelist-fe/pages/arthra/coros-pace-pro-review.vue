@@ -292,6 +292,20 @@
         property: 'og:image',
         content: 'https://racelist.gr/images/coros-pace-pro.jpg',
       },
+      {
+        name: 'twitter:title',
+        content:
+          'COROS PACE Pro Review: Το Νέο Smartwatch για Σοβαρούς Αθλητές',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          'Ανάλυση του νέου COROS PACE Pro GPS smartwatch με όλα τα χαρακτηριστικά, την απόδοση και τις δυνατότητές του για αθλητές.',
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://racelist.gr/images/coros-pace-pro.jpg',
+      },
     ],
   });
 

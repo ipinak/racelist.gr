@@ -70,6 +70,19 @@
         property: 'og:image',
         content: 'https://racelist.gr/racelist-banner.jpg',
       },
+      {
+        name: 'twitter:title',
+        content: 'Σχετικά με εμάς | racelist.gr',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          'Μάθε ποιοι είμαστε πίσω από το racelist.gr. Είμαστε δρομείς και προγραμματιστές, που αγαπάμε τόσο το τρέξιμο όσο και την τεχνολογία.',
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://racelist.gr/racelist-banner.jpg',
+      },
     ],
   });
 </script>

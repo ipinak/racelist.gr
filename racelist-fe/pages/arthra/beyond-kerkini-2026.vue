@@ -348,6 +348,15 @@
         content: 'article',
       },
       {
+        name: 'twitter:title',
+        content: 'Beyond Kerkini 2026 - Αποτελέσματα | Racelist.gr',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          'Αποτελέσματα από τον αγώνα Beyond Kerkini 2026 στη Λίμνη Κερκίνης. 5 αγωνίσματα, αποστάσεις 6-21χλμ.',
+      },
+      {
         name: 'keywords',
         content:
           'beyond kerkini, κερκινη, λιμνη κερκινης, σερρες, trail running, αποτελεσματα, αγωνες, ορεινο τρεξιμο, 2026',

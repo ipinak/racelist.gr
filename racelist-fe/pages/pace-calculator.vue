@@ -230,6 +230,19 @@
         property: 'og:image',
         content: 'https://racelist.gr/racelist-banner.jpg',
       },
+      {
+        name: 'twitter:title',
+        content: 'Υπολογιστής Ρυθμού & Χρόνου ανά Χιλιόμετρο',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          'Βρες τον μέσο ρυθμό σου και δες αναλυτικά τους χρόνους ανά χιλιόμετρο με το εργαλείο του racelist.gr. Χρήσιμο για κάθε δρομέα.',
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://racelist.gr/racelist-banner.jpg',
+      },
     ],
   });
 

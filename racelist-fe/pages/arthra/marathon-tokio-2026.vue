@@ -437,6 +437,15 @@
         property: 'og:url',
         content: 'https://racelist.gr/arthra/marathon-tokio-2026/',
       },
+      {
+        name: 'twitter:title',
+        content: 'Μαραθώνιος Τόκιο 2026 – Αποτελέσματα & Νικητές | racelist.gr',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          'Ο Tadese Takele (2:03:37) νίκησε στους άνδρες και η Brigid Kosgei (2:14:29) στις γυναίκες στον 19ο Μαραθώνιο Τόκιο 2026.',
+      },
     ],
   });
 

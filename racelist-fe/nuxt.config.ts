@@ -554,7 +554,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'Βρες Αγώνες Τρεξίματος Δρόμου & Βουνού σε Όλη την Ελλάδα | racelist.gr',
+      title: 'Αγώνες Δρόμου & Βουνού σε Όλη την Ελλάδα | racelist.gr',
       htmlAttrs: {
         lang: 'el',
       },
@@ -596,8 +596,7 @@ export default defineNuxtConfig({
 
         {
           property: 'og:title',
-          content:
-            'Βρες Αγώνες Τρεξίματος Δρόμου & Βουνού σε Όλη την Ελλάδα για το 2026 | racelist.gr',
+          content: 'Αγώνες Δρόμου & Βουνού σε Όλη την Ελλάδα | racelist.gr',
         },
         {
           property: 'og:description',
@@ -616,8 +615,7 @@ export default defineNuxtConfig({
         { name: 'twitter:card', content: 'summary_large_image' },
         {
           name: 'twitter:title',
-          content:
-            'Βρες Αγώνες Τρεξίματος Δρόμου & Βουνού σε Όλη την Ελλάδα για το 2026 | racelist.gr',
+          content: 'Αγώνες Δρόμου & Βουνού σε Όλη την Ελλάδα | racelist.gr',
         },
         {
           name: 'twitter:description',

@@ -69,6 +69,19 @@
         property: 'og:image',
         content: 'https://racelist.gr/racelist-banner.jpg',
       },
+      {
+        name: 'twitter:title',
+        content: 'Άρθρα για Τρέξιμο & Προπόνηση | racelist.gr',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          'Μπες στον κόσμο του τρεξίματος με άρθρα για προπόνηση, αποθεραπεία και έμπνευση για τον επόμενο σου αγώνα!',
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://racelist.gr/racelist-banner.jpg',
+      },
     ],
   });
 </script>

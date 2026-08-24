@@ -142,6 +142,19 @@
         property: 'og:image',
         content: 'https://racelist.gr/racelist-banner.jpg',
       },
+      {
+        name: 'twitter:title',
+        content: 'Τι να Φάω πριν από Αγώνα Τρεξίματος | racelist.gr',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          'Η σωστή διατροφή πριν από τον αγώνα είναι το κλειδί για καλύτερη απόδοση. Δες τι προτείνουμε να φας πριν τρέξεις!',
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://racelist.gr/racelist-banner.jpg',
+      },
     ],
   });
 

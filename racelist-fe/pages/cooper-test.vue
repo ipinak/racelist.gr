@@ -198,6 +198,19 @@
         property: 'og:image',
         content: 'https://racelist.gr/racelist-banner.jpg',
       },
+      {
+        name: 'twitter:title',
+        content: 'Υπολογιστής Τεστ Cooper | racelist.gr',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          'Αξιολόγησε τη φυσική σου κατάσταση με το Τεστ Cooper βάσει ηλικίας και φύλου. Χρήσιμο εργαλείο για προπόνηση και αξιολόγηση αντοχής.',
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://racelist.gr/racelist-banner.jpg',
+      },
     ],
   });
 
