@@ -22,26 +22,22 @@
 
     <div class="flex items-center justify-center p-6">
       <div class="bg-paper shadow-lg border border-line rounded-lg max-w-md w-full p-6">
-        <h2 class="font-display text-3xl text-blue font-bold mb-6">
+        <h2 class="text-2xl font-bold text-center mb-4">
           Υπολογιστής Ενεργειακών Gel
         </h2>
 
         <div class="mb-4">
-          <div class="flex border rounded-md overflow-hidden w-fit">
+          <div class="inline-flex border border-ink rounded-full overflow-hidden">
             <button
-              :class="
-                isManual ? 'bg-paper text-grey' : 'bg-blue-deep text-paper'
-              "
-              class="px-4 py-2 text-sm font-medium transition-colors"
+              class="font-mono text-xs font-medium tracking-wide px-5 py-2 transition-colors"
+              :class="!isManual ? 'bg-ink text-paper' : 'bg-transparent text-ink'"
               @click="isManual = false"
             >
               Αυτόματο
             </button>
             <button
-              :class="
-                isManual ? 'bg-blue-deep text-paper' : 'bg-paper text-grey'
-              "
-              class="px-4 py-2 text-sm font-medium transition-colors"
+              class="font-mono text-xs font-medium tracking-wide px-5 py-2 transition-colors"
+              :class="isManual ? 'bg-ink text-paper' : 'bg-transparent text-ink'"
               @click="isManual = true"
             >
               Χειροκίνητο
@@ -54,7 +50,7 @@
           <input
             v-model.number="distance"
             type="number"
-            class="border p-2 rounded w-full input-bordered w-full"
+            class="border border-line rounded-lg p-2 w-full bg-paper text-ink focus:outline-none focus:border-blue"
             min="0"
           />
         </div>
@@ -64,7 +60,7 @@
           <input
             v-model.number="pace"
             type="number"
-            class="border p-2 rounded w-full input-bordered w-full"
+            class="border border-line rounded-lg p-2 w-full bg-paper text-ink focus:outline-none focus:border-blue"
             min="1"
           />
         </div>
@@ -74,7 +70,7 @@
           <input
             v-model.number="carbsPerGel"
             type="number"
-            class="border p-2 rounded w-full input-bordered w-full"
+            class="border border-line rounded-lg p-2 w-full bg-paper text-ink focus:outline-none focus:border-blue"
             min="1"
           />
         </div>
@@ -84,7 +80,7 @@
           <input
             v-model.number="carbsPerHour"
             type="number"
-            class="border p-2 rounded w-full input-bordered w-full"
+            class="border border-line rounded-lg p-2 w-full bg-paper text-ink focus:outline-none focus:border-blue"
             min="1"
           />
         </div>

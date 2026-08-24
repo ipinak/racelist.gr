@@ -16,7 +16,7 @@
 
       <section class="mb-8">
         <h2 class="font-display text-2xl font-semibold text-blue mb-4">
-          📏 Πώς γίνεται;
+          Πώς γίνεται;
         </h2>
         <p class="mb-4">
           Ο συμμετέχων καλείται να τρέξει
@@ -33,7 +33,7 @@
 
       <section class="mb-8">
         <h2 class="font-display text-2xl font-semibold text-blue mb-4">
-          ✅ Τι αξιολογεί;
+          Τι αξιολογεί;
         </h2>
         <ul class="list-disc list-inside space-y-2 mb-4">
           <li>Την <strong>καρδιοαναπνευστική ικανότητα</strong> (VO₂max)</li>
@@ -44,7 +44,7 @@
 
       <section class="mb-8">
         <h2 class="font-display text-2xl font-semibold text-blue mb-4">
-          📊 Πώς ερμηνεύονται τα αποτελέσματα;
+          Πώς ερμηνεύονται τα αποτελέσματα;
         </h2>
         <p class="mb-4">
           Η απόσταση που διανύεις μέσα στα 12 λεπτά συγκρίνεται με πρότυπες
@@ -55,7 +55,7 @@
 
       <section>
         <h2 class="font-display text-2xl font-semibold text-blue mb-4">
-          💡 Πότε να το χρησιμοποιήσεις
+          Πότε να το χρησιμοποιήσεις
         </h2>
         <ul class="list-disc list-inside space-y-2">
           <li>Για να δεις πού βρίσκεσαι σε επίπεδο αντοχής</li>
@@ -69,7 +69,7 @@
 
     <div class="flex items-center justify-center p-6">
       <div class="bg-paper shadow-lg border border-line rounded-lg max-w-md w-full p-6">
-        <h2 class="text-2xl font-bold mb-4 text-center">
+        <h2 class="text-2xl font-bold text-center mb-4">
           Υπολογιστής Τεστ Cooper
         </h2>
 
@@ -518,12 +518,12 @@
     if (!result.value) return '';
 
     const colorMap = {
-      green: 'bg-green-100 border-green-300 text-green-800',
-      blue: 'bg-blue-100 border-blue-300 text-blue-800',
-      yellow: 'bg-yellow-100 border-yellow-300 text-yellow-800',
-      orange: 'bg-orange-100 border-orange-300 text-orange-800',
-      red: 'bg-red-100 border-red-300 text-red-800',
-      gray: 'bg-gray-100 border-line text-gray-800',
+      green: 'bg-blue/10 border-blue text-blue-deep',
+      blue: 'bg-blue/10 border-blue text-blue-deep',
+      yellow: 'bg-flag/10 border-flag text-ink',
+      orange: 'bg-flag/15 border-flag text-ink',
+      red: 'bg-flag/20 border-flag text-ink',
+      gray: 'bg-paper-dim border-line text-grey',
     };
 
     return colorMap[result.value.color] || colorMap['gray'];

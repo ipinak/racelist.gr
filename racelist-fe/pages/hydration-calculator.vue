@@ -10,7 +10,7 @@
           <label class="block text-sm font-medium">Τύπος Άσκησης</label>
           <select
             v-model="exerciseType"
-            class="mt-1 block w-full p-2 border rounded"
+            class="mt-1 block w-full p-2 border border-line rounded-lg bg-paper text-ink focus:outline-none focus:border-blue"
           >
             <option value="race">Αγώνας</option>
             <option value="training">Προπόνηση</option>
@@ -22,7 +22,7 @@
           <input
             v-model.number="distance"
             type="number"
-            class="mt-1 block w-full p-2 border rounded"
+            class="mt-1 block w-full p-2 border border-line rounded-lg bg-paper text-ink focus:outline-none focus:border-blue"
             placeholder="Εισάγετε απόσταση"
           />
         </div>
@@ -36,7 +36,7 @@
               v-model.number="hours"
               type="number"
               min="0"
-              class="mt-1 block w-1/2 p-2 border rounded"
+              class="mt-1 block w-1/2 p-2 border border-line rounded-lg bg-paper text-ink focus:outline-none focus:border-blue"
               placeholder="Ώρες"
             />
             <input
@@ -44,7 +44,7 @@
               type="number"
               min="0"
               max="59"
-              class="mt-1 block w-1/2 p-2 border rounded"
+              class="mt-1 block w-1/2 p-2 border border-line rounded-lg bg-paper text-ink focus:outline-none focus:border-blue"
               placeholder="Λεπτά"
             />
           </div>
@@ -55,7 +55,7 @@
           <input
             v-model.number="temperature"
             type="number"
-            class="mt-1 block w-full p-2 border rounded"
+            class="mt-1 block w-full p-2 border border-line rounded-lg bg-paper text-ink focus:outline-none focus:border-blue"
             placeholder="Εισάγετε θερμοκρασία"
           />
         </div>
@@ -65,7 +65,7 @@
           <input
             v-model.number="weight"
             type="number"
-            class="mt-1 block w-full p-2 border rounded"
+            class="mt-1 block w-full p-2 border border-line rounded-lg bg-paper text-ink focus:outline-none focus:border-blue"
             placeholder="Εισάγετε βάρος"
           />
         </div>
@@ -292,9 +292,3 @@
   }
 </script>
 
-<style scoped>
-  input,
-  select {
-    border: 1px solid #d3d8de;
-  }
-</style>

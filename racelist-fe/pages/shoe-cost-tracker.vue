@@ -22,7 +22,7 @@
 
     <div class="flex items-center justify-center p-6">
       <div class="bg-paper shadow-lg border border-line rounded-lg max-w-md w-full p-6">
-        <h2 class="font-display text-3xl text-blue font-bold mb-6">
+        <h2 class="text-2xl font-bold text-center mb-4">
           Υπολογιστής Κόστους Παπουτσιών
         </h2>
 
@@ -31,7 +31,7 @@
           <input
             v-model.number="shoePrice"
             type="number"
-            class="border p-2 rounded w-full input-bordered"
+            class="border border-line rounded-lg p-2 w-full bg-paper text-ink focus:outline-none focus:border-blue"
             min="0"
             step="0.01"
             placeholder="π.χ. 150"
@@ -45,7 +45,7 @@
           <input
             v-model.number="weeklyMileage"
             type="number"
-            class="border p-2 rounded w-full input-bordered"
+            class="border border-line rounded-lg p-2 w-full bg-paper text-ink focus:outline-none focus:border-blue"
             min="0"
             step="1"
             placeholder="π.χ. 40"
@@ -59,7 +59,7 @@
           <input
             v-model.number="currentMileage"
             type="number"
-            class="border p-2 rounded w-full input-bordered"
+            class="border border-line rounded-lg p-2 w-full bg-paper text-ink focus:outline-none focus:border-blue"
             min="0"
             step="1"
             placeholder="π.χ. 150"
@@ -76,7 +76,7 @@
           <input
             v-model.number="shoeLifespan"
             type="number"
-            class="border p-2 rounded w-full input-bordered"
+            class="border border-line rounded-lg p-2 w-full bg-paper text-ink focus:outline-none focus:border-blue"
             min="100"
             step="50"
             placeholder="600-800"
@@ -137,12 +137,12 @@
 
           <div
             v-if="results.usagePercentage >= 80"
-            class="bg-yellow-100 border-l-4 border-yellow-500 p-3 mt-3"
+            class="bg-flag/10 border-l-4 border-flag p-3 mt-3"
           >
-            <p class="text-sm font-semibold text-yellow-800">
-              ⚠️ Τα παπούτσια σας πλησιάζουν το τέλος της διάρκειας ζωής τους!
+            <p class="text-sm font-semibold text-ink">
+              Τα παπούτσια σας πλησιάζουν το τέλος της διάρκειας ζωής τους!
             </p>
-            <p class="text-xs text-yellow-700 mt-1">
+            <p class="text-xs text-grey mt-1">
               Αρχίστε να σκέφτεστε την αντικατάστασή τους για να αποφύγετε
               τραυματισμούς.
             </p>
@@ -150,12 +150,12 @@
 
           <div
             v-if="results.usagePercentage >= 100"
-            class="bg-red-100 border-l-4 border-red-500 p-3 mt-3"
+            class="bg-flag/20 border-l-4 border-flag p-3 mt-3"
           >
-            <p class="text-sm font-semibold text-red-800">
-              🛑 Ώρα για καινούρια παπούτσια!
+            <p class="text-sm font-semibold text-ink">
+              Ώρα για καινούρια παπούτσια!
             </p>
-            <p class="text-xs text-red-700 mt-1">
+            <p class="text-xs text-grey mt-1">
               Η συνέχιση χρήσης μπορεί να οδηγήσει σε τραυματισμούς.
             </p>
           </div>

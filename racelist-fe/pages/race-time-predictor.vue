@@ -22,7 +22,7 @@
 
     <div class="flex items-center justify-center p-6">
       <div class="bg-paper shadow-lg border border-line rounded-lg max-w-md w-full p-6">
-        <h2 class="font-display text-3xl text-blue font-bold mb-6">
+        <h2 class="text-2xl font-bold text-center mb-4">
           Υπολογιστής Προβλέψεων Χρόνων Για Δρομείς
         </h2>
 
@@ -30,7 +30,7 @@
           <label class="block mb-1 font-medium">Απόσταση Αγώνα</label>
           <select
             v-model="selectedDistance"
-            class="border p-2 rounded w-full input-bordered"
+            class="border border-line rounded-lg p-2 w-full bg-paper text-ink focus:outline-none focus:border-blue"
           >
             <option value="5">5K</option>
             <option value="10">10K</option>
@@ -45,7 +45,7 @@
           <input
             v-model.number="customDistance"
             type="number"
-            class="border p-2 rounded w-full input-bordered"
+            class="border border-line rounded-lg p-2 w-full bg-paper text-ink focus:outline-none focus:border-blue"
             min="0.1"
             step="0.1"
           />
@@ -58,7 +58,7 @@
               <input
                 v-model.number="hours"
                 type="number"
-                class="border p-2 rounded w-full input-bordered"
+                class="border border-line rounded-lg p-2 w-full bg-paper text-ink focus:outline-none focus:border-blue"
                 placeholder="Ώρες"
                 min="0"
               />
@@ -67,7 +67,7 @@
               <input
                 v-model.number="minutes"
                 type="number"
-                class="border p-2 rounded w-full input-bordered"
+                class="border border-line rounded-lg p-2 w-full bg-paper text-ink focus:outline-none focus:border-blue"
                 placeholder="Λεπτά"
                 min="0"
                 max="59"
@@ -77,7 +77,7 @@
               <input
                 v-model.number="seconds"
                 type="number"
-                class="border p-2 rounded w-full input-bordered"
+                class="border border-line rounded-lg p-2 w-full bg-paper text-ink focus:outline-none focus:border-blue"
                 placeholder="Δευτ."
                 min="0"
                 max="59"
