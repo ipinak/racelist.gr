@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-xl mx-auto mb-8 space-y-4">
+  <div class="max-w-xl mx-auto mb-8 space-y-3">
     <!-- Search Input -->
     <div class="relative">
       <label for="race-search" class="sr-only">
@@ -13,18 +13,31 @@
         class="w-full p-3 pl-4 pr-10 border border-line rounded-lg focus:outline-none focus:border-blue text-ink bg-paper"
         @input="handleSearch"
       />
-      <span class="absolute right-3 top-3 text-grey">🔍</span>
+      <svg
+        class="absolute right-3 top-3.5 w-4 h-4 text-grey pointer-events-none"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <circle cx="11" cy="11" r="8" />
+        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+      </svg>
     </div>
 
     <!-- Location Filters Row -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
       <!-- Area Filter -->
       <div class="relative">
         <label for="area-filter" class="sr-only">Περιοχή</label>
         <select
           id="area-filter"
           v-model="selectedArea"
-          class="w-full p-3 pr-10 border border-line rounded-lg focus:outline-none focus:border-blue text-ink bg-paper appearance-none"
+          class="w-full p-3 pr-10 border border-line rounded-lg focus:outline-none focus:border-blue text-ink bg-paper appearance-none font-mono text-xs uppercase tracking-wide"
           @change="handleAreaChange"
         >
           <option value="">Όλες οι περιοχές</option>
@@ -32,9 +45,19 @@
             {{ area }}
           </option>
         </select>
-        <span class="absolute right-3 top-3 text-grey pointer-events-none"
-          >🏙️</span
+        <svg
+          class="absolute right-3 top-3.5 w-4 h-4 text-grey pointer-events-none"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
         >
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
       </div>
 
       <!-- City Filter -->
@@ -43,7 +66,7 @@
         <select
           id="city-filter"
           v-model="selectedCity"
-          class="w-full p-3 pr-10 border border-line rounded-lg focus:outline-none focus:border-blue text-ink bg-paper appearance-none"
+          class="w-full p-3 pr-10 border border-line rounded-lg focus:outline-none focus:border-blue text-ink bg-paper appearance-none font-mono text-xs uppercase tracking-wide"
           @change="handleCityChange"
         >
           <option value="">Όλες οι πόλεις</option>
@@ -51,9 +74,19 @@
             {{ city }}
           </option>
         </select>
-        <span class="absolute right-3 top-3 text-grey pointer-events-none"
-          >🌆</span
+        <svg
+          class="absolute right-3 top-3.5 w-4 h-4 text-grey pointer-events-none"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
         >
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
       </div>
     </div>
 
@@ -62,15 +95,28 @@
       <div
         v-for="filter in activeFilters"
         :key="filter.type"
-        class="flex items-center bg-blue-deep text-paper px-3 py-1 rounded-full text-sm"
+        class="flex items-center gap-1.5 border border-line rounded-full pl-3 pr-2 py-1 font-mono text-xs text-ink bg-paper"
       >
         <span>{{ filter.label }}: {{ filter.value }}</span>
         <button
-          class="ml-2 text-paper hover:text-sky"
+          class="text-grey hover:text-blue transition-colors"
           :aria-label="`Αφαίρεση φίλτρου ${filter.label}`"
           @click="removeFilter(filter.type)"
         >
-          ✕
+          <svg
+            class="w-3.5 h-3.5"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
         </button>
       </div>
     </div>

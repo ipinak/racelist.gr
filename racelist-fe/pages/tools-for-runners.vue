@@ -1,20 +1,29 @@
 <template>
   <div>
-    <h1 class="font-display text-3xl font-semibold text-center text-ink my-6">Βοηθήματα Δρομέων</h1>
+    <h1 class="font-display text-3xl font-semibold text-center text-ink my-6">
+      Εργαλεία & Υπολογιστές για Δρομείς
+    </h1>
+    <p class="text-grey text-center max-w-3xl mx-auto mb-8 px-4">
+      Δωρεάν εργαλεία που απαντούν σε ερωτήσεις που κάνει κάθε δρομέας πριν και
+      μετά τον αγώνα: τι ρυθμό να κρατήσω, πόσο νερό και πόσα gel χρειάζομαι,
+      πόσο μου αντέχουν τα παπούτσια και τι χρόνο ρεαλιστικά να στοχεύσω στην
+      επόμενη κούρσα. Διάλεξε το εργαλείο που σε ενδιαφέρει και πάρε απάντηση σε
+      δευτερόλεπτα, χωρίς εγγραφή.
+    </p>
     <ul
-      class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 list-none p-0"
+      class="grid gap-px bg-line grid-cols-1 sm:grid-cols-2 md:grid-cols-3 list-none p-0 max-w-[1180px] mx-auto"
     >
-      <li
-        v-for="link in links"
-        :key="link.href"
-        class="border border-line rounded-xl p-4 text-center hover:bg-paper-dim hover:border-blue transition-colors"
-      >
+      <li v-for="link in links" :key="link.href" class="bg-paper p-6 sm:p-7">
+        <ToolIcon :name="link.icon" class="w-6 h-6 text-blue mb-3" />
         <NuxtLink
           :to="link.href"
-          class="font-display text-lg font-semibold text-blue hover:text-blue-deep"
+          class="block font-display text-lg font-semibold text-ink leading-snug hover:text-blue-deep transition-colors mb-2"
         >
           {{ link.title }}
         </NuxtLink>
+        <p class="text-sm text-grey leading-snug">
+          {{ link.description }}
+        </p>
       </li>
     </ul>
   </div>
@@ -22,12 +31,12 @@
 
 <script setup>
   useHead({
-    title: 'Εργαλεία για Υπολογισμούς Τρεξίματος - racelist.gr',
+    title: 'Εργαλεία & Υπολογιστές για Δρομείς - racelist.gr',
     meta: [
       {
         name: 'description',
         content:
-          'Ανακαλύψτε χρήσιμα εργαλεία και υπολογιστές για δρομείς. Υπολογίστε την ενυδάτωση, τα ενεργειακά gel και άλλες σημαντικές παραμέτρους για το τρέξιμο και την ποδηλασία.',
+          'Δωρεάν υπολογιστές για δρομείς: ρυθμός & splits, ενυδάτωση, ενεργειακά gel, τεστ Cooper, πρόβλεψη χρόνου αγώνα και κόστος παπουτσιών. Χωρίς εγγραφή.',
       },
       {
         name: 'keywords',
@@ -38,12 +47,12 @@
       { property: 'og:type', content: 'website' },
       {
         property: 'og:title',
-        content: 'Εργαλεία για Υπολογισμούς Δρομέων - racelist.gr',
+        content: 'Εργαλεία & Υπολογιστές για Δρομείς - racelist.gr',
       },
       {
         property: 'og:description',
         content:
-          'Μάθετε πόση ενυδάτωση και πόσα ενεργειακά gel χρειάζεστε για το τρέξιμο και την ποδηλασία. Αξιόπιστα εργαλεία για βελτιωμένη προπόνηση και αγώνες.',
+          'Ρυθμός, ενυδάτωση, gel, τεστ Cooper, πρόβλεψη χρόνου αγώνα και κόστος παπουτσιών. Όλα τα εργαλεία που χρειάζεται ένας δρομέας, σε ένα μέρος.',
       },
       {
         property: 'og:image',
@@ -56,12 +65,12 @@
       { name: 'twitter:card', content: 'summary_large_image' },
       {
         name: 'twitter:title',
-        content: 'Εργαλεία για Υπολογισμούς Δρομέων - racelist.gr',
+        content: 'Εργαλεία & Υπολογιστές για Δρομείς - racelist.gr',
       },
       {
         name: 'twitter:description',
         content:
-          'Χρησιμοποιήστε εύκολα εργαλεία για να υπολογίσετε ενυδάτωση και ενεργειακά gel για το τρέξιμο και την ποδηλασία.',
+          'Ρυθμός, ενυδάτωση, gel, τεστ Cooper, πρόβλεψη χρόνου αγώνα και κόστος παπουτσιών. Όλα τα εργαλεία που χρειάζεται ένας δρομέας, σε ένα μέρος.',
       },
       {
         name: 'twitter:image',
@@ -77,27 +86,45 @@
     {
       title: 'Υπολογιστής Ενεργειακών Gel - Καύσιμα για το Τρέξιμό σου',
       href: '/gel-calculator/',
+      description:
+        'Πόσα gel χρειάζεσαι για τα χιλιόμετρα και τη διάρκεια του αγώνα σου, ώστε να αποφύγεις το "χτύπημα στον τοίχο".',
+      icon: 'zap',
     },
     {
       title: 'Υπολογιστής Ενυδάτωσης - Υγρά καύσιμα για την άσκησή σας',
       href: '/hydration-calculator/',
+      description:
+        'Υπολόγισε πόσο νερό και ηλεκτρολύτες χρειάζεσαι ανά ώρα προπόνησης, ανάλογα με τη διάρκεια και τις συνθήκες.',
+      icon: 'droplets',
     },
     {
       title: 'Υπολογιστής Τεστ Cooper | Εκτίμηση Απόστασης σε 12 Λεπτά',
       href: '/cooper-test/',
+      description:
+        'Εκτίμησε το επίπεδο φυσικής σου κατάστασης από την απόσταση που διανύεις σε 12 λεπτά τρέξιμο.',
+      icon: 'timer',
     },
     {
       title:
         'Υπολογιστής Ρυθμού & Χρόνου ανά Χιλιόμετρο | Εργαλείο για Δρομείς',
       href: '/pace-calculator/',
+      description:
+        'Βρες τον ρυθμό σου ανά χιλιόμετρο και τα splits σου, για να τρέξεις με σταθερό τέμπο μέχρι το τέρμα.',
+      icon: 'gauge',
     },
     {
       title: 'Υπολογιστής Προβλέψεων Χρόνων - Τύπος Riegel για Δρομείς',
       href: '/race-time-predictor/',
+      description:
+        'Βάσει ενός πρόσφατου χρόνου σου, δες ρεαλιστικά τι χρόνο μπορείς να πετύχεις σε άλλη απόσταση αγώνα.',
+      icon: 'trending-up',
     },
     {
       title: 'Υπολογιστής Κόστους & Διάρκειας Ζωής Παπουτσιών Τρεξίματος',
       href: '/shoe-cost-tracker/',
+      description:
+        'Καταχώρισε τα χιλιόμετρα και το κόστος των παπουτσιών σου και μάθε πότε είναι ώρα για αντικατάσταση.',
+      icon: 'footprints',
     },
   ];
 </script>

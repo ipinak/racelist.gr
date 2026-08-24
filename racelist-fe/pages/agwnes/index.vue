@@ -1,10 +1,19 @@
 <template>
   <div class="max-w-4xl mx-auto px-4 py-8">
-    <h1 class="font-display text-3xl font-semibold text-ink text-center mb-8">
-      Αγώνες τρεξίματος δρόμου και βουνού για το {{ year }} ανα μήνα
+    <h1 class="font-display text-3xl font-semibold text-ink text-center mb-4">
+      Καλένταρι Αγώνων Δρόμου & Βουνού {{ year }}
     </h1>
 
-    <h2 class="font-display text-xl font-semibold text-ink mb-4">{{ year }}</h2>
+    <p class="text-grey text-center max-w-3xl mx-auto mb-10">
+      Το πλήρες καλένταρι αγώνων τρεξίματος στην Ελλάδα, ταξινομημένο ανά
+      μήνα: μαραθώνιοι, ημιμαραθώνιοι, αγώνες δρόμου και ορεινοί αγώνες
+      (trail). Διάλεξε τον μήνα που σε ενδιαφέρει για να δεις ημερομηνίες,
+      αποστάσεις και τοποθεσίες, και βρες τον επόμενο αγώνα σου.
+    </p>
+
+    <h2 class="font-display text-xl font-semibold text-ink mb-4">
+      Αγώνες {{ year }}
+    </h2>
     <ul
       class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 list-none p-0 mb-10"
     >
@@ -23,7 +32,7 @@
     </ul>
 
     <h2 class="font-display text-xl font-semibold text-grey mb-4">
-      Αρχείο {{ year - 1 }}
+      Αρχείο Αγώνων {{ year - 1 }}
     </h2>
     <ul
       class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 list-none p-0"
@@ -186,4 +195,34 @@
       },
     ],
   });
+
+  useJsonld([
+    {
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      name: `Καλένταρι Αγώνων Δρόμου & Βουνού ${year}`,
+      description: `Όλοι οι αγώνες τρεξίματος δρόμου και βουνού στην Ελλάδα για το ${year}, ταξινομημένοι ανά μήνα.`,
+      url: 'https://racelist.gr/agwnes/',
+      isPartOf: {
+        '@type': 'WebSite',
+        name: 'racelist.gr',
+        url: 'https://racelist.gr',
+      },
+      mainEntity: {
+        '@type': 'ItemList',
+        itemListElement: [...currentYearMonths, ...previousYearMonths].map(
+          (month, index) => ({
+            '@type': 'ListItem',
+            position: index + 1,
+            name: month.label,
+            url: `https://racelist.gr${month.href}`,
+          })
+        ),
+      },
+    },
+    buildBreadcrumbJsonld([
+      { name: 'Αρχική', url: 'https://racelist.gr/' },
+      { name: 'Αγώνες', url: 'https://racelist.gr/agwnes/' },
+    ]),
+  ]);
 </script>
