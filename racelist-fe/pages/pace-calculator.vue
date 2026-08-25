@@ -1,6 +1,12 @@
 <template>
   <div>
     <div class="max-w-4xl mx-auto px-4 py-8">
+      <NuxtLink
+        to="/tools-for-runners/"
+        class="inline-block text-sm text-blue hover:text-blue-deep underline mb-4"
+      >
+        ← Όλα τα εργαλεία για δρομείς
+      </NuxtLink>
       <h1 class="font-display text-3xl text-blue font-bold mb-6">
         Γιατί να υπολογίσω τον ρυθμό και τα splits μου;
       </h1>
@@ -178,6 +184,40 @@
             </div>
           </div>
         </div>
+      </div>
+
+      <hr class="text-line my-3" />
+
+      <div>
+        Δες και τα υπόλοιπα
+        <NuxtLink
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
+          to="/tools-for-runners/"
+        >
+          εργαλεία για δρομείς
+        </NuxtLink>
+        : υπολογιστής ενεργειακών
+        <NuxtLink
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
+          to="/gel-calculator/"
+        >
+          gel
+        </NuxtLink>
+        , υπολογιστής
+        <NuxtLink
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
+          to="/hydration-calculator/"
+        >
+          ενυδάτωσης
+        </NuxtLink>
+        και
+        <NuxtLink
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
+          to="/race-time-predictor/"
+        >
+          πρόβλεψης χρόνου αγώνα
+        </NuxtLink>
+        .
       </div>
     </div>
   </div>

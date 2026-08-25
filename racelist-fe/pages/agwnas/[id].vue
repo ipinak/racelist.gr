@@ -59,6 +59,8 @@
         </h2>
         <YoutubeVideo :video-id="race.ExtraInfo.RaceBriefVideoId" />
       </div>
+
+      <RaceSuggestions />
     </div>
     <div v-else class="text-center text-lg text-grey">Ο αγώνας δεν βρέθηκε</div>
   </div>

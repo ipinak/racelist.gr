@@ -1,6 +1,12 @@
 <template>
   <div>
     <div class="max-w-4xl mx-auto px-4 py-8">
+      <NuxtLink
+        to="/tools-for-runners/"
+        class="inline-block text-sm text-blue hover:text-blue-deep underline mb-4"
+      >
+        ← Όλα τα εργαλεία για δρομείς
+      </NuxtLink>
       <h1 class="font-display text-3xl text-blue font-bold mb-6">
         Τι είναι το Τεστ Cooper;
       </h1>
@@ -146,6 +152,27 @@
             </p>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="max-w-4xl mx-auto px-4 py-8">
+      <hr class="text-line mb-3" />
+      <div>
+        Θέλεις να δεις και τον ρυθμό σου; Δοκίμασε τον
+        <NuxtLink
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
+          to="/pace-calculator/"
+        >
+          υπολογιστή ρυθμού
+        </NuxtLink>
+        . Δες και όλα τα
+        <NuxtLink
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
+          to="/tools-for-runners/"
+        >
+          εργαλεία για δρομείς
+        </NuxtLink>
+        .
       </div>
     </div>
   </div>

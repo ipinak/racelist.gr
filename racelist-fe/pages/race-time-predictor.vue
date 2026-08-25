@@ -4,6 +4,12 @@
       Προβλέψτε τους Χρόνους σας με τον Τύπο Riegel
     </h1>
     <div class="max-w-4xl mx-auto px-4 py-8 text-ink space-y-4">
+      <NuxtLink
+        to="/tools-for-runners/"
+        class="inline-block text-sm text-blue hover:text-blue-deep underline"
+      >
+        ← Όλα τα εργαλεία για δρομείς
+      </NuxtLink>
       <p>
         Έχετε αναρωτηθεί ποτέ, "Αν έτρεξα 5 χιλιόμετρα σε 24 λεπτά, τι χρόνο
         μπορώ να κάνω σε στον ημιμαραθώνιο;" Ο τύπος του Peter Riegel είναι ένα
@@ -274,6 +280,14 @@
         >
           υπολογιστή ενυδάτωσης.
         </NuxtLink>
+        Δες και όλα τα
+        <NuxtLink
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
+          to="/tools-for-runners/"
+        >
+          εργαλεία για δρομείς
+        </NuxtLink>
+        .
       </div>
     </div>
   </div>

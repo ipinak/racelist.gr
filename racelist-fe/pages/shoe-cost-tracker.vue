@@ -4,6 +4,12 @@
       Υπολογιστής Κόστους & Διάρκειας Ζωής Αθλητικών Παπουτσιών
     </h1>
     <div class="max-w-4xl mx-auto px-4 py-8 text-ink space-y-4">
+      <NuxtLink
+        to="/tools-for-runners/"
+        class="inline-block text-sm text-blue hover:text-blue-deep underline"
+      >
+        ← Όλα τα εργαλεία για δρομείς
+      </NuxtLink>
       <p>
         Τα παπούτσια για τρέξιμο αποτελούν ισως το μεγαλύτερο και σημαντικότερο
         έξοδο (μετά τις εγγραφές σε αγώνες). Αλλά εχετε ποτέ αναρρωτηθεί πόσο
@@ -352,6 +358,14 @@
         >
           υπολογιστή ενεργειακών gel.
         </NuxtLink>
+        Δες και όλα τα
+        <NuxtLink
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
+          to="/tools-for-runners/"
+        >
+          εργαλεία για δρομείς
+        </NuxtLink>
+        .
       </div>
     </div>
   </div>

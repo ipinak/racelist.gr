@@ -1,11 +1,17 @@
 <template>
   <div>
-    <div class="p-6 max-w-md mx-auto">
+    <div class="max-w-4xl mx-auto px-4 py-8">
+      <NuxtLink
+        to="/tools-for-runners/"
+        class="inline-block text-sm text-blue hover:text-blue-deep underline mb-4"
+      >
+        ← Όλα τα εργαλεία για δρομείς
+      </NuxtLink>
       <h1 class="font-display text-3xl text-blue font-bold mb-6 text-center">
         Υπολογιστής Ενυδάτωσης
       </h1>
 
-      <form @submit.prevent="calculateHydration">
+      <form class="max-w-md mx-auto" @submit.prevent="calculateHydration">
         <div class="mb-4">
           <label class="block text-sm font-medium">Τύπος Άσκησης</label>
           <select
@@ -73,7 +79,10 @@
         <Button title="Υπολογισμός" type="submit" />
       </form>
 
-      <div v-if="hydration" class="mt-4 p-4 bg-paper-dim border-l-4 border-blue rounded">
+      <div
+        v-if="hydration"
+        class="mt-4 p-4 bg-paper-dim border-l-4 border-blue rounded"
+      >
         <p>
           Η προτεινόμενη ενυδάτωση σας είναι:
           <span class="font-bold">{{ hydration }} λίτρα</span>
@@ -208,6 +217,26 @@
           στρατηγική ενυδάτωσης είναι τόσο προσωπική όσο το πρόγραμμα προπόνησής
           σας.
         </p>
+
+        <hr class="text-line my-3" />
+
+        <div>
+          Εκτός από τα υγρά, φρόντισε και την ενέργειά σου με τον
+          <NuxtLink
+            class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
+            to="/gel-calculator/"
+          >
+            υπολογιστή ενεργειακών gel
+          </NuxtLink>
+          . Δες και όλα τα
+          <NuxtLink
+            class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
+            to="/tools-for-runners/"
+          >
+            εργαλεία για δρομείς
+          </NuxtLink>
+          .
+        </div>
       </div>
     </div>
   </div>
@@ -291,4 +320,3 @@
     hydration.value = (baseHydration * (1 + distanceAdjustment)).toFixed(2);
   }
 </script>
-
