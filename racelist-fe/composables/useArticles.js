@@ -172,6 +172,11 @@ export const useArticles = () => {
       href: '/arthra/dririeia-2026/',
       title: 'Δρήρεια 2026 - Αποτελέσματα',
       timestamp: '2026-08-17',
+    },
+    {
+      href: '/arthra/pos-na-ksekiniseis-treximo/',
+      title: 'Πως να ξεκινήσεις το τρέξιμο',
+      timestamp: '2026-08-25',
     }
   ].reverse()
 
