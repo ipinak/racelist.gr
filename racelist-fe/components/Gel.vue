@@ -21,21 +21,23 @@
         v-if="gel.links && gel.links.length > 0"
         class="flex flex-wrap gap-3"
       >
-        <a
+        <CtaButton
           v-for="(link, index) in gel.links"
           :key="index"
           :href="link.url"
           target="_blank"
-          class="bg-blue-deep text-paper px-4 py-3 rounded-full font-semibold text-sm hover:bg-ink transition-colors"
+          size="sm"
         >
           {{ link.label }}
-        </a>
+        </CtaButton>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
+  import CtaButton from '~/components/CtaButton.vue';
+
   defineProps({
     gel: {
       type: Object,

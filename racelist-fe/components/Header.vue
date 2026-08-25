@@ -58,12 +58,9 @@
             Εργαλεία
           </NuxtLink>
         </div>
-        <a
-          href="mailto:hey@racelist.gr"
-          class="bg-blue-deep text-paper px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-ink transition-colors"
-        >
+        <CtaButton href="mailto:hey@racelist.gr">
           Πρόσθεσε αγώνα
-        </a>
+        </CtaButton>
       </div>
     </nav>
 
@@ -82,17 +79,15 @@
       <NuxtLink to="/tools-for-runners" class="block py-2 hover:text-blue-deep">
         Εργαλεία
       </NuxtLink>
-      <a
-        href="mailto:hey@racelist.gr"
-        class="block mt-2 bg-blue-deep text-paper px-5 py-2.5 rounded-full text-sm font-semibold text-center"
-      >
+      <CtaButton href="mailto:hey@racelist.gr" block class="mt-2">
         Πρόσθεσε αγώνα
-      </a>
+      </CtaButton>
     </nav>
   </header>
 </template>
 
 <script setup>
   import { ref } from 'vue';
+  import CtaButton from '~/components/CtaButton.vue';
   const isMenuOpen = ref(false);
 </script>

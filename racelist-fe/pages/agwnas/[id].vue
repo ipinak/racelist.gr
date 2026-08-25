@@ -31,17 +31,17 @@
             </div>
           </div>
           <div v-if="race.SignupLink" class="mt-12 text-center">
-            <a
+            <CtaButton
               :href="
                 race.SignupLink.includes('?')
                   ? `${race.SignupLink}&utm_source=racelist.gr`
                   : `${race.SignupLink}?utm_source=racelist.gr`
               "
-              class="inline-block bg-blue-deep text-paper px-7 py-3 rounded-full font-semibold text-sm hover:bg-ink transition-colors"
               target="_blank"
+              size="lg"
             >
               Εγγραφή στον αγώνα
-            </a>
+            </CtaButton>
           </div>
         </div>
       </div>
