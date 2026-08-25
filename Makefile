@@ -11,3 +11,6 @@ pack-races:
 
 sync-nuxt-config:
 	cd ./scripts && ./update-routes.sh && cd ..
+
+run:
+	cd racelist-fe/ && npm run dev
