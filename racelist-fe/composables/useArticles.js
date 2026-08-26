@@ -177,6 +177,11 @@ export const useArticles = () => {
       href: '/arthra/pos-na-ksekiniseis-treximo/',
       title: 'Πως να ξεκινήσεις το τρέξιμο',
       timestamp: '2026-08-25',
+    },
+    {
+      href: '/arthra/vo2-max-ti-einai-pos-metrietai/',
+      title: 'VO2 Max: Τι Είναι, Πώς Μετριέται και Πώς το Υπολογίζουν τα Smartwatches',
+      timestamp: '2026-08-26',
     }
   ].reverse()
 
