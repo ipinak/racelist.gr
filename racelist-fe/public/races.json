@@ -6161,5 +6161,17 @@
         ],
         "SignupLink": "https://marathon.messini.gr/",
         "Slug": "20os-epeteiakos-marathonios-messinis-2027/"
+    },
+    {
+        "ID": 484,
+        "Title": "South Olympus Forest Trail 2026",
+        "Date": "2026-10-31",
+        "Location": "Παλαιός Παντελεήμονας",
+        "Distances": [
+            "54km",
+            "10km"
+        ],
+        "SignupLink": "https://south.pourliatrail.gr/south-olympus-forest-trail-54km/#register",
+        "Slug": "south-olympus-forest-trail-2026/"
     }
 ]

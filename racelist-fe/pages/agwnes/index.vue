@@ -5,10 +5,10 @@
     </h1>
 
     <p class="text-grey text-center max-w-3xl mx-auto mb-10">
-      Το πλήρες καλένταρι αγώνων τρεξίματος στην Ελλάδα, ταξινομημένο ανά
-      μήνα: μαραθώνιοι, ημιμαραθώνιοι, αγώνες δρόμου και ορεινοί αγώνες
-      (trail). Διάλεξε τον μήνα που σε ενδιαφέρει για να δεις ημερομηνίες,
-      αποστάσεις και τοποθεσίες, και βρες τον επόμενο αγώνα σου.
+      Το πλήρες καλένταρι αγώνων τρεξίματος στην Ελλάδα, ταξινομημένο ανά μήνα:
+      μαραθώνιοι, ημιμαραθώνιοι, αγώνες δρόμου και ορεινοί αγώνες (trail).
+      Διάλεξε τον μήνα που σε ενδιαφέρει για να δεις ημερομηνίες, αποστάσεις και
+      τοποθεσίες, και βρες τον επόμενο αγώνα σου.
     </p>
 
     <h2 class="font-display text-xl font-semibold text-ink mb-4">
@@ -42,10 +42,7 @@
         :key="month.href"
         class="border border-line rounded-xl p-4 text-center hover:bg-paper-dim transition-colors"
       >
-        <NuxtLink
-          :to="month.href"
-          class="text-base text-grey hover:text-ink"
-        >
+        <NuxtLink :to="month.href" class="text-base text-grey hover:text-ink">
           {{ month.label }}
         </NuxtLink>
       </li>
@@ -90,6 +87,22 @@
     {
       label: 'Αύγουστος 2026',
       href: '/agwnes/kalentari-agwnwn-augoustos-2026/',
+    },
+    {
+      label: 'Σεπτέμβριος 2026',
+      href: '/agwnes/kalentari-agwnwn-septembrios-2026/',
+    },
+    {
+      label: 'Οκτώβριος 2026',
+      href: '/agwnes/kalentari-agwnwn-oktobrios-2026/',
+    },
+    {
+      label: 'Νοέμβριος 2026',
+      href: '/agwnes/kalentari-agwnwn-noembrios-2026/',
+    },
+    {
+      label: 'Δεκέμβριος 2026',
+      href: '/agwnes/kalentari-agwnwn-dekembrios-2026/',
     },
   ];
 
@@ -216,7 +229,7 @@
             position: index + 1,
             name: month.label,
             url: `https://racelist.gr${month.href}`,
-          })
+          }),
         ),
       },
     },

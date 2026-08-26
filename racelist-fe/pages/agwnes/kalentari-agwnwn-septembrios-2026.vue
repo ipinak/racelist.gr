@@ -1,0 +1,109 @@
+<template>
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <Header :title="title" />
+
+    <RaceList :races="races" />
+
+    <h2 class="font-display text-2xl text-center text-ink mt-10 mb-4">
+      Ενημερωθείτε για νέους αγώνες
+    </h2>
+
+    <div class="flex justify-center">
+      <NewsletterSubmissionForm />
+    </div>
+  </div>
+</template>
+
+<script setup>
+  import Header from '~/components/Agwnes/Header.vue';
+  import RaceList from '~/components/Agwnes/RaceList.vue';
+  import NewsletterSubmissionForm from '~/components/NewsletterSubmissionForm.vue';
+
+  const title = 'Αγώνες για τον Σεπτέμβριο 2026';
+
+  const allRaces = ref([]);
+  onMounted(async () => {
+    const res = await fetch('/min.races.json');
+    allRaces.value = await res.json();
+  });
+
+  const races = computed(() => {
+    if (!allRaces.value) return [];
+
+    return allRaces.value
+      .filter((race) => {
+        const raceDate = new Date(race.Date);
+        return raceDate.getMonth() === 8 && raceDate.getFullYear() === 2026;
+      })
+      .sort((a, b) => new Date(a.Date) - new Date(b.Date));
+  });
+
+  useHead({
+    title:
+      'Καλένταρι αγώνων δρομου και βουνού για τον Σεπτέμβριο 2026 | racelist.gr',
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://racelist.gr/agwnes/kalentari-agwnwn-septembrios-2026/',
+      },
+    ],
+    meta: [
+      {
+        name: 'description',
+        content:
+          'Δες όλους τους αγώνες τρεξίματος δρόμου και βουνού για τον Σεπτέμβριο 2026 σε κάθε γωνιά της Ελλάδας. Ημερομηνίες, αποστάσεις και πληροφορίες για κάθε αγώνα του μήνα.',
+      },
+      // Open Graph
+      {
+        property: 'og:title',
+        content:
+          'Καλένταρι αγώνων δρομου και βουνού για τον Σεπτέμβριο 2026 | racelist.gr',
+      },
+      {
+        property: 'og:description',
+        content:
+          'Δες όλους τους αγώνες τρεξίματος δρόμου και βουνού για τον Σεπτέμβριο 2026 σε κάθε γωνιά της Ελλάδας. Ημερομηνίες, αποστάσεις και πληροφορίες για κάθε αγώνα του μήνα.',
+      },
+      {
+        property: 'og:url',
+        content:
+          'https://racelist.gr/agwnes/kalentari-agwnwn-septembrios-2026/',
+      },
+      { property: 'og:type', content: 'website' },
+      {
+        property: 'og:image',
+        content: 'https://racelist.gr/racelist-banner.jpg',
+      },
+      { property: 'og:site_name', content: 'racelist.gr' },
+      { property: 'og:locale', content: 'el_GR' },
+      // Twitter Card
+      { name: 'twitter:card', content: 'summary_large_image' },
+      {
+        name: 'twitter:title',
+        content:
+          'Καλένταρι αγώνων δρομου και βουνού για τον Σεπτέμβριο 2026 | racelist.gr',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          'Δες όλους τους αγώνες τρεξίματος δρόμου και βουνού για τον Σεπτέμβριο 2026 σε κάθε γωνιά της Ελλάδας. Ημερομηνίες, αποστάσεις και πληροφορίες για κάθε αγώνα του μήνα.',
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://racelist.gr/racelist-banner.jpg',
+      },
+    ],
+    script: [
+      {
+        type: 'application/ld+json',
+        children: `{
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "racelist.gr",
+        "url": "https://racelist.gr",
+        "description": "Δες όλους τους αγώνες τρεξίματος δρόμου και βουνού για τον Σεπτέμβριο 2026 σε κάθε γωνιά της Ελλάδας. Ημερομηνίες, αποστάσεις και πληροφορίες για κάθε αγώνα του μήνα."
+      }`,
+      },
+    ],
+  });
+</script>

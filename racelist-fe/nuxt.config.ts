@@ -63,6 +63,10 @@ export default defineNuxtConfig({
         '/agwnes/kalentari-agwnwn-iounios-2026/',
         '/agwnes/kalentari-agwnwn-ioulios-2026/',
         '/agwnes/kalentari-agwnwn-augoustos-2026/',
+        '/agwnes/kalentari-agwnwn-septembrios-2026/',
+        '/agwnes/kalentari-agwnwn-oktobrios-2026/',
+        '/agwnes/kalentari-agwnwn-noembrios-2026/',
+        '/agwnes/kalentari-agwnwn-dekembrios-2026/',
 
         // arthra
         '/arthra/',
@@ -586,6 +590,7 @@ export default defineNuxtConfig({
         '/agwnas/patmos-chora-run-2026/',
         '/agwnas/powerade-b2run-athens-2026/',
         '/agwnas/run-as-one-2026/',
+        '/agwnas/south-olympus-forest-trail-2026/',
       ],
     },
   },
