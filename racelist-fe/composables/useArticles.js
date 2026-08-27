@@ -182,6 +182,11 @@ export const useArticles = () => {
       href: '/arthra/vo2-max-ti-einai-pos-metrietai/',
       title: 'VO2 Max: Τι Είναι, Πώς Μετριέται και Πώς το Υπολογίζουν τα Smartwatches',
       timestamp: '2026-08-26',
+    },
+    {
+      href: '/arthra/pws-na-ayksiseis-to-vo2-max/',
+      title: 'Πώς να Αυξήσεις το VO2 Max: Πρακτικός Οδηγός',
+      timestamp: '2026-08-27',
     }
   ].reverse()
 
