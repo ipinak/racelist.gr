@@ -187,6 +187,16 @@ export const useArticles = () => {
       href: '/arthra/pws-na-ayksiseis-to-vo2-max/',
       title: 'Πώς να Αυξήσεις το VO2 Max: Πρακτικός Οδηγός',
       timestamp: '2026-08-27',
+    },
+    {
+      href: '/arthra/heraklion-hills-2026/',
+      title: 'Heraklion Hills 2026 - Αποτελέσματα',
+      timestamp: '2026-08-29',
+    },
+     {
+      href: '/arthra/voio-race-series-avgerinos-2026/',
+      title: 'Voio Race Series Avgerinos 2026 - Αποτελέσματα',
+      timestamp: '2026-08-29',
     }
   ].reverse()
 
