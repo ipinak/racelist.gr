@@ -107,6 +107,12 @@ export default defineNuxtConfig({
         '/arthra/garmin-forerunner-170/',
         '/arthra/garmin-cirqa-review/',
         '/arthra/poso-grigora-pigainoun-ta-pagosmia-rekor/',
+        '/arthra/heraklion-hills-2026/',
+        '/arthra/voio-race-series-avgerinos-2026',
+        '/arthra/pws-na-ayksiseis-to-vo2-max/',
+        '/arthra/vo2-max-ti-einai-pos-metrietai/',
+        '/arthra/pos-na-ksekiniseis-treximo/',
+        '/arthra/dririeia-2026/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',
