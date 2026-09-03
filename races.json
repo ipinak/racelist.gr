@@ -6173,5 +6173,18 @@
         ],
         "SignupLink": "https://south.pourliatrail.gr/south-olympus-forest-trail-54km/#register",
         "Slug": "south-olympus-forest-trail-2026/"
+    },
+    {
+        "ID": 485,
+        "Title": "Kalikantzaros Trail 2027",
+        "Date": "2027-01-31",
+        "Location": "Κοιλάδα Αγίων Αναργύρων, Σέρρες",
+        "Distances": [
+            "22km",
+            "8km"
+        ],
+        "SignupLink": "https://register.chronolog.gr/r/41cfd615aac15d0b6f84b9d6c211f838?l=EL",
+        "Slug": "kalikantzaros-trail-2027/",
+        "Description": "Ορεινός αγώνας τρεξίματος στις Σέρρες με εκκίνηση από την κοιλάδα Αγίων Αναργύρων. Η διαδρομή Kalikantzaros Trail 22χλμ έχει +1.000μ θετική υψομετρική με σταθμό εγκατάλειψης στον Ελαιώνα, ενώ η Kalikantzaraki Path 8χλμ έχει +300μ. Διοργανώνεται από τον Σύλλογο Μαραθωνοδρόμων Σερρών."
     }
 ]
