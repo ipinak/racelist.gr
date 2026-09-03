@@ -597,6 +597,7 @@ export default defineNuxtConfig({
         '/agwnas/powerade-b2run-athens-2026/',
         '/agwnas/run-as-one-2026/',
         '/agwnas/south-olympus-forest-trail-2026/',
+        '/agwnas/kalikantzaros-trail-2027/',
       ],
     },
   },
