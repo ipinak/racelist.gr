@@ -6199,5 +6199,18 @@
         ],
         "SignupLink": "https://www.festosrun.gr/",
         "Slug": "10o-festos-run-2026/"
+    },
+    {
+        "ID": 487,
+        "Title": "4ος Γόμφοι Trail 2026",
+        "Date": "2026-10-04",
+        "Location": "Γόμφοι, Τρίκαλα",
+        "Distances": [
+            "19km",
+            "7km",
+            "1000m"
+        ],
+        "SignupLink": "https://www.gomfoi.gr/",
+        "Slug": "4os-gomfoi-trail-2026/"
     }
 ]

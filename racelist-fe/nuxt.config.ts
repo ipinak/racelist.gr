@@ -599,6 +599,7 @@ export default defineNuxtConfig({
         '/agwnas/south-olympus-forest-trail-2026/',
         '/agwnas/kalikantzaros-trail-2027/',
         '/agwnas/10o-festos-run-2026/',
+        '/agwnas/4os-gomfoi-trail-2026/',
       ],
     },
   },
