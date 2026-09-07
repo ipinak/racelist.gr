@@ -600,6 +600,7 @@ export default defineNuxtConfig({
         '/agwnas/kalikantzaros-trail-2027/',
         '/agwnas/10o-festos-run-2026/',
         '/agwnas/4os-gomfoi-trail-2026/',
+        '/agwnas/1os-kritagenis-dromos-5th-airmobile-run-2026/',
       ],
     },
   },
