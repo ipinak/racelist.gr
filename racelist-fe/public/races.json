@@ -6186,5 +6186,18 @@
         "SignupLink": "https://register.chronolog.gr/r/41cfd615aac15d0b6f84b9d6c211f838?l=EL",
         "Slug": "kalikantzaros-trail-2027/",
         "Description": "Ορεινός αγώνας τρεξίματος στις Σέρρες με εκκίνηση από την κοιλάδα Αγίων Αναργύρων. Η διαδρομή Kalikantzaros Trail 22χλμ έχει +1.000μ θετική υψομετρική με σταθμό εγκατάλειψης στον Ελαιώνα, ενώ η Kalikantzaraki Path 8χλμ έχει +300μ. Διοργανώνεται από τον Σύλλογο Μαραθωνοδρόμων Σερρών."
+    },
+    {
+        "ID": 486,
+        "Title": "10o Festos Run 2026",
+        "Date": "2026-09-27",
+        "Location": "Φαιστός, Κρήτη",
+        "Distances": [
+            "8km",
+            "4km",
+            "1km"
+        ],
+        "SignupLink": "https://www.festosrun.gr/",
+        "Slug": "10o-festos-run-2026/"
     }
 ]
