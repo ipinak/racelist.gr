@@ -113,6 +113,7 @@ export default defineNuxtConfig({
         '/arthra/vo2-max-ti-einai-pos-metrietai/',
         '/arthra/pos-na-ksekiniseis-treximo/',
         '/arthra/dririeia-2026/',
+        '/arthra/krisimi-taxytita-sto-treximo/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',
