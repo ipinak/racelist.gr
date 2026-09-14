@@ -1,6 +1,10 @@
 export const useArticles = () => {
   const articles = [
     {
+      title: 'Κρίσιμη Ταχύτητα (Critical Speed) στο Τρέξιμο',
+      href: '/arthra/krisimi-taxytita-sto-treximo/',
+    },
+    {
       title: 'Ο Τερματισμός Ενός Αγώνα',
       href: '/arthra/o-termatismos-enos-agwna/',
     },
