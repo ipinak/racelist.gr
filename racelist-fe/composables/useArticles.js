@@ -201,6 +201,11 @@ export const useArticles = () => {
       href: '/arthra/voio-race-series-avgerinos-2026/',
       title: 'Voio Race Series Avgerinos 2026 - Αποτελέσματα',
       timestamp: '2026-08-29',
+    },
+    {
+      href: '/arthra/spartathlon-2026-apotelesmata/',
+      title: 'Spartathlon 2026 – Αποτελέσματα & Νικητές',
+      timestamp: '2026-09-27',
     }
   ].reverse()
 

@@ -114,6 +114,7 @@ export default defineNuxtConfig({
         '/arthra/pos-na-ksekiniseis-treximo/',
         '/arthra/dririeia-2026/',
         '/arthra/krisimi-taxytita-sto-treximo/',
+        '/arthra/spartathlon-2026-apotelesmata/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',
