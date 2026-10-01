@@ -115,7 +115,6 @@ export default defineNuxtConfig({
         '/arthra/dririeia-2026/',
         '/arthra/krisimi-taxytita-sto-treximo/',
         '/arthra/spartathlon-2026-apotelesmata/',
-        '/arthra/pou-na-trexw-sti-thessaloniki/',
         '/arthra/katerini-run-2026-apotelesmata/',
 
         // agwnes
