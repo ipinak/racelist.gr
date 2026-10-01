@@ -115,6 +115,8 @@ export default defineNuxtConfig({
         '/arthra/dririeia-2026/',
         '/arthra/krisimi-taxytita-sto-treximo/',
         '/arthra/spartathlon-2026-apotelesmata/',
+        '/arthra/pou-na-trexw-sti-thessaloniki/',
+        '/arthra/katerini-run-2026-apotelesmata/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',
@@ -639,6 +641,8 @@ export default defineNuxtConfig({
         '/agwnas/dirfys-trail-run-2026/',
         '/agwnas/5th-arta-trail-2026/',
         '/agwnas/12os-dimokriteios-imimarathonios-xanthis-2026/',
+        '/agwnas/9os-kissavos-marathon-race-2027/',
+        '/agwnas/perivallon-enopli-dynamis-2026/',
       ],
     },
   },
