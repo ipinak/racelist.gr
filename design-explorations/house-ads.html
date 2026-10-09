@@ -1,0 +1,474 @@
+<!--
+  House ads — four directions
+  Source: racelist-fe (RaceItem.vue, index.vue, main.css), min.races.json
+  Date: 2026-10-09
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>House ads — four directions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    /* ----------------------------------------------------------------
+       NEUTRAL DEFAULTS — override these with the host repo's brand
+       tokens when detected (see header comment). Deliberately quiet so
+       the chrome reads as neutral tooling, not a competing brand.
+    ---------------------------------------------------------------- */
+    :root {
+      --brand-50: #e3ecf6;
+      --brand-100: #b9d0ea;
+      --brand-300: #6fa8d9;
+      --brand-500: #1f5fa8;
+      --brand-700: #123a63;
+      --accent-50: #fbf1e3;
+      --accent-500: #d98e2b;
+      --accent-700: #8a5a16;
+      --ink: #0f1f2e;
+      --ink-soft: #3a4652;
+      --ink-mute: #5c6570;
+      --line: #d3d8de;
+      --line-soft: #e7ecf1;
+      --paper: #ffffff;
+      --bg: #f3f5f8;
+      --shadow-sm: 0 1px 2px rgba(15, 31, 46, 0.05), 0 1px 1px rgba(15, 31, 46, 0.03);
+      --shadow-md: 0 4px 24px -8px rgba(15, 31, 46, 0.12), 0 2px 4px rgba(15, 31, 46, 0.04);
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      line-height: 1.5;
+    }
+
+    .page {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 72px 48px 160px;
+    }
+
+    /* ---------- Page header ---------- */
+    .doc-header {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 40px;
+      margin-bottom: 80px;
+    }
+    .doc-eyebrow {
+      font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--brand-500);
+      background: var(--brand-50);
+      padding: 6px 12px;
+      border-radius: 999px;
+      margin-bottom: 20px;
+    }
+    .doc-eyebrow::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      background: var(--brand-500);
+    }
+    .doc-title {
+      font-weight: 600;
+      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 56px;
+      line-height: 1.05;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      margin: 0 0 16px;
+      color: var(--ink);
+    }
+    .doc-subtitle {
+      font-size: 19px;
+      color: var(--ink-soft);
+      max-width: 720px;
+      margin: 0 0 32px;
+      line-height: 1.45;
+    }
+    .doc-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      font-size: 13px;
+      color: var(--ink-mute);
+    }
+    .doc-meta > div { display: flex; gap: 6px; }
+    .doc-meta b {
+      color: var(--ink-soft);
+      font-weight: 600;
+    }
+
+    /* ---------- Variant section ---------- */
+    .variant {
+      margin-bottom: 96px;
+    }
+    .variant:last-child { margin-bottom: 0; }
+
+    .variant-head {
+      display: grid;
+      grid-template-columns: 64px 1fr;
+      gap: 20px;
+      align-items: start;
+      margin-bottom: 28px;
+    }
+    .variant-letter {
+      width: 48px;
+      height: 48px;
+      border-radius: 999px;
+      background: var(--ink);
+      color: white;
+      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-weight: 500;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      letter-spacing: -0.02em;
+    }
+    .variant-meta h2 {
+      margin: 4px 0 6px;
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.015em;
+      color: var(--ink);
+    }
+    .variant-tradeoff {
+      font-size: 15px;
+      color: var(--ink-soft);
+      margin: 0;
+      max-width: 760px;
+    }
+    .variant-tradeoff b {
+      color: var(--brand-500);
+      font-weight: 600;
+    }
+
+    /* ---------- Preview frame ---------- */
+    .preview-frame {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: var(--shadow-md);
+      overflow: hidden;
+      margin-left: 84px;
+      position: relative;
+    }
+    .preview-frame::before {
+      content: '';
+      position: absolute;
+      top: 14px;
+      left: 16px;
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: #d3d8de;
+      box-shadow: 18px 0 0 #d3d8de, 36px 0 0 #d3d8de;
+      z-index: 2;
+    }
+    .preview-frame-bar {
+      font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+      background: #f3f5f8;
+      border-bottom: 1px solid var(--line-soft);
+      padding: 14px 16px 14px 76px;
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--ink-mute);
+      font-weight: 600;
+    }
+    .preview {
+      padding: 0;
+      min-height: 200px;
+    }
+
+    /* ---------- Analysis ---------- */
+    .variant-analysis {
+      margin: 24px 0 0 84px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 24px;
+    }
+    .analysis-block {
+      padding: 18px 20px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: var(--paper);
+    }
+    .analysis-block h4 {
+      font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+      margin: 0 0 6px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--brand-500);
+    }
+    .analysis-block.is-risk h4 { color: #b8341f; }
+    .analysis-block.is-pick h4 { color: var(--accent-700); }
+    .analysis-block p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--ink-soft);
+    }
+
+    /* ---------- Decision row ---------- */
+    .decision {
+      margin-top: 120px;
+      padding: 40px 48px;
+      background: var(--ink);
+      color: white;
+      border-radius: 20px;
+    }
+    .decision h3 {
+      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 28px;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      margin: 0 0 8px;
+    }
+    .decision-sub {
+      color: rgba(255, 255, 255, 0.65);
+      font-size: 14px;
+      margin: 0 0 28px;
+    }
+    .decision-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .decision-cell b {
+      font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+      display: block;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--brand-100);
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+    .decision-cell span {
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.85);
+      line-height: 1.45;
+    }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width: 900px) {
+      .page { padding: 40px 20px 80px; }
+      .doc-title { font-size: 36px; }
+      .variant-head { grid-template-columns: 48px 1fr; gap: 12px; }
+      .preview-frame { margin-left: 0; }
+      .variant-analysis { margin-left: 0; grid-template-columns: 1fr; }
+    }
+
+    /* ---------- Variant preview reset ----------
+       Anything inside .preview is the variant's own canvas.
+       Use scoped class prefixes per variant (.va-, .vb-, .vc-, .vd-)
+       to avoid cross-bleed of styles between variants.
+    */
+
+    .slot{background:#fbf1e3;border-bottom:1.5px dashed #d98e2b;border-radius:2px;padding:0 2px}
+    .ctx{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#0f1f2e;background:#f3f5f8}
+    .ctx-label{font-family:'JetBrains Mono',ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#5c6570;padding:14px 28px 0}
+    .ctx-nav{display:flex;justify-content:space-between;align-items:center;padding:14px 28px;border-bottom:1px solid #d3d8de;background:#f3f5f8}
+    .ctx-logo{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px;letter-spacing:-.5px}
+    .ctx-logo i{color:#1f5fa8;font-style:normal}
+    .ctx-links{font-size:13px;color:#5c6570;display:flex;gap:18px}
+    .ctx-list{list-style:none;margin:0;padding:8px 28px 24px}
+    .row{display:grid;grid-template-columns:130px 1fr 100px;gap:20px;align-items:center;padding:18px 0;border-bottom:1px solid #d3d8de}
+    .row-date{font-family:'JetBrains Mono',monospace;font-size:12px;color:#5c6570}
+    .row-date span{display:block;font-size:11px;color:#1f5fa8;text-transform:uppercase;letter-spacing:.05em}
+    .row-title{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:17px}
+    .row-sub{font-size:14px;color:#5c6570;margin-top:2px}
+    .row-sub b{color:#0f1f2e;font-weight:500}
+    .row-link{font-size:14px;color:#1f5fa8;margin-top:4px}
+    .pill{justify-self:end;font-size:11px;font-weight:600;padding:6px 12px;border-radius:999px;white-space:nowrap}
+    .pill-road{background:rgba(31,95,168,.15);color:#123a63}
+    .pill-trail{background:rgba(217,142,43,.2);color:#8a5a16}
+    .ctx-h{padding:22px 28px 0}
+    .ctx-h small{font-family:'JetBrains Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:#1f5fa8}
+    .ctx-h div{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:22px;letter-spacing:-.5px}
+    @media (max-width:700px){.row{grid-template-columns:1fr;gap:6px}.pill{justify-self:start}.ctx-links{display:none}}
+
+    .va-row{background:#fff;border:1px solid #d3d8de;border-left:3px solid #d98e2b;border-radius:6px;padding:16px 18px;margin:10px 0;grid-template-columns:112px 1fr 100px}
+    .va-tag{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.12em;color:#8a5a16;text-transform:uppercase}
+    .va-tag span{display:block;color:#5c6570;letter-spacing:.05em;margin-top:2px}
+    .va-pill{background:#0f1f2e;color:#f3f5f8}
+    .va-banner{display:flex;justify-content:center;gap:10px;align-items:center;background:#e7ecf1;font-size:13px;padding:8px 16px;border-bottom:1px solid #d3d8de}
+    .va-banner em{font-style:normal;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.1em;color:#8a5a16}
+    .va-banner a{color:#1f5fa8;font-weight:600;text-decoration:none}
+
+    .vb-band{background:#123a63;color:#f3f5f8;margin:16px 0;border-radius:4px;padding:26px 28px}
+    .vb-eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#6fa8d9;margin-bottom:4px}
+    .vb-title{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:22px;letter-spacing:-.5px;margin-bottom:6px}
+    .vb-lede{font-size:14px;color:rgba(243,245,248,.72);max-width:560px;margin-bottom:22px}
+    .vb-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+    .vb-item{border-top:2px solid rgba(255,255,255,.25);padding-top:14px}
+    .vb-code{font-family:'JetBrains Mono',monospace;font-size:12px;color:#d98e2b;margin-bottom:8px}
+    .vb-name{font-weight:600;font-size:17px;margin-bottom:6px}
+    .vb-desc{font-size:13px;color:rgba(243,245,248,.7);margin-bottom:12px}
+    .vb-cta{font-family:'JetBrains Mono',monospace;font-size:12px;color:#d98e2b;border-bottom:1px solid #d98e2b;padding-bottom:2px}
+    .vb-band .slot{background:rgba(217,142,43,.18);color:#f3f5f8}
+    .vb-banner{background:#123a63;color:#f3f5f8;font-size:13px;padding:9px 28px;display:flex;justify-content:space-between;align-items:center}
+    .vb-banner span{font-family:'JetBrains Mono',monospace;font-size:11px;color:#6fa8d9;letter-spacing:.08em}
+    .vb-banner a{color:#d98e2b;font-family:'JetBrains Mono',monospace;font-size:12px}
+    .vb-banner .slot{background:rgba(217,142,43,.18);color:#f3f5f8}
+    @media (max-width:700px){.vb-grid{grid-template-columns:1fr}}
+
+    .vc-card{display:grid;grid-template-columns:1fr 190px;background:#fff;border:1px solid #d3d8de;border-radius:14px;overflow:hidden;margin:16px 0;box-shadow:0 8px 24px -14px rgba(15,31,46,.35)}
+    .vc-body{padding:24px 26px}
+    .vc-tag{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#5c6570;border:1px solid #d3d8de;border-radius:999px;padding:3px 9px;margin-bottom:14px}
+    .vc-app{display:flex;gap:14px;align-items:center;margin-bottom:12px}
+    .vc-icon{width:56px;height:56px;border-radius:13px;background:linear-gradient(135deg,#1f5fa8,#123a63);display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px}
+    .vc-name{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:20px}
+    .vc-meta{font-size:12px;color:#5c6570}
+    .vc-desc{font-size:15px;color:#3a4652;margin-bottom:18px;max-width:420px}
+    .vc-actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+    .vc-store{display:inline-flex;align-items:center;gap:8px;background:#0f1f2e;color:#fff;border-radius:9px;padding:8px 14px;font-size:11px;line-height:1.15}
+    .vc-store b{display:block;font-size:15px;font-weight:600}
+    .vc-qr{font-size:12px;color:#5c6570}
+    .vc-visual{background:#e7ecf1;display:flex;align-items:flex-end;justify-content:center;padding-top:22px}
+    .vc-phone{width:118px;height:190px;background:#0f1f2e;border-radius:20px 20px 0 0;padding:8px 8px 0}
+    .vc-screen{height:100%;background:#fff;border-radius:13px 13px 0 0;padding:14px 10px}
+    .vc-screen i{display:block;height:8px;border-radius:4px;background:#d3d8de;margin-bottom:8px}
+    .vc-screen i:first-child{width:60%;background:#1f5fa8}
+    .vc-screen i:nth-child(3){width:75%}
+    .vc-screen i:nth-child(4){height:44px;background:#e3ecf6}
+    .vc-banner{display:flex;align-items:center;gap:14px;background:#fff;border-bottom:1px solid #d3d8de;padding:10px 28px;font-size:13px}
+    .vc-banner .vc-icon{width:32px;height:32px;border-radius:8px;font-size:14px}
+    .vc-banner .grow{flex:1}
+    .vc-banner .btn{background:#123a63;color:#fff;border-radius:999px;padding:6px 14px;font-weight:600;font-size:12px}
+    .vc-banner .x{color:#5c6570}
+    @media (max-width:700px){.vc-card{grid-template-columns:1fr}.vc-visual{display:none}}
+
+    .vd-line{display:flex;align-items:baseline;gap:14px;padding:14px 0;border-bottom:1px solid #d3d8de;font-size:14px;color:#5c6570}
+    .vd-line em{font-style:normal;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.12em;color:#8a5a16;text-transform:uppercase;min-width:110px}
+    .vd-line b{font-family:'Space Grotesk',sans-serif;color:#0f1f2e;font-weight:600}
+    .vd-line a{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:12px;color:#1f5fa8;border-bottom:1px solid #1f5fa8;white-space:nowrap}
+    .vd-sticky{position:relative;margin:4px 28px 22px;background:#0f1f2e;color:#f3f5f8;border-radius:10px;padding:11px 16px;display:flex;gap:14px;align-items:center;font-size:13px}
+    .vd-sticky em{font-style:normal;font-family:'JetBrains Mono',monospace;font-size:10px;color:#d98e2b;letter-spacing:.1em}
+    .vd-sticky a{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:12px;color:#d98e2b}
+    .vd-sticky .slot{background:rgba(217,142,43,.18);color:#f3f5f8}
+    .vd-sticky .x{color:rgba(243,245,248,.55)}
+    @media (max-width:700px){.vd-line{flex-wrap:wrap}.vd-line a{margin-left:0}}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="doc-header">
+      <div class="doc-eyebrow">Design exploration</div>
+      <h1 class="doc-title">House ads — four directions</h1>
+      <p class="doc-subtitle">How to promote your own iOS app and website across racelist.gr: in the race list, as a sitewide banner, and reused on race pages and articles. <span class="slot">Highlighted slots</span> are placeholders for product name and pitch.</p>
+      <div class="doc-meta">
+        <div><b>Source</b> RaceItem.vue · index.vue · main.css · min.races.json</div>
+        <div><b>Generated</b> 2026-10-09</div>
+        <div><b>Variants</b> 4</div>
+      </div>
+    </header>
+
+    <section class="variant">
+      <div class="variant-head">
+        <div class="variant-letter">A</div>
+        <div class="variant-meta">
+          <h2>Native race row</h2>
+          <p class="variant-tradeoff"><b>Optimizes for</b> blend-in click-through — the ad reads like part of the calendar <b>·  Tradeoff</b> least separation from editorial; needs a clear label to stay honest</p>
+        </div>
+      </div>
+      <div class="preview-frame">
+        <div class="preview-frame-bar">Variant A · racelist.gr/agwnes</div>
+        <div class="preview"><div class="ctx"><div class="ctx-label">Sitewide banner</div><div class="va-banner"><em>ΧΟΡΗΓΟΥΜΕΝΟ</em><span class="slot">‹Όνομα app›</span> για iPhone — <span class="slot">‹Μία πρόταση: τι κάνει το app για τον χρήστη›</span> <a>App Store →</a></div><div class="ctx-nav"><div class="ctx-logo">race<i>list</i>.gr</div><div class="ctx-links"><span>Αγώνες</span><span>Εργαλεία</span><span>Άρθρα</span></div></div><div class="ctx-label" style="padding-top:22px">Μέσα στη λίστα αγώνων</div><div class="ctx-h"><small>Ημερολόγιο</small><div>Επερχόμενοι αγώνες</div></div><ul class="ctx-list"><li class="row"><div class="row-date">11/10/2026<span>Κυριακή</span></div><div><div class="row-title">5η Mellon Run 2026</div><div class="row-sub">Φανερωμένη, Δήμος Φαιστού, Κρήτη</div><div class="row-sub"><b>Αποστάσεις:</b> 16.6km</div><div class="row-link">Εγγραφή →</div></div><span class="pill pill-road">Οδικός</span></li>
+<li class="row"><div class="row-date">18/10/2026<span>Κυριακή</span></div><div><div class="row-title">12οι Ορεινοί Αγώνες Καβουσίου</div><div class="row-sub">Καβούσι Ιεράπετρας, Λασίθι</div><div class="row-sub"><b>Αποστάσεις:</b> 22.3km, 8.7km, 1500m, 500m</div><div class="row-link">Εγγραφή →</div></div><span class="pill pill-trail">Ορεινός</span></li><li class="row va-row"><div class="va-tag">Χορηγούμενο<span>iOS · Δωρεάν</span></div><div><div class="row-title"><span class="slot">‹Όνομα app›</span></div><div class="row-sub"><span class="slot">‹Μία πρόταση: τι κάνει το app για τον χρήστη›</span></div><div class="row-link">Κατέβασε στο App Store →</div></div><span class="pill va-pill">iPhone</span></li><li class="row"><div class="row-date">24/10/2026<span>Σάββατο</span></div><div><div class="row-title">Sfakia Sky Marathon 2026</div><div class="row-sub">Σφακιά, Κρήτη</div><div class="row-sub"><b>Αποστάσεις:</b> 44km, 10km, 5km, 1km</div></div><span class="pill pill-trail">Ορεινός</span></li></ul></div></div>
+      </div>
+      <div class="variant-analysis">
+        <div class="analysis-block"><h4>What works</h4><p>Uses the RaceItem grid, so it costs almost nothing to build and sits naturally in the race-list scan. The orange rule and “Χορηγούμενο” column mark it clearly.</p></div>
+        <div class="analysis-block is-risk"><h4>What risks</h4><p>Neither product is running-related, so a row that looks like a race but isn’t one can feel like bait and erode trust in the list.</p></div>
+        <div class="analysis-block is-pick"><h4>Pick this if</h4><p>you want the highest click-through with minimal new UI, and you’ll cap it at one ad per ~10 rows.</p></div>
+      </div>
+    </section>
+
+    <section class="variant">
+      <div class="variant-head">
+        <div class="variant-letter">B</div>
+        <div class="variant-meta">
+          <h2>“Από την ομάδα του racelist” band</h2>
+          <p class="variant-tradeoff"><b>Optimizes for</b> trust and goodwill — frames ads as “support the free site” <b>·  Tradeoff</b> largest footprint, and the pitch is about you, not the product</p>
+        </div>
+      </div>
+      <div class="preview-frame">
+        <div class="preview-frame-bar">Variant B · racelist.gr/agwnes</div>
+        <div class="preview"><div class="ctx"><div class="ctx-label">Sitewide banner</div><div class="vb-banner"><div><span>ΑΠΟ ΤΗΝ ΟΜΑΔΑ ΤΟΥ RACELIST ·</span> Φτιάχνουμε επίσης το <span class="slot">‹Όνομα app›</span> και το <span class="slot">‹Όνομα site›</span></div><a>ΔΕΣ ΤΑ →</a></div><div class="ctx-nav"><div class="ctx-logo">race<i>list</i>.gr</div><div class="ctx-links"><span>Αγώνες</span><span>Εργαλεία</span><span>Άρθρα</span></div></div><div class="ctx-label" style="padding-top:22px">Μέσα στη λίστα αγώνων</div><div class="ctx-h"><small>Ημερολόγιο</small><div>Επερχόμενοι αγώνες</div></div><ul class="ctx-list"><li class="row"><div class="row-date">11/10/2026<span>Κυριακή</span></div><div><div class="row-title">5η Mellon Run 2026</div><div class="row-sub">Φανερωμένη, Δήμος Φαιστού, Κρήτη</div><div class="row-sub"><b>Αποστάσεις:</b> 16.6km</div><div class="row-link">Εγγραφή →</div></div><span class="pill pill-road">Οδικός</span></li>
+<li class="row"><div class="row-date">18/10/2026<span>Κυριακή</span></div><div><div class="row-title">12οι Ορεινοί Αγώνες Καβουσίου</div><div class="row-sub">Καβούσι Ιεράπετρας, Λασίθι</div><div class="row-sub"><b>Αποστάσεις:</b> 22.3km, 8.7km, 1500m, 500m</div><div class="row-link">Εγγραφή →</div></div><span class="pill pill-trail">Ορεινός</span></li><li class="vb-band"><div class="vb-eyebrow">Από την ομάδα του racelist</div><div class="vb-title">Το racelist είναι δωρεάν. Φτιάχνουμε κι άλλα.</div><div class="vb-lede">Αν σου είναι χρήσιμο το ημερολόγιο, δοκίμασε και τα υπόλοιπα projects μας — έτσι στηρίζεις το racelist.</div><div class="vb-grid"><div class="vb-item"><div class="vb-code">iOS</div><div class="vb-name"><span class="slot">‹Όνομα app›</span></div><div class="vb-desc"><span class="slot">‹Μία πρόταση: τι κάνει το app για τον χρήστη›</span></div><span class="vb-cta">APP STORE →</span></div><div class="vb-item"><div class="vb-code">WEB</div><div class="vb-name"><span class="slot">‹Όνομα site›</span></div><div class="vb-desc"><span class="slot">‹Μία πρόταση: τι προσφέρει το site›</span></div><span class="vb-cta">ΕΠΙΣΚΕΨΟΥ →</span></div></div></li><li class="row"><div class="row-date">24/10/2026<span>Σάββατο</span></div><div><div class="row-title">Sfakia Sky Marathon 2026</div><div class="row-sub">Σφακιά, Κρήτη</div><div class="row-sub"><b>Αποστάσεις:</b> 44km, 10km, 5km, 1km</div></div><span class="pill pill-trail">Ορεινός</span></li></ul></div></div>
+      </div>
+      <div class="variant-analysis">
+        <div class="analysis-block"><h4>What works</h4><p>It turns the relevance problem into the story: you make the free site, and these are your other projects. Both products fit in one slot, and it reuses the dark tools-section style from the homepage.</p></div>
+        <div class="analysis-block is-risk"><h4>What risks</h4><p>It’s tall, so it pushes races down. Fine as a single mid-list or end-of-article block, but too heavy for every page.</p></div>
+        <div class="analysis-block is-pick"><h4>Pick this if</h4><p>you want ads that build goodwill rather than chase clicks, and can live with one placement per page.</p></div>
+      </div>
+    </section>
+
+    <section class="variant">
+      <div class="variant-head">
+        <div class="variant-letter">C</div>
+        <div class="variant-meta">
+          <h2>Product spotlight card</h2>
+          <p class="variant-tradeoff"><b>Optimizes for</b> per-product persuasion — icon, rating, store badge, screenshot <b>·  Tradeoff</b> heaviest visual weight and the most “ad-like”; one product per slot</p>
+        </div>
+      </div>
+      <div class="preview-frame">
+        <div class="preview-frame-bar">Variant C · racelist.gr/agwnes</div>
+        <div class="preview"><div class="ctx"><div class="ctx-label">Sitewide banner</div><div class="vc-banner"><div class="vc-icon">A</div><div class="grow"><b><span class="slot">‹Όνομα app›</span></b> · <span class="slot">‹Μία πρόταση: τι κάνει το app για τον χρήστη›</span></div><span class="btn">Λήψη</span><span class="x">✕</span></div><div class="ctx-nav"><div class="ctx-logo">race<i>list</i>.gr</div><div class="ctx-links"><span>Αγώνες</span><span>Εργαλεία</span><span>Άρθρα</span></div></div><div class="ctx-label" style="padding-top:22px">Μέσα στη λίστα αγώνων</div><div class="ctx-h"><small>Ημερολόγιο</small><div>Επερχόμενοι αγώνες</div></div><ul class="ctx-list"><li class="row"><div class="row-date">11/10/2026<span>Κυριακή</span></div><div><div class="row-title">5η Mellon Run 2026</div><div class="row-sub">Φανερωμένη, Δήμος Φαιστού, Κρήτη</div><div class="row-sub"><b>Αποστάσεις:</b> 16.6km</div><div class="row-link">Εγγραφή →</div></div><span class="pill pill-road">Οδικός</span></li>
+<li class="row"><div class="row-date">18/10/2026<span>Κυριακή</span></div><div><div class="row-title">12οι Ορεινοί Αγώνες Καβουσίου</div><div class="row-sub">Καβούσι Ιεράπετρας, Λασίθι</div><div class="row-sub"><b>Αποστάσεις:</b> 22.3km, 8.7km, 1500m, 500m</div><div class="row-link">Εγγραφή →</div></div><span class="pill pill-trail">Ορεινός</span></li><li class="vc-card"><div class="vc-body"><span class="vc-tag">Χορηγούμενο</span><div class="vc-app"><div class="vc-icon">A</div><div><div class="vc-name"><span class="slot">‹Όνομα app›</span></div><div class="vc-meta">iPhone · Δωρεάν · <span class="slot">★ 4.8</span></div></div></div><div class="vc-desc"><span class="slot">‹Μία πρόταση: τι κάνει το app για τον χρήστη›</span></div><div class="vc-actions"><span class="vc-store"><span>Download on the<b>App Store</b></span></span><span class="vc-qr">ή σκάναρε το QR στο desktop</span></div></div><div class="vc-visual"><div class="vc-phone"><div class="vc-screen"><i></i><i></i><i></i><i></i><i></i></div></div></div></li><li class="row"><div class="row-date">24/10/2026<span>Σάββατο</span></div><div><div class="row-title">Sfakia Sky Marathon 2026</div><div class="row-sub">Σφακιά, Κρήτη</div><div class="row-sub"><b>Αποστάσεις:</b> 44km, 10km, 5km, 1km</div></div><span class="pill pill-trail">Ορεινός</span></li></ul></div></div>
+      </div>
+      <div class="variant-analysis">
+        <div class="analysis-block"><h4>What works</h4><p>It has the strongest conversion cues for an iOS install: a real App Store badge, a rating, a device preview, and a QR fallback for desktop visitors. The banner mirrors iOS Smart App Banner conventions.</p></div>
+        <div class="analysis-block is-risk"><h4>What risks</h4><p>It’s visually louder than anything else on the site and needs real screenshots and ratings, or it looks empty. On a data-dense page it may come across as an intrusion.</p></div>
+        <div class="analysis-block is-pick"><h4>Pick this if</h4><p>installs are the goal and you have good assets (icon, screenshots, rating) to show off.</p></div>
+      </div>
+    </section>
+
+    <section class="variant">
+      <div class="variant-head">
+        <div class="variant-letter">D</div>
+        <div class="variant-meta">
+          <h2>Quiet mono sponsor line</h2>
+          <p class="variant-tradeoff"><b>Optimizes for</b> minimal intrusion — one line in the site’s own mono link voice <b>·  Tradeoff</b> lowest visibility and CTR; easy to scroll past</p>
+        </div>
+      </div>
+      <div class="preview-frame">
+        <div class="preview-frame-bar">Variant D · racelist.gr/agwnes</div>
+        <div class="preview"><div class="ctx"><div class="ctx-label">Sitewide: χωρίς top banner (βλ. sticky κάτω)</div><div class="ctx-nav"><div class="ctx-logo">race<i>list</i>.gr</div><div class="ctx-links"><span>Αγώνες</span><span>Εργαλεία</span><span>Άρθρα</span></div></div><div class="ctx-label" style="padding-top:22px">Μέσα στη λίστα αγώνων</div><div class="ctx-h"><small>Ημερολόγιο</small><div>Επερχόμενοι αγώνες</div></div><ul class="ctx-list"><li class="row"><div class="row-date">11/10/2026<span>Κυριακή</span></div><div><div class="row-title">5η Mellon Run 2026</div><div class="row-sub">Φανερωμένη, Δήμος Φαιστού, Κρήτη</div><div class="row-sub"><b>Αποστάσεις:</b> 16.6km</div><div class="row-link">Εγγραφή →</div></div><span class="pill pill-road">Οδικός</span></li>
+<li class="row"><div class="row-date">18/10/2026<span>Κυριακή</span></div><div><div class="row-title">12οι Ορεινοί Αγώνες Καβουσίου</div><div class="row-sub">Καβούσι Ιεράπετρας, Λασίθι</div><div class="row-sub"><b>Αποστάσεις:</b> 22.3km, 8.7km, 1500m, 500m</div><div class="row-link">Εγγραφή →</div></div><span class="pill pill-trail">Ορεινός</span></li><li class="vd-line"><em>Χορηγός</em><span><b><span class="slot">‹Όνομα app›</span></b> — <span class="slot">‹Μία πρόταση: τι κάνει το app για τον χρήστη›</span></span><a>APP STORE →</a></li><li class="row"><div class="row-date">24/10/2026<span>Σάββατο</span></div><div><div class="row-title">Sfakia Sky Marathon 2026</div><div class="row-sub">Σφακιά, Κρήτη</div><div class="row-sub"><b>Αποστάσεις:</b> 44km, 10km, 5km, 1km</div></div><span class="pill pill-trail">Ορεινός</span></li></ul><div class="ctx-label">Sticky στο κάτω μέρος (κλείνει, θυμάται 30 μέρες)</div><div class="vd-sticky"><em>ΧΟΡΗΓΟΣ</em><span><span class="slot">‹Όνομα site›</span> — <span class="slot">‹Μία πρόταση: τι προσφέρει το site›</span></span><a>ΕΠΙΣΚΕΨΟΥ →</a><span class="x">✕</span></div></div></div>
+      </div>
+      <div class="variant-analysis">
+        <div class="analysis-block"><h4>What works</h4><p>It’s barely there. It uses the same JetBrains Mono “… →” language as the existing section links, so it feels native without pretending to be a race. The dismissible sticky bar remembers the dismissal.</p></div>
+        <div class="analysis-block is-risk"><h4>What risks</h4><p>It may be too subtle to move numbers, and it gives no room to explain what an unrelated product is.</p></div>
+        <div class="analysis-block is-pick"><h4>Pick this if</h4><p>protecting the reading and calendar experience matters more than ad performance.</p></div>
+      </div>
+    </section>
+
+    <section class="decision">
+      <h3>How to pick a direction</h3>
+      <p class="decision-sub">They also combine: e.g. B mid-list plus D as the sitewide sticky.</p>
+      <div class="decision-grid">
+<div class="decision-cell"><b>A · Native race row →</b><span>Pick if you want the highest click-through with minimal new UI, and you’ll cap it at one ad per ~10 rows.</span></div><div class="decision-cell"><b>B · “Από την ομάδα του racelist” band →</b><span>Pick if you want ads that build goodwill rather than chase clicks, and can live with one placement per page.</span></div><div class="decision-cell"><b>C · Product spotlight card →</b><span>Pick if installs are the goal and you have good assets (icon, screenshots, rating) to show off.</span></div><div class="decision-cell"><b>D · Quiet mono sponsor line →</b><span>Pick if protecting the reading and calendar experience matters more than ad performance.</span></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

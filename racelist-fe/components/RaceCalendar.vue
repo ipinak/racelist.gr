@@ -119,7 +119,15 @@
       <li v-if="displayedRaces.length === 0" class="text-center text-grey py-8">
         Κανένας αγώνας
       </li>
-      <RaceItem v-for="race in displayedRaces" :key="race.ID" :race="race" />
+      <template v-for="(race, i) in displayedRaces" :key="race.ID">
+        <RaceItem :race="race" />
+        <HouseAd
+          v-if="i === houseAdIndex"
+          tag="li"
+          placement="race-list"
+          class="my-5 text-left"
+        />
+      </template>
     </ul>
   </div>
 </template>
@@ -128,6 +136,8 @@
   import { ref, computed, watchEffect } from 'vue';
   import Fuse from 'fuse.js';
   import RaceItem from './RaceItem.vue';
+  import HouseAd from './HouseAd.vue';
+  import { houseAdIndexFor } from '~/shared/houseAds';
   import RaceFilters from './RaceFilters.vue';
   import { isTrail } from '~/shared/raceType';
   import { parseLocation } from '~/shared/location.js';
@@ -290,4 +300,6 @@
 
     return filtered.sort((a, b) => new Date(a.Date) - new Date(b.Date));
   });
+
+  const houseAdIndex = computed(() => houseAdIndexFor(displayedRaces.value.length));
 </script>

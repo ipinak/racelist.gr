@@ -108,7 +108,17 @@
         >
           TechPals
         </a>
+        <p v-if="showAppleCredit" class="mt-2 text-paper/40">
+          Apple, το λογότυπο Apple, iPhone και App Store είναι εμπορικά σήματα
+          της Apple Inc., καταχωρημένα στις Η.Π.Α. και σε άλλες χώρες.
+        </p>
       </div>
     </div>
   </footer>
 </template>
+
+<script setup>
+  import { hasAppStoreAds } from '~/shared/houseAds';
+
+  const showAppleCredit = hasAppStoreAds();
+</script>

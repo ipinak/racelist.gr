@@ -60,6 +60,8 @@
         <YoutubeVideo :video-id="race.ExtraInfo.RaceBriefVideoId" />
       </div>
 
+      <HouseAd placement="race-page" class="mt-10" />
+
       <RaceSuggestions />
     </div>
     <div v-else class="text-center text-lg text-grey">Ο αγώνας δεν βρέθηκε</div>
