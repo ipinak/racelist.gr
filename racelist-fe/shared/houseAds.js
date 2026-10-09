@@ -21,7 +21,7 @@
 // Assets live in /public/house-ads/.
 
 export const APP_STORE_BADGE = {
-  src: '/house-ads/app-store-badge-en.svg',
+  src: '/images/house-ads/app-store-badge-en.svg',
   alt: 'Download on the App Store',
 };
 
@@ -35,8 +35,8 @@ export const houseAds = [
       'Δωρεάν εξαγωνικό παζλ: βάλε κομμάτια, γέμισε μια σειρά ή διαγώνιο για να σκάσει και κάνε σερί από κόμπο.',
     url: 'https://apps.apple.com/gr/app/hexipop/id6810778972',
     devices: ['iPhone'],
-    icon: '/house-ads/hexipop-icon.png',
-    screenshot: '/house-ads/hexipop-screen-game.jpg',
+    icon: '/images/house-ads/hexipop-icon.png',
+    screenshot: '/images/house-ads/hexipop-screen-game.jpg',
     qrCode: null,
     providerToken: null,
   },
@@ -47,8 +47,8 @@ export const houseAds = [
     name: 'Hexi Pop',
     description: 'Γέμισε τις γραμμές και κάν’ τες να σκάσουν. Ένα δωρεάν εξαγωνικό παζλ για iPhone.',
     url: 'https://hexipop.app/el/',
-    icon: '/house-ads/hexipop-icon.png',
-    screenshot: '/house-ads/hexipop-screen-home.jpg',
+    icon: '/images/house-ads/hexipop-icon.png',
+    screenshot: '/images/house-ads/hexipop-screen-home.jpg',
     ctaLabel: 'Δες το Hexi Pop',
   },
 ];
