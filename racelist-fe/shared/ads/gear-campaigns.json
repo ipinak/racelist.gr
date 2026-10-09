@@ -1,0 +1,39 @@
+[
+  {
+    "id": "example-shop",
+    "enabled": false,
+    "shop": "Όνομα καταστήματος",
+    "start": "2026-11-01",
+    "end": "2026-11-30",
+    "products": [
+      {
+        "id": "trail-shoe",
+        "title": "Παπούτσι trail",
+        "price": 139.9,
+        "image": "/ads/gear/example-shop/trail-shoe.jpg",
+        "url": "https://example.com/trail-shoe",
+        "raceType": "trail",
+        "minKm": 10,
+        "maxKm": 200
+      },
+      {
+        "id": "road-shoe",
+        "title": "Παπούτσι δρόμου",
+        "price": 129.9,
+        "image": "/ads/gear/example-shop/road-shoe.jpg",
+        "url": "https://example.com/road-shoe",
+        "raceType": "road",
+        "minKm": 5,
+        "maxKm": 42.2
+      },
+      {
+        "id": "running-cap",
+        "title": "Καπέλο τρεξίματος",
+        "price": 24.9,
+        "image": "/ads/gear/example-shop/running-cap.jpg",
+        "url": "https://example.com/running-cap",
+        "raceType": "any"
+      }
+    ]
+  }
+]

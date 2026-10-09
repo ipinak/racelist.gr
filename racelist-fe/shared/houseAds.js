@@ -61,6 +61,7 @@ export const houseAdPlacements = {
   'race-list': { adId: 'ios-app', afterRace: 5 }, // home list view + monthly calendars
   'race-page': { adId: 'ios-app' }, // /agwnas/[slug], below the race details
   article: { adId: 'website' }, // end of every /arthra/ article
+  sidebar: { adId: 'ios-app', layout: 'tile' }, // article sidebar when no 300×600 campaign is live
 };
 
 export const findHouseAd = (id) =>

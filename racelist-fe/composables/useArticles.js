@@ -208,11 +208,6 @@ export const useArticles = () => {
       timestamp: '2026-09-27',
     },
     {
-      href: '/arthra/pou-na-trexw-sti-thessaloniki/',
-      title: 'Πού να τρέξω στη Θεσσαλονίκη: Διαδρομές για τρέξιμο',
-      timestamp: '2026-09-28',
-    },
-    {
       href: '/arthra/katerini-run-2026-apotelesmata/',
       title: 'Katerini Run 2026 – Αποτελέσματα & Νικητές',
       timestamp: '2026-10-01',

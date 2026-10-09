@@ -1,0 +1,491 @@
+<!--
+  Ad inventory — five sellable formats
+  Source: racelist-fe pages/components, min.races.json, main.css
+  Date: 2026-10-09
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ad inventory — five formats</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    /* ----------------------------------------------------------------
+       NEUTRAL DEFAULTS — override these with the host repo's brand
+       tokens when detected (see header comment). Deliberately quiet so
+       the chrome reads as neutral tooling, not a competing brand.
+    ---------------------------------------------------------------- */
+    :root {
+      --brand-50: #e3ecf6;
+      --brand-100: #b9d0ea;
+      --brand-300: #6fa8d9;
+      --brand-500: #1f5fa8;
+      --brand-700: #123a63;
+      --accent-50: #fbf1e3;
+      --accent-500: #d98e2b;
+      --accent-700: #8a5a16;
+      --ink: #0f1f2e;
+      --ink-soft: #3a4652;
+      --ink-mute: #5c6570;
+      --line: #d3d8de;
+      --line-soft: #e7ecf1;
+      --paper: #ffffff;
+      --bg: #f3f5f8;
+      --shadow-sm: 0 1px 2px rgba(15, 31, 46, 0.05), 0 1px 1px rgba(15, 31, 46, 0.03);
+      --shadow-md: 0 4px 24px -8px rgba(15, 31, 46, 0.12), 0 2px 4px rgba(15, 31, 46, 0.04);
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      line-height: 1.5;
+    }
+
+    .page {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 72px 48px 160px;
+    }
+
+    /* ---------- Page header ---------- */
+    .doc-header {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 40px;
+      margin-bottom: 80px;
+    }
+    .doc-eyebrow {
+      font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--brand-500);
+      background: var(--brand-50);
+      padding: 6px 12px;
+      border-radius: 999px;
+      margin-bottom: 20px;
+    }
+    .doc-eyebrow::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      background: var(--brand-500);
+    }
+    .doc-title {
+      font-weight: 600;
+      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 56px;
+      line-height: 1.05;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      margin: 0 0 16px;
+      color: var(--ink);
+    }
+    .doc-subtitle {
+      font-size: 19px;
+      color: var(--ink-soft);
+      max-width: 720px;
+      margin: 0 0 32px;
+      line-height: 1.45;
+    }
+    .doc-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      font-size: 13px;
+      color: var(--ink-mute);
+    }
+    .doc-meta > div { display: flex; gap: 6px; }
+    .doc-meta b {
+      color: var(--ink-soft);
+      font-weight: 600;
+    }
+
+    /* ---------- Variant section ---------- */
+    .variant {
+      margin-bottom: 96px;
+    }
+    .variant:last-child { margin-bottom: 0; }
+
+    .variant-head {
+      display: grid;
+      grid-template-columns: 64px 1fr;
+      gap: 20px;
+      align-items: start;
+      margin-bottom: 28px;
+    }
+    .variant-letter {
+      width: 48px;
+      height: 48px;
+      border-radius: 999px;
+      background: var(--ink);
+      color: white;
+      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-weight: 500;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      letter-spacing: -0.02em;
+    }
+    .variant-meta h2 {
+      margin: 4px 0 6px;
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.015em;
+      color: var(--ink);
+    }
+    .variant-tradeoff {
+      font-size: 15px;
+      color: var(--ink-soft);
+      margin: 0;
+      max-width: 760px;
+    }
+    .variant-tradeoff b {
+      color: var(--brand-500);
+      font-weight: 600;
+    }
+
+    /* ---------- Preview frame ---------- */
+    .preview-frame {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: var(--shadow-md);
+      overflow: hidden;
+      margin-left: 84px;
+      position: relative;
+    }
+    .preview-frame::before {
+      content: '';
+      position: absolute;
+      top: 14px;
+      left: 16px;
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: #d3d8de;
+      box-shadow: 18px 0 0 #d3d8de, 36px 0 0 #d3d8de;
+      z-index: 2;
+    }
+    .preview-frame-bar {
+      font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+      background: #f3f5f8;
+      border-bottom: 1px solid var(--line-soft);
+      padding: 14px 16px 14px 76px;
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--ink-mute);
+      font-weight: 600;
+    }
+    .preview {
+      padding: 0;
+      min-height: 200px;
+    }
+
+    /* ---------- Analysis ---------- */
+    .variant-analysis {
+      margin: 24px 0 0 84px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 24px;
+    }
+    .analysis-block {
+      padding: 18px 20px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: var(--paper);
+    }
+    .analysis-block h4 {
+      font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+      margin: 0 0 6px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--brand-500);
+    }
+    .analysis-block.is-risk h4 { color: #b8341f; }
+    .analysis-block.is-pick h4 { color: var(--accent-700); }
+    .analysis-block p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--ink-soft);
+    }
+
+    /* ---------- Decision row ---------- */
+    .decision {
+      margin-top: 120px;
+      padding: 40px 48px;
+      background: var(--ink);
+      color: white;
+      border-radius: 20px;
+    }
+    .decision h3 {
+      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 28px;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      margin: 0 0 8px;
+    }
+    .decision-sub {
+      color: rgba(255, 255, 255, 0.65);
+      font-size: 14px;
+      margin: 0 0 28px;
+    }
+    .decision-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .decision-cell b {
+      font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+      display: block;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--brand-100);
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+    .decision-cell span {
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.85);
+      line-height: 1.45;
+    }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width: 900px) {
+      .page { padding: 40px 20px 80px; }
+      .doc-title { font-size: 36px; }
+      .variant-head { grid-template-columns: 48px 1fr; gap: 12px; }
+      .preview-frame { margin-left: 0; }
+      .variant-analysis { margin-left: 0; grid-template-columns: 1fr; }
+    }
+
+    /* ---------- Variant preview reset ----------
+       Anything inside .preview is the variant's own canvas.
+       Use scoped class prefixes per variant (.va-, .vb-, .vc-, .vd-)
+       to avoid cross-bleed of styles between variants.
+    */
+
+    .slot{background:#fbf1e3;border-bottom:1.5px dashed #d98e2b;border-radius:2px;padding:0 2px}
+    .ctx{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#0f1f2e;background:#f3f5f8;padding:26px 28px 28px;position:relative}
+    .ctx-cols{display:grid;grid-template-columns:1fr 330px;gap:28px;align-items:start}
+    .lbl{font-family:'JetBrains Mono',ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#5c6570;margin:0 0 14px}
+    .h{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:22px;letter-spacing:-.5px;margin:0 0 14px}
+    .h small{display:block;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:400;letter-spacing:.05em;text-transform:uppercase;color:#1f5fa8}
+    .row{display:grid;grid-template-columns:110px 1fr 90px;gap:18px;align-items:center;padding:14px 0;border-bottom:1px solid #d3d8de}
+    .rd{font-family:'JetBrains Mono',monospace;font-size:12px;color:#5c6570}
+    .rd span{display:block;font-size:11px;color:#1f5fa8;text-transform:uppercase}
+    .rt{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16px}
+    .rs{font-size:13px;color:#5c6570;margin-top:2px}
+    .rs b{color:#0f1f2e;font-weight:500}
+    .pill{justify-self:end;font-size:11px;font-weight:600;padding:5px 11px;border-radius:999px;white-space:nowrap}
+    .road{background:rgba(31,95,168,.15);color:#123a63}
+    .trail{background:rgba(217,142,43,.2);color:#8a5a16}
+    .dim{position:relative;outline:1.5px dashed #d98e2b;outline-offset:3px}
+    .dim::after{content:attr(data-size);position:absolute;top:-12px;right:8px;background:#d98e2b;color:#fff;font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.04em;padding:2px 7px;border-radius:3px;z-index:3;white-space:nowrap}
+    .creative{background:repeating-linear-gradient(135deg,#e7ecf1 0 10px,#dfe5ec 10px 20px);border:1px solid #d3d8de;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#5c6570;font-size:12px;gap:4px}
+    .creative b{font-family:'Space Grotesk',sans-serif;color:#0f1f2e;font-size:15px}
+    .tag{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#5c6570}
+    .para{height:9px;background:#dfe5ec;border-radius:4px;margin:0 0 9px}
+    .specs{display:grid;grid-template-columns:repeat(6,1fr);border-top:1px solid #d3d8de;background:#fff}
+    .specs div{padding:14px 16px;border-right:1px solid #e7ecf1;font-size:13px;color:#3a4652;line-height:1.45}
+    .specs div:last-child{border-right:0}
+    .specs b{display:block;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#1f5fa8;margin-bottom:4px;font-weight:600}
+    .phone{width:330px;background:#f3f5f8;border:1px solid #d3d8de;border-radius:22px;padding:14px;box-shadow:0 8px 24px -14px rgba(15,31,46,.35)}
+    .phone .row{grid-template-columns:1fr;gap:4px}
+    .phone .pill{justify-self:start}
+
+    .va-feat{background:#fff;border:1px solid #d3d8de;border-left:4px solid #d98e2b;border-radius:8px;padding:16px 18px;margin:10px 0 6px;grid-template-columns:110px 1fr 120px}
+    .va-badge{display:inline-flex;align-items:center;gap:6px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#8a5a16;margin-bottom:4px}
+    .va-badge::before{content:'\2605'}
+    .va-cta{justify-self:end;background:#123a63;color:#f3f5f8;border-radius:999px;padding:9px 16px;font-size:13px;font-weight:600;white-space:nowrap}
+    .va-img{grid-column:1/-1;height:110px;border-radius:6px;margin-top:6px}
+    .va-cal{display:grid;grid-template-columns:repeat(7,1fr);border:1px solid #d3d8de;border-radius:8px;overflow:hidden;font-size:11px}
+    .va-cal div{min-height:58px;border-right:1px solid #e7ecf1;padding:5px;background:#f3f5f8;color:#5c6570;min-width:0}
+    .va-cal .ev{display:block;margin-top:3px;border-radius:3px;padding:2px 4px;font-size:10px;color:#123a63;background:rgba(31,95,168,.15);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .va-cal .ft{background:#d98e2b;color:#fff;font-weight:600}
+
+    .vb-lead{width:728px;height:90px;margin:8px auto 26px}
+    .vb-art{display:grid;grid-template-columns:1fr 300px;gap:32px}
+    .vb-mr{width:300px;height:250px;margin:22px 0 18px}
+    .vb-hp{width:300px;height:600px}
+    .vb-mob{width:320px;height:100px;margin:12px auto 0}
+
+    .vc-band{background:#123a63;color:#f3f5f8;border-radius:8px;display:flex;align-items:center;gap:24px;padding:0 26px;height:120px;margin-bottom:22px}
+    .vc-band .k{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#6fa8d9}
+    .vc-band .t{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:24px;letter-spacing:-.5px}
+    .vc-logo{width:240px;height:80px;margin-left:auto;background:rgba(255,255,255,.08);border:1px dashed rgba(255,255,255,.35);border-radius:6px;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px;color:#fff;flex-shrink:0}
+    .vc-band .slot{background:rgba(217,142,43,.22);color:#fff}
+    .vc-offer{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid #d3d8de;border-radius:8px;padding:12px 16px;margin:0 0 12px;font-size:13px;flex-wrap:wrap}
+    .vc-offer .code{font-family:'JetBrains Mono',monospace;background:#fbf1e3;color:#8a5a16;padding:3px 8px;border-radius:4px;font-weight:600}
+    .vc-offer .go{margin-left:auto;color:#1f5fa8;font-family:'JetBrains Mono',monospace;font-size:12px}
+
+    .vd-tool{background:#fff;border:1px solid #d3d8de;border-radius:12px;padding:22px 24px}
+    .vd-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;gap:16px;flex-wrap:wrap}
+    .vd-pow{display:flex;align-items:center;gap:10px;font-size:11px;color:#5c6570}
+    .vd-logo{width:160px;height:48px;border:1px dashed #d3d8de;border-radius:6px;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-weight:700;color:#0f1f2e}
+    .vd-in{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:16px}
+    .vd-in div{border:1px solid #d3d8de;border-radius:8px;padding:10px 12px;font-size:12px;color:#5c6570}
+    .vd-in b{display:block;font-size:17px;color:#0f1f2e;font-family:'Space Grotesk',sans-serif}
+    .vd-res{background:#123a63;color:#f3f5f8;border-radius:8px;padding:16px 18px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .vd-res span{font-family:'JetBrains Mono',monospace;font-size:10px;color:#6fa8d9;letter-spacing:.1em;text-transform:uppercase}
+    .vd-res b{display:block;font-family:'Space Grotesk',sans-serif;font-size:24px}
+    .vd-card{display:grid;grid-template-columns:96px 1fr;gap:14px;align-items:center;width:300px;height:120px;background:#fff;border:1px solid #d3d8de;border-radius:10px;padding:12px}
+    .vd-card .n{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:14px}
+    .vd-card .p{font-size:12px;color:#5c6570;margin:2px 0 6px}
+    .vd-card .g{font-family:'JetBrains Mono',monospace;font-size:11px;color:#1f5fa8}
+
+    .ve-shelf{display:grid;grid-template-columns:repeat(4,240px);gap:20px;justify-content:start}
+    .ve-tile{width:240px;height:300px;background:#fff;border:1px solid #d3d8de;border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+    .ve-tile .im{height:170px;border:0;border-bottom:1px solid #d3d8de}
+    .ve-tile .bd{padding:12px 14px;display:flex;flex-direction:column;gap:3px;flex:1}
+    .ve-tile .sh{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5c6570}
+    .ve-tile .n{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:14px}
+    .ve-tile .pr{margin-top:auto;display:flex;justify-content:space-between;align-items:center;font-weight:600}
+    .ve-tile .pr span{font-family:'JetBrains Mono',monospace;font-size:11px;color:#1f5fa8;font-weight:500}
+    .ve-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:22px;gap:12px;flex-wrap:wrap}
+    .ve-why{font-size:13px;color:#5c6570}
+    .ve-why b{color:#8a5a16}
+    .ve-mob{display:flex;gap:12px;overflow:hidden;width:330px}
+    .ve-mob .ve-tile{width:200px;height:280px;flex-shrink:0}
+    .ve-mob .ve-tile .im{height:150px}
+
+    @media (max-width:1180px){.ctx-cols,.vb-art{grid-template-columns:1fr}.vb-lead{width:100%;max-width:728px}.ve-shelf{grid-template-columns:repeat(2,240px)}.specs{grid-template-columns:repeat(2,1fr)}.vb-hp{height:300px}}
+    @media (max-width:700px){.ctx{padding:22px 16px}.row,.va-feat{grid-template-columns:1fr}.pill,.va-cta{justify-self:start}.phone,.ve-mob{width:100%}.vd-in,.vd-res{grid-template-columns:1fr}.ve-shelf{grid-template-columns:1fr}.vc-band{height:auto;flex-wrap:wrap;padding:16px}.vc-logo{margin-left:0}.va-cal{display:none}.vb-mr,.vd-card,.vb-mob{width:100%}.specs{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="doc-header">
+      <div class="doc-eyebrow">Design exploration</div>
+      <h1 class="doc-title">Ad inventory — five sellable formats</h1>
+      <p class="doc-subtitle">Ad space racelist.gr could sell, each shown in context with exact sizes (orange tags) and a spec strip covering placement, desktop and mobile size, creative required, buyer and pricing model. <span class="slot">Highlighted</span> text is advertiser-supplied.</p>
+      <div class="doc-meta">
+        <div><b>Source</b> pages/agwnes · agwnas/[id] · arthra · tools · min.races.json</div>
+        <div><b>Generated</b> 2026-10-09</div>
+        <div><b>Variants</b> 5</div>
+      </div>
+    </header>
+
+    <section class="variant">
+      <div class="variant-head">
+        <div class="variant-letter">A</div>
+        <div class="variant-meta">
+          <h2>Featured race listing</h2>
+          <p class="variant-tradeoff"><b>Optimizes for</b> organizer revenue from inventory you already have — the race list <b>·  Tradeoff</b> only sells to race organizers, a small and seasonal buyer pool</p>
+        </div>
+      </div>
+      <div class="preview-frame">
+        <div class="preview-frame-bar">Variant A · Featured race listing</div>
+        <div class="preview"><div class="ctx"><div class="ctx-cols"><div><div class="lbl">Desktop · μηνιαίο καλεντάρι — καρφιτσωμένο στην κορυφή</div><div class="h"><small>Νοέμβριος</small>Αγώνες για τον Νοέμβριο 2026</div><div class="row va-feat dim" data-size="ΠΛΑΤΟΣ ΛΙΣΤΑΣ × ~130 · ~250 ΜΕ ΕΙΚΟΝΑ"><div class="rd">22/11/2026<span>Κυριακή</span></div><div><div class="va-badge">Προβεβλημένος αγώνας</div><div class="rt">9ο Olympic Day Run Greece</div><div class="rs">Θεσσαλονίκη</div><div class="rs"><b>Αποστάσεις:</b> 21km, 10km, 5km, 1.5km</div></div><span class="va-cta">Εγγραφή →</span><div class="va-img creative"><b>Εικόνα διοργανωτή</b>1200 × 300 · JPG/WebP · ≤150KB · προαιρετική</div></div><div class="row"><div class="rd">01/11/2026<span>Κυριακή</span></div><div><div class="rt">7ος Ορεινός Αγώνας Τρεξίματος «Λίμνη Νευρόπολη 2026»</div><div class="rs">Παλαιοχώρι Δωριέων</div><div class="rs"><b>Αποστάσεις:</b> 21km, 10km, 5km</div></div><span class="pill trail">Ορεινός</span></div><div class="row"><div class="rd">01/11/2026<span>Κυριακή</span></div><div><div class="rt">14ος Ημιμαραθώνιος Πάικου</div><div class="rs">Καστανερή, Πάικο, Κιλκίς</div><div class="rs"><b>Αποστάσεις:</b> 20km, 5km</div></div><span class="pill road">Οδικός</span></div><div class="lbl" style="margin-top:26px">+ Επισήμανση στο ημερολόγιο της αρχικής</div><div class="va-cal"><div>16</div><div>17</div><div>18<span class="ev">Πάικο</span></div><div>19</div><div>20</div><div>21</div><div>22<span class="ev ft">★ Olympic Day Run</span><span class="ev">Νευρόπολη</span></div></div></div><div><div class="lbl">Mobile · 100% × ~170 (χωρίς εικόνα)</div><div class="phone"><div class="row va-feat" style="grid-template-columns:1fr;margin:0 0 8px"><div class="rd">22/11/2026<span>Κυριακή</span></div><div><div class="va-badge">Προβεβλημένος αγώνας</div><div class="rt">9ο Olympic Day Run Greece</div><div class="rs">Θεσσαλονίκη</div></div><span class="va-cta" style="justify-self:start">Εγγραφή →</span></div><div class="row"><div class="rd">01/11/2026<span>Κυριακή</span></div><div><div class="rt">7ος Ορεινός Αγώνας Τρεξίματος «Λίμνη Νευρόπολη 2026»</div><div class="rs">Παλαιοχώρι Δωριέων</div><div class="rs"><b>Αποστάσεις:</b> 21km, 10km, 5km</div></div><span class="pill trail">Ορεινός</span></div></div></div></div></div><div class="specs"><div><b>Θέση</b>Κορυφή μηνιαίου καλενταριού, λίστα αρχικής, επισήμανση στο ημερολόγιο</div><div><b>Desktop</b>Πλάτος λίστας (έως 1180) × ~130px · ~250px με εικόνα</div><div><b>Mobile</b>100% × ~170px</div><div><b>Υλικό</b>Τα στοιχεία του αγώνα + προαιρετική εικόνα 1200×300</div><div><b>Αγοραστής</b>Διοργανωτές αγώνων</div><div><b>Τιμολόγηση</b>Σταθερή, ανά εβδομάδα ή έως την ημέρα του αγώνα</div></div></div>
+      </div>
+      <div class="variant-analysis">
+        <div class="analysis-block"><h4>What works</h4><p>This is native to racelist and the most obviously useful format: the paid race is still a real race in the right place. It needs no new creative, since it's built from the race record. The orange edge and star label keep it clearly marked.</p></div>
+        <div class="analysis-block is-risk"><h4>What risks</h4><p>Organizers have small budgets and buy close to race day. If too many races pay, the list stops being neutral, so cap it at 1–2 per month.</p></div>
+        <div class="analysis-block is-pick"><h4>Pick this if</h4><p>you want to start selling this week to people who already send you races.</p></div>
+      </div>
+    </section>
+
+    <section class="variant">
+      <div class="variant-head">
+        <div class="variant-letter">B</div>
+        <div class="variant-meta">
+          <h2>Standard IAB display</h2>
+          <p class="variant-tradeoff"><b>Optimizes for</b> access to every buyer — agencies, brands, AdSense / Ad Manager fill <b>·  Tradeoff</b> the least racelist-like format; banner blindness and page weight</p>
+        </div>
+      </div>
+      <div class="preview-frame">
+        <div class="preview-frame-bar">Variant B · Standard IAB display</div>
+        <div class="preview"><div class="ctx"><div class="lbl">Desktop · κορυφή άρθρου / σελίδας αγώνα</div><div class="creative vb-lead dim" data-size="728 × 90 · LEADERBOARD"><b><span class="slot">‹Διαφημιστής›</span></b>728 × 90</div><div class="vb-art"><div><div class="h">Spartathlon 2026 – Αποτελέσματα &amp; Νικητές</div><div class="para" style="width:100%"></div><div class="para" style="width:96%"></div><div class="para" style="width:99%"></div><div class="para" style="width:72%"></div><div class="para" style="width:100%"></div><div class="para" style="width:96%"></div><div class="para" style="width:99%"></div><div class="para" style="width:72%"></div><div class="creative vb-mr dim" data-size="300 × 250 · MEDIUM RECTANGLE"><span class="tag">Διαφήμιση</span><b><span class="slot">‹Διαφημιστής›</span></b>300 × 250 · μετά την 3η παράγραφο</div><div class="para" style="width:100%"></div><div class="para" style="width:96%"></div><div class="para" style="width:99%"></div><div class="para" style="width:72%"></div><div class="para" style="width:100%"></div><div class="para" style="width:96%"></div><div class="para" style="width:99%"></div><div class="para" style="width:72%"></div></div><div><div class="lbl">Sidebar — νέα στήλη, μόνο ≥1280px</div><div class="creative vb-hp dim" data-size="300 × 600 · HALF PAGE (STICKY)"><span class="tag">Διαφήμιση</span><b><span class="slot">‹Διαφημιστής›</span></b>300 × 600</div></div></div><div class="lbl" style="margin-top:26px">Mobile · αντικαθιστά το leaderboard</div><div class="creative vb-mob dim" data-size="320 × 100 (Ή 320 × 50)"><b><span class="slot">‹Διαφημιστής›</span></b>320 × 100</div></div><div class="specs"><div><b>Θέση</b>Άρθρα, σελίδες αγώνων, εργαλεία</div><div><b>Desktop</b>728×90 · 300×250 · 300×600</div><div><b>Mobile</b>320×100 / 320×50 · 300×250</div><div><b>Υλικό</b>JPG/PNG/GIF/HTML5, ≤150KB, 2× για retina, ετικέτα «Διαφήμιση»</div><div><b>Αγοραστής</b>Brands, agencies, Google Ad Manager / AdSense</div><div><b>Τιμολόγηση</b>CPM ή σταθερή εβδομαδιαία</div></div></div>
+      </div>
+      <div class="variant-analysis">
+        <div class="analysis-block"><h4>What works</h4><p>Standard sizes (728×90, 300×250, 300×600, 320×100) work with any creative and with programmatic demand, so unsold slots still earn money. They're the easiest to explain to a media buyer.</p></div>
+        <div class="analysis-block is-risk"><h4>What risks</h4><p>The 300×600 needs a new sidebar on articles, which are a single column today. Third-party ads bring cookies and consent requirements, and they slow pages down.</p></div>
+        <div class="analysis-block is-pick"><h4>Pick this if</h4><p>you want unsold inventory backfilled automatically and to sell by CPM.</p></div>
+      </div>
+    </section>
+
+    <section class="variant">
+      <div class="variant-head">
+        <div class="variant-letter">C</div>
+        <div class="variant-meta">
+          <h2>Monthly calendar sponsorship</h2>
+          <p class="variant-tradeoff"><b>Optimizes for</b> a premium exclusive deal with clear seasonality — "own November" <b>·  Tradeoff</b> only 24 slots, and each must be sold one by one</p>
+        </div>
+      </div>
+      <div class="preview-frame">
+        <div class="preview-frame-bar">Variant C · Monthly calendar sponsorship</div>
+        <div class="preview"><div class="ctx"><div class="ctx-cols"><div><div class="lbl">Desktop · /agwnes/kalentari-agwnwn-noembrios-2026</div><div class="vc-band dim" data-size="1180 × 120 · HEADER BAND"><div><div class="k">Καλεντάρι Νοεμβρίου 2026</div><div class="t">με την υποστήριξη <span class="slot">‹Διαφημιστής›</span></div></div><div class="vc-logo dim" data-size="LOGO 240 × 80">LOGO</div></div><div class="vc-offer dim" data-size="ΠΛΑΤΟΣ × 56 · ΠΡΟΣΦΟΡΑ"><span class="tag">Προσφορά μήνα</span><span>‹-15% σε παπούτσια για αγώνες Νοεμβρίου›</span><span class="code">RACELIST15</span><span class="go">ΔΕΣ →</span></div><div class="row"><div class="rd">01/11/2026<span>Κυριακή</span></div><div><div class="rt">7ος Ορεινός Αγώνας Τρεξίματος «Λίμνη Νευρόπολη 2026»</div><div class="rs">Παλαιοχώρι Δωριέων</div><div class="rs"><b>Αποστάσεις:</b> 21km, 10km, 5km</div></div><span class="pill trail">Ορεινός</span></div><div class="row"><div class="rd">22/11/2026<span>Κυριακή</span></div><div><div class="rt">9ο Olympic Day Run Greece</div><div class="rs">Θεσσαλονίκη</div><div class="rs"><b>Αποστάσεις:</b> 21km, 10km, 5km, 1.5km</div></div><span class="pill road">Οδικός</span></div></div><div><div class="lbl">Mobile · 100% × 96</div><div class="phone"><div class="vc-band" style="height:96px;padding:0 16px;gap:12px;margin-bottom:8px"><div><div class="k" style="font-size:9px">Νοέμβριος 2026</div><div class="t" style="font-size:15px">με την υποστήριξη <span class="slot">‹Διαφημιστής›</span></div></div></div><div class="row"><div class="rd">01/11/2026<span>Κυριακή</span></div><div><div class="rt">7ος Ορεινός Αγώνας Τρεξίματος «Λίμνη Νευρόπολη 2026»</div><div class="rs">Παλαιοχώρι Δωριέων</div><div class="rs"><b>Αποστάσεις:</b> 21km, 10km, 5km</div></div><span class="pill trail">Ορεινός</span></div></div><div class="lbl" style="margin-top:18px">+ αναφορά στο newsletter του μήνα</div></div></div></div><div class="specs"><div><b>Θέση</b>Μία μηνιαία σελίδα καλενταριού (24 σελίδες) — αποκλειστικά</div><div><b>Desktop</b>Band 1180×120 · logo 240×80 · γραμμή προσφοράς</div><div><b>Mobile</b>Band 100%×96, χωρίς logo κάτω από 360px</div><div><b>Υλικό</b>Logo SVG/PNG διάφανο, 1 πρόταση, προαιρετικός κωδικός</div><div><b>Αγοραστής</b>Καταστήματα, brands, χορηγοί σειρών αγώνων</div><div><b>Τιμολόγηση</b>Σταθερή ανά μήνα· οι μήνες αιχμής ακριβότερα</div></div></div>
+      </div>
+      <div class="variant-analysis">
+        <div class="analysis-block"><h4>What works</h4><p>It's easy to sell ("your brand on the November calendar") and easy to price by season: spring and autumn peaks cost more. It fits the brand, and the offer line gives the sponsor a measurable code.</p></div>
+        <div class="analysis-block is-risk"><h4>What risks</h4><p>There's limited inventory. A month that doesn't sell needs a fallback, either a house ad or a prompt to buy the slot.</p></div>
+        <div class="analysis-block is-pick"><h4>Pick this if</h4><p>you want a few high-value, relationship-based deals per year.</p></div>
+      </div>
+    </section>
+
+    <section class="variant">
+      <div class="variant-head">
+        <div class="variant-letter">D</div>
+        <div class="variant-meta">
+          <h2>Tool sponsorship</h2>
+          <p class="variant-tradeoff"><b>Optimizes for</b> highest intent — the reader is planning gels, pace or hydration right now <b>·  Tradeoff</b> lower traffic than the calendar; only fits matching categories</p>
+        </div>
+      </div>
+      <div class="preview-frame">
+        <div class="preview-frame-bar">Variant D · Tool sponsorship</div>
+        <div class="preview"><div class="ctx"><div class="ctx-cols"><div><div class="lbl">Desktop · /gel-calculator</div><div class="vd-tool"><div class="vd-top"><div class="h" style="margin:0"><small>FUEL</small>Πλάνο gel αγώνα</div><div class="vd-pow">με την υποστήριξη<div class="vd-logo dim" data-size="LOGO 160 × 48"><span class="slot">‹Διαφημιστής›</span></div></div></div><div class="vd-in"><div>Απόσταση<b>42.2 km</b></div><div>Χρόνος στόχος<b>3:45:00</b></div><div>Βάρος<b>72 kg</b></div></div><div class="vd-res"><div><span>Gel</span><b>6</b></div><div><span>Κάθε</span><b>35΄</b></div><div><span>Υδατάνθρακες</span><b>60 g/h</b></div></div></div></div><div><div class="lbl">Κάτω από τα αποτελέσματα · desktop &amp; mobile</div><div class="vd-card dim" data-size="300 × 120 · ΚΑΡΤΑ"><div class="creative" style="height:96px">1:1</div><div><div class="tag">Προτεινόμενο</div><div class="n"><span class="slot">‹Διαφημιστής›</span> Energy Gel</div><div class="p">6 τεμ. για το πλάνο σου</div><div class="g">ΑΓΟΡΑ →</div></div></div><div class="lbl" style="margin-top:26px">Εργαλεία προς πώληση</div><div class="rs" style="line-height:1.8">PACE · Υπολογιστής ρυθμού<br>H₂O · Πλάνο ενυδάτωσης<br>FUEL · Πλάνο gel αγώνα<br>SHOE · Κόστος παπουτσιών<br>TIME · Πρόβλεψη χρόνου αγώνα<br>VO₂ · Τεστ Cooper</div></div></div></div><div class="specs"><div><b>Θέση</b>Ένα εργαλείο (6 διαθέσιμα) — αποκλειστικά</div><div><b>Desktop</b>Logo 160×48 στην κεφαλίδα + κάρτα 300×120</div><div><b>Mobile</b>Logo 120×36 · κάρτα 100%×120</div><div><b>Υλικό</b>Logo SVG, εικόνα προϊόντος 1:1 (≥400px), τίτλος ≤40 χαρ., URL</div><div><b>Αγοραστής</b>Gel/διατροφή, ρολόγια, παπούτσια — ανάλογα με το εργαλείο</div><div><b>Τιμολόγηση</b>Σταθερή μηνιαία ή τριμηνιαία</div></div></div>
+      </div>
+      <div class="variant-analysis">
+        <div class="analysis-block"><h4>What works</h4><p>The contextual match is strong: a gel brand on the gel calculator, a watch brand on the pace calculator. The product card uses the tool's own output ("6 τεμ. για το πλάνο σου"), which both buyers and readers like.</p></div>
+        <div class="analysis-block is-risk"><h4>What risks</h4><p>Each tool needs a matching advertiser. Sponsored products inside results can look like the result was bought, so keep the tool's numbers independent of the sponsor.</p></div>
+        <div class="analysis-block is-pick"><h4>Pick this if</h4><p>you have, or want, gel, nutrition and wearable brands as partners.</p></div>
+      </div>
+    </section>
+
+    <section class="variant">
+      <div class="variant-head">
+        <div class="variant-letter">E</div>
+        <div class="variant-meta">
+          <h2>Race-page gear shelf</h2>
+          <p class="variant-tradeoff"><b>Optimizes for</b> performance revenue on 516 race pages, targeted by road/trail and distance <b>·  Tradeoff</b> needs a product feed and click tracking; earns per click, not upfront</p>
+        </div>
+      </div>
+      <div class="preview-frame">
+        <div class="preview-frame-bar">Variant E · Race-page gear shelf</div>
+        <div class="preview"><div class="ctx"><div class="lbl">Desktop · /agwnas/12oi-oreinoi-agones-kabousiou-2026 — κάτω από τις αποστάσεις</div><div class="ve-head"><div class="h" style="margin:0"><small>Εξοπλισμός</small>Για ορεινό 22.3km</div><div class="ve-why">Στόχευση: <b>Ορεινός</b> · 22.3km · Λασίθι</div></div><div class="ve-shelf dim" data-size="ΡΑΦΙ 1020 × 300 · ΠΛΑΚΙΔΙΑ 240 × 300"><div class="ve-tile"><div class="im creative"><b>Εικόνα προϊόντος</b>480 × 340</div><div class="bd"><div class="sh"><span class="slot">‹Διαφημιστής›</span></div><div class="n">Παπούτσι trail ‹μοντέλο›</div><div class="pr">€ ‹τιμή›<span>ΔΕΣ →</span></div></div></div><div class="ve-tile"><div class="im creative"><b>Εικόνα προϊόντος</b>480 × 340</div><div class="bd"><div class="sh"><span class="slot">‹Διαφημιστής›</span></div><div class="n">Γιλέκο ενυδάτωσης 5L</div><div class="pr">€ ‹τιμή›<span>ΔΕΣ →</span></div></div></div><div class="ve-tile"><div class="im creative"><b>Εικόνα προϊόντος</b>480 × 340</div><div class="bd"><div class="sh"><span class="slot">‹Διαφημιστής›</span></div><div class="n">Μπατόν trail</div><div class="pr">€ ‹τιμή›<span>ΔΕΣ →</span></div></div></div><div class="ve-tile"><div class="im creative"><b>Εικόνα προϊόντος</b>480 × 340</div><div class="bd"><div class="sh"><span class="slot">‹Διαφημιστής›</span></div><div class="n">Αντιανεμικό</div><div class="pr">€ ‹τιμή›<span>ΔΕΣ →</span></div></div></div></div><div class="lbl" style="margin-top:28px">Mobile · οριζόντιο scroll, πλακίδιο 200 × 280</div><div class="ve-mob"><div class="ve-tile"><div class="im creative"><b>Εικόνα προϊόντος</b>480 × 340</div><div class="bd"><div class="sh"><span class="slot">‹Διαφημιστής›</span></div><div class="n">Παπούτσι trail ‹μοντέλο›</div><div class="pr">€ ‹τιμή›<span>ΔΕΣ →</span></div></div></div><div class="ve-tile"><div class="im creative"><b>Εικόνα προϊόντος</b>480 × 340</div><div class="bd"><div class="sh"><span class="slot">‹Διαφημιστής›</span></div><div class="n">Γιλέκο ενυδάτωσης 5L</div><div class="pr">€ ‹τιμή›<span>ΔΕΣ →</span></div></div></div></div></div><div class="specs"><div><b>Θέση</b>Σελίδες αγώνων (516), στόχευση οδικός/ορεινός + απόσταση</div><div><b>Desktop</b>Ράφι 1020×300 · πλακίδια 240×300</div><div><b>Mobile</b>Scroll, πλακίδια 200×280</div><div><b>Υλικό</b>Product feed (CSV/XML) ή 4–8 προϊόντα: εικόνα, τίτλος, τιμή, URL</div><div><b>Αγοραστής</b>Καταστήματα τρεξίματος, e-shops, brands</div><div><b>Τιμολόγηση</b>CPC ή affiliate % ανά πώληση</div></div></div>
+      </div>
+      <div class="variant-analysis">
+        <div class="analysis-block"><h4>What works</h4><p>It's automatically relevant: trail shoes on a mountain race, road racers on a marathon. Race type and distances already exist on every race, so targeting comes free, and it scales to any number of shops.</p></div>
+        <div class="analysis-block is-risk"><h4>What risks</h4><p>It's the heaviest to build (feed ingestion, targeting rules, tracking). Revenue depends on clicks, and the tiles are visually busy on mobile.</p></div>
+        <div class="analysis-block is-pick"><h4>Pick this if</h4><p>you want ongoing, scalable revenue from running shops and are willing to build a feed integration.</p></div>
+      </div>
+    </section>
+
+    <section class="decision">
+      <h3>How to pick — or stack them</h3>
+      <p class="decision-sub">These aren't exclusive. A typical rate card: A and C sold directly, B as programmatic backfill, D and E as partnerships. The existing HouseAd component covers any slot that goes unsold.</p>
+      <div class="decision-grid">
+<div class="decision-cell"><b>A · Featured race listing →</b><span>Pick if you want to start selling this week to people who already send you races.</span></div><div class="decision-cell"><b>B · Standard IAB display →</b><span>Pick if you want unsold inventory backfilled automatically and to sell by CPM.</span></div><div class="decision-cell"><b>C · Monthly calendar sponsorship →</b><span>Pick if you want a few high-value, relationship-based deals per year.</span></div><div class="decision-cell"><b>D · Tool sponsorship →</b><span>Pick if you have, or want, gel, nutrition and wearable brands as partners.</span></div><div class="decision-cell"><b>E · Race-page gear shelf →</b><span>Pick if you want ongoing, scalable revenue from running shops and are willing to build a feed integration.</span></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

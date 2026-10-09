@@ -106,6 +106,71 @@
 
   <component
     :is="tag"
+    v-else-if="ad && layout === 'tile'"
+    class="block w-[300px] bg-white border border-line rounded-[14px] overflow-hidden shadow-[0_8px_24px_-14px_rgba(15,31,46,0.35)]"
+  >
+    <div class="p-5">
+      <span
+        class="inline-block font-mono text-[10px] tracking-[0.12em] uppercase text-grey border border-line rounded-full px-2.5 py-0.5 mb-3.5"
+      >
+        {{ label }}
+      </span>
+      <div class="flex items-center gap-3 mb-3">
+        <img
+          v-if="ad.icon"
+          :src="ad.icon"
+          alt=""
+          width="48"
+          height="48"
+          loading="lazy"
+          class="w-12 h-12 rounded-[11px] shrink-0"
+        />
+        <div
+          v-else
+          class="w-12 h-12 rounded-[11px] shrink-0 bg-gradient-to-br from-blue to-blue-deep text-white font-display font-bold text-xl flex items-center justify-center"
+          aria-hidden="true"
+        >
+          {{ monogram }}
+        </div>
+        <div>
+          <div class="font-display font-semibold text-lg text-ink">{{ ad.name }}</div>
+          <div class="text-xs text-grey">{{ meta }}</div>
+        </div>
+      </div>
+      <p class="text-sm text-ink/80 leading-relaxed mb-4">{{ ad.description }}</p>
+      <a
+        v-if="ad.type === 'app'"
+        :href="href"
+        target="_blank"
+        rel="noopener sponsored"
+        class="inline-block p-2.5 -m-2.5"
+        @click="track"
+      >
+        <img :src="APP_STORE_BADGE.src" :alt="APP_STORE_BADGE.alt" height="40" class="h-10 w-auto" />
+      </a>
+      <a
+        v-else
+        :href="href"
+        target="_blank"
+        rel="noopener sponsored"
+        class="inline-block bg-blue-deep text-paper rounded-full font-semibold px-5 py-2.5 text-sm hover:bg-ink transition-colors"
+        @click="track"
+      >
+        {{ ad.ctaLabel || 'Επισκέψου' }} →
+      </a>
+    </div>
+    <div v-if="ad.screenshot" class="bg-paper-dim flex justify-center pt-5 px-4">
+      <img
+        :src="ad.screenshot"
+        alt=""
+        loading="lazy"
+        class="w-[140px] max-h-[220px] object-cover object-top rounded-t-[14px] border border-line border-b-0"
+      />
+    </div>
+  </component>
+
+  <component
+    :is="tag"
     v-else-if="ad && layout === 'banner' && showBanner"
     class="bg-white border-b border-line"
   >
