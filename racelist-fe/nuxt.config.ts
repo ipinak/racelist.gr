@@ -642,6 +642,7 @@ export default defineNuxtConfig({
         '/agwnas/12os-dimokriteios-imimarathonios-xanthis-2026/',
         '/agwnas/9os-kissavos-marathon-race-2027/',
         '/agwnas/perivallon-enopli-dynamis-2026/',
+        '/agwnas/11os-agonas-polygyros-run-2027/',
       ],
     },
   },
