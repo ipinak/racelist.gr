@@ -29,9 +29,6 @@
     </url>
     <url>
         <loc>https://racelist.gr/race-time-predictor/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/peter-riegel-formula.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/shoe-cost-tracker/</loc>
@@ -1688,243 +1685,48 @@
     </url>
     <url>
         <loc>https://racelist.gr/arthra/adidas-running-shoes/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/adidas/Adizero_Adios_Pro_4.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/adidas/Adizero_Prime_X_2.0.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/adidas/adizero-sl.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/adidas/adizero-boston-12.avif/</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/amazfit-active-3-premium-review/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/amazfit/active-3-premium/main-image.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/amazfit/active-3-premium/display.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/amazfit/active-3-premium/offline-maps.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/amazfit/active-3-premium/turn-by-turn-nav.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/amazfit/active-3-premium/storage.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/amazfit/active-3-premium/white-version.webp</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/amazfit-helio-strap-review/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/amazfit/amazfit-helio-strap-1.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/amazfit/amazfit-helio-strap-2.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/amazfit/amazfit-helio-strap-3.webp</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/beyond-kerkini-2026/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/coros-pace-pro-review/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/coros/coros-pace-pro-1.png</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/coros/coros-pace-pro-4.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/coros/coros-pace-pro-3.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/dririeia-2026/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/energeiaka-gel-gia-treximo-podilasia/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/gels/maurten-gel.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/gels/sis-gel.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/gels/gu-gel.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/gels/nutrend-gel.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/gels/biotech-gel.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/gels/neversecond-gel.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/gels/fit-shape-gel.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/gels/naak-gel.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/gels/226ers-gel.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/gels/squeezy-gel.png</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/gels/NTX-gel.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/gels/nduranz-gel.webp</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/garmin-cirqa-review/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/garmin/garmin-cirqa-1.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/garmin/garmin-cirqa-2.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/garmin/garmin-cirqa-3.jpg</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/garmin-fenix-7x-solar/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/garmin/garmin-fenix-7x-solar.jpg</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/garmin-fenix-8/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/garmin/garmin-fenix-8.jpg</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/garmin-forerunner-170/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/garmin/garmin-170/Forerunner170_HR_black_Activity_Summary_Statute.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/garmin/garmin-170/Forerunner170_whitestone_Running_Data_Screen.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/garmin/garmin-170/Forerunner170_teal_music.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/garmin/garmin-170/Forerunner170_HR_red_pink_Mango.webp</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/garmin-forerunner-955-kai-955-solar/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/garmin/garmin-forerunner-955.jpg</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/garmin-forerunner-965/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/garmin/garmin-forerunner-965.jpg</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/garmin-forerunner-970/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/garmin/garmin-970-1.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/garmin/garmin-970-3.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/garmin/garmin-970-4.webp</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/gynaikeia-papoutsia-gia-treximo-dromou/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/nike/nike-alphafly-wm.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/nike/nike-alphafly-wm-1.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/puma/puma-fastr-wm.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/puma/puma-fastr-wm-1.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/puma/puma-fastr-wm-2.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/adidas/adidas-stella-mccartney-prime-x-wm.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/adidas/adidas-stella-mccartney-prime-x-wm-1.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/adidas/adidas-stella-mccartney-prime-x-wm-2.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/saucony/saucony-endorphin-pro-4-wm-1.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/saucony/saucony-endorphin-pro-4-wm.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/saucony/saucony-endorphin-pro-4-wm-2.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/cep/cep-running-shoes-wm.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/cep/cep-running-shoes-wm-3.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/cep/cep-running-shoes-wm-2.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/cep/cep-running-shoes-wm-1.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/asics/asics-superblast-2-women-2.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/asics/asics-superblast-2-women.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/adidas/adidas-adizero-adios-pro-3-wm-1.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/adidas/adidas-adizero-adios-pro-3-wm-2.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/adidas/adidas-adizero-adios-pro-3-wm.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/altra/altra-vanish-carbon-2-wm-1.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/altra/altra-vanish-carbon-2-wm-2.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/altra/altra-vanish-carbon-2-wm.jpeg</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/heraklion-hills-2026/</loc>
@@ -1934,15 +1736,6 @@
     </url>
     <url>
         <loc>https://racelist.gr/arthra/huawei-watch-gt-runner-2-review/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/huawei/huawei-watch-gt-runner-2-key-vision-2.png</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/huawei/huawei-watch-gt-runner-2-marathon-guidance.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/huawei/huawei-watch-gt-runner-2-airdry-woven-strap-orange-front.webp</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/kardiakos-palmos-sto-treximo/</loc>
@@ -1958,27 +1751,12 @@
     </url>
     <url>
         <loc>https://racelist.gr/arthra/new-balance-rebel-v5/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/new-balance/fuelcell-rebel-v5.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/new-balance/fuelcell-rebel-v5-3.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/new-balance/fuelcell-rebel-v5-2.jpg</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/nike-running-shoes/</loc>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/nike-vomero-plus/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/nike/nike-vomero-plus.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/nike/nike-vomero-plus-1.jpg</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/o-termatismos-enos-agwna/</loc>
@@ -1991,45 +1769,6 @@
     </url>
     <url>
         <loc>https://racelist.gr/arthra/papoutsia-gia-treximo-dromou/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/brooks-ghost-16.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/brooks-glycerin-max.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/brooks-hyperion-elite.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/saucony-endorphin-2.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/saucony-triumph-22.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/saucony-kimvara-pro.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/asics-metaspeed-paris.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/asics-superblast-2.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/asics-novablast-5.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/altra-experience-flow.avif/</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/adizero-boston-12.avif/</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/hoka-clifton-9.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/mizuno-wave-rebellion-pro-3.jpg</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/pos-na-ksekiniseis-treximo/</loc>
@@ -2057,15 +1796,9 @@
     </url>
     <url>
         <loc>https://racelist.gr/arthra/suunto-peak-9-pro/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/suunto/suunto-9-peak-pro.jpg</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/suunto-run/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/suunto/suunto-run-lime.webp</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/ta-pio-gnwsto-problimata-dromewn/</loc>
@@ -2081,21 +1814,6 @@
     </url>
     <url>
         <loc>https://racelist.gr/arthra/to-katallilo-papoutsi-gia-kathe-proponisi/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/adidas/adidas-boston-13.avif/</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/saucony/saucony-triumph-23.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/brooks/brooks-ghost-17.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/asics/asics-metaspeed-tokyo.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/asics/asics-metaspeed-ray.webp</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://racelist.gr/arthra/vo2-max-ti-einai-pos-metrietai/</loc>
@@ -2105,12 +1823,6 @@
     </url>
     <url>
         <loc>https://racelist.gr/arthra/zoni-garmin-hrm-600/</loc>
-        <image:image>
-            <image:loc>https://racelist.gr/images/garmin/garmin-hrm-600.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://racelist.gr/images/garmin/garmin-hrm-600-2.webp</image:loc>
-        </image:image>
     </url>
 </urlset>
-<!-- XML Sitemap generated by @nuxtjs/sitemap v7.3.1 at 2026-10-09T07:15:35.144Z -->
+<!-- XML Sitemap generated by @nuxtjs/sitemap v7.3.1 at 2026-10-09T20:51:06.613Z -->
