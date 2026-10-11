@@ -85,6 +85,14 @@
           </li>
           <li>
             <NuxtLink
+              to="/ypologistis-xronou-agona-vounou/"
+              class="hover:text-paper transition-colors"
+            >
+              Υπολογιστής χρόνου αγώνα βουνού
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
               to="/poses-thermides-kaime-sto-treximo/"
               class="hover:text-paper transition-colors"
             >

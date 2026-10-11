@@ -41,6 +41,7 @@ export default defineNuxtConfig({
         '/hydration-calculator/',
         '/pace-calculator/',
         '/poses-thermides-kaime-sto-treximo/',
+        '/ypologistis-xronou-agona-vounou/',
         '/race-time-predictor/',
         '/shoe-cost-tracker/',
         '/tools-for-runners/',

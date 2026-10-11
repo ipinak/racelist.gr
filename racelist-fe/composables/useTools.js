@@ -36,6 +36,13 @@ export const useTools = () => {
       icon: 'trending-up',
     },
     {
+      title: 'Υπολογιστής Χρόνου Αγώνα Βουνού',
+      href: '/ypologistis-xronou-agona-vounou/',
+      description:
+        'Πόσο θα κάνεις σε αγώνα trail, με βάση υψομετρική, έδαφος και τον χρόνο σου στον δρόμο.',
+      icon: 'mountain',
+    },
+    {
       title: 'Υπολογιστής Θερμίδων Τρεξίματος',
       href: '/poses-thermides-kaime-sto-treximo/',
       description:
