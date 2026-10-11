@@ -36,6 +36,13 @@ export const useTools = () => {
       icon: 'trending-up',
     },
     {
+      title: 'Υπολογιστής Θερμίδων Τρεξίματος',
+      href: '/poses-thermides-kaime-sto-treximo/',
+      description:
+        'Πόσες θερμίδες καις ανάλογα με το βάρος, την απόσταση και τον χρόνο.',
+      icon: 'flame',
+    },
+    {
       title: 'Υπολογιστής Κόστους Παπουτσιών Τρεξίματος',
       href: '/shoe-cost-tracker/',
       description:

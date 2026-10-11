@@ -85,6 +85,14 @@
           </li>
           <li>
             <NuxtLink
+              to="/poses-thermides-kaime-sto-treximo/"
+              class="hover:text-paper transition-colors"
+            >
+              Πόσες θερμίδες καίμε στο τρέξιμο
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
               to="/pace-calculator/"
               class="hover:text-paper transition-colors"
             >
