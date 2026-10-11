@@ -101,6 +101,14 @@
           </li>
           <li>
             <NuxtLink
+              to="/vdot-calculator/"
+              class="hover:text-paper transition-colors"
+            >
+              VDOT Calculator - Ρυθμοί Προπόνησης
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
               to="/pace-calculator/"
               class="hover:text-paper transition-colors"
             >

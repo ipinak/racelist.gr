@@ -265,7 +265,14 @@
         >
           υπολογιστή ρυθμού
         </NuxtLink>
-        για να σχεδιάσετε την προπόνησή σας. Επίσης, μην ξεχνάτε τη σωστή
+        για να σχεδιάσετε την προπόνησή σας, και τον
+        <NuxtLink
+          class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"
+          to="/vdot-calculator/"
+        >
+          VDOT calculator
+        </NuxtLink>
+        για τους ρυθμούς προπόνησης που αντιστοιχούν στο επίπεδό σας. Επίσης, μην ξεχνάτε τη σωστή
         διατροφή και ενυδάτωση, ρίξτε μια ματιά στον
         <NuxtLink
           class="underline hover:bg-blue-deep hover:text-paper pr-0.5 py-0.5"

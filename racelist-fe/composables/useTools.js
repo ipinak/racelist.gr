@@ -29,6 +29,13 @@ export const useTools = () => {
       icon: 'gauge',
     },
     {
+      title: 'VDOT Calculator - Ρυθμοί Προπόνησης',
+      href: '/vdot-calculator/',
+      description:
+        'Το VDOT σου και οι ρυθμοί E, M, T, I, R κατά Jack Daniels από έναν χρόνο αγώνα.',
+      icon: 'activity',
+    },
+    {
       title: 'Υπολογιστής Προβλέψεων Χρόνων',
       href: '/race-time-predictor/',
       description:

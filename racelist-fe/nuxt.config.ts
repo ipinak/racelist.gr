@@ -42,6 +42,7 @@ export default defineNuxtConfig({
         '/pace-calculator/',
         '/poses-thermides-kaime-sto-treximo/',
         '/ypologistis-xronou-agona-vounou/',
+        '/vdot-calculator/',
         '/race-time-predictor/',
         '/shoe-cost-tracker/',
         '/tools-for-runners/',
