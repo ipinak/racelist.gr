@@ -53,3 +53,8 @@ body {
 .prose-article :where(strong) {
   color: var(--color-ink);
 }
+/* Dark callout boxes: keep the box's light text color instead of the
+   ink/blue defaults above, which are unreadable on blue-deep. */
+.prose-article :where(.bg-blue-deep) :where(h2, h3, strong, a) {
+  color: inherit;
+}

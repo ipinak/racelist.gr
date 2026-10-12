@@ -211,6 +211,11 @@ export const useArticles = () => {
       href: '/arthra/katerini-run-2026-apotelesmata/',
       title: 'Katerini Run 2026 – Αποτελέσματα & Νικητές',
       timestamp: '2026-10-01',
+    },
+    {
+      href: '/arthra/patras-half-marathon-2026-apotelesmata/',
+      title: 'Ημιμαραθώνιος Πάτρας 2026 – Αποτελέσματα & Νικητές',
+      timestamp: '2026-10-12',
     }
   ].reverse()
 
