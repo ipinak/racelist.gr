@@ -126,6 +126,7 @@
 <script setup>
   import { ref, computed } from 'vue';
   import { getUniqueAreas, getUniqueCities } from '~/shared/location.js';
+  import { useAnalytics } from '~/composables/useAnalytics';
 
   const props = defineProps({
     races: {
@@ -194,8 +195,28 @@
     return filters;
   });
 
+  const { triggerEvent } = useAnalytics();
+  const trackFilter = (filterType, filterValue) => {
+    if (!filterValue) return;
+    triggerEvent('filter_use', {
+      filter_type: filterType,
+      filter_value: filterValue,
+    });
+  };
+
+  // Search runs on every keystroke; only report the term once typing pauses
+  let searchTimer = null;
+  const trackSearch = () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      const term = searchQuery.value.trim();
+      if (term.length >= 3) trackFilter('search', term.slice(0, 100));
+    }, 1500);
+  };
+
   const handleSearch = () => {
     emit('search', searchQuery.value);
+    trackSearch();
   };
 
   const handleAreaChange = () => {
@@ -205,6 +226,7 @@
       selectedLocation.value = '';
     }
     emit('areaFilter', selectedArea.value);
+    trackFilter('region', selectedArea.value);
   };
 
   const handleCityChange = () => {
@@ -214,6 +236,7 @@
       selectedLocation.value = '';
     }
     emit('cityFilter', selectedCity.value);
+    trackFilter('city', selectedCity.value);
   };
 
   const handleLocationChange = () => {

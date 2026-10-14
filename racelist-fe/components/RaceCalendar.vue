@@ -141,6 +141,7 @@
   import RaceFilters from './RaceFilters.vue';
   import { isTrail } from '~/shared/raceType';
   import { parseLocation } from '~/shared/location.js';
+  import { useAnalytics } from '~/composables/useAnalytics';
 
   const props = defineProps({
     races: {
@@ -161,16 +162,25 @@
     }),
   );
 
+  const { triggerEvent } = useAnalytics();
+  const trackMonth = (d) =>
+    triggerEvent('filter_use', {
+      filter_type: 'month',
+      filter_value: `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`,
+    });
+
   const prevMonth = () => {
     const d = new Date(currentDate.value);
     d.setMonth(d.getMonth() - 1);
     currentDate.value = d;
+    trackMonth(d);
   };
 
   const nextMonth = () => {
     const d = new Date(currentDate.value);
     d.setMonth(d.getMonth() + 1);
     currentDate.value = d;
+    trackMonth(d);
   };
 
   const racesByDate = computed(() => {

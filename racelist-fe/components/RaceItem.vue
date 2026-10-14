@@ -26,6 +26,7 @@
           :href="`${race.SignupLink}?utm_source=racelist.gr`"
           class="text-sm text-blue hover:text-blue-deep transition-colors"
           target="_blank"
+          @click="trackRegistration"
         >
           Εγγραφή →
         </a>
@@ -52,6 +53,8 @@
   import { computed } from 'vue';
   import { formatDate } from '~/shared/formatters';
   import { isTrail } from '~/shared/raceType';
+  import { raceEventParams } from '~/shared/analytics';
+  import { useAnalytics } from '~/composables/useAnalytics';
 
   const props = defineProps({
     race: {
@@ -62,6 +65,13 @@
 
   const format = formatDate;
   const trail = computed(() => isTrail(props.race));
+
+  const { triggerEvent } = useAnalytics();
+  const trackRegistration = () =>
+    triggerEvent('registration_click', {
+      ...raceEventParams(props.race),
+      placement: 'race_list',
+    });
 
   const dayOfWeek = (dateString) =>
     new Date(dateString).toLocaleDateString('el-GR', { weekday: 'long' });

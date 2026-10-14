@@ -41,6 +41,7 @@
               "
               target="_blank"
               size="lg"
+              @click="trackRegistration"
             >
               Εγγραφή στον αγώνα
             </CtaButton>
@@ -75,6 +76,8 @@
 <script setup>
   import { formatDate } from '~/shared/formatters';
   import allRaces from '~/public/min.races.json';
+  import { raceEventParams } from '~/shared/analytics';
+  import { useAnalytics } from '~/composables/useAnalytics';
 
   const format = formatDate;
   const route = useRoute();
@@ -123,6 +126,24 @@
           r.Slug === route.params.id || r.Slug === `${route.params.id}/`,
       ) ?? null,
   );
+
+  const { triggerEvent } = useAnalytics();
+  const trackRegistration = () =>
+    triggerEvent('registration_click', {
+      ...raceEventParams(race.value),
+      placement: 'race_page',
+    });
+
+  // Keyed on slug so moving between races (e.g. via suggestions) counts each view
+  if (import.meta.client) {
+    watch(
+      () => race.value?.Slug,
+      (slug) => {
+        if (slug) triggerEvent('race_view', raceEventParams(race.value));
+      },
+      { immediate: true },
+    );
+  }
 
   useHead(() => ({
     title: race.value
