@@ -132,6 +132,19 @@
         >
           TechPals
         </a>
+        <p class="mt-2">
+          <NuxtLink to="/cookies/" class="hover:text-paper transition-colors">
+            Πολιτική cookies
+          </NuxtLink>
+          |
+          <button
+            type="button"
+            class="hover:text-paper transition-colors"
+            @click="openSettings"
+          >
+            Ρυθμίσεις cookies
+          </button>
+        </p>
         <p v-if="showAppleCredit" class="mt-2 text-paper/40">
           Apple, το λογότυπο Apple, iPhone και App Store είναι εμπορικά σήματα
           της Apple Inc., καταχωρημένα στις Η.Π.Α. και σε άλλες χώρες.
@@ -143,6 +156,8 @@
 
 <script setup>
   import { hasAppStoreAds } from '~/shared/houseAds';
+  import { useConsent } from '~/composables/useConsent';
 
   const showAppleCredit = hasAppStoreAds();
+  const { openSettings } = useConsent();
 </script>

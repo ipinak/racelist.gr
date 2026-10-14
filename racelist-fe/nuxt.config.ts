@@ -19,6 +19,22 @@ export default defineNuxtConfig({
   // Google analytics
   gtag: {
     id: 'G-1YBT2BFVT9',
+    // Consent Mode v2: everything denied until the visitor chooses in the
+    // cookie banner (plugins/consent.client.js applies a stored choice).
+    initCommands: [
+      [
+        'consent',
+        'default',
+        {
+          ad_storage: 'denied',
+          ad_user_data: 'denied',
+          ad_personalization: 'denied',
+          analytics_storage: 'denied',
+          wait_for_update: 500,
+        },
+      ],
+      ['set', 'ads_data_redaction', true],
+    ],
   },
   site: {
     name: 'racelist.gr',
@@ -37,6 +53,7 @@ export default defineNuxtConfig({
         '/about/',
         '/cooper-test/',
         '/faq/',
+        '/cookies/',
         '/gel-calculator/',
         '/hydration-calculator/',
         '/pace-calculator/',

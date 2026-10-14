@@ -396,7 +396,7 @@
       </h2>
       <div class="aspect-video mb-3">
         <iframe
-          src="https://www.youtube.com/embed/T0H3dcWvY1A"
+          src="https://www.youtube-nocookie.com/embed/T0H3dcWvY1A"
           title="Amazfit Active 3 Premium Review"
           frameborder="0"
           allow="

@@ -24,6 +24,7 @@
       </div>
     </main>
     <Footer />
+    <ConsentBanner />
   </div>
 </template>
 
@@ -32,6 +33,7 @@
   import Footer from '@/components/Footer.vue';
   import HouseAd from '@/components/HouseAd.vue';
   import AdSlot from '@/components/AdSlot.vue';
+  import ConsentBanner from '@/components/ConsentBanner.vue';
 
   const route = useRoute();
   const isArticle = computed(() => /^\/arthra\/.+/.test(route.path));

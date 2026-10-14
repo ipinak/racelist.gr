@@ -40,7 +40,7 @@
 
       <div class="aspect-video mb-3">
         <iframe
-          src="https://www.youtube.com/embed/8U-87SKjaGI"
+          src="https://www.youtube-nocookie.com/embed/8U-87SKjaGI"
           title="Tokyo Marathon 2026 Highlights"
           frameborder="0"
           allow="
