@@ -216,6 +216,11 @@ export const useArticles = () => {
       href: '/arthra/patras-half-marathon-2026-apotelesmata/',
       title: 'Ημιμαραθώνιος Πάτρας 2026 – Αποτελέσματα & Νικητές',
       timestamp: '2026-10-12',
+    },
+    {
+      href: '/arthra/thessaloniki-night-half-marathon-2026-apotelesmata/',
+      title: 'Νυχτερινός Ημιμαραθώνιος Θεσσαλονίκης 2026 – Αποτελέσματα & Νικητές',
+      timestamp: '2026-10-19',
     }
   ].reverse()
 
