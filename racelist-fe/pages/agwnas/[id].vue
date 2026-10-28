@@ -75,6 +75,7 @@
 
 <script setup>
   import { formatDate } from '~/shared/formatters';
+  import { parseLocation } from '~/shared/location';
   import allRaces from '~/public/min.races.json';
   import { raceEventParams } from '~/shared/analytics';
   import { useAnalytics } from '~/composables/useAnalytics';
@@ -174,20 +175,36 @@
 
     const url = `https://racelist.gr/agwnas/${race.value.Slug}`;
 
+    const { area, city } = parseLocation(race.value.Location);
+    const distances = race.value.Distances?.join(', ');
+
+    // organizer is left out on purpose: we don't have the real organizer and
+    // naming racelist.gr would be wrong for Google's event rich results.
     useJsonld({
       '@context': 'https://schema.org',
       '@type': 'SportsEvent',
       name: race.value.Title,
       startDate: race.value.Date,
+      endDate: race.value.Date,
+      eventStatus: 'https://schema.org/EventScheduled',
+      eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+      sport: 'Running',
       url,
       location: {
         '@type': 'Place',
         name: race.value.Location,
-        address: race.value.Location,
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: area,
+          ...(city ? { addressRegion: city } : {}),
+          addressCountry: 'GR',
+        },
       },
-      ...(race.value.Description
-        ? { description: race.value.Description }
-        : {}),
+      description:
+        race.value.Description ||
+        `${race.value.Title} στις ${format(race.value.Date)}, ${race.value.Location}.${
+          distances ? ` Αποστάσεις: ${distances}.` : ''
+        }`,
       ...(race.value.SignupLink
         ? {
             offers: {
@@ -196,11 +213,6 @@
             },
           }
         : {}),
-      organizer: {
-        '@type': 'Organization',
-        name: 'racelist.gr',
-        url: 'https://racelist.gr',
-      },
     });
 
     useHead({

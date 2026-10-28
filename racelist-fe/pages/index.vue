@@ -167,6 +167,11 @@
     { code: 'SHOE', name: 'Κόστος παπουτσιών', desc: 'Παρακολούθησε το κόστος ανά χιλιόμετρο των παπουτσιών σου.', href: '/shoe-cost-tracker' },
   ];
 
+  useHead({
+    link: [{ rel: 'canonical', href: 'https://racelist.gr/' }],
+    meta: [{ property: 'og:url', content: 'https://racelist.gr/' }],
+  });
+
   onMounted(async () => {
     const res = await fetch('/min.races.json');
     races.value = await res.json();
