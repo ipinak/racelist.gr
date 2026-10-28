@@ -104,17 +104,30 @@
       Amazfit Helio Strap: Το Νέο Fitness Band για Σοβαρούς Αθλητές
     </h1>
 
-    <div class="product-info mb-6">
-      <div class="row">
-        <div class="col-md-6">
-          <p><strong>Τιμή:</strong> $99.99</p>
-          <p>
-            <strong>Διαθεσιμότητα στην Ελλάδα:</strong> Δεν είναι ακόμα
-            διαθέσιμο
-          </p>
-        </div>
-      </div>
-    </div>
+    <ReviewVerdict
+      :product="{
+        name: 'Amazfit Helio Strap',
+        brand: 'Amazfit',
+        image: 'https://racelist.gr/images/amazfit/amazfit-helio-strap-1.jpg',
+      }"
+      url="https://racelist.gr/arthra/amazfit-helio-strap-review/"
+      :rating="9"
+      summary="Εξαιρετική αναλογία ποιότητας-τιμής: 24/7 παρακολούθηση καρδιακού ρυθμού, ύπνου και ανάκαμψης, με μπαταρία έως 10 ημέρες και χωρίς συνδρομή."
+      :pros="[
+        'Χωρίς συνδρομή, σε αντίθεση με ανταγωνιστικές συσκευές',
+        'Μπαταρία έως 10 ημέρες',
+        'Καρδιακός ρυθμός ανά δευτερόλεπτο 24/7, HRV και ανάλυση ύπνου',
+        'Ελαφρύ (20g) με αντοχή στο νερό 5 ATM',
+        'Επίσημο προφίλ HYROX και αναγνώριση 25 ασκήσεων δύναμης',
+        'Συγχρονισμός με Strava, TrainingPeaks, Apple Health και Google Fit',
+      ]"
+      :cons="[
+        'Αρκετά bugs στην αρχή (τα περισσότερα διορθώθηκαν με ενημερώσεις)',
+        'Δεν διατίθεται ακόμα επίσημα στην Ελλάδα',
+      ]"
+      :price="{ amount: 99.99, currency: 'USD' }"
+      availability="Δεν είναι ακόμα διαθέσιμο"
+    />
 
     <div class="hero-section mb-8">
       <div class="text-center mb-6">

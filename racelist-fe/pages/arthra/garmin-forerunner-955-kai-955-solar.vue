@@ -65,49 +65,50 @@
 
   useJsonld([
     {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Garmin Fenix 8: Αναλυτική Παρουσίαση & Αξιολόγηση 2025",
-      "description": "Παρουσίαση του Garmin Forerunner 955 και 955 Solar για δρομείς και αθλητές. Μάθετε για τα χαρακτηριστικά, την αυτονομία και όλα τα πλεονεκτήματα ενός κορυφαίου smartwatch από την Garmin.",
-      "image": "https://racelist.gr/racelist-banner.jpg",
-      "url": "https://racelist.gr/arthra/garmin-forerunner-955-kai-955-solar/",
-      "author": {
-        "@type": "Organization",
-        "name": "racelist.gr",
-        "url": "https://racelist.gr"
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline:
+        'Garmin Forerunner 955 και 955 Solar: Παρουσίαση & Αξιολόγηση 2025',
+      description:
+        'Παρουσίαση του Garmin Forerunner 955 και 955 Solar για δρομείς και αθλητές. Μάθετε για τα χαρακτηριστικά, την αυτονομία και όλα τα πλεονεκτήματα ενός κορυφαίου smartwatch από την Garmin.',
+      image: 'https://racelist.gr/racelist-banner.jpg',
+      url: 'https://racelist.gr/arthra/garmin-forerunner-955-kai-955-solar/',
+      author: {
+        '@type': 'Organization',
+        name: 'racelist.gr',
+        url: 'https://racelist.gr',
       },
-      "publisher": {
-        "@type": "Organization",
-        "name": "racelist.gr",
-        "url": "https://racelist.gr"
-      }
+      publisher: {
+        '@type': 'Organization',
+        name: 'racelist.gr',
+        url: 'https://racelist.gr',
+      },
     },
     {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
         {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Αρχική",
-          "item": "https://racelist.gr/"
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Αρχική',
+          item: 'https://racelist.gr/',
         },
         {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Άρθρα",
-          "item": "https://racelist.gr/arthra/"
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Άρθρα',
+          item: 'https://racelist.gr/arthra/',
         },
         {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Garmin Fenix 8: Αναλυτική Παρουσίαση & Αξιολόγηση 2025",
-          "item": "https://racelist.gr/arthra/garmin-forerunner-955-kai-955-solar/"
-        }
-      ]
+          '@type': 'ListItem',
+          position: 3,
+          name: 'Garmin Forerunner 955 και 955 Solar: Παρουσίαση & Αξιολόγηση 2025',
+          item: 'https://racelist.gr/arthra/garmin-forerunner-955-kai-955-solar/',
+        },
+      ],
     },
   ]);
-
 </script>
 
 <template>
@@ -143,6 +144,32 @@
       ηλιακής φόρτισης. Ζυγίζοντας μόνο 52 γραμμάρια, θα σας κρατήσει ανάλαφρους
       στα πόδια σας.
     </p>
+
+    <ReviewVerdict
+      :product="{
+        name: 'Garmin Forerunner 955',
+        brand: 'Garmin',
+        image: 'https://racelist.gr/images/garmin/garmin-forerunner-955.jpg',
+      }"
+      url="https://racelist.gr/arthra/garmin-forerunner-955-kai-955-solar/"
+      :rating="9.5"
+      summary="Μετά από 4 χρόνια χρήσης, ο ξεκάθαρος νικητής απέναντι σε όλα τα άλλα ρολόγια που δοκιμάσαμε, ακόμα και στο Apple Watch: multi-band GPS, έγχρωμοι χάρτες και προηγμένα εργαλεία προπόνησης σε μόλις 52 γραμμάρια."
+      :pros="[
+        'Αποδεδειγμένα αξιόπιστο μετά από 4 χρόνια χρήσης',
+        'Multi-band GPS για κορυφαία ακρίβεια, ακόμα και με αδύναμο σήμα',
+        'Μπαταρία έως 15 ημέρες ως smartwatch και έως 42 ώρες με GPS',
+        'Πολύ ελαφρύ: μόνο 52 γραμμάρια',
+        'Οθόνη αφής μαζί με κουμπιά, που δουλεύουν και με γάντια ή βρεγμένα χέρια',
+        'Ενσωματωμένοι έγχρωμοι χάρτες με πλοήγηση στροφή προς στροφή',
+        'Ετοιμότητα προπόνησης, δυναμική και ισχύς τρεξίματος, Real-Time Stamina',
+        'Μουσική (έως 500 τραγούδια) και ανέπαφες πληρωμές Garmin Pay',
+      ]"
+      :cons="[
+        'Η ηλιακή φόρτιση της Solar έκδοσης δεν προσθέτει σχεδόν καθόλου αυτονομία',
+        'Η Solar έκδοση έχει σταματήσει να παράγεται',
+      ]"
+      :price="{ amount: 499.99, currency: 'EUR' }"
+    />
 
     <!-- Ενότητα για το Garmin Forerunner 955 -->
     <section class="mb-8">
@@ -377,6 +404,26 @@
         τεχνολογία multi-band, στην ποικιλία των λειτουργιών και στο οικοσύστημα
         εφαρμογών. Με τιμή 499,99€ για το βασικό μοντέλο, προσφέρει εξαιρετική
         αξία για χρήματα στην κατηγορία του.
+      </p>
+    </section>
+
+    <!-- Μακροχρόνια Χρήση -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-blue mb-4">
+        Μετά από 4 Χρόνια Χρήσης
+      </h2>
+      <p class="mb-4">
+        Χρησιμοποιούμε το Forerunner 955 εδώ και 4 χρόνια, και η εκτίμησή μας
+        είναι ξεκάθαρη: είναι ο νικητής απέναντι σε όλα τα υπόλοιπα ρολόγια που
+        έχουμε δοκιμάσει, ακόμα και απέναντι στο Apple Watch.
+      </p>
+      <p class="mb-4">
+        Αυτό που κάνει τη διαφορά δεν είναι μόνο τα χαρακτηριστικά στο χαρτί,
+        αλλά το ότι το ρολόι παραμένει αξιόπιστο εργαλείο προπόνησης χρόνο με
+        τον χρόνο. Η μεγάλη αυτονομία, το ακριβές multi-band GPS και οι
+        εξειδικευμένες λειτουργίες για δρομείς είναι ακριβώς αυτά που ένα
+        smartwatch γενικής χρήσης, όπως το Apple Watch, δεν μπορεί να
+        προσφέρει στον ίδιο βαθμό.
       </p>
     </section>
 
