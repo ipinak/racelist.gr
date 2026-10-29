@@ -12,16 +12,23 @@
     <div>
       <NuxtLink
         :to="`/agwnas/${race.Slug}`"
-        class="text-base sm:text-[17px] font-display font-semibold text-ink hover:text-blue-deep transition-colors"
+        class="text-base sm:text-[17px] font-display font-semibold hover:text-blue-deep transition-colors"
+        :class="race.Cancelled ? 'text-grey line-through' : 'text-ink'"
       >
         {{ race.Title }}
       </NuxtLink>
+      <span
+        v-if="race.Cancelled"
+        class="ml-2 align-middle text-[11px] font-semibold px-2 py-0.5 rounded-full bg-cancel/15 text-cancel whitespace-nowrap"
+      >
+        Ακυρώθηκε
+      </span>
       <div class="text-sm text-grey mt-0.5">{{ race.Location }}</div>
       <div v-if="race.Distances?.length" class="text-sm text-grey mt-0.5">
         <span class="font-medium text-ink">Αποστάσεις:</span>
         {{ race.Distances.join(', ') }}
       </div>
-      <div v-if="race.SignupLink" class="mt-1">
+      <div v-if="race.SignupLink && !race.Cancelled" class="mt-1">
         <a
           :href="`${race.SignupLink}?utm_source=racelist.gr`"
           class="text-sm text-blue hover:text-blue-deep transition-colors"
@@ -31,7 +38,7 @@
           Εγγραφή →
         </a>
       </div>
-      <Countdown :date="race.Date" />
+      <Countdown v-if="!race.Cancelled" :date="race.Date" />
     </div>
 
     <div class="hidden sm:flex justify-end">

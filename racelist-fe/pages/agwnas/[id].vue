@@ -8,9 +8,20 @@
 
       <h1 class="font-display text-3xl font-semibold text-center text-ink mb-8">{{ race.Title }}</h1>
 
-      <div class="bg-paper-dim border-l-4 border-blue p-6 rounded-lg">
+      <div
+        v-if="race.Cancelled"
+        class="mb-6 border border-cancel/40 bg-cancel/10 text-cancel font-semibold text-center px-4 py-3 rounded-lg"
+        role="status"
+      >
+        Ο αγώνας έχει ακυρωθεί
+      </div>
+
+      <div
+        class="bg-paper-dim border-l-4 p-6 rounded-lg"
+        :class="race.Cancelled ? 'border-cancel' : 'border-blue'"
+      >
         <div class="space-y-4">
-          <FlipCountdown :date="race.Date" />
+          <FlipCountdown v-if="!race.Cancelled" :date="race.Date" />
           <div>
             <span class="font-semibold">Ημερομηνία:</span>
             {{ format(race.Date) }}
@@ -32,7 +43,7 @@
               />
             </div>
           </div>
-          <div v-if="race.SignupLink" class="mt-12 text-center">
+          <div v-if="race.SignupLink && !race.Cancelled" class="mt-12 text-center">
             <CtaButton
               :href="
                 race.SignupLink.includes('?')
@@ -148,7 +159,7 @@
 
   useHead(() => ({
     title: race.value
-      ? `${race.value.Title} | racelist.gr`
+      ? `${race.value.Title}${race.value.Cancelled ? ' (Ακυρώθηκε)' : ''} | racelist.gr`
       : 'Αγώνας | racelist.gr',
     link: [
       race.value?.Slug
@@ -162,7 +173,7 @@
       {
         name: 'description',
         content: race.value
-          ? `${race.value.Title} στις ${race.value.Date} στην τοποθεσία ${
+          ? `${race.value.Cancelled ? 'Ακυρώθηκε: ' : ''}${race.value.Title} στις ${race.value.Date} στην τοποθεσία ${
               race.value.Location
             }. ${race.value.Distances?.join(', ')}`
           : 'Λεπτομέρειες αγώνα δρόμου',
@@ -186,7 +197,9 @@
       name: race.value.Title,
       startDate: race.value.Date,
       endDate: race.value.Date,
-      eventStatus: 'https://schema.org/EventScheduled',
+      eventStatus: race.value.Cancelled
+        ? 'https://schema.org/EventCancelled'
+        : 'https://schema.org/EventScheduled',
       eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
       sport: 'Running',
       url,
@@ -205,7 +218,7 @@
         `${race.value.Title} στις ${format(race.value.Date)}, ${race.value.Location}.${
           distances ? ` Αποστάσεις: ${distances}.` : ''
         }`,
-      ...(race.value.SignupLink
+      ...(race.value.SignupLink && !race.value.Cancelled
         ? {
             offers: {
               '@type': 'Offer',

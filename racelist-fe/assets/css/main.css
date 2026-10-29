@@ -13,6 +13,8 @@
   /* Darker text pairing for flag-tinted (trail) pills/badges, where
      text-flag itself lacks contrast against a light flag background. */
   --color-trail: #8a5a16;
+  /* Cancelled races: badges and notices. */
+  --color-cancel: #b42318;
 
   --font-display: "Space Grotesk", sans-serif;
   --font-mono: "JetBrains Mono", monospace;

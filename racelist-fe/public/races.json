@@ -12,7 +12,7 @@
         "Slug": "9os-lailias-mountain-running/"
     },
     {
-        "ID": 2, 
+        "ID": 2,
         "Title": "Kanalaki Run 2025",
         "Date": "2025-01-26",
         "Location": "Καναλάκι δήμου Πάργας",
@@ -83,8 +83,7 @@
         "Title": "3ο Santa Run",
         "Date": "2024-12-27",
         "Location": "Γιαννιτσά",
-        "Distances": [
-        ],
+        "Distances": [],
         "SignupLink": "https://www.facebook.com/santarungiannitsa",
         "Slug": "3o-santa-run/"
     },
@@ -93,8 +92,7 @@
         "Title": "Ierapetra Santa Run vol. 3",
         "Date": "2024-12-27",
         "Location": "Ιεράπετρα",
-        "Distances": [
-        ],
+        "Distances": [],
         "Slug": "ierapetra-santa-run-vol-3/"
     },
     {
@@ -351,8 +349,7 @@
         "Title": "25ος Δρόμος Βουνού «Υμηττός 2025»",
         "Date": "2025-02-02",
         "Location": "Ημηττός",
-        "Distances": [
-        ],
+        "Distances": [],
         "Slug": "25os-dromos-vounou-ymittos-2025/"
     },
     {
@@ -360,8 +357,7 @@
         "Title": "Αγώνες υπεραποστάσεων 6-12-24 ωρών εντός σταδίου – Μέγαρα",
         "Date": "2025-02-08",
         "Location": "Μέγαρα",
-        "Distances": [
-        ],
+        "Distances": [],
         "SignupLink": "https://www.apollonrunnersclub.gr/agones-iperapostaseon-entos-stadiou/?fbclid=IwZXh0bgNhZW0CMTAAAR03ibihDzPkICcLEYcEri9V99v0V3FJAvIoGq59hxsSkvKYMv824xRx46I_aem_mR6T6UDEqHCLJbAgxmSytw",
         "Slug": "agones-yperapostaseon-entos-stadiou-megara/"
     },
@@ -384,8 +380,7 @@
         "Title": "Sparta City Ultra 2025",
         "Date": "2025-02-08",
         "Location": "Σπάρτη",
-        "Distances": [
-        ],
+        "Distances": [],
         "SignupLink": "https://spartanrunners.gr/",
         "Slug": "sparta-city-ultra-2025/"
     },
@@ -886,8 +881,7 @@
         "Title": "Triman 2025 (Νightrun, Trifast & Triswim, Triman)",
         "Date": "2025-05-09",
         "Location": "Κατερίνη",
-        "Distances": [
-        ],
+        "Distances": [],
         "SignupLink": "https://triman.gr/",
         "Slug": "triman-2025-nightrun-trifast-triswim-triman/"
     },
@@ -1446,8 +1440,7 @@
         "Title": "POWERADE B2Run Aθens",
         "Date": "2025-05-29",
         "Location": "ΟΑΚΑ, Αττική",
-        "Distances": [
-        ],
+        "Distances": [],
         "SignupLink": "https://www.b2run.gr/run/gr/gr/index.html",
         "Slug": "powerade-b2run-athens/"
     },
@@ -1527,7 +1520,9 @@
         ],
         "SignupLink": "https://ideanroutes.gr/event/cretan-backyard-ultra-2026/",
         "Slug": "cretan-backyard-ultra-2026/",
-        "ExtraInfo": { "RaceBriefVideoId": "1P9p3fdKlVo" }
+        "ExtraInfo": {
+            "RaceBriefVideoId": "1P9p3fdKlVo"
+        }
     },
     {
         "ID": 121,
@@ -3171,7 +3166,9 @@
         ],
         "SignupLink": "https://artemisiomr.gr/el/",
         "Slug": "artemisio-mountain-running/",
-        "ExtraInfo": { "RaceBriefVideoId": "_GFYNcnuo2w" }
+        "ExtraInfo": {
+            "RaceBriefVideoId": "_GFYNcnuo2w"
+        }
     },
     {
         "ID": 252,
@@ -3303,8 +3300,7 @@
         "Title": "8ο Νάουσα Βέρμιο Trail",
         "Date": "2026-09-12",
         "Location": "Νάουσα, Άλσος Αγίου Νικολάου",
-        "Distances": [
-        ],
+        "Distances": [],
         "SignupLink": "https://naoussavermiotrail.gr/",
         "Slug": "8o-naoussa-vermio-trail/",
         "Description": "Ο Α.Σ. Νάουσα Βέρμιο Trail και ο Δήμος Ηρωικής πόλεως Νάουσας συνδιοργανώνουν τους αγώνες ορεινού τρεξίματος με την ονομασία: 8° \"Νάουσα Βέρμιο trail\" στις 12 & 13 Σεπτεμβρίου 2026. Η Νάουσα βρίσκεται στους πρόποδες του βουνού «Βέρμιο» και το σημείο εκκίνησης και τερματισμού των διαδρομών βρίσκεται στο φημισμένο άλσος του Αγίου Νικολάου από όπου πηγάζει το ποτάμι «Αράπιτσα». Περισσότερες πληροφορίες θα δημοσιευτούν το επόμενο διάστημα. Facebook: Νάουσα Βέρμιο Trail. Email: naoussavermiotrail@gmail.com."
@@ -3328,8 +3324,7 @@
         "Title": "11th Lycabettus Run",
         "Date": "2026-02-15",
         "Location": "Λυκαβηττός, Αθήνα",
-        "Distances": [
-        ],
+        "Distances": [],
         "SignupLink": "https://lycabettusrun.gr/",
         "Slug": "11th-lycabettus-run/",
         "Description": "Για 11η φορά ο εμβληματικός λόφος του Λυκαβηττού θα πλημμυρήσει από αθλητές και αθλούμενους. Η βραβευμένη δρομική διοργάνωση Lycabettus Run αποτελεί διοργάνωση της My Sportevent, με την αμέριστη υποστήριξη του St. George Lycabettus Lifestyle Hotel. Σύντομα θα ανακοινωθούν περισσότερες λεπτομέρειες και η αρχική προκήρυξη της διοργάνωσης. Οι εγγραφές θα είναι διαθέσιμες μόνο μέσα από την επίσημη ιστοσελίδα της διοργάνωσης. Facebook: www.facebook.com/lycabettusrun, Instagram: https://www.instagram.com/lycabettusrun/"
@@ -5489,8 +5484,7 @@
         "Title": "16ος Γαβαθώνιος",
         "Date": "2026-08-17",
         "Location": "Άντισσα, Λέσβος",
-        "Distances": [
-        ],
+        "Distances": [],
         "SignupLink": "https://docs.google.com/forms/d/1g17eDczmqMAV16v5Loj6Bftwgik7yt4GT-6mX2N0JC0/edit",
         "Slug": "16os-gavathonios-2026/"
     },
@@ -5538,8 +5532,7 @@
         "Title": "Skiritida Run 2026",
         "Date": "2026-08-29",
         "Location": "Δάσος Σκιρίτιδας",
-        "Distances": [
-        ],
+        "Distances": [],
         "SignupLink": "https://skiritidarun.gr/",
         "Slug": "skiritida-run-2026/"
     },
@@ -6412,14 +6405,14 @@
     {
         "ID": 494,
         "Title": "Σαλαμίνα Ahepa Run 2026",
-        "Date": "2026-10-04",
+        "Date": "2026-11-29",
         "Location": "Σαλαμίνα",
         "Distances": [
             "21.096km",
             "5km",
             "1km"
         ],
-        "SignupLink": "https://aheparun.gr/index.php/schedule",
+        "SignupLink": "https://aheparun.gr/index.php/ahepa-run-salamina",
         "Slug": "salamina-ahepa-run-2026/",
         "Description": "Αγώνας δρόμου στη σειρά AHEPA RUN, διοργάνωση της AHEPA HELLAS DISTRICT 25, μέλος της μεγαλύτερης Ελληνοαμερικανικής οργάνωσης με οικουμενική παρουσία πάνω από έναν αιώνα. Οι διαδρομές Ημιμαραθωνίου 21.096μ., 5.000μ. και 1.000μ. κινούνται στους εμβληματικούς χώρους πολιτιστικής αξίας της Σαλαμίνας."
     },
@@ -6672,7 +6665,8 @@
         ],
         "SignupLink": "https://aheparun.gr/index.php/schedule",
         "Slug": "nafpaktos-ahepa-run-2026/",
-        "Description": "Αγώνας δρόμου στη σειρά AHEPA RUN, διοργάνωση της AHEPA HELLAS DISTRICT 25, μέλος της μεγαλύτερης Ελληνοαμερικανικής οργάνωσης με οικουμενική παρουσία πάνω από έναν αιώνα. Οι διαδρομές Ημιμαραθωνίου 21.096μ., 5.000μ. και 1.000μ. κινούνται στους εμβληματικούς χώρους πολιτιστικής αξίας της Ναυπάκτου."
+        "Description": "Ο αγώνας δεν θα πραγματοποιηθεί.",
+        "Cancelled": true
     },
     {
         "ID": 513,

@@ -96,10 +96,13 @@
             :to="`/agwnas/${race.Slug}`"
             class="block text-[9px] sm:text-[11px] font-semibold px-1.5 py-1 sm:px-1.5 sm:py-1 rounded mt-1 leading-tight overflow-hidden text-ellipsis whitespace-nowrap"
             :class="
-              isTrail(race)
-                ? 'bg-flag/20 text-trail'
-                : 'bg-blue/15 text-blue-deep'
+              race.Cancelled
+                ? 'bg-paper-dim text-grey line-through'
+                : isTrail(race)
+                  ? 'bg-flag/20 text-trail'
+                  : 'bg-blue/15 text-blue-deep'
             "
+            :title="race.Cancelled ? `${race.Title} (Ακυρώθηκε)` : race.Title"
           >
             {{ race.Title }}
           </NuxtLink>
