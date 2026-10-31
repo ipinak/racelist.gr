@@ -26,31 +26,31 @@ export const APP_STORE_BADGE = {
 };
 
 export const houseAds = [
-  {
-    id: 'ios-app',
-    type: 'app',
-    enabled: true,
-    name: 'Hexi Pop',
-    description:
-      'Δωρεάν εξαγωνικό παζλ: βάλε κομμάτια, γέμισε μια σειρά ή διαγώνιο για να σκάσει και κάνε σερί από κόμπο.',
-    url: 'https://apps.apple.com/gr/app/hexipop/id6810778972',
-    devices: ['iPhone'],
-    icon: '/images/house-ads/hexipop-icon.png',
-    screenshot: '/images/house-ads/hexipop-screen-game.jpg',
-    qrCode: null,
-    providerToken: null,
-  },
-  {
-    id: 'website',
-    type: 'web',
-    enabled: true,
-    name: 'Hexi Pop',
-    description: 'Γέμισε τις γραμμές και κάν’ τες να σκάσουν. Ένα δωρεάν εξαγωνικό παζλ για iPhone.',
-    url: 'https://hexipop.app/el/',
-    icon: '/images/house-ads/hexipop-icon.png',
-    screenshot: '/images/house-ads/hexipop-screen-home.jpg',
-    ctaLabel: 'Δες το Hexi Pop',
-  },
+  // {
+  //   id: 'ios-app',
+  //   type: 'app',
+  //   enabled: false,
+  //   name: 'Hexi Pop',
+  //   description:
+  //     'Δωρεάν εξαγωνικό παζλ: βάλε κομμάτια, γέμισε μια σειρά ή διαγώνιο για να σκάσει και κάνε σερί από κόμπο.',
+  //   url: 'https://apps.apple.com/gr/app/hexipop/id6810778972',
+  //   devices: ['iPhone'],
+  //   icon: '/images/house-ads/hexipop-icon.png',
+  //   screenshot: '/images/house-ads/hexipop-screen-game.jpg',
+  //   qrCode: null,
+  //   providerToken: null,
+  // },
+  // {
+  //   id: 'website',
+  //   type: 'web',
+  //   enabled: false,
+  //   name: 'Hexi Pop',
+  //   description: 'Γέμισε τις γραμμές και κάν’ τες να σκάσουν. Ένα δωρεάν εξαγωνικό παζλ για iPhone.',
+  //   url: 'https://hexipop.app/el/',
+  //   icon: '/images/house-ads/hexipop-icon.png',
+  //   screenshot: '/images/house-ads/hexipop-screen-home.jpg',
+  //   ctaLabel: 'Δες το Hexi Pop',
+  // },
 ];
 
 // Which ad each placement shows. adId: null turns the placement off.
