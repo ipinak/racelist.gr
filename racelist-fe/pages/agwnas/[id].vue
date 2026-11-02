@@ -4,8 +4,6 @@
       ← Επιστροφή στην αρχική
     </NuxtLink>
     <div v-if="race">
-      <AdSlot size="leaderboard" placement="race-page" class="mb-8" />
-
       <h1 class="font-display text-3xl font-semibold text-center text-ink mb-8">{{ race.Title }}</h1>
 
       <div
@@ -59,8 +57,6 @@
           </div>
         </div>
       </div>
-
-      <GearShelf :race="race" />
 
       <div v-if="race.ExtraInfo?.RacePromoVideoId" class="mt-5">
         <h2 class="py-3 font-display text-2xl font-semibold text-blue text-center">

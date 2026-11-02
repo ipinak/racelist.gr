@@ -1,7 +1,7 @@
 // GA4 event parameters for races and articles. Values stay short, stable and
 // English so they group cleanly as custom dimensions in GA4 reports.
-import { isTrail } from './raceType';
-import { parseLocation } from './location';
+import { isTrail } from './raceType.js';
+import { parseLocation } from './location.js';
 
 const distanceKmOf = (text) => {
   const str = String(text).toLowerCase();

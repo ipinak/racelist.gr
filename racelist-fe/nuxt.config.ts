@@ -1,6 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
-// import { fileURLToPath } from 'node:url';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineNuxtConfig({
@@ -46,15 +45,9 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
   nitro: {
-    // Nitro externalizes shared/ by default and loads it with plain Node at
-    // prerender time, which can't resolve `~/` aliases or JSON imports
-    // (shared/ads/index.js uses both). Bundle it instead.
-    // externals: {
-    //   inline: [fileURLToPath(new URL('./shared/', import.meta.url))],
-    // },
     prerender: {
       crawlLinks: true,
-      failOnError: false,
+      failOnError: true,
       routes: [
         '/',
         '/about/',
