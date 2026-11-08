@@ -415,27 +415,3 @@
     </div>
   </div>
 </template>
-
-<style scoped>
-  .blog-content {
-    font-family:
-      system-ui,
-      -apple-system,
-      sans-serif;
-  }
-
-  .aspect-video {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-  }
-
-  .aspect-video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-</style>

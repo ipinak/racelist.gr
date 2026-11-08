@@ -1,5 +1,5 @@
 <template>
-  <div class="prose-article blog-content max-w-5xl mx-auto px-4 py-8">
+  <div class="prose-article prose-report blog-content max-w-5xl mx-auto px-4 py-8">
     <h1 class="text-3xl text-center text-blue my-6 font-bold">
       Μαραθώνιος Τόκιο 2026 – Αποτελέσματα & Νικητές
     </h1>
@@ -496,60 +496,3 @@
   ]);
 
 </script>
-
-<style scoped>
-  .blog-content {
-    font-family: 'Inter', system-ui, sans-serif;
-  }
-
-  .prose {
-    color: #0F1F2E;
-    line-height: 1.75;
-  }
-
-  .prose h2 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-
-  .prose h3 {
-    margin-top: 1.5rem;
-    margin-bottom: 0.75rem;
-  }
-
-  .prose p {
-    margin-bottom: 1rem;
-  }
-
-  .prose a {
-    color: #1F5FA8;
-    text-decoration: none;
-  }
-
-  .prose a:hover {
-    text-decoration: underline;
-  }
-
-  table {
-    border-collapse: collapse;
-  }
-
-  th {
-    font-weight: 600;
-  }
-
-  .aspect-video {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-  }
-
-  .aspect-video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-</style>

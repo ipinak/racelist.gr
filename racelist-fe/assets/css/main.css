@@ -60,3 +60,54 @@ body {
 .prose-article :where(.bg-blue-deep) :where(h2, h3, strong, a) {
   color: inherit;
 }
+
+/* Race-report / results articles: opt in with `prose-report` on the article
+   root (next to `prose-article`). Replaces the identical scoped <style>
+   blocks those pages used to carry. Kept unlayered so it still wins over
+   Tailwind utilities, as the scoped rules did. */
+.prose-report .prose {
+  line-height: 1.75;
+}
+.prose-report .prose h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.prose-report .prose h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+.prose-report .prose :is(p, ul) {
+  margin-bottom: 1rem;
+}
+.prose-report .prose a {
+  color: var(--color-blue);
+  text-decoration: none;
+}
+.prose-report .prose a:hover {
+  text-decoration: underline;
+}
+.prose-report th {
+  font-weight: 600;
+}
+
+/* Product-review articles with looser spacing (e.g. nike-vomero-plus):
+   opt in with `prose-review` on the article root. */
+.prose-review {
+  line-height: 1.8;
+}
+.prose-review h1 {
+  line-height: 1.2;
+}
+.prose-review h2 {
+  line-height: 1.3;
+  margin-top: 2rem;
+}
+.prose-review h3 {
+  line-height: 1.4;
+}
+.prose-review :is(p, ul) {
+  margin-bottom: 1rem;
+}
+.prose-review li {
+  margin-bottom: 0.5rem;
+}

@@ -109,7 +109,7 @@
 </script>
 
 <template>
-  <div class="prose-article blog-content max-w-3xl mx-auto px-4 py-8">
+  <div class="prose-article prose-review blog-content max-w-3xl mx-auto px-4 py-8">
     <h1 class="text-3xl text-blue font-bold mb-6">
       Nike Vomero Plus: Παρουσίαση & Αξιολόγηση
     </h1>
@@ -431,37 +431,3 @@
     </section>
   </div>
 </template>
-
-<style scoped>
-  .blog-content {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-      Roboto, 'Helvetica Neue', Arial, sans-serif;
-    line-height: 1.8;
-    color: #0f1f2e;
-  }
-
-  .blog-content h1 {
-    line-height: 1.2;
-  }
-
-  .blog-content h2 {
-    line-height: 1.3;
-    margin-top: 2rem;
-  }
-
-  .blog-content h3 {
-    line-height: 1.4;
-  }
-
-  .blog-content p {
-    margin-bottom: 1rem;
-  }
-
-  .blog-content ul {
-    margin-bottom: 1rem;
-  }
-
-  .blog-content li {
-    margin-bottom: 0.5rem;
-  }
-</style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="prose-article blog-content max-w-5xl mx-auto px-4 py-8">
+  <div class="prose-article prose-report blog-content max-w-5xl mx-auto px-4 py-8">
     <h1 class="text-3xl text-center text-blue my-6 font-bold">
       Πανελλήνιο Πρωτάθλημα σε ανώμαλο έδαφος - Τρίκαλα 2026
     </h1>
@@ -376,49 +376,3 @@
   ]);
 
 </script>
-
-<style scoped>
-  .blog-content {
-    font-family: 'Inter', system-ui, sans-serif;
-  }
-
-  .prose {
-    color: #0F1F2E;
-    line-height: 1.75;
-  }
-
-  .prose h2 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-
-  .prose h3 {
-    margin-top: 1.5rem;
-    margin-bottom: 0.75rem;
-  }
-
-  .prose p {
-    margin-bottom: 1rem;
-  }
-
-  .prose ul {
-    margin-bottom: 1rem;
-  }
-
-  .prose a {
-    color: #1F5FA8;
-    text-decoration: none;
-  }
-
-  .prose a:hover {
-    text-decoration: underline;
-  }
-
-  table {
-    border-collapse: collapse;
-  }
-
-  th {
-    font-weight: 600;
-  }
-</style>
