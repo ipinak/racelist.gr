@@ -226,6 +226,11 @@ export const useArticles = () => {
       href: '/arthra/athens-authentic-marathon-2026-apotelesmata/',
       title: 'Αυθεντικός Μαραθώνιος Αθήνας 2026 – Αποτελέσματα & Νικητές',
       timestamp: '2026-11-08',
+    },
+    {
+      href: '/arthra/dayna-pidhoresky-philadelphia-marathon-2026/',
+      title: 'Dayna Pidhoresky: Ρεκόρ διαδρομής στον Μαραθώνιο της Φιλαδέλφειας 2026',
+      timestamp: '2026-11-24',
     }
   ].reverse()
 

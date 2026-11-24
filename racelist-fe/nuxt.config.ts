@@ -139,6 +139,7 @@ export default defineNuxtConfig({
         '/arthra/patras-half-marathon-2026-apotelesmata/',
         '/arthra/thessaloniki-night-half-marathon-2026-apotelesmata/',
         '/arthra/athens-authentic-marathon-2026-apotelesmata/',
+        '/arthra/dayna-pidhoresky-philadelphia-marathon-2026/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',
