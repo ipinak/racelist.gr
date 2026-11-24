@@ -685,6 +685,8 @@ export default defineNuxtConfig({
         '/agwnas/giona-mountain-race-2026/',
         '/agwnas/2os-dromos-ygeias-agios-dimitrios-vrachia-2026/',
         '/agwnas/8o-aligkari-run-2026/',
+        '/agwnas/5os-lake-plastiras-trail-2027/',
+        '/agwnas/exit-hero-25-26-27-mvp-tv/',
       ],
     },
   },
