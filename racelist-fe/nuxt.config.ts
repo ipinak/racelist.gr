@@ -140,6 +140,8 @@ export default defineNuxtConfig({
         '/arthra/thessaloniki-night-half-marathon-2026-apotelesmata/',
         '/arthra/athens-authentic-marathon-2026-apotelesmata/',
         '/arthra/dayna-pidhoresky-philadelphia-marathon-2026/',
+        '/arthra/john-korir-valencia-marathon-2026-apoxorisi/',
+        '/arthra/poso-kairo-meta-ton-imimarathonio-prin-ton-epomeno-agona/',
 
         // agwnes
         '/agwnas/11o-evrotas-run/',

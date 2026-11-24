@@ -231,6 +231,16 @@ export const useArticles = () => {
       href: '/arthra/dayna-pidhoresky-philadelphia-marathon-2026/',
       title: 'Dayna Pidhoresky: Ρεκόρ διαδρομής στον Μαραθώνιο της Φιλαδέλφειας 2026',
       timestamp: '2026-11-24',
+    },
+    {
+      href: '/arthra/john-korir-valencia-marathon-2026-apoxorisi/',
+      title: 'Μαραθώνιος Βαλένθιας 2026: Αποσύρθηκε ο κάτοχος του τίτλου John Korir',
+      timestamp: '2026-11-26',
+    },
+    {
+      href: "/arthra/poso-kairo-meta-ton-imimarathonio-prin-ton-epomeno-agona/",
+      title: "Πόσο χρόνο χρειάζεσαι μετά από έναν ημιμαραθώνιο πριν τρέξεις τον επόμενο αγώνα",
+      timestamp: "2026-11-26",
     }
   ].reverse()
 
